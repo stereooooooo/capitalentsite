@@ -652,7 +652,7 @@
       position: relative;
     }
     .loc-map iframe { width: 100%; height: 100%; border: none; position: absolute; top: 0; left: 0; }
-    .loc-body { padding: 18px; }
+    .loc-body { padding: 18px; display: flex; flex-direction: column; }
     .loc-city {
       font-size: 15px; font-weight: 800;
       color: var(--red);
@@ -663,7 +663,7 @@
     .loc-addr { font-size: 13px; color: var(--gray); line-height: 1.65; margin-bottom: 8px; }
     .loc-hours { font-size: 12.5px; color: #475569; margin-bottom: 16px; line-height: 1.6; }
     .loc-hours strong { color: var(--navy); }
-    .loc-btns { display: flex; flex-direction: column; gap: 8px; }
+    .loc-btns { display: flex; flex-direction: column; gap: 8px; flex: 1; margin-top: auto; }
     .btn-loc-primary {
       background: var(--red);
       color: var(--white);
@@ -674,6 +674,7 @@
       display: flex; align-items: center; justify-content: center; gap: 7px;
       transition: background .3s ease, transform .3s ease, box-shadow .3s ease;
       box-shadow: 0 2px 8px rgba(183,28,28,.2);
+      flex: 1;
     }
     .btn-loc-primary:hover {
       background: var(--red-lt);
@@ -691,6 +692,7 @@
       transition: background .3s ease, color .3s ease, transform .3s ease, box-shadow .3s ease;
       position: relative;
       overflow: hidden;
+      flex: 1;
     }
     .btn-loc-outline::before {
       content: '';

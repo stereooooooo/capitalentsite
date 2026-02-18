@@ -145,19 +145,7 @@
       transition: background .15s, color .15s;
     }
     .util-actions a:hover { background: rgba(255,255,255,.07); color: var(--white); }
-    .util-actions a.book-util {
-      background: var(--red);
-      color: var(--white);
-      border-left: 1px solid rgba(255,255,255,.1);
-      padding: 0 22px;
-      cursor: pointer;
-      transition: background 0.3s ease, box-shadow 0.3s ease;
-      box-shadow: inset 0 0 10px rgba(255,255,255,0);
-    }
-    .util-actions a.book-util:hover {
-      background: var(--red-lt);
-      box-shadow: inset 0 0 10px rgba(255,255,255,.15);
-    }
+
     .util-phones a {
       color: rgba(255,255,255,.9);
       font-weight: 600;
@@ -661,8 +649,9 @@
       display: flex; align-items: center; justify-content: center;
       font-size: 12px; color: rgba(255,255,255,.6); font-weight: 600;
       overflow: hidden;
+      position: relative;
     }
-    .loc-map iframe { width: 100%; height: 100%; border: none; }
+    .loc-map iframe { width: 100%; height: 100%; border: none; position: absolute; top: 0; left: 0; }
     .loc-body { padding: 18px; }
     .loc-city {
       font-size: 15px; font-weight: 800;
@@ -1184,7 +1173,6 @@
   <div class="util-actions">
     <a href="#">Patient Portal</a>
     <a href="#">Pay Bill</a>
-    <a href="#" class="book-util" onclick="openBookingModal(event)">Book Appointment</a>
   </div>
 </div>
 

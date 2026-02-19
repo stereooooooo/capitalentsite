@@ -34,8 +34,10 @@
     :root {
       --navy:#1a2e5a; --navy-dk:#111f3e; --red:#b71c1c; --red-lt:#cc2222; --white:#ffffff; --off:#f4f6fa; --gray:#64748b; --border:#dde3ed; --radius:8px; --shadow:0 2px 16px rgba(0,0,0,.09); --font:'Inter','Segoe UI',system-ui,-apple-system,sans-serif;
     }
-    html { scroll-behavior: smooth; }
-    body { font-family:var(--font); color:#1e293b; background:var(--white); font-size:15px; line-height:1.6; }
+    html { scroll-behavior: smooth;   overflow-x: hidden;
+  }
+    body { font-family:var(--font); color:#1e293b; background:var(--white); font-size:15px; line-height:1.6;   overflow-x: hidden;
+  }
     a { text-decoration:none; color:inherit; }
     img { display:block; max-width:100%; }
     @keyframes fadeInUp { from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);} }
@@ -249,6 +251,26 @@
     .skip-link{position:absolute;top:-100px;left:16px;background:var(--navy);color:#fff;padding:10px 18px;border-radius:6px;font-weight:600;font-size:14px;z-index:9999;transition:top .2s;}
     .skip-link:focus{top:16px;}
 
+        /* ── HAMBURGER MENU ──────────────────────────────────────────── */
+    .hamburger { display: none; flex-direction: column; justify-content: center; gap: 5px; width: 40px; height: 40px; background: none; border: none; cursor: pointer; padding: 4px; }
+    .hamburger span { display: block; height: 2px; width: 24px; background: var(--navy); border-radius: 2px; transition: transform .25s, opacity .25s; }
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    /* Mobile drawer */
+    .mobile-nav { display: none; position: fixed; inset: 0; z-index: 999; }
+    .mobile-nav-overlay { position: absolute; inset: 0; background: rgba(0,0,0,.45); }
+    .mobile-nav-drawer { position: absolute; top: 0; right: 0; width: 280px; max-width: 90vw; height: 100%; background: var(--white); display: flex; flex-direction: column; box-shadow: -4px 0 24px rgba(0,0,0,.2); overflow-y: auto; }
+    .mobile-nav-header { display: flex; align-items: center; justify-content: space-between; padding: 18px 20px; border-bottom: 2px solid var(--red); }
+    .mobile-nav-header img { height: 36px; width: auto; }
+    .mobile-nav-close { background: none; border: none; cursor: pointer; font-size: 24px; color: var(--navy); line-height: 1; padding: 4px; }
+    .mobile-nav-links { display: flex; flex-direction: column; padding: 16px 0; flex: 1; }
+    .mobile-nav-links a { padding: 13px 24px; font-size: 15px; font-weight: 600; color: var(--navy); border-bottom: 1px solid var(--border); transition: background .15s, color .15s; }
+    .mobile-nav-links a:hover { background: rgba(183,28,28,.05); color: var(--red); }
+    .mobile-nav-footer { padding: 20px; }
+    .mobile-nav-footer a { display: flex; align-items: center; justify-content: center; gap: 9px; background: var(--red); color: var(--white); padding: 14px; border-radius: 8px; font-size: 15px; font-weight: 700; }
+    .mobile-nav.open { display: block; }
+
     @media(max-width:900px){
       .quick-grid,.forms-grid{grid-template-columns:1fr 1fr;}
       .postop-grid,.checklist-cols{grid-template-columns:1fr;}
@@ -331,7 +353,39 @@
     <a href="videos.html">Videos</a>
     <a href="#" class="nav-book" onclick="openBookingModal(event)">Request Appointment</a>
   </nav>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
 </div>
+<div class="mobile-nav" id="mobileNav" role="dialog" aria-modal="true" aria-label="Navigation menu">
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+  <div class="mobile-nav-drawer">
+    <div class="mobile-nav-header">
+      <img src="CENT-Horizontal-Color.png" alt="Capital ENT &amp; Sinus Center" />
+      <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close menu">&times;</button>
+    </div>
+    <nav class="mobile-nav-links">
+      <a href="index.html">Home</a>
+      <a href="ear-care.html">Ear Care &amp; Hearing</a>
+      <a href="hearing-aids.html">Hearing Aids</a>
+      <a href="nose-sinus.html">Nose &amp; Sinus</a>
+      <a href="balloon-sinuplasty.html">Balloon Sinuplasty</a>
+      <a href="throat-sleep.html">Throat &amp; Sleep</a>
+      <a href="allergy.html">Allergy</a>
+      <a href="our-doctors.html">Our Doctors</a>
+      <a href="locations.html">Locations</a>
+      <a href="ent-urgent-care.html">ENT Urgent Care</a>
+      <a href="reviews.html">Patient Reviews</a>
+      <a href="videos.html">Videos</a>
+      <a href="faq.html">FAQ</a>
+      <a href="insurance.html">Insurance &amp; Billing</a>
+    </nav>
+    <div class="mobile-nav-footer">
+      <a href="tel:5123394040">&#128222; Call 512-339-4040</a>
+    </div>
+  </div>
+</div>
+
 
 <main id="main-content">
 
@@ -1121,6 +1175,29 @@
   </div>
 </div>
 
+<script>
+  /* ── HAMBURGER MENU ── */
+  const hamburgerBtn = document.getElementById('hamburgerBtn');
+  const mobileNav = document.getElementById('mobileNav');
+  const mobileNavClose = document.getElementById('mobileNavClose');
+  const mobileNavOverlay = document.getElementById('mobileNavOverlay');
+  function openMobileNav() {
+    mobileNav.classList.add('open');
+    hamburgerBtn.classList.add('open');
+    hamburgerBtn.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeMobileNav() {
+    mobileNav.classList.remove('open');
+    hamburgerBtn.classList.remove('open');
+    hamburgerBtn.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+  hamburgerBtn.addEventListener('click', openMobileNav);
+  mobileNavClose.addEventListener('click', closeMobileNav);
+  mobileNavOverlay.addEventListener('click', closeMobileNav);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMobileNav(); });
+</script>
 <script>
   /* ── BOOKING MODAL ── */
   function openBookingModal(e){if(e)e.preventDefault();const m=document.getElementById('bookingModal');m.style.display='flex';m.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';setTimeout(()=>document.getElementById('fullName').focus(),100);}

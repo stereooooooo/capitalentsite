@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capital ENT & Sinus Center — Redesign Mockup</title>
+  <style>
+    /* ── Reset & Tokens ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy:   #1a2e5a;
+      --red:    #b71c1c;
+      --red-lt: #d32f2f;
+      --gold:   #e8a020;
+      --white:  #ffffff;
+      --off:    #f5f7fa;
+      --gray:   #64748b;
+      --border: #e2e8f0;
+      --radius: 10px;
+      --shadow: 0 4px 20px rgba(0,0,0,.10);
+      --font:   'Segoe UI', system-ui, sans-serif;
+    }
+    body { font-family: var(--font); color: #1e293b; background: var(--white); }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+
+    /* ── ANNOTATION LAYER ───────────────────────────────────────── */
+    .note {
+      display: inline-block;
+      background: var(--gold);
+      color: #000;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 12px;
+      margin-left: 8px;
+      vertical-align: middle;
+      letter-spacing: .5px;
+    }
+    .annotation-box {
+      border: 2px dashed var(--gold);
+      background: #fffbea;
+      border-radius: var(--radius);
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #5a3e00;
+      margin-bottom: 12px;
+    }
+    .annotation-box strong { display: block; margin-bottom: 4px; color: #b45309; }
+
+    /* ── PAGE WRAPPER ───────────────────────────────────────────── */
+    .page-wrap { max-width: 1280px; margin: 0 auto; }
+
+    /* ══════════════════════════════════════════════════════════════
+       SECTION 0 – ANALYSIS PANEL (not part of redesign, just notes)
+    ══════════════════════════════════════════════════════════════ */
+    .analysis-panel {
+      background: #1e293b;
+      color: #e2e8f0;
+      padding: 36px 40px;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+    .analysis-panel h1 { font-size: 22px; color: var(--gold); margin-bottom: 20px; }
+    .analysis-panel h2 { font-size: 15px; color: #94a3b8; text-transform: uppercase; letter-spacing: 1px; margin: 20px 0 8px; }
+    .cols2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .issue-list { list-style: none; }
+    .issue-list li { padding: 5px 0 5px 20px; position: relative; }
+    .issue-list li::before { content: '▶'; position: absolute; left: 0; color: var(--gold); font-size: 10px; top: 7px; }
+    .issue-list li.pos::before { content: '✓'; color: #4ade80; font-size: 12px; top: 6px; }
+    .divider { border: none; border-top: 1px solid #334155; margin: 24px 0; }
+
+    /* ══════════════════════════════════════════════════════════════
+       REDESIGN STARTS HERE
+    ══════════════════════════════════════════════════════════════ */
+
+    /* ── TOP UTILITY BAR ────────────────────────────────────────── */
+    .utility-bar {
+      background: var(--navy);
+      color: #c8d4e8;
+      font-size: 12.5px;
+      padding: 7px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .utility-bar .phones { display: flex; gap: 20px; flex-wrap: wrap; }
+    .utility-bar .phones span { white-space: nowrap; }
+    .utility-bar .phones span b { color: var(--white); }
+    .utility-actions { display: flex; gap: 10px; flex-shrink: 0; }
+    .utility-actions a {
+      background: rgba(255,255,255,.12);
+      color: var(--white);
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+      transition: background .2s;
+      white-space: nowrap;
+    }
+    .utility-actions a:hover { background: rgba(255,255,255,.22); }
+    .utility-actions a.primary { background: var(--red); }
+    .utility-actions a.primary:hover { background: var(--red-lt); }
+
+    /* ── MAIN NAVBAR ────────────────────────────────────────────── */
+    .navbar {
+      background: var(--white);
+      border-bottom: 3px solid var(--red);
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 76px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 12px rgba(0,0,0,.08);
+    }
+    .navbar .logo { display: flex; align-items: center; gap: 12px; }
+    .logo-svg {
+      width: 56px; height: 56px;
+      background: var(--navy);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; color: white;
+    }
+    .logo-text { line-height: 1.15; }
+    .logo-text .main { font-size: 20px; font-weight: 800; color: var(--navy); }
+    .logo-text .sub  { font-size: 11px; color: var(--red); font-weight: 600; letter-spacing: 1px; text-transform: uppercase; }
+    nav.main-nav { display: flex; gap: 4px; align-items: center; }
+    nav.main-nav a {
+      padding: 8px 14px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--navy);
+      border-radius: 6px;
+      transition: background .15s, color .15s;
+    }
+    nav.main-nav a:hover { background: var(--off); color: var(--red); }
+    nav.main-nav a.active { color: var(--red); }
+    .nav-cta {
+      background: var(--red);
+      color: var(--white) !important;
+      padding: 9px 20px !important;
+      border-radius: 6px !important;
+    }
+    .nav-cta:hover { background: var(--red-lt) !important; color: var(--white) !important; }
+
+    /* ── HERO ───────────────────────────────────────────────────── */
+    .hero {
+      position: relative;
+      min-height: 500px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; inset: 0;
+      background: linear-gradient(105deg, var(--navy) 0%, #2a4a8a 40%, #3a6aaa 100%);
+    }
+    /* Decorative diagonal red stripe */
+    .hero-bg::after {
+      content: '';
+      position: absolute;
+      right: -80px; top: 0; bottom: 0;
+      width: 55%;
+      background: url('https://placehold.co/800x500/1a2e5a/1a2e5a?text=') center/cover no-repeat;
+      clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+      opacity: .15;
+    }
+    .hero-photo {
+      position: absolute;
+      right: 0; top: 0; bottom: 0;
+      width: 52%;
+      background: linear-gradient(to right, var(--navy) 0%, transparent 25%),
+                  url('https://placehold.co/800x500/94a3b8/ffffff?text=Doctor+Photo') center/cover no-repeat;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 580px;
+      padding: 60px 32px 60px 48px;
+      color: var(--white);
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,.15);
+      border: 1px solid rgba(255,255,255,.3);
+      padding: 5px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .hero-badge .dot { width: 8px; height: 8px; background: #4ade80; border-radius: 50%; }
+    .hero h1 { font-size: 44px; font-weight: 800; line-height: 1.15; margin-bottom: 16px; }
+    .hero h1 span { color: var(--gold); }
+    .hero p { font-size: 17px; color: rgba(255,255,255,.85); line-height: 1.6; margin-bottom: 32px; max-width: 460px; }
+    .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--red);
+      color: var(--white);
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 700;
+      display: inline-flex; align-items: center; gap: 8px;
+      box-shadow: 0 4px 14px rgba(183,28,28,.4);
+      transition: transform .15s, box-shadow .15s;
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(183,28,28,.5); }
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 700;
+      border: 2px solid rgba(255,255,255,.5);
+      display: inline-flex; align-items: center; gap: 8px;
+      transition: border-color .15s, background .15s;
+    }
+    .btn-outline:hover { border-color: var(--white); background: rgba(255,255,255,.1); }
+    .hero-trust {
+      margin-top: 32px;
+      display: flex; gap: 24px; flex-wrap: wrap;
+      font-size: 13px; color: rgba(255,255,255,.7);
+    }
+    .hero-trust span { display: flex; align-items: center; gap: 6px; }
+    .hero-trust .icon { font-size: 16px; }
+
+    /* ── URGENCY BANNER ─────────────────────────────────────────── */
+    .urgency-bar {
+      background: var(--red);
+      color: var(--white);
+      text-align: center;
+      padding: 11px;
+      font-size: 14.5px;
+      font-weight: 600;
+      letter-spacing: .3px;
+    }
+    .urgency-bar a { color: var(--white); text-decoration: underline; }
+
+    /* ── SERVICES TRIPTYCH ──────────────────────────────────────── */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+    }
+    .service-card {
+      position: relative;
+      min-height: 320px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 28px;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .service-card .bg {
+      position: absolute; inset: 0;
+      background-size: cover;
+      background-position: center;
+      transition: transform .4s;
+    }
+    .service-card:hover .bg { transform: scale(1.05); }
+    .service-card .overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,.75) 0%, rgba(0,0,0,.15) 60%, transparent 100%);
+    }
+    .service-card.ear .bg   { background-color: #2c4a6e; background-image: url('https://placehold.co/600x400/2c4a6e/ffffff?text=Ear+Care'); }
+    .service-card.nose .bg  { background-color: #1a3a52; background-image: url('https://placehold.co/600x400/1a3a52/ffffff?text=Nose+Care'); }
+    .service-card.throat .bg{ background-color: #3a1a1a; background-image: url('https://placehold.co/600x400/3a1a1a/ffffff?text=Throat+Care'); }
+    .service-content { position: relative; z-index: 1; color: var(--white); }
+    .service-icon { font-size: 36px; margin-bottom: 10px; }
+    .service-content h3 { font-size: 24px; font-weight: 800; margin-bottom: 8px; }
+    .service-content p  { font-size: 14px; color: rgba(255,255,255,.85); margin-bottom: 16px; line-height: 1.5; }
+    .btn-sm {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--white);
+      color: var(--navy);
+      font-size: 13px;
+      font-weight: 700;
+      padding: 8px 16px;
+      border-radius: 6px;
+      transition: background .15s;
+    }
+    .btn-sm:hover { background: #f0f0f0; }
+
+    /* ── TRUST STATS BAR ────────────────────────────────────────── */
+    .stats-bar {
+      background: var(--navy);
+      color: var(--white);
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .stat-item {
+      padding: 28px 20px;
+      text-align: center;
+      border-right: 1px solid rgba(255,255,255,.1);
+    }
+    .stat-item:last-child { border-right: none; }
+    .stat-num { font-size: 36px; font-weight: 800; color: var(--gold); line-height: 1; }
+    .stat-label { font-size: 13px; color: rgba(255,255,255,.75); margin-top: 4px; }
+
+    /* ── SECTION HEADING ────────────────────────────────────────── */
+    .section { padding: 70px 40px; }
+    .section-inner { max-width: 1100px; margin: 0 auto; }
+    .section-heading { text-align: center; margin-bottom: 48px; }
+    .section-heading .label {
+      display: inline-block;
+      font-size: 12px; font-weight: 700; letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 10px;
+    }
+    .section-heading h2 { font-size: 34px; font-weight: 800; color: var(--navy); line-height: 1.2; }
+    .section-heading p  { font-size: 16px; color: var(--gray); margin-top: 12px; max-width: 580px; margin-left: auto; margin-right: auto; line-height: 1.7; }
+
+    /* ── ALLERGY CTA BAND ───────────────────────────────────────── */
+    .allergy-band {
+      background: linear-gradient(135deg, #b71c1c, #7b1313);
+      color: var(--white);
+      padding: 32px 48px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .allergy-band h3 { font-size: 22px; font-weight: 800; }
+    .allergy-band p  { font-size: 14px; opacity: .85; margin-top: 4px; }
+    .btn-white {
+      background: var(--white);
+      color: var(--red);
+      font-weight: 700;
+      padding: 13px 28px;
+      border-radius: 8px;
+      font-size: 15px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      display: inline-flex; align-items: center; gap: 8px;
+    }
+    .btn-white:hover { background: #f0f0f0; }
+
+    /* ── LOCATION CARDS ─────────────────────────────────────────── */
+    .locations-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+    .location-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: transform .2s, box-shadow .2s;
+    }
+    .location-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(0,0,0,.14); }
+    .location-map {
+      height: 130px;
+      background: #d1d5db;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 13px; color: #6b7280; font-weight: 600;
+    }
+    .location-body { padding: 18px; }
+    .location-city {
+      font-size: 16px; font-weight: 800; color: var(--red);
+      text-transform: uppercase; letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+    .location-addr { font-size: 13px; color: var(--gray); line-height: 1.6; margin-bottom: 8px; }
+    .location-hours { font-size: 12.5px; color: #475569; margin-bottom: 14px; }
+    .location-hours b { color: var(--navy); }
+    .location-btns { display: flex; flex-direction: column; gap: 7px; }
+    .btn-red {
+      background: var(--red); color: var(--white);
+      padding: 9px 14px; border-radius: 6px; font-size: 13px; font-weight: 700;
+      text-align: center; display: flex; align-items: center; justify-content: center; gap: 6px;
+    }
+    .btn-red:hover { background: var(--red-lt); }
+    .btn-outline-navy {
+      border: 1.5px solid var(--navy); color: var(--navy);
+      padding: 8px 14px; border-radius: 6px; font-size: 13px; font-weight: 700;
+      text-align: center; display: flex; align-items: center; justify-content: center; gap: 6px;
+    }
+    .btn-outline-navy:hover { background: var(--navy); color: var(--white); }
+
+    /* ── BLOG CARDS ─────────────────────────────────────────────── */
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+    .blog-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: transform .2s;
+    }
+    .blog-card:hover { transform: translateY(-3px); }
+    .blog-img {
+      height: 160px;
+      background: #c8d0dc;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; color: #6b7280;
+      position: relative;
+    }
+    .blog-tag {
+      position: absolute; top: 10px; left: 10px;
+      background: var(--navy); color: var(--white);
+      font-size: 10px; font-weight: 700; letter-spacing: 1px;
+      text-transform: uppercase; padding: 3px 9px; border-radius: 4px;
+    }
+    .blog-body { padding: 16px; }
+    .blog-body h4 { font-size: 14px; font-weight: 700; color: var(--navy); line-height: 1.4; margin-bottom: 8px; }
+    .blog-body p  { font-size: 12.5px; color: var(--gray); line-height: 1.5; margin-bottom: 12px; }
+    .blog-body a  { font-size: 13px; font-weight: 700; color: var(--red); }
+    .blog-body a:hover { text-decoration: underline; }
+
+    /* ── REVIEWS ────────────────────────────────────────────────── */
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .review-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+    .stars { color: #f59e0b; font-size: 16px; margin-bottom: 10px; }
+    .review-text { font-size: 14px; color: #374151; line-height: 1.65; margin-bottom: 14px; font-style: italic; }
+    .reviewer { font-size: 13px; font-weight: 700; color: var(--navy); }
+    .reviewer span { font-weight: 400; color: var(--gray); }
+
+    /* ── FOOTER ─────────────────────────────────────────────────── */
+    footer {
+      background: var(--navy);
+      color: rgba(255,255,255,.8);
+      padding: 60px 40px 30px;
+    }
+    .footer-grid {
+      max-width: 1100px; margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1.5fr;
+      gap: 40px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid rgba(255,255,255,.12);
+    }
+    .footer-brand .logo-text .main { color: var(--white); }
+    .footer-brand .logo-text .sub  { color: var(--gold); }
+    .footer-brand p { font-size: 13px; margin-top: 14px; line-height: 1.7; color: rgba(255,255,255,.65); }
+    .social-row { display: flex; gap: 10px; margin-top: 18px; }
+    .social-btn {
+      width: 34px; height: 34px;
+      background: rgba(255,255,255,.12);
+      border-radius: 6px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 14px;
+      transition: background .2s;
+    }
+    .social-btn:hover { background: var(--red); }
+    footer h4 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: var(--white); margin-bottom: 16px; }
+    footer ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    footer ul li a { font-size: 13px; color: rgba(255,255,255,.65); transition: color .15s; }
+    footer ul li a:hover { color: var(--white); }
+    .footer-contact p { font-size: 13px; color: rgba(255,255,255,.65); line-height: 1.8; }
+    .footer-contact .phone { font-size: 15px; font-weight: 700; color: var(--white); }
+    .footer-bottom {
+      max-width: 1100px; margin: 0 auto;
+      padding-top: 22px;
+      display: flex; align-items: center; justify-content: space-between;
+      font-size: 12px; color: rgba(255,255,255,.4);
+      flex-wrap: wrap; gap: 10px;
+    }
+    .footer-bottom a { color: rgba(255,255,255,.4); }
+    .footer-bottom a:hover { color: rgba(255,255,255,.7); }
+
+    /* ── BADGES STRIP ───────────────────────────────────────────── */
+    .badges-strip {
+      background: var(--off);
+      border-top: 1px solid var(--border);
+      padding: 24px 40px;
+      display: flex; align-items: center; justify-content: center;
+      gap: 20px; flex-wrap: wrap;
+    }
+    .badge-pill {
+      display: flex; align-items: center; gap: 8px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--navy);
+      box-shadow: 0 1px 4px rgba(0,0,0,.06);
+    }
+    .badge-pill .year { font-size: 16px; font-weight: 800; color: var(--red); }
+
+    /* ── STICKY MOBILE CTA (illustration only) ──────────────────── */
+    .sticky-note {
+      position: fixed;
+      bottom: 24px; right: 24px;
+      background: var(--red);
+      color: var(--white);
+      border-radius: 50px;
+      padding: 14px 22px;
+      font-size: 14px;
+      font-weight: 700;
+      box-shadow: 0 6px 20px rgba(183,28,28,.4);
+      display: flex; align-items: center; gap: 8px;
+      cursor: pointer;
+      z-index: 200;
+    }
+
+    /* ── LAYOUT ANNOTATIONS ─────────────────────────────────────── */
+    .redesign-label {
+      background: var(--navy);
+      color: var(--white);
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 4px 12px;
+      display: inline-block;
+    }
+    .section-divider {
+      border: none;
+      border-top: 3px dashed #cbd5e1;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ████ ANALYSIS PANEL ████ -->
+<div class="analysis-panel">
+  <div style="max-width:1200px;margin:0 auto;">
+    <h1>Capital ENT & Sinus Center — Website Analysis & Redesign Mockup</h1>
+
+    <div class="cols2">
+      <div>
+        <h2>Current Site — Issues Found</h2>
+        <ul class="issue-list">
+          <li><strong>Navigation:</strong> Hidden behind hamburger menu on desktop — visitors can't discover services without clicking</li>
+          <li><strong>Hero area:</strong> No true hero banner — jumps straight into 3-column image tiles with no headline or trust statement above the fold</li>
+          <li><strong>Appointment CTA:</strong> Buried in a tiny top-bar; not prominent on the page itself</li>
+          <li><strong>Name-change banner:</strong> "WHY WE CHANGED OUR NAME" as a homepage headline is confusing to new patients who don't have prior context</li>
+          <li><strong>Urgency banner:</strong> Triple asterisks (***) look informal and amateur; design is weak</li>
+          <li><strong>Service tiles:</strong> Dark photo overlays make copy hard to read; no icons to quickly signal the topic</li>
+          <li><strong>Blog images:</strong> Several are generic stock photos (couple arguing in bed, snoring humor) that feel low-quality for a medical practice</li>
+          <li><strong>Testimonials:</strong> No visible patient reviews/star ratings on homepage — a major trust signal is missing</li>
+          <li><strong>Location section:</strong> Works well but very button-heavy (3 large buttons per location is visual clutter)</li>
+          <li><strong>Typography:</strong> Mix of all-caps headings, serif and sans-serif, varied weights — no clear typographic hierarchy</li>
+          <li><strong>Color overuse:</strong> Red, crimson, and maroon are used inconsistently across buttons, headings, and backgrounds</li>
+          <li><strong>Footer:</strong> Footer content is good but awards images are very small and the layout feels cramped</li>
+          <li><strong>AI chat popup:</strong> Opens automatically and obscures content — intrusive without being triggered by user intent</li>
+          <li><strong>No visible trust badges:</strong> Award wins (Austin 360 Best, Community Choice 2021–2025) appear only in the footer, never above the fold</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Current Site — Strengths to Keep</h2>
+        <ul class="issue-list">
+          <li class="pos">Strong branding: logo, navy/red palette is professional</li>
+          <li class="pos">Multiple location coverage displayed clearly</li>
+          <li class="pos">Same-day / next-day appointments is a key differentiator — keep it prominent</li>
+          <li class="pos">"Ask the ENT" content section adds genuine patient value</li>
+          <li class="pos">Award wins (2021–2025) are excellent credibility proof</li>
+          <li class="pos">Social media presence across 6 platforms</li>
+          <li class="pos">Patient portal and online bill pay are modern conveniences worth highlighting</li>
+          <li class="pos">Video content embedded — good for engagement</li>
+        </ul>
+
+        <h2 style="margin-top:24px;">Key Redesign Goals</h2>
+        <ul class="issue-list">
+          <li>Establish a clear visual hierarchy with a full hero section</li>
+          <li>Surface the booking CTA prominently and persistently</li>
+          <li>Add patient reviews to the homepage</li>
+          <li>Replace hamburger with visible desktop navigation</li>
+          <li>Consolidate trust signals (awards, board-certified, locations) above the fold</li>
+          <li>Improve readability: reduce all-caps, add breathing room</li>
+          <li>Polish button styles to a single consistent design system</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="divider" />
+    <p style="font-size:13px;color:#94a3b8;">
+      ↓ <strong style="color:#e2e8f0;">REDESIGNED MOCKUP BEGINS BELOW</strong> — Annotations in
+      <span style="background:#e8a020;color:#000;padding:1px 6px;border-radius:10px;font-size:11px;font-weight:700;">GOLD</span>
+      indicate the improvement rationale for each section.
+    </p>
+  </div>
+</div>
+
+<!-- ████ REDESIGNED PAGE ████ -->
+
+<!-- 1. UTILITY BAR -->
+<div style="background:#f0f4ff;padding:6px 40px;font-size:12px;color:#475569;text-align:right;">
+  <span class="redesign-label">REDESIGN</span>
+  &nbsp;
+  <span class="annotation-box" style="display:inline-block;margin:0;padding:4px 10px;font-size:12px;">
+    <strong style="display:inline;">FIX:</strong> Move primary actions (Request Appt, Pay Bill, Portal) to a clean top bar that's always visible — not buried in a hamburger.
+  </span>
+</div>
+
+<div class="utility-bar">
+  <div class="phones">
+    <span><b>Austin:</b> 512-339-4040</span>
+    <span><b>Lakeway:</b> 512-682-4798</span>
+    <span><b>Marble Falls:</b> 512-339-4040</span>
+    <span><b>Dripping Springs:</b> 512-339-4040</span>
+  </div>
+  <div class="utility-actions">
+    <a href="#">📋 Patient Portal</a>
+    <a href="#">💳 Pay Bill</a>
+    <a href="#" class="primary">📅 Book Appointment</a>
+  </div>
+</div>
+
+<!-- 2. MAIN NAVBAR -->
+<div style="background:#f0f4ff;padding:6px 40px;font-size:12px;color:#475569;">
+  <span class="annotation-box" style="display:inline-block;margin:0;padding:4px 10px;font-size:12px;">
+    <strong style="display:inline;">FIX:</strong> Replace hamburger-only navigation with a full, visible desktop nav. Patients need to see service categories immediately.
+  </span>
+</div>
+
+<div class="navbar">
+  <div class="logo">
+    <div class="logo-svg">👂</div>
+    <div class="logo-text">
+      <div class="main">Capital ENT</div>
+      <div class="sub">&amp; Sinus Center</div>
+    </div>
+  </div>
+  <nav class="main-nav">
+    <a href="#" class="active">Home</a>
+    <a href="#">Ear Care</a>
+    <a href="#">Nose &amp; Sinus</a>
+    <a href="#">Throat &amp; Sleep</a>
+    <a href="#">Allergy</a>
+    <a href="#">Our Doctors</a>
+    <a href="#">Locations</a>
+    <a href="#" class="nav-cta">📅 Request Appointment</a>
+  </nav>
+</div>
+
+<hr class="section-divider" />
+
+<!-- 3. HERO -->
+<div style="background:#f0f4ff;padding:6px 40px;font-size:12px;color:#475569;">
+  <span class="annotation-box" style="display:inline-block;margin:0;padding:4px 10px;font-size:12px;">
+    <strong style="display:inline;">FIX:</strong> Add a proper hero section. Currently the site has NO hero — visitors land directly on unlabeled photo tiles. The hero should communicate who you are, why you're the best choice, and drive a booking action — all above the fold.
+  </span>
+</div>
+
+<div class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-photo"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="dot"></span>
+      Same-Day &amp; Next-Day Appointments Available
+    </div>
+    <h1>Austin's #1<br/><span>ENT Specialists</span></h1>
+    <p>Board-certified otolaryngologists serving Austin, Lakeway, Marble Falls &amp; Dripping Springs. Expert care for ear, nose, throat, sinus, and allergy conditions.</p>
+    <div class="hero-actions">
+      <a href="#" class="btn-primary">📅 Request an Appointment</a>
+      <a href="#" class="btn-outline">📞 Call 512-339-4040</a>
+    </div>
+    <div class="hero-trust">
+      <span><span class="icon">🏆</span> Austin 360 #1 ENT 2021–2025</span>
+      <span><span class="icon">✅</span> Board-Certified Physicians</span>
+      <span><span class="icon">📍</span> 4 Convenient Locations</span>
+    </div>
+  </div>
+</div>
+
+<hr class="section-divider" />
+
+<!-- 4. TRUST STATS BAR -->
+<div style="background:#f0f4ff;padding:6px 40px;font-size:12px;color:#475569;">
+  <span class="annotation-box" style="display:inline-block;margin:0;padding:4px 10px;font-size:12px;">
+    <strong style="display:inline;">NEW:</strong> Add a statistics bar immediately below the hero. Social proof numbers (years in practice, patients seen, award wins) build trust instantly.
+  </span>
+</div>
+
+<div class="stats-bar">
+  <div class="stat-item">
+    <div class="stat-num">30+</div>
+    <div class="stat-label">Years Serving Central Texas</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">4</div>
+    <div class="stat-label">Convenient Locations</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">5×</div>
+    <div class="stat-label">Austin's Community Choice Award</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">4.9★</div>
+    <div class="stat-label">Average Patient Rating</div>
+  </div>
+</div>
+
+<hr class="section-divider" />
+
+<!-- 5. SERVICE TRIPTYCH -->
+<div style="background:#f0f4ff;padding:6px 40px;font-size:12px;color:#475569;">
+  <span class="annotation-box" style="display:inline-block;margin:0;padding:4px 10px;font-size:12px;">
+    <strong style="display:inline;">IMPROVED:</strong> Keep the 3-column service tiles but add icons, improve copy contrast, and animate the hover state. Replace symptom-question headlines ("EAR ISSUES?") with clear service category labels.
+  </span>
+</div>
+
+<div class="services-grid">
+  <div class="service-card ear">
+    <div class="bg"></div>
+    <div class="overlay"></div>
+    <div class="service-content">
+      <div class="service-icon">👂</div>
+      <h3>Ear Care</h3>
+      <p>Hearing loss, tinnitus, dizziness, ear infections, and balance disorders. Expert diagnosis and treatment.</p>
+      <a href="#" class="btn-sm">Learn More →</a>
+    </div>
+  </div>
+  <div class="service-card nose">
+    <div class="bg"></div>
+    <div class="overlay"></div>
+    <div class="service-content">
+      <div class="service-icon">👃</div>
+      <h3>Nose &amp; Sinus</h3>
+      <p>Chronic sinusitis, nasal congestion, balloon sinuplasty, and deviated septum correction.</p>
+      <a href="#" class="btn-sm">Learn More →</a>
+    </div>
+  </div>
+  <div class="service-card throat">
+    <div class="bg"></div>
+    <div class="overlay"></div>
+    <div class="service-content">
+      <div class="service-icon">😮</div>
+      <h3>Throat &amp; Sleep</h3>
+      <p>Snoring, sleep apnea, tonsil issues, voice problems, and throat care for adults and children.</p>
+      <a href="#" class="btn-sm">Learn More →</a>
+    </div>
+  </div>
+</div>
+
+<hr class="section-divider" />
+
+<!-- 6. ALLERGY BAND -->
+<div style="background:#f0f4ff;padding:6px 40px;font-size:12px;color:#475569;">
+  <span class="annotation-box" style="display:inline-block;margin:0;padding:4px 10px;font-size:12px;">
+    <strong style="display:inline;">IMPROVED:</strong> The allergy CTA was a bland grey banner before. Redesigned as a rich gradient strip with a clear value prop and a high-contrast button.
+  </span>
+</div>
+
+<div class="allergy-band">
+  <div>
+    <h3>🌿 Suffering from Allergies?</h3>
+    <p>We offer comprehensive allergy testing and immunotherapy — get lasting relief, not just temporary fixes.</p>
+  </div>
+  <a href="#" class="btn-white">Get Allergy Relief →</a>
+</div>
+
+<hr class="section-divider" />
+
+<!-- 7. PATIENT REVIEWS -->
+<div style="background:#f0f4ff;padding:6px 40px;font-size:12px;color:#475569;">
+  <span class="annotation-box" style="display:inline-block;margin:0;padding:4px 10px;font-size:12px;">
+    <strong style="display:inline;">NEW:</strong> Current homepage has ZERO patient reviews. Adding a reviews section is one of the highest-impact changes for a medical practice — patients read reviews before booking.
+  </span>
+</div>
+
+<div class="section" style="background: var(--off);">
+  <div class="section-inner">
+    <div class="section-heading">
+      <span class="label">Patient Reviews</span>
+      <h2>What Our Patients Say</h2>
+      <p>Hundreds of five-star reviews from patients across Austin, Lakeway, Marble Falls, and Dripping Springs.</p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p class="review-text">"Dr. Wassmuth was incredibly thorough and took time to explain every option. My chronic sinus issues are finally resolved after years of suffering. I can't recommend Capital ENT enough."</p>
+        <div class="reviewer">Sarah M. <span>— Austin, TX</span></div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p class="review-text">"I called on a Monday morning and had a same-day appointment. The staff was warm and professional. The balloon sinuplasty changed my life — I sleep through the night for the first time in years."</p>
+        <div class="reviewer">James R. <span>— Lakeway, TX</span></div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p class="review-text">"Brought my daughter in for recurrent ear infections. The pediatric care was exceptional — she wasn't scared at all. The team was patient, kind, and very knowledgeable."</p>
+        <div class="reviewer">Patricia L. <span>— Dripping Springs, TX</span></div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:28px;">
+      <a href="#" class="btn-primary" style="font-size:14px;padding:12px 24px;">Read All Reviews on Google</a>
+    </div>
+  </div>
+</div>
+
+<hr class="section-divider" />
+
+<!-- 8. LOCATIONS -->
+<div style="background:#f0f4ff;padding:6px 40px;font-size:12px;color:#475569;">
+  <span class="annotation-box" style="display:inline-block;margin:0;padding:4px 10px;font-size:12px;">
+    <strong style="display:inline;">IMPROVED:</strong> Reduce button clutter per card from 3 to 2 primary actions. Add a visual map thumbnail placeholder. Clean card shadow and hover animation.
+  </span>
+</div>
+
+<div class="section">
+  <div class="section-inner">
+    <div class="section-heading">
+      <span class="label">Our Locations</span>
+      <h2>Find a Clinic Near You</h2>
+      <p>Four locations across Central Texas to serve you with convenient appointments and expert ENT care.</p>
+    </div>
+    <div class="locations-grid">
+      <div class="location-card">
+        <div class="location-map">[ Google Map — Austin ]</div>
+        <div class="location-body">
+          <div class="location-city">Austin</div>
+          <div class="location-addr">12309 N Mopac Expy STE 100<br/>Austin, TX 78758</div>
+          <div class="location-hours"><b>Mon–Thu:</b> 8am–5pm &nbsp;|&nbsp; <b>Fri:</b> 8am–4pm</div>
+          <div class="location-btns">
+            <a href="#" class="btn-red">📅 Book Appointment</a>
+            <a href="#" class="btn-outline-navy">📍 Directions</a>
+          </div>
+        </div>
+      </div>
+      <div class="location-card">
+        <div class="location-map">[ Google Map — Lakeway ]</div>
+        <div class="location-body">
+          <div class="location-city">Lakeway</div>
+          <div class="location-addr">4 Lakeway Centre Ct Unit B<br/>Lakeway, TX 78734</div>
+          <div class="location-hours"><b>Mon–Thu:</b> 8am–5pm &nbsp;|&nbsp; <b>Fri:</b> 8am–12pm</div>
+          <div class="location-btns">
+            <a href="#" class="btn-red">📅 Book Appointment</a>
+            <a href="#" class="btn-outline-navy">📍 Directions</a>
+          </div>
+        </div>
+      </div>
+      <div class="location-card">
+        <div class="location-map">[ Google Map — Marble Falls ]</div>
+        <div class="location-body">
+          <div class="location-city">Marble Falls</div>
+          <div class="location-addr">801 Steve Hawkins Pkwy<br/>Marble Falls, TX 78654</div>
+          <div class="location-hours"><b>Tue &amp; Thu:</b> 8am–5pm</div>
+          <div class="location-btns">
+            <a href="#" class="btn-red">📅 Book Appointment</a>
+            <a href="#" class="btn-outline-navy">📍 Directions</a>
+          </div>
+        </div>
+      </div>
+      <div class="location-card">
+        <div class="location-map">[ Google Map — Dripping Springs ]</div>
+        <div class="location-body">
+          <div class="location-city">Dripping Springs</div>
+          <div class="location-addr">800 US-290, Bldg A<br/>Dripping Springs, TX 78620</div>
+          <div class="location-hours"><b>Mon &amp; Fri:</b> 8am–5pm</div>
+          <div class="location-btns">
+            <a href="#" class="btn-red">📅 Book Appointment</a>
+            <a href="#" class="btn-outline-navy">📍 Directions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="section-divider" />
+
+<!-- 9. BLOG / ASK THE ENT -->
+<div style="background:#f0f4ff;padding:6px 40px;font-size:12px;color:#475569;">
+  <span class="annotation-box" style="display:inline-block;margin:0;padding:4px 10px;font-size:12px;">
+    <strong style="display:inline;">IMPROVED:</strong> "Ask the ENT" section is great content marketing. Improve with topic category tags, better card design, and remove generic stock bedroom photos.
+  </span>
+</div>
+
+<div class="section" style="background: var(--off);">
+  <div class="section-inner">
+    <div class="section-heading">
+      <span class="label">Ask the ENT</span>
+      <h2>Doctor-Written Patient Guides</h2>
+      <p>Get answers to the most common ENT questions — written by Capital ENT's board-certified physicians.</p>
+    </div>
+    <div class="blog-grid">
+      <div class="blog-card">
+        <div class="blog-img">
+          [ Article Image ]
+          <span class="blog-tag">Sleep</span>
+        </div>
+        <div class="blog-body">
+          <h4>What You Need to Know About Snoring</h4>
+          <p>Snoring affects 40% of men and 20% of women. Learn when it signals a serious health concern...</p>
+          <a href="#">Read More →</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-img">
+          [ Article Image ]
+          <span class="blog-tag">Throat</span>
+        </div>
+        <div class="blog-body">
+          <h4>Can Snoring Cause a Sore Throat?</h4>
+          <p>Vibration of soft tissue while sleeping can irritate the throat. Here's what that means for you...</p>
+          <a href="#">Read More →</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-img">
+          [ Article Image ]
+          <span class="blog-tag">Allergy</span>
+        </div>
+        <div class="blog-body">
+          <h4>Can You Be Allergic to Your Office?</h4>
+          <p>Indoor allergens at work can trigger year-round symptoms. Our allergists explain what to look for...</p>
+          <a href="#">Read More →</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-img">
+          [ Article Image ]
+          <span class="blog-tag">Sinus</span>
+        </div>
+        <div class="blog-body">
+          <h4>What Is Balloon Sinuplasty?</h4>
+          <p>Capital ENT helped pioneer this minimally invasive procedure. Is it right for your chronic sinusitis?</p>
+          <a href="#">Read More →</a>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:32px;">
+      <a href="#" class="btn-primary" style="font-size:14px;padding:12px 24px;">See All Articles</a>
+    </div>
+  </div>
+</div>
+
+<hr class="section-divider" />
+
+<!-- 10. AWARDS STRIP -->
+<div style="background:#f0f4ff;padding:6px 40px;font-size:12px;color:#475569;">
+  <span class="annotation-box" style="display:inline-block;margin:0;padding:4px 10px;font-size:12px;">
+    <strong style="display:inline;">NEW PLACEMENT:</strong> Currently award badges are tiny in the footer. Move them to a dedicated full-width strip above the footer so every visitor sees them — this is a major credibility signal.
+  </span>
+</div>
+
+<div class="badges-strip">
+  <div class="badge-pill"><span class="year">2021</span> Best of the Best — Austin 360</div>
+  <div class="badge-pill"><span class="year">2022</span> Best of the Best — Austin 360</div>
+  <div class="badge-pill"><span class="year">2023</span> Community's Choice — Austin</div>
+  <div class="badge-pill"><span class="year">2024</span> Community's Choice — Austin</div>
+  <div class="badge-pill"><span class="year">2025</span> Community's Choice — Austin</div>
+  <div class="badge-pill">🏅 Board-Certified Otolaryngologists</div>
+  <div class="badge-pill">📋 Same-Day Appointments Available</div>
+</div>
+
+<hr class="section-divider" />
+
+<!-- 11. FOOTER -->
+<div style="background:#f0f4ff;padding:6px 40px;font-size:12px;color:#475569;">
+  <span class="annotation-box" style="display:inline-block;margin:0;padding:4px 10px;font-size:12px;">
+    <strong style="display:inline;">IMPROVED:</strong> Reorganize the footer into 4 clean columns: Brand/Social, Services, Info, Contact. Remove award badge images from footer now that they have their own strip above.
+  </span>
+</div>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo">
+        <div class="logo-text">
+          <div class="main" style="font-size:20px;font-weight:800;">Capital ENT</div>
+          <div class="sub" style="font-size:11px;letter-spacing:1px;text-transform:uppercase;">&amp; Sinus Center</div>
+        </div>
+      </div>
+      <p>Austin's most trusted ENT practice — serving patients across Central Texas with board-certified otolaryngologists since 1993.</p>
+      <div class="social-row">
+        <a href="#" class="social-btn">f</a>
+        <a href="#" class="social-btn">𝕏</a>
+        <a href="#" class="social-btn">▶</a>
+        <a href="#" class="social-btn">♪</a>
+        <a href="#" class="social-btn">📷</a>
+        <a href="#" class="social-btn">★</a>
+      </div>
+    </div>
+
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#">Ear Care &amp; Hearing</a></li>
+        <li><a href="#">Nose &amp; Sinus</a></li>
+        <li><a href="#">Balloon Sinuplasty</a></li>
+        <li><a href="#">Throat &amp; Voice</a></li>
+        <li><a href="#">Sleep Apnea</a></li>
+        <li><a href="#">Allergy Treatment</a></li>
+        <li><a href="#">Pediatric ENT</a></li>
+        <li><a href="#">All Services</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Information</h4>
+      <ul>
+        <li><a href="#">Meet the Providers</a></li>
+        <li><a href="#">Ask the ENT</a></li>
+        <li><a href="#">ENT Videos</a></li>
+        <li><a href="#">Patient Portal</a></li>
+        <li><a href="#">Pay Bill</a></li>
+        <li><a href="#">Post-Op Care</a></li>
+        <li><a href="#">Review Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p>
+        <b style="color:white;">Austin (Main)</b><br/>
+        <span class="phone">512-339-4040</span><br/>
+        12309 N Mopac Expy STE 100<br/>
+        Austin, TX 78758<br/><br/>
+        <b style="color:white;">Lakeway</b><br/>
+        <span class="phone">512-682-4798</span><br/><br/>
+        <b style="color:white;">Marble Falls &amp; Dripping Springs</b><br/>
+        <span class="phone">512-339-4040</span>
+      </p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>©2026 Capital ENT &amp; Sinus Center | All Rights Reserved</span>
+    <span>
+      <a href="#">Privacy Policy</a> &nbsp;·&nbsp;
+      <a href="#">Terms &amp; Conditions</a> &nbsp;·&nbsp;
+      <a href="#">Sitemap</a>
+    </span>
+  </div>
+</footer>
+
+<!-- STICKY CTA (mobile / always-visible) -->
+<div style="background:#f0f4ff;padding:6px 40px;font-size:12px;color:#475569;position:fixed;bottom:80px;left:16px;z-index:300;max-width:300px;border-radius:8px;box-shadow:0 2px 10px rgba(0,0,0,.15);">
+  <span class="annotation-box" style="display:inline-block;margin:0;padding:4px 10px;font-size:11px;">
+    <strong style="display:inline;">FIX:</strong> Replace the auto-opening AI chat with a persistent sticky CTA button. Only open on user click.
+  </span>
+</div>
+<div class="sticky-note">📅 Book Appointment</div>
+
+</body>
+</html>

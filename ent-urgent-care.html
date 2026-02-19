@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://www.youtube.com https://www.google.com; connect-src 'self';" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ENT Urgent Care Partner | Capital ENT & Sinus Center — Austin, TX</title>
+  <meta name="description" content="Capital ENT partners with ENT Urgent Care — the nation's leading same-day ENT urgent care network. Can't wait for a scheduled appointment? Get seen today for ear, nose & throat issues in Austin, TX." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.capitalent.com/ent-urgent-care.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Capital ENT & Sinus Center" />
+  <meta property="og:title" content="ENT Urgent Care Partner | Capital ENT & Sinus Center — Austin, TX" />
+  <meta property="og:description" content="Capital ENT partners with ENT Urgent Care — same-day ENT care for ear, nose & throat issues in Austin, TX. No long waits. Book today." />
+  <meta property="og:url" content="https://www.capitalent.com/ent-urgent-care.html" />
+  <meta property="og:image" content="https://www.capitalent.com/CENT-Horizontal-Color.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ENT Urgent Care Partner | Capital ENT & Sinus Center — Austin, TX" />
+  <meta name="twitter:description" content="Capital ENT partners with ENT Urgent Care — same-day ENT care for ear, nose & throat issues in Austin, TX." />
+  <meta name="twitter:image" content="https://www.capitalent.com/CENT-Horizontal-Color.png" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png" />
+  <link rel="icon" type="image/png" sizes="256x256" href="favicon.png" />
+  <link rel="apple-touch-icon" sizes="256x256" href="favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    :root {
+      --navy:    #1a2e5a;
+      --navy-dk: #111f3e;
+      --red:     #b71c1c;
+      --red-lt:  #cc2222;
+      --orange:  #F26522;
+      --orange-dk:#d95a1a;
+      --ent-teal:#1B3A52;
+      --white:   #ffffff;
+      --off:     #f4f6fa;
+      --gray:    #64748b;
+      --border:  #dde3ed;
+      --gold:    #e8b84b;
+      --radius:  8px;
+      --shadow:  0 2px 16px rgba(0,0,0,.09);
+      --font:    'Inter','Segoe UI',system-ui,-apple-system,sans-serif;
+    }
+    html { scroll-behavior:smooth; }
+    body { font-family:var(--font); color:#1e293b; background:var(--white); font-size:15px; line-height:1.6; }
+    a { text-decoration:none; color:inherit; }
+    .skip-link { position:absolute; top:-100px; left:16px; background:var(--navy); color:#fff; padding:10px 18px; border-radius:var(--radius); font-weight:600; font-size:14px; z-index:9999; transition:top .2s; }
+    .skip-link:focus { top:16px; }
+    img { display:block; max-width:100%; }
+
+    @keyframes fadeInUp { from{opacity:0;transform:translateY(20px);} to{opacity:1;transform:translateY(0);} }
+    @keyframes fadeIn   { from{opacity:0;} to{opacity:1;} }
+    @keyframes pulse    { 0%,100%{opacity:1;} 50%{opacity:.5;} }
+    @keyframes slideInFromBottom { from{opacity:0;transform:translateY(30px);} to{opacity:1;transform:translateY(0);} }
+
+    /* UTIL BAR */
+    .util-bar { background:var(--navy-dk); color:rgba(255,255,255,.75); font-size:12.5px; padding:0 40px; display:flex; align-items:stretch; justify-content:space-between; height:38px; }
+    .util-phones { display:flex; align-items:center; gap:22px; }
+    .util-phones span { white-space:nowrap; }
+    .util-phones b { color:var(--white); font-weight:600; }
+    .util-phones a { color:rgba(255,255,255,.9); font-weight:600; transition:color .2s; text-decoration:underline; }
+    .util-phones a:hover { color:var(--white); }
+    .util-actions { display:flex; align-items:stretch; }
+    .util-actions a { display:flex; align-items:center; padding:0 16px; font-size:12px; font-weight:600; color:rgba(255,255,255,.8); border-left:1px solid rgba(255,255,255,.1); letter-spacing:.3px; transition:background .15s,color .15s; }
+    .util-actions a:hover { background:rgba(255,255,255,.07); color:var(--white); }
+
+    /* NAVBAR */
+    .navbar { background:var(--white); border-bottom:3px solid var(--red); padding:0 40px; height:72px; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:100; box-shadow:0 2px 12px rgba(0,0,0,.07); }
+    .nav-logo img { height:46px; width:auto; display:block; }
+    nav.main-nav { display:flex; align-items:center; gap:2px; }
+    nav.main-nav a { padding:8px 13px; font-size:13.5px; font-weight:600; color:var(--navy); border-radius:5px; transition:background .2s,color .2s; white-space:nowrap; position:relative; }
+    nav.main-nav a::after { content:''; position:absolute; bottom:-2px; left:0; height:2px; background:var(--red); width:0; transition:width .3s; }
+    nav.main-nav a:hover { background:rgba(183,28,28,.05); color:var(--red); }
+    nav.main-nav a:hover::after { width:100%; }
+    .nav-book { background:var(--red); color:var(--white)!important; padding:10px 22px!important; border-radius:6px!important; margin-left:10px; font-size:13.5px!important; transition:background .3s,transform .3s,box-shadow .3s!important; box-shadow:0 4px 12px rgba(183,28,28,.3); }
+    nav.main-nav a.nav-book::after { display:none; }
+    .nav-book:hover { background:var(--red-lt)!important; transform:translateY(-2px); box-shadow:0 0 12px rgba(183,28,28,.6),0 6px 16px rgba(183,28,28,.4)!important; }
+
+    /* PAGE HERO */
+    .page-hero { background:linear-gradient(135deg, #0f2040 0%, var(--navy) 50%, #0d2d45 100%); padding:72px 40px 60px; position:relative; overflow:hidden; }
+    .page-hero::before { content:''; position:absolute; inset:0; background:radial-gradient(ellipse at 70% 50%, rgba(242,101,34,.08) 0%, transparent 60%); }
+    .page-hero-inner { max-width:1100px; margin:0 auto; position:relative; z-index:1; display:grid; grid-template-columns:1fr auto; gap:48px; align-items:center; }
+    .page-hero-copy { }
+    .page-hero .partner-eyebrow { display:flex; align-items:center; gap:12px; margin-bottom:20px; }
+    .page-hero .partner-eyebrow .pe-label { font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,.5); }
+    .page-hero .partner-eyebrow .pe-divider { width:1px; height:16px; background:rgba(255,255,255,.2); }
+    .page-hero h1 { font-size:48px; font-weight:800; color:var(--white); letter-spacing:-.5px; line-height:1.1; margin-bottom:18px; animation:fadeInUp .8s ease-out .1s both; }
+    .page-hero h1 span { color:var(--orange); }
+    .page-hero p { font-size:17px; color:rgba(255,255,255,.8); max-width:560px; line-height:1.65; margin-bottom:32px; animation:fadeInUp .8s ease-out .3s both; }
+    .hero-btns { display:flex; gap:12px; flex-wrap:wrap; animation:fadeInUp .8s ease-out .5s both; }
+
+    /* ENT Urgent Care logo (large, hero version) */
+    .entuc-logo-hero { background:rgba(255,255,255,.95); border:1px solid rgba(255,255,255,.2); border-radius:20px; padding:36px 40px; display:flex; flex-direction:column; align-items:center; gap:20px; animation:fadeInUp .8s ease-out .4s both; min-width:260px; }
+    .entuc-logo-hero-img { width:220px; height:auto; display:block; opacity:1; animation:none; }
+    .entuc-logo-hero .entuc-tagline { font-size:12px; color:var(--gray); text-align:center; letter-spacing:.3px; margin-top:0; }
+
+    /* BUTTONS */
+    .btn-orange { background:var(--orange); color:var(--white); padding:14px 30px; border-radius:7px; font-size:15px; font-weight:700; display:inline-flex; align-items:center; gap:9px; box-shadow:0 4px 16px rgba(242,101,34,.4); transition:transform .2s,box-shadow .2s,background .2s; white-space:nowrap; }
+    .btn-orange:hover { transform:translateY(-3px); box-shadow:0 8px 28px rgba(242,101,34,.55); background:var(--orange-dk); }
+    .btn-red { background:var(--red); color:var(--white); padding:14px 30px; border-radius:7px; font-size:15px; font-weight:700; display:inline-flex; align-items:center; gap:9px; box-shadow:0 4px 16px rgba(183,28,28,.35); transition:transform .2s,box-shadow .2s,background .2s; white-space:nowrap; }
+    .btn-red:hover { transform:translateY(-3px); box-shadow:0 0 20px rgba(183,28,28,.6),0 8px 28px rgba(183,28,28,.5); background:var(--red-lt); }
+    .btn-ghost { background:transparent; color:var(--white); padding:14px 30px; border-radius:7px; font-size:15px; font-weight:700; border:2px solid rgba(255,255,255,.45); display:inline-flex; align-items:center; gap:9px; transition:border-color .3s,background .3s; white-space:nowrap; }
+    .btn-ghost:hover { border-color:var(--white); background:rgba(255,255,255,.15); }
+    .btn-white { background:var(--white); color:var(--red); font-weight:700; padding:14px 30px; border-radius:7px; font-size:15px; white-space:nowrap; display:inline-flex; align-items:center; gap:9px; transition:background .2s,box-shadow .2s,transform .2s; box-shadow:0 4px 16px rgba(0,0,0,.15); }
+    .btn-white:hover { background:#f0f0f0; transform:translateY(-2px); box-shadow:0 8px 28px rgba(0,0,0,.25); }
+    .btn-outline-white { background:transparent; color:var(--white); font-weight:700; padding:14px 30px; border-radius:7px; font-size:15px; border:2px solid rgba(255,255,255,.5); display:inline-flex; align-items:center; gap:9px; transition:border-color .3s,background .3s; }
+    .btn-outline-white:hover { border-color:var(--white); background:rgba(255,255,255,.15); }
+
+    /* BREADCRUMB */
+    .breadcrumb { background:var(--off); border-bottom:1px solid var(--border); padding:10px 40px; font-size:13px; color:var(--gray); }
+    .breadcrumb-inner { max-width:1100px; margin:0 auto; display:flex; align-items:center; gap:8px; }
+    .breadcrumb a { color:var(--navy); font-weight:600; transition:color .2s; }
+    .breadcrumb a:hover { color:var(--red); }
+
+    /* SECTIONS */
+    .section { padding:72px 40px; }
+    .section.bg-off { background:var(--off); }
+    .section-inner { max-width:1100px; margin:0 auto; }
+    .section-head { text-align:center; margin-bottom:50px; }
+    .section-head .eyebrow { display:inline-block; font-size:11.5px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--orange); margin-bottom:10px; }
+    .section-head h2 { font-size:34px; font-weight:800; color:var(--navy); letter-spacing:-.4px; line-height:1.2; }
+    .section-head p { font-size:16px; color:var(--gray); margin-top:12px; max-width:600px; margin-left:auto; margin-right:auto; line-height:1.7; }
+    .rule { width:52px; height:3px; background:var(--orange); border-radius:2px; margin:14px auto 0; }
+
+    /* PARTNER INTRO SPLIT */
+    .info-split { display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:center; }
+    .info-split.reverse { direction:rtl; }
+    .info-split.reverse > * { direction:ltr; }
+    .info-copy .eyebrow { display:inline-block; font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--orange); margin-bottom:12px; }
+    .info-copy h2 { font-size:30px; font-weight:800; color:var(--navy); line-height:1.2; margin-bottom:16px; letter-spacing:-.3px; }
+    .info-copy p { font-size:15px; color:var(--gray); line-height:1.75; margin-bottom:16px; }
+    .info-visual { border-radius:12px; overflow:hidden; box-shadow:0 16px 48px rgba(0,0,0,.15); background:linear-gradient(135deg, var(--ent-teal) 0%, #0f2040 100%); min-height:300px; display:flex; align-items:center; justify-content:center; }
+    .info-visual-inner { padding:40px; text-align:center; }
+    /* Large inline ENT Urgent Care logo for split section */
+    .entuc-logo-split { display:flex; align-items:center; justify-content:center; margin-bottom:24px; }
+    .entuc-split-img { width:200px; height:auto; display:block; opacity:1; animation:none; filter:brightness(10); }
+    .info-visual-inner p { font-size:14px; color:rgba(255,255,255,.65); line-height:1.65; margin-top:8px; }
+    .info-visual-inner .stat-row { display:flex; gap:24px; justify-content:center; margin-top:24px; flex-wrap:wrap; }
+    .info-visual-inner .vstat { text-align:center; }
+    .info-visual-inner .vstat-num { font-size:28px; font-weight:800; color:var(--orange); }
+    .info-visual-inner .vstat-lbl { font-size:12px; color:rgba(255,255,255,.6); margin-top:3px; line-height:1.35; }
+    .check-list { list-style:none; display:flex; flex-direction:column; gap:10px; margin-top:20px; }
+    .check-list li { display:flex; align-items:flex-start; gap:12px; font-size:14.5px; color:#374151; line-height:1.55; }
+    .check-list li::before { content:''; width:20px; height:20px; background:rgba(242,101,34,.12); border:1px solid rgba(242,101,34,.25); border-radius:50%; flex-shrink:0; margin-top:1px; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23F26522' stroke-width='3'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:center; }
+
+    /* WHEN TO USE GRID */
+    .when-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
+    .when-card { background:var(--white); border:1px solid var(--border); border-radius:12px; padding:28px 24px; box-shadow:var(--shadow); transition:transform .3s,box-shadow .3s,border-color .3s; }
+    .when-card:hover { transform:translateY(-4px); box-shadow:0 12px 32px rgba(0,0,0,.12); border-color:rgba(242,101,34,.3); }
+    .when-icon { width:52px; height:52px; background:rgba(242,101,34,.08); border:1px solid rgba(242,101,34,.18); border-radius:12px; display:flex; align-items:center; justify-content:center; margin-bottom:14px; }
+    .when-icon svg { width:26px; height:26px; stroke:var(--orange); fill:none; stroke-width:2; }
+    .when-card h3 { font-size:17px; font-weight:800; color:var(--navy); margin-bottom:10px; }
+    .when-card ul { list-style:none; display:flex; flex-direction:column; gap:7px; }
+    .when-card ul li { font-size:13.5px; color:var(--gray); display:flex; align-items:flex-start; gap:8px; line-height:1.5; }
+    .when-card ul li::before { content:'·'; color:var(--orange); font-size:18px; line-height:1; flex-shrink:0; margin-top:-1px; }
+
+    /* COMPARISON TABLE */
+    .compare-wrap { border:1px solid var(--border); border-radius:12px; overflow:hidden; box-shadow:var(--shadow); }
+    .compare-table { width:100%; border-collapse:collapse; }
+    .compare-table th { padding:16px 20px; font-size:12.5px; font-weight:700; text-transform:uppercase; letter-spacing:1px; text-align:left; }
+    .compare-table th:first-child { background:var(--off); color:var(--gray); width:35%; }
+    .compare-table th.col-uc { background:var(--orange); color:var(--white); }
+    .compare-table th.col-ent { background:var(--navy); color:var(--white); }
+    .compare-table td { padding:14px 20px; font-size:14px; color:#374151; border-top:1px solid var(--border); vertical-align:top; }
+    .compare-table td:first-child { background:var(--off); font-weight:600; color:var(--navy); font-size:13.5px; }
+    .compare-table tr:hover td { background:rgba(242,101,34,.03); }
+    .compare-table tr:hover td:first-child { background:rgba(242,101,34,.06); }
+    .badge-uc { display:inline-flex; align-items:center; gap:6px; font-size:13px; font-weight:700; color:var(--orange); }
+    .badge-ent { display:inline-flex; align-items:center; gap:6px; font-size:13px; font-weight:700; color:var(--navy); }
+    .badge-uc svg, .badge-ent svg { width:15px; height:15px; flex-shrink:0; }
+
+    /* SERVICES GRID */
+    .svc-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
+    .svc-pill { background:var(--white); border:1.5px solid var(--border); border-radius:8px; padding:14px 16px; font-size:13.5px; font-weight:600; color:var(--navy); transition:border-color .2s,box-shadow .2s,transform .2s; display:flex; align-items:center; gap:10px; }
+    .svc-pill:hover { border-color:var(--orange); box-shadow:0 4px 14px rgba(242,101,34,.15); transform:translateY(-2px); }
+    .svc-pill svg { width:16px; height:16px; stroke:var(--orange); fill:none; stroke-width:2; flex-shrink:0; }
+
+    /* ORANGE CTA BAND */
+    .orange-cta-band { background:linear-gradient(100deg, #c94e18 0%, var(--orange) 60%, #f57c3a 100%); padding:52px 40px; text-align:center; }
+    .orange-cta-band-inner { max-width:700px; margin:0 auto; }
+    .orange-cta-band h2 { font-size:32px; font-weight:800; color:var(--white); margin-bottom:12px; }
+    .orange-cta-band p { font-size:16px; color:rgba(255,255,255,.85); margin-bottom:28px; line-height:1.6; }
+    .orange-cta-band-btns { display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
+
+    /* CTA BAND (red) */
+    .cta-band { background:linear-gradient(100deg, #991515 0%, var(--red) 60%, #cc2a2a 100%); padding:52px 40px; text-align:center; }
+    .cta-band-inner { max-width:700px; margin:0 auto; }
+    .cta-band h2 { font-size:32px; font-weight:800; color:var(--white); margin-bottom:12px; }
+    .cta-band p { font-size:16px; color:rgba(255,255,255,.85); margin-bottom:28px; line-height:1.6; }
+    .cta-band-btns { display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
+
+    /* FOOTER */
+    footer { background:var(--navy); padding:60px 40px 30px; }
+    .footer-grid { max-width:1100px; margin:0 auto; display:grid; grid-template-columns:2.2fr 1fr 1fr 1.5fr; gap:44px; padding-bottom:44px; border-bottom:1px solid rgba(255,255,255,.1); }
+    .footer-brand p { font-size:13.5px; color:rgba(255,255,255,.6); line-height:1.75; margin-top:16px; }
+    .social-row { display:flex; gap:8px; margin-top:20px; }
+    .social-btn { width:34px; height:34px; background:rgba(255,255,255,.1); border-radius:6px; display:flex; align-items:center; justify-content:center; transition:background .3s,transform .3s; }
+    .social-btn:hover { background:var(--red); transform:translateY(-3px); }
+    .social-btn svg { width:15px; height:15px; fill:white; }
+    footer h4 { font-size:11.5px; font-weight:700; text-transform:uppercase; letter-spacing:1.8px; color:var(--white); margin-bottom:18px; }
+    footer ul { list-style:none; display:flex; flex-direction:column; gap:9px; }
+    footer ul li a { font-size:13.5px; color:rgba(255,255,255,.6); transition:color .25s; }
+    footer ul li a:hover { color:var(--white); }
+    .footer-contact-block { margin-bottom:18px; }
+    .footer-contact-block .city { font-size:12px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:rgba(255,255,255,.45); margin-bottom:2px; }
+    .footer-contact-block .phone { font-size:16px; font-weight:700; color:var(--white); }
+    .footer-contact-block .phone a { color:var(--white); text-decoration:underline; }
+    .footer-contact-block .phone a:hover { color:#e8b84b; }
+    .footer-contact-block .addr { font-size:13px; color:rgba(255,255,255,.55); line-height:1.6; }
+    .footer-bottom { max-width:1100px; margin:0 auto; padding-top:22px; display:flex; align-items:center; justify-content:space-between; font-size:12px; color:rgba(255,255,255,.35); flex-wrap:wrap; gap:10px; }
+    .footer-bottom a { color:rgba(255,255,255,.35); transition:color .15s; }
+    .footer-bottom a:hover { color:rgba(255,255,255,.65); }
+
+    /* STICKY CTA */
+    .sticky-cta { position:fixed; bottom:28px; right:28px; background:var(--orange); color:var(--white); font-size:14px; font-weight:700; padding:14px 24px; border-radius:50px; box-shadow:0 6px 22px rgba(242,101,34,.45); display:flex; align-items:center; gap:9px; cursor:pointer; z-index:200; transition:transform .15s,box-shadow .15s; animation:pulse 3s ease-in-out 2s infinite; text-decoration:none; }
+    .sticky-cta:hover { transform:translateY(-2px); box-shadow:0 10px 28px rgba(242,101,34,.5); animation:none; }
+    .sticky-cta svg { width:16px; height:16px; fill:none; stroke:white; stroke-width:2; }
+
+    /* MODAL */
+    .modal { position:fixed; top:0; left:0; right:0; bottom:0; z-index:1000; display:flex; align-items:center; justify-content:center; animation:fadeIn .3s ease; }
+    .modal-overlay { position:absolute; inset:0; background:rgba(0,0,0,.5); cursor:pointer; }
+    .modal-content { position:relative; background:var(--white); border-radius:12px; box-shadow:0 20px 60px rgba(0,0,0,.3); max-width:500px; width:90%; max-height:90vh; overflow-y:auto; animation:slideInFromBottom .4s ease; z-index:1001; }
+    .modal-close { position:absolute; top:16px; right:16px; width:32px; height:32px; background:rgba(0,0,0,.05); border:none; border-radius:50%; font-size:24px; cursor:pointer; display:flex; align-items:center; justify-content:center; color:#374151; }
+    .modal-close:hover { background:rgba(0,0,0,.1); }
+    .modal-header { padding:32px 32px 16px; border-bottom:1px solid var(--border); }
+    .modal-header h2 { font-size:24px; font-weight:800; color:var(--navy); margin-bottom:8px; }
+    .modal-header p { font-size:14px; color:var(--gray); }
+    .modal-form { padding:32px; display:flex; flex-direction:column; gap:20px; }
+    .form-group { display:flex; flex-direction:column; }
+    .form-group label { font-size:13px; font-weight:700; color:var(--navy); margin-bottom:6px; text-transform:uppercase; letter-spacing:.5px; }
+    .form-group input, .form-group select, .form-group textarea { padding:10px 14px; border:1.5px solid var(--border); border-radius:6px; font-size:14px; font-family:inherit; transition:border-color .2s,box-shadow .2s; }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline:none; border-color:var(--red); box-shadow:0 0 0 3px rgba(183,28,28,.1); }
+    .form-disclaimer { font-size:11px; color:var(--gray); text-align:center; margin-top:10px; }
+    .modal-form .btn-red { padding:12px 30px!important; font-size:15px!important; width:100%!important; border:none!important; justify-content:center; }
+
+    /* RESPONSIVE */
+    @media(max-width:960px) {
+      .page-hero-inner { grid-template-columns:1fr; }
+      .entuc-logo-hero { flex-direction:row; padding:24px 28px; align-self:flex-start; min-width:unset; }
+      .info-split, .info-split.reverse { grid-template-columns:1fr; direction:ltr; gap:36px; }
+      .when-grid { grid-template-columns:repeat(2,1fr); }
+      .svc-grid { grid-template-columns:repeat(3,1fr); }
+    }
+    @media(max-width:600px) {
+      .util-bar { padding:0 16px; }
+      .util-phones span:nth-child(n+3) { display:none; }
+      .navbar { padding:0 16px; }
+      nav.main-nav { display:none; }
+      .page-hero { padding:48px 20px 40px; }
+      .page-hero h1 { font-size:34px; }
+      .breadcrumb { padding:10px 20px; }
+      .section { padding:48px 20px; }
+      .when-grid { grid-template-columns:1fr; }
+      .svc-grid { grid-template-columns:repeat(2,1fr); }
+      .orange-cta-band, .cta-band { padding:40px 20px; }
+      footer { padding:40px 20px 24px; }
+      .footer-grid { grid-template-columns:1fr; gap:32px; }
+      .compare-table th, .compare-table td { padding:10px 12px; font-size:13px; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MedicalOrganization",
+        "@id": "https://www.capitalent.com/#organization",
+        "name": "Capital ENT & Sinus Center",
+        "url": "https://www.capitalent.com",
+        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+        "telephone": "+15123394040",
+        "medicalSpecialty": "Otolaryngology"
+      },
+      {
+        "@type": "MedicalWebPage",
+        "@id": "https://www.capitalent.com/ent-urgent-care.html#webpage",
+        "url": "https://www.capitalent.com/ent-urgent-care.html",
+        "name": "ENT Urgent Care Partner | Capital ENT & Sinus Center — Austin, TX",
+        "description": "Capital ENT partners with ENT Urgent Care — the nation's leading same-day ENT urgent care network. Get seen today for ear, nose & throat issues in Austin, TX.",
+        "isPartOf": { "@id": "https://www.capitalent.com/#organization" },
+        "specialty": "Otolaryngology",
+        "medicalAudience": { "@type": "Patient" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- UTIL BAR -->
+<div class="util-bar">
+  <div class="util-phones">
+    <span><b>Austin:</b> <a href="tel:5123394040">512-339-4040</a></span>
+    <span><b>Lakeway:</b> <a href="tel:5126824798">512-682-4798</a></span>
+    <span><b>Marble Falls:</b> <a href="tel:5123394040">512-339-4040</a></span>
+    <span><b>Dripping Springs:</b> <a href="tel:5123394040">512-339-4040</a></span>
+  </div>
+  <div class="util-actions">
+    <a href="https://www.capitalent.com/patient-portal/" target="_blank" rel="noopener">Patient Portal</a>
+    <a href="https://www.capitalent.com/make-a-payment/" target="_blank" rel="noopener">Pay Bill</a>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="nav-logo">
+    <a href="index.html"><img src="CENT-Horizontal-Color.png" alt="Capital ENT &amp; Sinus Center" /></a>
+  </div>
+  <nav class="main-nav">
+    <a href="index.html">Home</a>
+    <a href="ear-care.html">Ear Care</a>
+    <a href="nose-sinus.html">Nose &amp; Sinus</a>
+    <a href="throat-sleep.html">Throat &amp; Sleep</a>
+    <a href="allergy.html">Allergy</a>
+    <a href="our-doctors.html">Our Doctors</a>
+    <a href="locations.html">Locations</a>
+    <a href="videos.html">Videos</a>
+    <a href="#" class="nav-book" onclick="openBookingModal(event)">Request Appointment</a>
+  </nav>
+</div>
+
+<main id="main-content">
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <div class="page-hero-copy">
+      <div class="partner-eyebrow">
+        <span class="pe-label">Partnership Announcement</span>
+        <span class="pe-divider"></span>
+        <span class="pe-label">Capital ENT &amp; Sinus Center</span>
+      </div>
+      <h1>Same-Day <span>ENT Urgent Care</span><br/>Now in Austin</h1>
+      <p>Capital ENT has partnered with ENT Urgent Care — the nation's leading urgent care network dedicated exclusively to ear, nose &amp; throat conditions. When you can't wait for a scheduled appointment, we've got you covered.</p>
+      <div class="hero-btns">
+        <a href="https://www.enturgent.com/book-care" target="_blank" rel="noopener" class="btn-orange">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          Book Urgent Care Now
+        </a>
+        <a href="#" class="btn-ghost" onclick="openBookingModal(event)">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Schedule with Capital ENT
+        </a>
+      </div>
+    </div>
+    <!-- ENT Urgent Care logo, hero -->
+    <div class="entuc-logo-hero">
+      <img src="ENT_Urgent_Care_Horizontal_Color.png" alt="ENT Urgent Care" class="entuc-logo-hero-img" />
+      <div class="entuc-tagline">Nation's #1 ENT Urgent Care<br/>Same-Day Appointments</div>
+    </div>
+  </div>
+</section>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="index.html">Home</a>
+    <span>›</span>
+    <span>ENT Urgent Care</span>
+  </div>
+</div>
+
+<!-- INTRO SPLIT -->
+<section class="section">
+  <div class="section-inner">
+    <div class="info-split">
+      <div class="info-copy">
+        <div class="eyebrow">Our Partnership</div>
+        <h2>Expert ENT Care — Without the Wait</h2>
+        <p>Capital ENT &amp; Sinus Center has partnered with ENT Urgent Care to offer Central Texas patients immediate access to specialized ear, nose &amp; throat care. Not every ENT problem can wait days or weeks for a traditional appointment.</p>
+        <p>ENT Urgent Care is staffed by ENT-trained providers — not general urgent care practitioners — meaning you get specialist-level evaluation and treatment the same day you call. Our partnership ensures seamless coordination: if your condition requires follow-up surgery, advanced imaging, or subspecialty care, you'll be referred directly to Capital ENT.</p>
+        <ul class="check-list">
+          <li>Same-day and next-day appointments available</li>
+          <li>ENT-trained providers — not general urgent care staff</li>
+          <li>Treats ear, nose, sinus, throat, and allergy conditions</li>
+          <li>On-site procedures including ear cleaning, foreign body removal, and more</li>
+          <li>Seamless referral to Capital ENT for complex cases</li>
+          <li>Most major insurance plans accepted</li>
+        </ul>
+      </div>
+      <div class="info-visual">
+        <div class="info-visual-inner">
+          <div class="entuc-logo-split">
+            <img src="ENT_Urgent_Care_Horizontal_Color.png" alt="ENT Urgent Care" class="entuc-split-img" />
+          </div>
+          <p>Nation's leading urgent care network<br/>dedicated exclusively to ENT</p>
+          <div class="stat-row">
+            <div class="vstat">
+              <div class="vstat-num">Same</div>
+              <div class="vstat-lbl">Day<br/>appointments</div>
+            </div>
+            <div class="vstat">
+              <div class="vstat-num">ENT</div>
+              <div class="vstat-lbl">Trained<br/>providers</div>
+            </div>
+            <div class="vstat">
+              <div class="vstat-num">4.9★</div>
+              <div class="vstat-lbl">Average<br/>rating</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHEN TO USE URGENT CARE -->
+<section class="section bg-off">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="eyebrow">When to Choose Urgent Care</div>
+      <h2>Is ENT Urgent Care Right for You?</h2>
+      <div class="rule"></div>
+      <p>Use this guide to determine whether ENT Urgent Care or a scheduled Capital ENT appointment is the best fit for your situation.</p>
+    </div>
+    <div class="when-grid">
+      <div class="when-card">
+        <div class="when-icon">
+          <svg viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0118 0v6"/><path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"/></svg>
+        </div>
+        <h3>Ear Urgencies</h3>
+        <ul>
+          <li>Sudden ear pain or pressure</li>
+          <li>Ear infection with fever</li>
+          <li>Object stuck in the ear canal</li>
+          <li>Sudden hearing loss in one ear</li>
+          <li>Ear drainage or discharge</li>
+          <li>Earwax blockage causing discomfort</li>
+        </ul>
+      </div>
+      <div class="when-card">
+        <div class="when-icon">
+          <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <h3>Nose &amp; Sinus Urgencies</h3>
+        <ul>
+          <li>Severe sinus pressure or facial pain</li>
+          <li>Nosebleed that won't stop</li>
+          <li>Foreign object in the nose</li>
+          <li>Acute sinusitis with high fever</li>
+          <li>Nasal fracture after injury</li>
+          <li>Sudden loss of smell</li>
+        </ul>
+      </div>
+      <div class="when-card">
+        <div class="when-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Throat Urgencies</h3>
+        <ul>
+          <li>Severe sore throat or difficulty swallowing</li>
+          <li>Suspected strep throat</li>
+          <li>Throat abscess (quinsy)</li>
+          <li>Swollen tonsils with pain</li>
+          <li>Hoarseness lasting more than a few days</li>
+          <li>Post-tonsillectomy bleeding</li>
+        </ul>
+      </div>
+    </div>
+    <p style="text-align:center; font-size:14px; color:var(--gray); margin-top:32px; padding:16px 20px; background:rgba(242,101,34,.06); border:1px solid rgba(242,101,34,.2); border-radius:8px; max-width:700px; margin-left:auto; margin-right:auto;">
+      <strong style="color:var(--navy);">Emergency?</strong> If you are experiencing a life-threatening emergency, difficulty breathing, severe bleeding, or swallowing difficulty that prevents eating or drinking, please call <strong>911</strong> or go to your nearest emergency room immediately.
+    </p>
+  </div>
+</section>
+
+<!-- SERVICES LIST -->
+<section class="section">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="eyebrow">What We Treat &amp; Perform</div>
+      <h2>ENT Urgent Care Services</h2>
+      <div class="rule"></div>
+      <p>ENT Urgent Care providers are trained to treat a wide range of conditions and can perform many procedures in-office that day — no referral needed.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc-pill"><svg viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0118 0v6"/><path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3z"/></svg>Ear Infections</div>
+      <div class="svc-pill"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>Earwax Removal</div>
+      <div class="svc-pill"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Strep Throat</div>
+      <div class="svc-pill"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>Nosebleeds</div>
+      <div class="svc-pill"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>Sinusitis</div>
+      <div class="svc-pill"><svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>Tonsillitis</div>
+      <div class="svc-pill"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 110 20A10 10 0 0112 2z"/><path d="M12 6v6l4 2"/></svg>Sudden Hearing Loss</div>
+      <div class="svc-pill"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>Foreign Body Removal</div>
+      <div class="svc-pill"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>Nasal Fracture Eval</div>
+      <div class="svc-pill"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 12h6M9 15h4"/></svg>Allergy Testing</div>
+      <div class="svc-pill"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>Sleep &amp; Snoring Eval</div>
+      <div class="svc-pill"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Pediatric ENT</div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON TABLE -->
+<section class="section bg-off">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="eyebrow">Which Is Right for You?</div>
+      <h2>ENT Urgent Care vs. Scheduled Appointment</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="compare-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="col-uc">ENT Urgent Care</th>
+            <th class="col-ent">Capital ENT (Scheduled)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Availability</td>
+            <td><span class="badge-uc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Same day, walk-in &amp; online booking</span></td>
+            <td><span class="badge-ent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Scheduled — same/next day often available</span></td>
+          </tr>
+          <tr>
+            <td>Best for</td>
+            <td>Acute symptoms, sudden onset, conditions that can't wait</td>
+            <td>Chronic conditions, surgical consultation, complex diagnosis, follow-up care</td>
+          </tr>
+          <tr>
+            <td>Provider type</td>
+            <td>ENT-trained urgent care physicians and PAs</td>
+            <td>Board-certified otolaryngologists (ENT surgeons)</td>
+          </tr>
+          <tr>
+            <td>Procedures available</td>
+            <td>Earwax removal, foreign body removal, nosebleed cauterization, in-office minor procedures</td>
+            <td>Full surgical and diagnostic capabilities including balloon sinuplasty, ear tubes, tonsillectomy, septoplasty &amp; more</td>
+          </tr>
+          <tr>
+            <td>Audiology on site</td>
+            <td>Basic hearing screening</td>
+            <td><span class="badge-ent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Full audiological evaluation, hearing aids</span></td>
+          </tr>
+          <tr>
+            <td>Insurance</td>
+            <td>Most major plans accepted</td>
+            <td>Most major plans accepted</td>
+          </tr>
+          <tr>
+            <td>Referral needed</td>
+            <td><span class="badge-uc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>No — book directly</span></td>
+            <td>Not required — self-refer or via ENT Urgent Care</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ORANGE CTA -->
+<section class="orange-cta-band">
+  <div class="orange-cta-band-inner">
+    <h2>Can't Wait? Book ENT Urgent Care Now</h2>
+    <p>Same-day appointments available. ENT-trained providers. No referral needed. Book online in under 2 minutes.</p>
+    <div class="orange-cta-band-btns">
+      <a href="https://www.enturgent.com/book-care" target="_blank" rel="noopener" class="btn-white" style="color:#F26522;">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+        Book at ENT Urgent Care
+      </a>
+      <a href="https://www.enturgent.com/" target="_blank" rel="noopener" class="btn-outline-white">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
+        Visit enturgent.com
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SCHEDULED CARE CTA -->
+<section class="cta-band">
+  <div class="cta-band-inner">
+    <h2>Need a Scheduled Appointment with Capital ENT?</h2>
+    <p>For chronic conditions, surgical consultations, hearing care, allergy treatment, and follow-up visits — our board-certified specialists are here. Same-day and next-day appointments often available.</p>
+    <div class="cta-band-btns">
+      <a href="#" class="btn-white" onclick="openBookingModal(event)">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        Request an Appointment
+      </a>
+      <a href="tel:5123394040" class="btn-outline-white">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 01-2.18 2A19.79 19.79 0 013.09 5.18 2 2 0 015.07 3h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.09 10.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 17.92z"/></svg>
+        Call Austin: 512-339-4040
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <img src="CENT-Horizontal-Color.png" alt="Capital ENT &amp; Sinus Center" style="height:40px;width:auto;filter:brightness(0) invert(1);margin-bottom:14px;" />
+      <p>Austin's most trusted ENT practice — serving patients across Central Texas with board-certified otolaryngologists. Compassionate, personalized care since 1993.</p>
+      <div class="social-row">
+        <a href="#" class="social-btn" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+        <a href="#" class="social-btn" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58zM9.75 15.02V8.98l5.75 3.02-5.75 3.02z"/></svg></a>
+        <a href="#" class="social-btn" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="white" stroke-width="1.8"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="none" stroke="white" stroke-width="1.8"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="white" stroke-width="2" stroke-linecap="round"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="ear-care.html">Ear Care &amp; Hearing</a></li>
+        <li><a href="hearing-aids.html">Hearing Aids</a></li>
+        <li><a href="nose-sinus.html">Nose &amp; Sinus</a></li>
+        <li><a href="balloon-sinuplasty.html">Balloon Sinuplasty</a></li>
+        <li><a href="throat-sleep.html">Throat &amp; Voice</a></li>
+        <li><a href="throat-sleep.html">Sleep Apnea</a></li>
+        <li><a href="allergy.html">Allergy Treatment</a></li>
+        <li><a href="pediatric-ent.html">Pediatric ENT</a></li>
+        <li><a href="ent-urgent-care.html">ENT Urgent Care</a></li>
+        <li><a href="index.html">All Services</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Information</h4>
+      <ul>
+        <li><a href="our-doctors.html">Meet the Providers</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="insurance.html">Insurance &amp; Billing</a></li>
+        <li><a href="patient-resources.html">Patient Resources</a></li>
+        <li><a href="reviews.html">Patient Reviews</a></li>
+        <li><a href="https://www.capitalent.com/ask-the-ent/" target="_blank" rel="noopener">Ask the ENT</a></li>
+        <li><a href="videos.html">ENT Videos</a></li>
+        <li><a href="https://www.capitalent.com/patient-portal/" target="_blank" rel="noopener">Patient Portal</a></li>
+        <li><a href="https://www.capitalent.com/make-a-payment/" target="_blank" rel="noopener">Pay Bill</a></li>
+        <li><a href="locations.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <div class="footer-contact-block">
+        <div class="city">Austin</div>
+        <div class="phone"><a href="tel:5123394040">512-339-4040</a></div>
+        <div class="addr">12309 N Mopac Expy STE 100<br/>Austin, TX 78758</div>
+      </div>
+      <div class="footer-contact-block">
+        <div class="city">Lakeway</div>
+        <div class="phone"><a href="tel:5126824798">512-682-4798</a></div>
+        <div class="addr">4 Lakeway Centre Ct Unit B</div>
+      </div>
+      <div class="footer-contact-block">
+        <div class="city">Marble Falls &amp; Dripping Springs</div>
+        <div class="phone"><a href="tel:5123394040">512-339-4040</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy;2026 Capital ENT &amp; Sinus Center &nbsp;|&nbsp; All Rights Reserved</span>
+    <span>
+      <a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp;
+      <a href="#">Terms &amp; Conditions</a> &nbsp;&middot;&nbsp;
+      <a href="#">Sitemap</a>
+    </span>
+  </div>
+</footer>
+
+<!-- STICKY CTA -->
+<a href="https://www.enturgent.com/book-care" target="_blank" rel="noopener" class="sticky-cta" title="Book ENT Urgent Care">
+  <svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+  Book Urgent Care
+</a>
+
+<!-- BOOKING MODAL -->
+<div id="bookingModal" class="modal" style="display:none;" role="dialog" aria-labelledby="bookingModalTitle" aria-hidden="true">
+  <div class="modal-overlay" onclick="closeBookingModal()"></div>
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeBookingModal()" type="button" aria-label="Close">&times;</button>
+    <div class="modal-header">
+      <h2 id="bookingModalTitle">Request an Appointment</h2>
+      <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+    </div>
+    <form id="bookingForm" class="modal-form" onsubmit="handleBookingSubmit(event)">
+      <div class="form-group">
+        <label for="fullName">Full Name *</label>
+        <input type="text" id="fullName" name="fullName" required placeholder="Jane Smith">
+      </div>
+      <div class="form-group">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required placeholder="jane@example.com">
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number *</label>
+        <input type="tel" id="phone" name="phone" required placeholder="(512) 000-0000">
+      </div>
+      <div class="form-group">
+        <label for="location">Preferred Location *</label>
+        <select id="location" name="location" required>
+          <option value="">Select a location...</option>
+          <option value="austin">Austin — 12309 N Mopac Expy</option>
+          <option value="lakeway">Lakeway — 4 Lakeway Centre Ct</option>
+          <option value="marble_falls">Marble Falls — 801 Steve Hawkins Pkwy</option>
+          <option value="dripping_springs">Dripping Springs — 800 US-290</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="service">Service Type *</label>
+        <select id="service" name="service" required>
+          <option value="">Select a service...</option>
+          <option value="ear">Ear Care &amp; Hearing</option>
+          <option value="nose">Nose &amp; Sinus</option>
+          <option value="throat">Throat &amp; Sleep</option>
+          <option value="allergy">Allergy Treatment</option>
+          <option value="other">Other / Not Sure</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Additional Notes</label>
+        <textarea id="message" name="message" placeholder="Tell us about your condition (optional)" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn-red">Request Appointment</button>
+      <p class="form-disclaimer">By submitting this form, you agree to be contacted by Capital ENT at the number provided.</p>
+    </form>
+  </div>
+</div>
+
+<script>
+  function openBookingModal(e) { if(e) e.preventDefault(); const m=document.getElementById('bookingModal'); m.style.display='flex'; m.setAttribute('aria-hidden','false'); document.body.style.overflow='hidden'; setTimeout(()=>document.getElementById('fullName').focus(),100); }
+  function closeBookingModal() { const m=document.getElementById('bookingModal'); m.style.display='none'; m.setAttribute('aria-hidden','true'); document.body.style.overflow=''; }
+  function handleBookingSubmit(e) { e.preventDefault(); const btn=e.target.querySelector('button[type="submit"]'); btn.textContent='✓ Appointment Requested!'; btn.style.background='#10b981'; setTimeout(()=>{ e.target.reset(); btn.textContent='Request Appointment'; btn.style.background=''; closeBookingModal(); },2000); }
+  document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeBookingModal(); });
+</script>
+</body>
+</html>

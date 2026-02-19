@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://www.youtube.com https://www.google.com; connect-src 'self';" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ENT Video Library | Capital ENT &amp; Sinus Center</title>
+  <meta name="description" content="Watch expert ENT videos from Capital ENT & Sinus Center's board-certified physicians. Learn about sinus surgery, sleep apnea, allergies, ear care, Balloon Sinuplasty & more." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.capitalent.com/videos.html" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Capital ENT & Sinus Center" />
+  <meta property="og:title" content="ENT Video Library | Capital ENT & Sinus Center" />
+  <meta property="og:description" content="Watch expert ENT videos from Capital ENT & Sinus Center's board-certified physicians. Learn about sinus surgery, sleep apnea, allergies, ear care, Balloon Sinuplasty & more." />
+  <meta property="og:url" content="https://www.capitalent.com/videos.html" />
+  <meta property="og:image" content="https://www.capitalent.com/CENT-Horizontal-Color.png" />
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ENT Video Library | Capital ENT & Sinus Center" />
+  <meta name="twitter:description" content="Watch expert ENT videos from Capital ENT & Sinus Center's board-certified physicians. Learn about sinus surgery, sleep apnea, allergies, ear care, Balloon Sinuplasty & more." />
+  <meta name="twitter:image" content="https://www.capitalent.com/CENT-Horizontal-Color.png" />
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png" />
+  <link rel="icon" type="image/png" sizes="256x256" href="favicon.png" />
+  <link rel="apple-touch-icon" sizes="256x256" href="favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy:     #1a2e5a;
+      --navy-dk:  #111f3e;
+      --red:      #b71c1c;
+      --red-lt:   #cc2222;
+      --white:    #ffffff;
+      --off:      #f4f6fa;
+      --gray:     #64748b;
+      --border:   #dde3ed;
+      --radius:   8px;
+      --shadow:   0 2px 16px rgba(0,0,0,.09);
+      --font:     'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font); color: #1e293b; background: var(--white); font-size: 15px; line-height: 1.6; }
+    a { text-decoration: none; color: inherit; }
+
+    /* ── ANIMATIONS ────────────────────────────────────────────── */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.5; }
+    }
+    @keyframes glow {
+      0%, 100% { box-shadow: 0 4px 16px rgba(183,28,28,.35); }
+      50%       { box-shadow: 0 6px 24px rgba(183,28,28,.6); }
+    }
+    @keyframes slideInFromBottom {
+      from { opacity: 0; transform: translateY(30px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── UTILITY BAR ───────────────────────────────────────────── */
+    .util-bar {
+      background: var(--navy-dk);
+      color: rgba(255,255,255,.75);
+      font-size: 12.5px;
+      padding: 0 40px;
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      height: 38px;
+    }
+    .util-phones { display: flex; align-items: center; gap: 22px; }
+    .util-phones span { white-space: nowrap; }
+    .util-phones b { color: var(--white); font-weight: 600; }
+    .util-phones a { color: rgba(255,255,255,.9); font-weight: 600; transition: color 0.2s ease; text-decoration: underline; }
+    .util-phones a:hover { color: var(--white); }
+    .util-actions { display: flex; align-items: stretch; }
+    .util-actions a {
+      display: flex; align-items: center;
+      padding: 0 16px;
+      font-size: 12px; font-weight: 600;
+      color: rgba(255,255,255,.8);
+      border-left: 1px solid rgba(255,255,255,.1);
+      letter-spacing: .3px;
+      transition: background .15s, color .15s;
+    }
+    .util-actions a:hover { background: rgba(255,255,255,.07); color: var(--white); }
+
+    /* ── MAIN NAVBAR ───────────────────────────────────────────── */
+    .navbar {
+      background: var(--white);
+      border-bottom: 3px solid var(--red);
+      padding: 0 40px;
+      height: 72px;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 100;
+      box-shadow: 0 2px 12px rgba(0,0,0,.07);
+    }
+    .nav-logo { display: flex; align-items: center; }
+    .nav-logo img { height: 46px; width: auto; display: block; }
+    nav.main-nav { display: flex; align-items: center; gap: 2px; }
+    nav.main-nav a {
+      padding: 8px 13px;
+      font-size: 13.5px; font-weight: 600;
+      color: var(--navy);
+      border-radius: 5px;
+      transition: background .2s ease, color .2s ease;
+      white-space: nowrap;
+      position: relative;
+      cursor: pointer;
+    }
+    nav.main-nav a::after {
+      content: '';
+      position: absolute;
+      bottom: -2px; left: 0;
+      height: 2px;
+      background: var(--red);
+      width: 0;
+      transition: width 0.3s ease;
+    }
+    nav.main-nav a:hover { background: rgba(183,28,28,.05); color: var(--red); }
+    nav.main-nav a:hover::after { width: 100%; }
+    nav.main-nav a.active::after { width: 100%; }
+    nav.main-nav a.active { color: var(--red); }
+    .nav-book {
+      background: var(--red);
+      color: var(--white) !important;
+      padding: 10px 22px !important;
+      border-radius: 6px !important;
+      margin-left: 10px;
+      font-size: 13.5px !important;
+      transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease !important;
+      box-shadow: 0 4px 12px rgba(183,28,28,.3);
+      position: relative; overflow: hidden;
+    }
+    nav.main-nav a.nav-book::after { display: none; }
+    .nav-book::before {
+      content: ''; position: absolute;
+      top: 0; left: -100%;
+      width: 100%; height: 100%;
+      background: rgba(255,255,255,.1);
+      transition: left 0.3s ease; z-index: -1;
+    }
+    .nav-book:hover {
+      background: var(--red-lt) !important;
+      color: var(--white) !important;
+      transform: translateY(-2px);
+      box-shadow: 0 0 12px rgba(183,28,28,.6), 0 6px 16px rgba(183,28,28,.4) !important;
+    }
+    .nav-book:hover::before { left: 100%; }
+
+    /* ── PAGE HERO BANNER ──────────────────────────────────────── */
+    .page-hero {
+      background: var(--navy);
+      padding: 56px 40px 52px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .page-hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 20% 50%, rgba(183,28,28,.18) 0%, transparent 60%),
+                  radial-gradient(ellipse at 80% 50%, rgba(232,184,75,.10) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .page-hero-inner { position: relative; z-index: 1; max-width: 700px; margin: 0 auto; }
+    .page-hero .eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 11.5px; font-weight: 700;
+      letter-spacing: 2px; text-transform: uppercase;
+      color: #e8b84b;
+      margin-bottom: 16px;
+    }
+    .page-hero .eyebrow svg { width: 14px; height: 14px; fill: #e8b84b; }
+    .page-hero h1 {
+      font-size: 40px; font-weight: 800;
+      color: var(--white); line-height: 1.15;
+      letter-spacing: -.5px;
+      margin-bottom: 16px;
+      animation: fadeInUp 0.8s ease-out 0.1s both;
+    }
+    .page-hero p {
+      font-size: 16px; color: rgba(255,255,255,.75);
+      line-height: 1.65; max-width: 580px; margin: 0 auto 28px;
+      animation: fadeInUp 0.8s ease-out 0.25s both;
+    }
+    .hero-meta {
+      display: inline-flex; align-items: center; gap: 20px;
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 50px;
+      padding: 10px 24px;
+      font-size: 13px; color: rgba(255,255,255,.7);
+      animation: fadeInUp 0.8s ease-out 0.4s both;
+    }
+    .hero-meta span { display: flex; align-items: center; gap: 6px; }
+    .hero-meta svg { width: 14px; height: 14px; stroke: #e8b84b; fill: none; stroke-width: 2; flex-shrink: 0; }
+    .hero-meta .sep { color: rgba(255,255,255,.25); font-size: 18px; line-height: 1; }
+
+    /* ── CATEGORY FILTER TABS ───────────────────────────────────── */
+    .filter-bar {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 0 40px;
+      position: sticky; top: 72px; z-index: 90;
+      box-shadow: 0 2px 8px rgba(0,0,0,.04);
+    }
+    .filter-inner {
+      max-width: 1100px; margin: 0 auto;
+      display: flex; align-items: center; gap: 4px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      padding: 12px 0;
+    }
+    .filter-inner::-webkit-scrollbar { display: none; }
+    .filter-btn {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 8px 18px;
+      border-radius: 50px;
+      border: 1.5px solid var(--border);
+      background: transparent;
+      color: var(--gray);
+      font-size: 13.5px; font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+      font-family: var(--font);
+    }
+    .filter-btn:hover { border-color: var(--navy); color: var(--navy); background: rgba(26,46,90,.04); }
+    .filter-btn.active {
+      background: var(--navy); color: var(--white);
+      border-color: var(--navy);
+    }
+    .filter-btn svg { width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 2; flex-shrink: 0; }
+
+    /* ── FEATURED VIDEO SPOTLIGHT ──────────────────────────────── */
+    .featured-section {
+      background: var(--off);
+      padding: 56px 40px;
+    }
+    .featured-inner {
+      max-width: 1100px; margin: 0 auto;
+    }
+    .section-head {
+      margin-bottom: 36px;
+    }
+    .section-head .eyebrow {
+      display: inline-block;
+      font-size: 11px; font-weight: 700;
+      letter-spacing: 2px; text-transform: uppercase;
+      color: var(--red); margin-bottom: 10px;
+    }
+    .section-head h2 {
+      font-size: 26px; font-weight: 800;
+      color: var(--navy); letter-spacing: -.3px;
+      margin-bottom: 6px;
+    }
+    .section-head p { font-size: 14.5px; color: var(--gray); }
+    .rule { width: 40px; height: 3px; background: var(--red); border-radius: 2px; margin-top: 10px; }
+
+    .featured-layout {
+      display: grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap: 28px;
+      align-items: start;
+    }
+    .featured-embed {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0,0,0,.14);
+      position: relative;
+      background: #000;
+    }
+    .featured-embed iframe {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16/9;
+      border: none;
+    }
+    .featured-info { padding: 8px 0; }
+    .featured-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(183,28,28,.1);
+      color: var(--red);
+      font-size: 11px; font-weight: 700;
+      letter-spacing: 1.5px; text-transform: uppercase;
+      padding: 4px 12px; border-radius: 50px;
+      margin-bottom: 14px;
+    }
+    .featured-badge svg { width: 11px; height: 11px; fill: var(--red); }
+    .featured-info h3 {
+      font-size: 22px; font-weight: 800;
+      color: var(--navy); line-height: 1.25;
+      margin-bottom: 12px;
+    }
+    .featured-info p { font-size: 14.5px; color: var(--gray); line-height: 1.65; margin-bottom: 20px; }
+    .featured-stats {
+      display: flex; gap: 20px; flex-wrap: wrap;
+      margin-bottom: 22px;
+    }
+    .featured-stat {
+      display: flex; align-items: center; gap: 6px;
+      font-size: 13px; color: var(--gray);
+    }
+    .featured-stat svg { width: 14px; height: 14px; stroke: var(--navy); fill: none; stroke-width: 2; }
+    .featured-stat strong { color: var(--navy); }
+    .btn-yt {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #ff0000;
+      color: var(--white);
+      font-size: 13.5px; font-weight: 700;
+      padding: 11px 22px;
+      border-radius: 7px;
+      transition: background .2s, transform .2s, box-shadow .2s;
+      box-shadow: 0 3px 12px rgba(255,0,0,.3);
+    }
+    .btn-yt svg { width: 15px; height: 15px; fill: white; }
+    .btn-yt:hover { background: #cc0000; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,0,0,.4); }
+
+    /* ── VIDEO CATEGORY SECTIONS ───────────────────────────────── */
+    .video-section { padding: 56px 40px; }
+    .video-section.bg-off { background: var(--off); }
+    .section-inner { max-width: 1100px; margin: 0 auto; }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 32px;
+    }
+
+    .video-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      display: flex; flex-direction: column;
+    }
+    .video-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 36px rgba(0,0,0,.13);
+    }
+    .video-embed {
+      position: relative;
+      background: #000;
+    }
+    .video-embed iframe {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16/9;
+      border: none;
+    }
+    .video-body { padding: 16px 18px 20px; flex: 1; display: flex; flex-direction: column; }
+    .video-tag {
+      display: inline-flex; align-items: center; gap: 5px;
+      font-size: 10.5px; font-weight: 700;
+      letter-spacing: 1.5px; text-transform: uppercase;
+      padding: 3px 10px; border-radius: 50px;
+      margin-bottom: 10px;
+      width: fit-content;
+    }
+    .tag-sinus   { background: rgba(26,46,90,.08);  color: var(--navy); }
+    .tag-sleep   { background: rgba(99,102,241,.1); color: #4338ca; }
+    .tag-allergy { background: rgba(20,184,166,.1); color: #0f766e; }
+    .tag-ear     { background: rgba(232,184,75,.15); color: #92690a; }
+    .tag-general { background: rgba(183,28,28,.1);  color: var(--red); }
+
+    .video-body h4 {
+      font-size: 15px; font-weight: 700;
+      color: var(--navy); line-height: 1.35;
+      margin-bottom: 8px; flex: 1;
+    }
+    .video-meta {
+      display: flex; align-items: center; gap: 12px;
+      font-size: 12px; color: var(--gray);
+      margin-top: 12px; padding-top: 12px;
+      border-top: 1px solid var(--border);
+    }
+    .video-meta span { display: flex; align-items: center; gap: 4px; }
+    .video-meta svg { width: 12px; height: 12px; stroke: currentColor; fill: none; stroke-width: 2; }
+
+    /* ── YOUTUBE CHANNEL CTA BANNER ─────────────────────────────── */
+    .yt-banner {
+      background: linear-gradient(135deg, #b71c1c 0%, #8b0000 100%);
+      padding: 56px 40px;
+      text-align: center;
+    }
+    .yt-banner-inner { max-width: 640px; margin: 0 auto; }
+    .yt-logo {
+      width: 56px; height: 56px;
+      background: rgba(255,255,255,.15);
+      border-radius: 14px;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px;
+      border: 1px solid rgba(255,255,255,.2);
+    }
+    .yt-logo svg { width: 28px; height: 28px; fill: white; }
+    .yt-banner h2 {
+      font-size: 28px; font-weight: 800;
+      color: var(--white); margin-bottom: 12px;
+    }
+    .yt-banner p { font-size: 15px; color: rgba(255,255,255,.8); line-height: 1.65; margin-bottom: 28px; }
+    .yt-stats {
+      display: flex; justify-content: center; gap: 32px;
+      margin-bottom: 30px;
+    }
+    .yt-stat { text-align: center; }
+    .yt-stat .num { font-size: 24px; font-weight: 800; color: var(--white); }
+    .yt-stat .lbl { font-size: 12px; color: rgba(255,255,255,.65); margin-top: 2px; }
+    .btn-yt-lg {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--white);
+      color: #b71c1c;
+      font-size: 15px; font-weight: 700;
+      padding: 14px 32px;
+      border-radius: 8px;
+      transition: transform .2s, box-shadow .2s;
+      box-shadow: 0 4px 16px rgba(0,0,0,.2);
+    }
+    .btn-yt-lg svg { width: 18px; height: 18px; fill: #ff0000; }
+    .btn-yt-lg:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(0,0,0,.3); }
+
+    /* ── FOOTER ────────────────────────────────────────────────── */
+    footer {
+      background: var(--navy);
+      padding: 60px 40px 30px;
+    }
+    .footer-grid {
+      max-width: 1100px; margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2.2fr 1fr 1fr 1.5fr;
+      gap: 44px;
+      padding-bottom: 44px;
+      border-bottom: 1px solid rgba(255,255,255,.1);
+    }
+    .footer-brand p { font-size: 13.5px; color: rgba(255,255,255,.6); line-height: 1.75; margin-top: 16px; }
+    .social-row { display: flex; gap: 8px; margin-top: 20px; }
+    .social-btn {
+      width: 34px; height: 34px;
+      background: rgba(255,255,255,.1);
+      border-radius: 6px;
+      display: flex; align-items: center; justify-content: center;
+      transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    }
+    .social-btn:hover { background: var(--red); transform: translateY(-3px) scale(1.1); box-shadow: 0 6px 16px rgba(183,28,28,.4); }
+    .social-btn svg { width: 15px; height: 15px; fill: white; transition: transform 0.3s ease; }
+    .social-btn:hover svg { transform: rotate(-10deg); }
+    footer h4 {
+      font-size: 11.5px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1.8px;
+      color: var(--white); margin-bottom: 18px;
+    }
+    footer ul { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+    footer ul li a {
+      font-size: 13.5px; color: rgba(255,255,255,.6);
+      transition: color 0.25s ease;
+      position: relative; display: inline-block;
+    }
+    footer ul li a::before {
+      content: ''; position: absolute;
+      bottom: -2px; left: 0;
+      height: 1px; background: var(--white);
+      width: 0; transition: width 0.3s ease;
+    }
+    footer ul li a:hover { color: var(--white); }
+    footer ul li a:hover::before { width: 100%; }
+    .footer-contact-block { margin-bottom: 18px; }
+    .footer-contact-block .city { font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: rgba(255,255,255,.45); margin-bottom: 2px; }
+    .footer-contact-block .phone { font-size: 16px; font-weight: 700; color: var(--white); }
+    .footer-contact-block .phone a { color: var(--white); text-decoration: underline; transition: color 0.2s ease; }
+    .footer-contact-block .phone a:hover { color: #e8b84b; }
+    .footer-contact-block .addr { font-size: 13px; color: rgba(255,255,255,.55); line-height: 1.6; }
+    .footer-bottom {
+      max-width: 1100px; margin: 0 auto;
+      padding-top: 22px;
+      display: flex; align-items: center; justify-content: space-between;
+      font-size: 12px; color: rgba(255,255,255,.35);
+      flex-wrap: wrap; gap: 10px;
+    }
+    .footer-bottom a { color: rgba(255,255,255,.35); transition: color .15s; }
+    .footer-bottom a:hover { color: rgba(255,255,255,.65); }
+
+    /* ── STICKY BOOK CTA ───────────────────────────────────────── */
+    .sticky-cta {
+      position: fixed; bottom: 28px; right: 28px;
+      background: var(--red); color: var(--white);
+      font-size: 14px; font-weight: 700;
+      padding: 14px 24px; border-radius: 50px;
+      box-shadow: 0 6px 22px rgba(183,28,28,.45);
+      display: flex; align-items: center; gap: 9px;
+      cursor: pointer; z-index: 200;
+      transition: transform .15s, box-shadow .15s;
+      animation: pulse 3s ease-in-out 2s infinite;
+      border: 2px solid transparent;
+      text-decoration: none;
+    }
+    .sticky-cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 28px rgba(183,28,28,.5);
+      animation: none; border-color: rgba(255,255,255,.3);
+    }
+    .sticky-cta svg { width: 16px; height: 16px; fill: none; stroke: white; stroke-width: 2; }
+
+    /* ── BOOKING MODAL ─────────────────────────────────────────── */
+    .modal {
+      position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+      z-index: 1000;
+      display: flex; align-items: center; justify-content: center;
+      animation: fadeIn 0.3s ease;
+    }
+    .modal-overlay {
+      position: absolute; inset: 0;
+      background: rgba(0,0,0,.5); cursor: pointer;
+    }
+    .modal-content {
+      position: relative; background: var(--white);
+      border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,.3);
+      max-width: 500px; width: 90%; max-height: 90vh;
+      overflow-y: auto;
+      animation: slideInFromBottom 0.4s ease; z-index: 1001;
+    }
+    .modal-close {
+      position: absolute; top: 16px; right: 16px;
+      width: 32px; height: 32px;
+      background: rgba(0,0,0,.05); border: none; border-radius: 50%;
+      font-size: 24px; cursor: pointer; transition: background 0.2s;
+      display: flex; align-items: center; justify-content: center;
+      color: #374151; padding: 0;
+    }
+    .modal-close:hover { background: rgba(0,0,0,.1); }
+    .modal-header { padding: 32px 32px 16px; border-bottom: 1px solid var(--border); }
+    .modal-header h2 { font-size: 24px; font-weight: 800; color: var(--navy); margin-bottom: 8px; }
+    .modal-header p  { font-size: 14px; color: var(--gray); }
+    .modal-form { padding: 32px; display: flex; flex-direction: column; gap: 20px; }
+    .form-group { display: flex; flex-direction: column; }
+    .form-group label {
+      font-size: 13px; font-weight: 700; color: var(--navy);
+      margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px;
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      padding: 10px 14px;
+      border: 1.5px solid var(--border); border-radius: 6px;
+      font-size: 14px; font-family: inherit;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none; border-color: var(--red);
+      box-shadow: 0 0 0 3px rgba(183,28,28,.1);
+    }
+    .form-disclaimer { font-size: 11px; color: var(--gray); text-align: center; }
+    .btn-red {
+      background: var(--red); color: var(--white);
+      padding: 14px 30px; border-radius: 7px;
+      font-size: 15px; font-weight: 700;
+      display: inline-flex; align-items: center; gap: 9px;
+      box-shadow: 0 4px 16px rgba(183,28,28,.35);
+      transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+      white-space: nowrap; border: none; cursor: pointer; font-family: var(--font);
+    }
+    .btn-red:hover { transform: translateY(-3px); background: var(--red-lt); box-shadow: 0 8px 28px rgba(183,28,28,.5); }
+    .modal-form .btn-red { padding: 12px 30px; width: 100%; justify-content: center; }
+    button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+      outline: 2px solid var(--red); outline-offset: 2px;
+    }
+    .modal-overlay:focus-visible { outline: none; }
+
+    /* ── HIDDEN VIDEO CARD (filter) ───────────────────────────── */
+    .video-card[data-hidden="true"] { display: none; }
+    .skip-link { position:absolute; top:-100px; left:16px; background:var(--navy); color:#fff; padding:10px 18px; border-radius:var(--radius); font-weight:600; font-size:14px; z-index:9999; transition:top .2s; }
+    .skip-link:focus { top:16px; }
+
+
+    /* ── RESPONSIVE ─────────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .page-hero-inner { grid-template-columns: 1fr !important; }
+      .info-split, .info-split.reverse { grid-template-columns: 1fr !important; direction: ltr !important; gap: 36px !important; }
+      .info-split.reverse > * { direction: ltr !important; }
+      .section-grid, .services-grid, .card-grid, .grid-3, .grid-4 { grid-template-columns: repeat(2,1fr) !important; }
+      .page-hero h1 { font-size: 36px !important; }
+      .util-phones span:nth-child(n+3) { display: none; }
+    }
+    @media (max-width: 600px) {
+      .util-bar { padding-left: 16px !important; padding-right: 16px !important; }
+      .navbar { padding-left: 16px !important; padding-right: 16px !important; }
+      nav.main-nav { display: none !important; }
+      .page-hero { padding: 48px 20px 40px !important; }
+      .page-hero h1 { font-size: 32px !important; }
+      .breadcrumb { padding: 10px 20px !important; }
+      .section { padding: 48px 20px !important; }
+      .section-grid, .services-grid, .card-grid, .grid-3, .grid-4 { grid-template-columns: 1fr !important; }
+      .cta-band { padding: 40px 20px !important; }
+      footer { padding: 40px 20px 24px !important; }
+      .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 32px !important; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MedicalOrganization",
+        "@id": "https://www.capitalent.com/#organization",
+        "name": "Capital ENT & Sinus Center",
+        "url": "https://www.capitalent.com",
+        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+        "telephone": "+15123394040",
+        "medicalSpecialty": "Otolaryngology"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.capitalent.com/videos.html#webpage",
+        "url": "https://www.capitalent.com/videos.html",
+        "name": "ENT Video Library | Capital ENT & Sinus Center",
+        "description": "Watch expert ENT videos from Capital ENT & Sinus Center's board-certified physicians. Learn about sinus surgery, sleep apnea, allergies, ear care, Balloon Sinuplasty & more.",
+        "isPartOf": { "@id": "https://www.capitalent.com/#organization" },
+        "about": { "@id": "https://www.capitalent.com/#organization" }
+      },
+      {
+        "@type": "VideoObject",
+        "name": "ENT Educational Video Library",
+        "description": "A collection of educational videos from Capital ENT & Sinus Center's board-certified physicians covering ear, nose, throat, sinus, sleep, and allergy topics.",
+        "publisher": { "@id": "https://www.capitalent.com/#organization" },
+        "thumbnailUrl": "https://www.capitalent.com/CENT-Horizontal-Color.png"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- ── UTILITY BAR ── -->
+<div class="util-bar">
+  <div class="util-phones">
+    <span><b>Austin:</b> <a href="tel:5123394040">512-339-4040</a></span>
+    <span><b>Lakeway:</b> <a href="tel:5126824798">512-682-4798</a></span>
+    <span><b>Marble Falls:</b> <a href="tel:5123394040">512-339-4040</a></span>
+    <span><b>Dripping Springs:</b> <a href="tel:5123394040">512-339-4040</a></span>
+  </div>
+  <div class="util-actions">
+    <a href="#">Patient Portal</a>
+    <a href="#">Pay Bill</a>
+  </div>
+</div>
+
+<!-- ── NAVBAR ── -->
+<div class="navbar">
+  <div class="nav-logo">
+    <a href="index.html">
+      <img src="CENT-Horizontal-Color.png" alt="Capital ENT &amp; Sinus Center" />
+    </a>
+  </div>
+  <nav class="main-nav">
+    <a href="index.html">Home</a>
+    <a href="#">Ear Care</a>
+    <a href="#">Nose &amp; Sinus</a>
+    <a href="#">Throat &amp; Sleep</a>
+    <a href="#">Allergy</a>
+    <a href="#">Our Doctors</a>
+    <a href="#">Locations</a>
+    <a href="#" class="nav-book" onclick="openBookingModal(event)">Request Appointment</a>
+  </nav>
+</div>
+
+<main id="main-content">
+<!-- ── PAGE HERO ── -->
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="eyebrow">
+      <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58zM9.75 15.02V8.98l5.75 3.02-5.75 3.02z"/></svg>
+      ENT Video Library
+    </div>
+    <h1>Learn From Austin's<br/>Top ENT Specialists</h1>
+    <p>Watch our board-certified physicians explain common ENT conditions, procedures, and treatments — so you can make informed decisions about your health.</p>
+    <div class="hero-meta">
+      <span>
+        <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58zM9.75 15.02V8.98l5.75 3.02-5.75 3.02z"/></svg>
+        <strong style="color:#fff;">221</strong>&nbsp;Videos Published
+      </span>
+      <span class="sep">|</span>
+      <span>
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        <strong style="color:#fff;">28.3K</strong>&nbsp;Subscribers
+      </span>
+      <span class="sep">|</span>
+      <span>
+        <svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+        Millions of Views
+      </span>
+    </div>
+  </div>
+</div>
+
+<!-- ── FILTER BAR ── -->
+<div class="filter-bar">
+  <div class="filter-inner">
+    <button class="filter-btn active" onclick="filterVideos('all', this)">
+      <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      All Videos
+    </button>
+    <button class="filter-btn" onclick="filterVideos('sinus', this)">
+      <svg viewBox="0 0 24 24"><path d="M12 2C9 2 7 5 7 8c0 3 1 5 3 6.5V18h4v-3.5C16 13 17 11 17 8c0-3-2-6-5-6z"/></svg>
+      Sinus &amp; Nasal
+    </button>
+    <button class="filter-btn" onclick="filterVideos('sleep', this)">
+      <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+      Sleep &amp; Snoring
+    </button>
+    <button class="filter-btn" onclick="filterVideos('allergy', this)">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+      Allergy
+    </button>
+    <button class="filter-btn" onclick="filterVideos('ear', this)">
+      <svg viewBox="0 0 24 24"><path d="M3 11v2a9 9 0 009 9"/><path d="M12 3a9 9 0 019 9v2"/><circle cx="12" cy="12" r="3"/></svg>
+      Ear &amp; General
+    </button>
+  </div>
+</div>
+
+<!-- ── FEATURED SPOTLIGHT ── -->
+<div class="featured-section" id="section-featured" data-category="all">
+  <div class="featured-inner">
+    <div class="section-head">
+      <div class="eyebrow">Most Watched</div>
+      <h2>Featured Video</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="featured-layout">
+      <div class="featured-embed">
+        <iframe
+          src="https://www.youtube.com/embed/0rTN4XoViUw"
+          title="What is Balloon Sinuplasty?"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          sandbox="allow-scripts allow-same-origin allow-presentation allow-popups">
+        </iframe>
+      </div>
+      <div class="featured-info">
+        <div class="featured-badge">
+          <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          #1 Most Viewed
+        </div>
+        <h3>What is Balloon Sinuplasty?</h3>
+        <p>Our most-watched video explains Balloon Sinuplasty — a minimally invasive procedure that relieves chronic sinus pressure without surgery. Dr. Latif Dharamsi walks through the entire process and what to expect.</p>
+        <div class="featured-stats">
+          <div class="featured-stat">
+            <svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <strong>1M+</strong>&nbsp;Views
+          </div>
+          <div class="featured-stat">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            2:59 min
+          </div>
+          <div class="featured-stat">
+            <svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            Sinus &amp; Nasal
+          </div>
+        </div>
+        <a class="btn-yt" href="https://www.youtube.com/watch?v=0rTN4XoViUw" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58zM9.75 15.02V8.98l5.75 3.02-5.75 3.02z"/></svg>
+          Watch on YouTube
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── SINUS & NASAL VIDEOS ── -->
+<div class="video-section" id="section-sinus">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="eyebrow">Sinus &amp; Nasal</div>
+      <h2>Sinus, Nasal &amp; Procedure Videos</h2>
+      <p>Learn about sinus conditions, surgical options, and minimally invasive treatments from our specialists.</p>
+      <div class="rule"></div>
+    </div>
+    <div class="video-grid">
+
+      <div class="video-card" data-category="sinus">
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/owJxQgZDtk4" title="What is a Septoplasty Procedure?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"></iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-tag tag-sinus">Sinus &amp; Nasal</div>
+          <h4>What is a Septoplasty Procedure?</h4>
+          <div class="video-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> 639K views</span>
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 1:18</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="sinus">
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/31R1m8IAn5c" title="Benefits of a Turbinate Reduction" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"></iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-tag tag-sinus">Sinus &amp; Nasal</div>
+          <h4>Benefits of a Turbinate Reduction</h4>
+          <div class="video-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> 614K views</span>
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 0:30</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="sinus">
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/aHGjTVl_mso" title="What causes Nasal Obstruction?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"></iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-tag tag-sinus">Sinus &amp; Nasal</div>
+          <h4>What Causes Nasal Obstruction?</h4>
+          <div class="video-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> 475K views</span>
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 0:33</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="sinus">
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/yfsb9-CTBFw" title="How to relieve Chronic Sinus Pressure?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"></iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-tag tag-sinus">Sinus &amp; Nasal</div>
+          <h4>How to Relieve Chronic Sinus Pressure?</h4>
+          <div class="video-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> 463K views</span>
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 0:32</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="sinus">
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/6waPnZCnvYc" title="What is a Functional Endoscopic Sinus Surgery?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"></iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-tag tag-sinus">Sinus &amp; Nasal</div>
+          <h4>What is Functional Endoscopic Sinus Surgery?</h4>
+          <div class="video-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> 287K views</span>
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 2:18</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="sinus">
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/a5BsHxE_9Ns" title="What is Eustachian Tube Dysfunction?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"></iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-tag tag-sinus">Sinus &amp; Nasal</div>
+          <h4>What is Eustachian Tube Dysfunction?</h4>
+          <div class="video-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> 150K views</span>
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 3:09</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ── SLEEP & SNORING VIDEOS ── -->
+<div class="video-section bg-off" id="section-sleep">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="eyebrow">Sleep &amp; Snoring</div>
+      <h2>Sleep Apnea &amp; Snoring Videos</h2>
+      <p>Understand the risks of untreated sleep apnea and snoring, and discover modern treatment options.</p>
+      <div class="rule"></div>
+    </div>
+    <div class="video-grid">
+
+      <div class="video-card" data-category="sleep">
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/omRnq5t9jVE" title="Sleep Apnea - Why is it important to diagnose?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"></iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-tag tag-sleep">Sleep &amp; Snoring</div>
+          <h4>Sleep Apnea: Why Is It Important to Diagnose?</h4>
+          <div class="video-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> 251K views</span>
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 2:03</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="sleep">
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/ZGTbiPOWtFY" title="Snoring Could Be Dangerous - 5 Red Flags" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"></iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-tag tag-sleep">Sleep &amp; Snoring</div>
+          <h4>Snoring Could Be Dangerous — 5 Red Flags You Must Know</h4>
+          <div class="video-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> 29K views</span>
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 1:48</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="sleep">
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/bAG8lBunzys" title="ENT Doctor Explains Sleep Apnea & Modern Sinus Treatments" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"></iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-tag tag-sleep">Sleep &amp; Snoring</div>
+          <h4>ENT Doctor Explains Sleep Apnea &amp; Modern Sinus Treatments</h4>
+          <div class="video-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> 139K views</span>
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 8:20</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ── ALLERGY VIDEOS ── -->
+<div class="video-section" id="section-allergy">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="eyebrow">Allergy</div>
+      <h2>Allergy &amp; Cedar Fever Videos</h2>
+      <p>Central Texas allergy sufferers — these videos were made for you. Learn about triggers, treatments, and relief.</p>
+      <div class="rule"></div>
+    </div>
+    <div class="video-grid">
+
+      <div class="video-card" data-category="allergy">
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/ROaMn12jaN4" title="Cedar Fever" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"></iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-tag tag-allergy">Allergy</div>
+          <h4>Cedar Fever — What Is It &amp; How to Treat It</h4>
+          <div class="video-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> 40K views</span>
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 0:32</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="allergy">
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/iNIkvh0Gayg" title="Allergies in Central Texas: Are They Making You Sick?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"></iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-tag tag-allergy">Allergy</div>
+          <h4>Allergies in Central Texas: Are They Making You Sick?</h4>
+          <div class="video-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> 31K views</span>
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 0:35</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="allergy">
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/rtCeD4uPao4" title="Allergies in Central Texas: A Year-Round Challenge" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"></iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-tag tag-allergy">Allergy</div>
+          <h4>Allergies in Central Texas: A Year-Round Challenge</h4>
+          <div class="video-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> 22K views</span>
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 0:33</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ── EAR & GENERAL VIDEOS ── -->
+<div class="video-section bg-off" id="section-ear">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="eyebrow">Ear &amp; General ENT</div>
+      <h2>Ear Care &amp; General ENT Videos</h2>
+      <p>From pediatric ear care to patient stories, explore the full range of conditions we treat at Capital ENT.</p>
+      <div class="rule"></div>
+    </div>
+    <div class="video-grid">
+
+      <div class="video-card" data-category="ear">
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/1bxXcVpM0a4" title="Pediatrics ENT Care - Capital Otolaryngology" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"></iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-tag tag-ear">Ear &amp; General ENT</div>
+          <h4>Pediatrics ENT Care at Capital ENT</h4>
+          <div class="video-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> 68K views</span>
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 2:07</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="ear">
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/eOFEDx8Dvzw" title="Capital ENT & Sinus Center Overview" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"></iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-tag tag-general">Our Practice</div>
+          <h4>About Capital ENT &amp; Sinus Center</h4>
+          <div class="video-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> 55K views</span>
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 0:49</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="ear">
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/omRnq5t9jVE" title="Working with Capital ENT: A Patient's Perspective" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"></iframe>
+        </div>
+        <div class="video-body">
+          <div class="video-tag tag-general">Patient Story</div>
+          <h4>Working with Capital ENT: A Patient's Perspective</h4>
+          <div class="video-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> 21K views</span>
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 2:03</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ── YOUTUBE CHANNEL CTA ── -->
+<div class="yt-banner">
+  <div class="yt-banner-inner">
+    <div class="yt-logo">
+      <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58zM9.75 15.02V8.98l5.75 3.02-5.75 3.02z"/></svg>
+    </div>
+    <h2>Subscribe to Our YouTube Channel</h2>
+    <p>Join 28,000+ subscribers and get new ENT education videos every week. Covers sinus, allergy, sleep apnea, and more — straight from Austin's leading specialists.</p>
+    <div class="yt-stats">
+      <div class="yt-stat"><div class="num">221</div><div class="lbl">Videos</div></div>
+      <div class="yt-stat"><div class="num">28.3K</div><div class="lbl">Subscribers</div></div>
+      <div class="yt-stat"><div class="num">2M+</div><div class="lbl">Total Views</div></div>
+    </div>
+    <a class="btn-yt-lg" href="https://www.youtube.com/@capitalentsinuscenter189" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58zM9.75 15.02V8.98l5.75 3.02-5.75 3.02z"/></svg>
+      Visit Our YouTube Channel
+    </a>
+  </div>
+</div>
+
+</main><!-- /#main-content -->
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <img src="CENT-Horizontal-Color.png" alt="Capital ENT &amp; Sinus Center" style="height:40px;width:auto;filter:brightness(0) invert(1);margin-bottom:14px;" />
+      <p>Austin's most trusted ENT practice — serving patients across Central Texas with board-certified otolaryngologists. Compassionate, personalized care since 1993.</p>
+      <div class="social-row">
+        <a href="#" class="social-btn" aria-label="Facebook">
+          <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+        </a>
+        <a href="#" class="social-btn" aria-label="X / Twitter">
+          <svg viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12" stroke="white" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@capitalentsinuscenter189" class="social-btn" aria-label="YouTube" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58zM9.75 15.02V8.98l5.75 3.02-5.75 3.02z"/></svg>
+        </a>
+        <a href="#" class="social-btn" aria-label="Instagram">
+          <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="white" stroke-width="1.8"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="none" stroke="white" stroke-width="1.8"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
+        </a>
+        <a href="#" class="social-btn" aria-label="Yelp">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="ear-care.html">Ear Care &amp; Hearing</a></li>
+        <li><a href="hearing-aids.html">Hearing Aids</a></li>
+        <li><a href="#">Nose &amp; Sinus</a></li>
+        <li><a href="#">Balloon Sinuplasty</a></li>
+        <li><a href="#">Throat &amp; Voice</a></li>
+        <li><a href="#">Sleep Apnea</a></li>
+        <li><a href="#">Allergy Treatment</a></li>
+        <li><a href="#">Pediatric ENT</a></li>
+        <li><a href="pediatric-ent.html">Pediatric ENT</a></li>
+        <li><a href="ent-urgent-care.html">ENT Urgent Care</a></li>
+        <li><a href="index.html">All Services</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Information</h4>
+      <ul>
+        <li><a href="our-doctors.html">Meet the Providers</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="insurance.html">Insurance &amp; Billing</a></li>
+        <li><a href="patient-resources.html">Patient Resources</a></li>
+        <li><a href="reviews.html">Patient Reviews</a></li>
+        <li><a href="#">Ask the ENT</a></li>
+        <li><a href="videos.html">ENT Videos</a></li>
+        <li><a href="#">Patient Portal</a></li>
+        <li><a href="#">Pay Bill</a></li>
+        <li><a href="#">Post-Op Care</a></li>
+        <li><a href="#">Review Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <div class="footer-contact-block">
+        <div class="city">Austin</div>
+        <div class="phone"><a href="tel:5123394040">512-339-4040</a></div>
+        <div class="addr">12309 N Mopac Expy STE 100<br/>Austin, TX 78758</div>
+      </div>
+      <div class="footer-contact-block">
+        <div class="city">Lakeway</div>
+        <div class="phone"><a href="tel:5126824798">512-682-4798</a></div>
+        <div class="addr">4 Lakeway Centre Ct Unit B</div>
+      </div>
+      <div class="footer-contact-block">
+        <div class="city">Marble Falls &amp; Dripping Springs</div>
+        <div class="phone"><a href="tel:5123394040">512-339-4040</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy;2026 Capital ENT &amp; Sinus Center &nbsp;|&nbsp; All Rights Reserved</span>
+    <span>
+      <a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp;
+      <a href="#">Terms &amp; Conditions</a> &nbsp;&middot;&nbsp;
+      <a href="#">Sitemap</a>
+    </span>
+  </div>
+</footer>
+
+<!-- ── STICKY CTA ── -->
+<a href="#" class="sticky-cta" onclick="openBookingModal(event)" title="Book an Appointment">
+  <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+  Book Appointment
+</a>
+
+<!-- ── BOOKING MODAL ── -->
+<div id="bookingModal" class="modal" style="display:none;" role="dialog" aria-labelledby="bookingModalTitle" aria-hidden="true">
+  <div class="modal-overlay" onclick="closeBookingModal()" role="button" tabindex="0" aria-label="Close"></div>
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeBookingModal()" type="button" aria-label="Close booking form">&times;</button>
+    <div class="modal-header">
+      <h2 id="bookingModalTitle">Request an Appointment</h2>
+      <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+    </div>
+    <form id="bookingForm" class="modal-form" onsubmit="handleBookingSubmit(event)">
+      <div class="form-group">
+        <label for="fullName">Full Name *</label>
+        <input type="text" id="fullName" name="fullName" required placeholder="Jane Smith" aria-required="true">
+      </div>
+      <div class="form-group">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required placeholder="jane@example.com" aria-required="true">
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number *</label>
+        <input type="tel" id="phone" name="phone" required placeholder="(512) 000-0000" aria-required="true">
+      </div>
+      <div class="form-group">
+        <label for="location">Preferred Location *</label>
+        <select id="location" name="location" required aria-required="true">
+          <option value="">Select a location...</option>
+          <option value="austin">Austin — 12309 N Mopac Expy</option>
+          <option value="lakeway">Lakeway — 4 Lakeway Centre Ct</option>
+          <option value="marble_falls">Marble Falls — 801 Steve Hawkins Pkwy</option>
+          <option value="dripping_springs">Dripping Springs — 800 US-290</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="service">Service Type *</label>
+        <select id="service" name="service" required aria-required="true">
+          <option value="">Select a service...</option>
+          <option value="ear">Ear Care &amp; Hearing</option>
+          <option value="nose">Nose &amp; Sinus</option>
+          <option value="throat">Throat &amp; Sleep</option>
+          <option value="allergy">Allergy Treatment</option>
+          <option value="other">Other / Not Sure</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Additional Notes</label>
+        <textarea id="message" name="message" placeholder="Tell us about your condition (optional)" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn-red">Request Appointment</button>
+      <p class="form-disclaimer">By submitting this form, you agree to be contacted by Capital ENT at the number provided.</p>
+    </form>
+  </div>
+</div>
+
+<script>
+  /* ── BOOKING MODAL ── */
+  function openBookingModal(event) {
+    if (event) event.preventDefault();
+    const modal = document.getElementById('bookingModal');
+    modal.style.display = 'flex';
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    setTimeout(() => document.getElementById('fullName').focus(), 100);
+  }
+  function closeBookingModal() {
+    const modal = document.getElementById('bookingModal');
+    modal.style.display = 'none';
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+  function handleBookingSubmit(event) {
+    event.preventDefault();
+    const form = document.getElementById('bookingForm');
+    const btn  = form.querySelector('button[type="submit"]');
+    btn.textContent = '✓ Appointment Requested!';
+    btn.style.background = '#10b981';
+    setTimeout(() => {
+      form.reset();
+      btn.textContent = 'Request Appointment';
+      btn.style.background = '';
+      closeBookingModal();
+    }, 2000);
+  }
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeBookingModal();
+  });
+
+  /* ── CATEGORY FILTER ── */
+  function filterVideos(category, btn) {
+    // Update active button
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    // Show/hide sections and cards
+    const sections = {
+      'sinus':   document.getElementById('section-sinus'),
+      'sleep':   document.getElementById('section-sleep'),
+      'allergy': document.getElementById('section-allergy'),
+      'ear':     document.getElementById('section-ear'),
+    };
+    const featured = document.getElementById('section-featured');
+
+    if (category === 'all') {
+      featured.style.display = '';
+      Object.values(sections).forEach(s => { s.style.display = ''; });
+      document.querySelectorAll('.video-card').forEach(c => c.removeAttribute('data-hidden'));
+    } else {
+      featured.style.display = 'none';
+      Object.entries(sections).forEach(([key, sec]) => {
+        sec.style.display = key === category ? '' : 'none';
+      });
+    }
+
+    // Smooth scroll to first visible section
+    const target = category === 'all' ? featured : sections[category];
+    if (target) {
+      setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
+    }
+  }
+</script>
+
+</body>
+</html>

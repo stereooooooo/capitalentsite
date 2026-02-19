@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://www.youtube.com https://www.google.com; connect-src 'self';" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patient Resources | Capital ENT & Sinus Center — Austin, TX</title>
+  <meta name="description" content="Patient resources for Capital ENT & Sinus Center in Austin, TX. Find new patient forms, patient portal access, pre-visit checklists, post-procedure care instructions, insurance info, and more." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.capitalent.com/patient-resources.html" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Capital ENT & Sinus Center" />
+  <meta property="og:title" content="Patient Resources | Capital ENT & Sinus Center — Austin, TX" />
+  <meta property="og:description" content="New patient forms, patient portal, pre-visit checklists, post-procedure care instructions, insurance info, and more — all in one place." />
+  <meta property="og:url" content="https://www.capitalent.com/patient-resources.html" />
+  <meta property="og:image" content="https://www.capitalent.com/CENT-Horizontal-Color.png" />
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Patient Resources | Capital ENT & Sinus Center — Austin, TX" />
+  <meta name="twitter:description" content="New patient forms, patient portal, pre-visit checklists, post-procedure care instructions, insurance info, and more." />
+  <meta name="twitter:image" content="https://www.capitalent.com/CENT-Horizontal-Color.png" />
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png" />
+  <link rel="icon" type="image/png" sizes="256x256" href="favicon.png" />
+  <link rel="apple-touch-icon" sizes="256x256" href="favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy:#1a2e5a; --navy-dk:#111f3e; --red:#b71c1c; --red-lt:#cc2222; --white:#ffffff; --off:#f4f6fa; --gray:#64748b; --border:#dde3ed; --radius:8px; --shadow:0 2px 16px rgba(0,0,0,.09); --font:'Inter','Segoe UI',system-ui,-apple-system,sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family:var(--font); color:#1e293b; background:var(--white); font-size:15px; line-height:1.6; }
+    a { text-decoration:none; color:inherit; }
+    img { display:block; max-width:100%; }
+    @keyframes fadeInUp { from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);} }
+    @keyframes fadeIn   { from{opacity:0;}to{opacity:1;} }
+    @keyframes pulse    { 0%,100%{opacity:1;}50%{opacity:0.5;} }
+    @keyframes slideInFromBottom { from{opacity:0;transform:translateY(30px);}to{opacity:1;transform:translateY(0);} }
+
+    /* ── UTILITY BAR ── */
+    .util-bar{background:var(--navy-dk);color:rgba(255,255,255,.75);font-size:12.5px;padding:0 40px;display:flex;align-items:stretch;justify-content:space-between;height:38px;}
+    .util-phones{display:flex;align-items:center;gap:22px;}
+    .util-phones span{white-space:nowrap;}
+    .util-phones b{color:var(--white);font-weight:600;}
+    .util-phones a{color:rgba(255,255,255,.9);font-weight:600;transition:color .2s;text-decoration:underline;}
+    .util-phones a:hover{color:var(--white);}
+    .util-actions{display:flex;align-items:stretch;}
+    .util-actions a{display:flex;align-items:center;padding:0 16px;font-size:12px;font-weight:600;color:rgba(255,255,255,.8);border-left:1px solid rgba(255,255,255,.1);letter-spacing:.3px;transition:background .15s,color .15s;}
+    .util-actions a:hover{background:rgba(255,255,255,.07);color:var(--white);}
+
+    /* ── NAVBAR ── */
+    .navbar{background:var(--white);border-bottom:3px solid var(--red);padding:0 40px;height:72px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.07);}
+    .nav-logo img{height:46px;width:auto;display:block;}
+    nav.main-nav{display:flex;align-items:center;gap:2px;}
+    nav.main-nav a{padding:8px 13px;font-size:13.5px;font-weight:600;color:var(--navy);border-radius:5px;transition:background .2s,color .2s;white-space:nowrap;position:relative;}
+    nav.main-nav a::after{content:'';position:absolute;bottom:-2px;left:0;height:2px;background:var(--red);width:0;transition:width .3s;}
+    nav.main-nav a:hover{background:rgba(183,28,28,.05);color:var(--red);}
+    nav.main-nav a:hover::after{width:100%;}
+    .nav-book{background:var(--red);color:var(--white)!important;padding:10px 22px!important;border-radius:6px!important;margin-left:10px;font-size:13.5px!important;transition:background .3s,transform .3s,box-shadow .3s!important;box-shadow:0 4px 12px rgba(183,28,28,.3);}
+    nav.main-nav a.nav-book::after{display:none;}
+    .nav-book:hover{background:var(--red-lt)!important;color:var(--white)!important;transform:translateY(-2px);box-shadow:0 0 12px rgba(183,28,28,.6),0 6px 16px rgba(183,28,28,.4)!important;}
+
+    /* ── HERO ── */
+    .page-hero{background:linear-gradient(135deg,var(--navy-dk) 0%,var(--navy) 60%,#1e3a70 100%);padding:72px 40px 60px;position:relative;overflow:hidden;}
+    .page-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 70% 50%,rgba(232,184,75,.07) 0%,transparent 60%);}
+    .page-hero-inner{max-width:1100px;margin:0 auto;position:relative;z-index:1;}
+    .page-hero .eyebrow{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#e8b84b;margin-bottom:14px;background:rgba(232,184,75,.1);border:1px solid rgba(232,184,75,.25);padding:5px 14px;border-radius:20px;}
+    .page-hero h1{font-size:50px;font-weight:800;color:var(--white);letter-spacing:-.5px;line-height:1.1;margin-bottom:18px;animation:fadeInUp .8s ease-out .1s both;}
+    .page-hero h1 span{color:#e8b84b;}
+    .page-hero p{font-size:17px;color:rgba(255,255,255,.8);max-width:580px;line-height:1.65;margin-bottom:32px;animation:fadeInUp .8s ease-out .3s both;}
+    .hero-btns{display:flex;gap:12px;flex-wrap:wrap;animation:fadeInUp .8s ease-out .5s both;}
+    .btn-red{background:var(--red);color:var(--white);padding:14px 30px;border-radius:7px;font-size:15px;font-weight:700;display:inline-flex;align-items:center;gap:9px;box-shadow:0 4px 16px rgba(183,28,28,.35);transition:transform .2s,box-shadow .2s,background .2s;white-space:nowrap;}
+    .btn-red:hover{transform:translateY(-3px);box-shadow:0 0 20px rgba(183,28,28,.6),0 8px 28px rgba(183,28,28,.5);background:var(--red-lt);}
+    .btn-ghost{background:transparent;color:var(--white);padding:14px 30px;border-radius:7px;font-size:15px;font-weight:700;border:2px solid rgba(255,255,255,.45);display:inline-flex;align-items:center;gap:9px;transition:border-color .3s,background .3s;white-space:nowrap;}
+    .btn-ghost:hover{border-color:var(--white);background:rgba(255,255,255,.15);}
+
+    /* ── BREADCRUMB ── */
+    .breadcrumb{background:var(--off);border-bottom:1px solid var(--border);padding:10px 40px;font-size:13px;color:var(--gray);}
+    .breadcrumb-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:8px;}
+    .breadcrumb a{color:var(--navy);font-weight:600;transition:color .2s;}
+    .breadcrumb a:hover{color:var(--red);}
+
+    /* ── SECTIONS ── */
+    .section{padding:72px 40px;}
+    .section.bg-off{background:var(--off);}
+    .section-inner{max-width:1100px;margin:0 auto;}
+    .section-head{text-align:center;margin-bottom:50px;}
+    .section-head .eyebrow{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--red);margin-bottom:10px;}
+    .section-head h2{font-size:34px;font-weight:800;color:var(--navy);letter-spacing:-.4px;line-height:1.2;}
+    .section-head p{font-size:16px;color:var(--gray);margin-top:12px;max-width:560px;margin-left:auto;margin-right:auto;line-height:1.7;}
+    .rule{width:52px;height:3px;background:var(--red);border-radius:2px;margin:14px auto 0;}
+
+    /* ── QUICK LINKS GRID (top cards) ── */
+    .quick-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+    .quick-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:32px 28px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:0;transition:transform .3s,box-shadow .3s,border-color .3s;position:relative;overflow:hidden;}
+    .quick-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:transform .3s;}
+    .quick-card:hover{transform:translateY(-4px);box-shadow:0 14px 36px rgba(0,0,0,.12);border-color:rgba(183,28,28,.2);}
+    .quick-card:hover::before{transform:scaleX(1);}
+    .quick-card-icon{width:52px;height:52px;background:linear-gradient(135deg,var(--navy),#1e3a70);border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:18px;flex-shrink:0;}
+    .quick-card-icon svg{width:26px;height:26px;stroke:white;fill:none;stroke-width:1.8;}
+    .quick-card h3{font-size:17px;font-weight:800;color:var(--navy);margin-bottom:8px;}
+    .quick-card p{font-size:13.5px;color:var(--gray);line-height:1.65;flex:1;margin-bottom:20px;}
+    .quick-card-link{display:inline-flex;align-items:center;gap:7px;font-size:13.5px;font-weight:700;color:var(--red);transition:gap .2s;}
+    .quick-card-link:hover{gap:11px;}
+    .quick-card-link svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2.5;}
+
+    /* ── TABBED CONTENT ── */
+    .tabs-wrap{background:var(--white);}
+    .tab-nav{display:flex;gap:0;border-bottom:2px solid var(--border);overflow-x:auto;}
+    .tab-btn{padding:14px 22px;font-size:14px;font-weight:600;color:var(--gray);border:none;border-bottom:3px solid transparent;background:none;cursor:pointer;white-space:nowrap;font-family:inherit;margin-bottom:-2px;transition:color .2s,border-color .2s;}
+    .tab-btn:hover{color:var(--navy);}
+    .tab-btn.active{color:var(--red);border-bottom-color:var(--red);}
+    .tab-panel{display:none;padding:36px 0;}
+    .tab-panel.active{display:block;}
+
+    /* ── CHECKLIST PANEL ── */
+    .checklist-cols{display:grid;grid-template-columns:1fr 1fr;gap:32px;}
+    .checklist-box{background:var(--off);border:1px solid var(--border);border-radius:var(--radius);padding:26px 28px;}
+    .checklist-box h3{font-size:16px;font-weight:800;color:var(--navy);margin-bottom:16px;display:flex;align-items:center;gap:10px;}
+    .checklist-box h3 svg{width:20px;height:20px;stroke:var(--red);fill:none;stroke-width:2;flex-shrink:0;}
+    .cl-list{list-style:none;display:flex;flex-direction:column;gap:10px;}
+    .cl-list li{display:flex;align-items:flex-start;gap:10px;font-size:14px;color:#374151;line-height:1.55;}
+    .cl-list li::before{content:'';width:18px;height:18px;background:rgba(183,28,28,.1);border:1px solid rgba(183,28,28,.2);border-radius:50%;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='%23b71c1c' stroke-width='3'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center;}
+
+    /* ── POST-OP CARDS ── */
+    .postop-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;}
+    .postop-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);}
+    .postop-card-head{background:linear-gradient(135deg,var(--navy),#1e3a70);padding:20px 24px;display:flex;align-items:center;gap:14px;}
+    .postop-card-head svg{width:22px;height:22px;stroke:white;fill:none;stroke-width:1.8;flex-shrink:0;}
+    .postop-card-head h3{font-size:16px;font-weight:700;color:var(--white);}
+    .postop-card-body{padding:22px 24px;}
+    .postop-card-body p{font-size:13.5px;color:var(--gray);line-height:1.7;margin-bottom:12px;}
+    .postop-card-body ul{list-style:none;display:flex;flex-direction:column;gap:8px;}
+    .postop-card-body ul li{display:flex;align-items:flex-start;gap:9px;font-size:13.5px;color:#374151;line-height:1.5;}
+    .postop-card-body ul li::before{content:'›';color:var(--red);font-weight:700;font-size:16px;line-height:1.3;flex-shrink:0;}
+
+    /* ── FORMS SECTION ── */
+    .forms-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+    .form-tile{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:14px;align-items:flex-start;transition:transform .25s,box-shadow .25s;}
+    .form-tile:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.1);}
+    .form-tile-icon{width:42px;height:42px;background:rgba(26,46,90,.07);border:1px solid rgba(26,46,90,.12);border-radius:9px;display:flex;align-items:center;justify-content:center;}
+    .form-tile-icon svg{width:20px;height:20px;stroke:var(--navy);fill:none;stroke-width:1.8;}
+    .form-tile h4{font-size:15px;font-weight:700;color:var(--navy);line-height:1.3;}
+    .form-tile p{font-size:13px;color:var(--gray);line-height:1.6;flex:1;}
+    .form-tile-badge{font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;background:rgba(16,185,129,.1);color:#059669;border:1px solid rgba(16,185,129,.25);border-radius:12px;padding:3px 10px;}
+    .btn-tile{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:700;color:var(--red);border:1.5px solid var(--red);border-radius:6px;padding:8px 14px;transition:background .2s,color .2s;}
+    .btn-tile:hover{background:var(--red);color:var(--white);}
+    .btn-tile svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2.5;}
+
+    /* ── CONTACT STRIP ── */
+    .contact-strip{background:linear-gradient(135deg,var(--navy),#1e3a70);border-radius:12px;padding:36px 44px;display:grid;grid-template-columns:repeat(4,1fr);gap:24px;text-align:center;}
+    .contact-strip-item .contact-label{font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:6px;}
+    .contact-strip-item .contact-city{font-size:15px;font-weight:700;color:#e8b84b;margin-bottom:2px;}
+    .contact-strip-item .contact-phone a{font-size:18px;font-weight:700;color:var(--white);text-decoration:underline;}
+    .contact-strip-item .contact-phone a:hover{color:#e8b84b;}
+    .contact-strip-item .contact-addr{font-size:12.5px;color:rgba(255,255,255,.55);margin-top:4px;line-height:1.5;}
+
+    /* ── INFO SPLIT ── */
+    .info-split{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
+    .info-copy .eyebrow{display:inline-block;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--red);margin-bottom:12px;}
+    .info-copy h2{font-size:30px;font-weight:800;color:var(--navy);line-height:1.2;margin-bottom:16px;letter-spacing:-.3px;}
+    .info-copy p{font-size:15px;color:var(--gray);line-height:1.75;margin-bottom:16px;}
+    .portal-features{list-style:none;display:flex;flex-direction:column;gap:12px;margin-top:8px;}
+    .portal-features li{display:flex;align-items:flex-start;gap:12px;font-size:14.5px;color:#374151;line-height:1.5;}
+    .portal-features li .pf-icon{width:22px;height:22px;background:rgba(183,28,28,.1);border:1px solid rgba(183,28,28,.2);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;}
+    .portal-features li .pf-icon svg{width:11px;height:11px;stroke:var(--red);fill:none;stroke-width:3;}
+    .portal-cta-box{background:var(--navy);border-radius:12px;padding:40px;display:flex;flex-direction:column;align-items:flex-start;gap:16px;box-shadow:0 16px 48px rgba(0,0,0,.2);}
+    .portal-cta-box .portal-logo-hint{font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.45);}
+    .portal-cta-box h3{font-size:26px;font-weight:800;color:var(--white);line-height:1.2;}
+    .portal-cta-box p{font-size:14px;color:rgba(255,255,255,.65);line-height:1.7;}
+    .btn-gold{display:inline-flex;align-items:center;gap:9px;background:#e8b84b;color:#1a2e5a;font-size:15px;font-weight:700;padding:14px 28px;border-radius:7px;transition:background .3s,transform .3s,box-shadow .3s;box-shadow:0 4px 16px rgba(232,184,75,.3);}
+    .btn-gold:hover{background:#f0c85a;transform:translateY(-3px);box-shadow:0 8px 28px rgba(232,184,75,.5);}
+    .btn-ghost-navy{display:inline-flex;align-items:center;gap:9px;background:transparent;color:rgba(255,255,255,.8);font-size:14px;font-weight:600;padding:10px 0;border:none;cursor:pointer;font-family:inherit;transition:color .2s;}
+    .btn-ghost-navy:hover{color:var(--white);}
+    .btn-ghost-navy svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2;}
+
+    /* ── ALLERGY FAQ ACCORDION (reused) ── */
+    .res-faq{display:flex;flex-direction:column;gap:10px;}
+    .rfaq-item{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);}
+    .rfaq-q{width:100%;background:var(--white);border:none;padding:18px 22px;text-align:left;font-size:15px;font-weight:600;color:var(--navy);cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;font-family:inherit;transition:background .2s;}
+    .rfaq-q:hover{background:rgba(26,46,90,.03);}
+    .rfaq-q[aria-expanded="true"]{background:rgba(26,46,90,.04);}
+    .rfaq-q[aria-expanded="true"] .rfaq-chevron{transform:rotate(180deg);}
+    .rfaq-chevron{width:18px;height:18px;stroke:var(--gray);fill:none;stroke-width:2;flex-shrink:0;transition:transform .3s;}
+    .rfaq-a{max-height:0;overflow:hidden;transition:max-height .35s ease;}
+    .rfaq-a-inner{padding:0 22px 20px;font-size:14.5px;color:var(--gray);line-height:1.75;border-top:1px solid var(--border);}
+    .rfaq-a-inner a{color:var(--red);font-weight:600;text-decoration:underline;}
+
+    /* ── CTA BAND ── */
+    .cta-band{background:linear-gradient(100deg,#991515 0%,var(--red) 60%,#cc2a2a 100%);padding:52px 40px;text-align:center;}
+    .cta-band-inner{max-width:700px;margin:0 auto;}
+    .cta-band h2{font-size:32px;font-weight:800;color:var(--white);margin-bottom:12px;}
+    .cta-band p{font-size:16px;color:rgba(255,255,255,.85);margin-bottom:28px;line-height:1.6;}
+    .cta-band-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;}
+    .btn-white{background:var(--white);color:var(--red);font-weight:700;padding:14px 30px;border-radius:7px;font-size:15px;white-space:nowrap;display:inline-flex;align-items:center;gap:9px;transition:background .2s,box-shadow .2s,transform .2s;box-shadow:0 4px 16px rgba(0,0,0,.15);}
+    .btn-white:hover{background:#f0f0f0;transform:translateY(-2px);box-shadow:0 8px 28px rgba(0,0,0,.25);}
+    .btn-outline-white{background:transparent;color:var(--white);font-weight:700;padding:14px 30px;border-radius:7px;font-size:15px;border:2px solid rgba(255,255,255,.5);display:inline-flex;align-items:center;gap:9px;transition:border-color .3s,background .3s;}
+    .btn-outline-white:hover{border-color:var(--white);background:rgba(255,255,255,.15);}
+
+    /* ── FOOTER ── */
+    footer{background:var(--navy);padding:60px 40px 30px;}
+    .footer-grid{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:2.2fr 1fr 1fr 1.5fr;gap:44px;padding-bottom:44px;border-bottom:1px solid rgba(255,255,255,.1);}
+    .footer-brand p{font-size:13.5px;color:rgba(255,255,255,.6);line-height:1.75;margin-top:16px;}
+    .social-row{display:flex;gap:8px;margin-top:20px;}
+    .social-btn{width:34px;height:34px;background:rgba(255,255,255,.1);border-radius:6px;display:flex;align-items:center;justify-content:center;transition:background .3s,transform .3s;}
+    .social-btn:hover{background:var(--red);transform:translateY(-3px);}
+    .social-btn svg{width:15px;height:15px;fill:white;}
+    footer h4{font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:1.8px;color:var(--white);margin-bottom:18px;}
+    footer ul{list-style:none;display:flex;flex-direction:column;gap:9px;}
+    footer ul li a{font-size:13.5px;color:rgba(255,255,255,.6);transition:color .25s;}
+    footer ul li a:hover{color:var(--white);}
+    .footer-contact-block{margin-bottom:18px;}
+    .footer-contact-block .city{font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.45);margin-bottom:2px;}
+    .footer-contact-block .phone{font-size:16px;font-weight:700;color:var(--white);}
+    .footer-contact-block .phone a{color:var(--white);text-decoration:underline;}
+    .footer-contact-block .phone a:hover{color:#e8b84b;}
+    .footer-contact-block .addr{font-size:13px;color:rgba(255,255,255,.55);line-height:1.6;}
+    .footer-bottom{max-width:1100px;margin:0 auto;padding-top:22px;display:flex;align-items:center;justify-content:space-between;font-size:12px;color:rgba(255,255,255,.35);flex-wrap:wrap;gap:10px;}
+    .footer-bottom a{color:rgba(255,255,255,.35);transition:color .15s;}
+    .footer-bottom a:hover{color:rgba(255,255,255,.65);}
+
+    /* ── STICKY CTA ── */
+    .sticky-cta{position:fixed;bottom:28px;right:28px;background:var(--red);color:var(--white);font-size:14px;font-weight:700;padding:14px 24px;border-radius:50px;box-shadow:0 6px 22px rgba(183,28,28,.45);display:flex;align-items:center;gap:9px;cursor:pointer;z-index:200;transition:transform .15s,box-shadow .15s;animation:pulse 3s ease-in-out 2s infinite;text-decoration:none;}
+    .sticky-cta:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(183,28,28,.5);animation:none;}
+    .sticky-cta svg{width:16px;height:16px;fill:none;stroke:white;stroke-width:2;}
+
+    /* ── MODAL ── */
+    .modal{position:fixed;top:0;left:0;right:0;bottom:0;z-index:1000;display:flex;align-items:center;justify-content:center;animation:fadeIn .3s ease;}
+    .modal-overlay{position:absolute;inset:0;background:rgba(0,0,0,.5);cursor:pointer;}
+    .modal-content{position:relative;background:var(--white);border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.3);max-width:500px;width:90%;max-height:90vh;overflow-y:auto;animation:slideInFromBottom .4s ease;z-index:1001;}
+    .modal-close{position:absolute;top:16px;right:16px;width:32px;height:32px;background:rgba(0,0,0,.05);border:none;border-radius:50%;font-size:24px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#374151;}
+    .modal-close:hover{background:rgba(0,0,0,.1);}
+    .modal-header{padding:32px 32px 16px;border-bottom:1px solid var(--border);}
+    .modal-header h2{font-size:24px;font-weight:800;color:var(--navy);margin-bottom:8px;}
+    .modal-header p{font-size:14px;color:var(--gray);}
+    .modal-form{padding:32px;display:flex;flex-direction:column;gap:20px;}
+    .form-group{display:flex;flex-direction:column;}
+    .form-group label{font-size:13px;font-weight:700;color:var(--navy);margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px;}
+    .form-group input,.form-group select,.form-group textarea{padding:10px 14px;border:1.5px solid var(--border);border-radius:6px;font-size:14px;font-family:inherit;transition:border-color .2s,box-shadow .2s;}
+    .form-group input:focus,.form-group select:focus,.form-group textarea:focus{outline:none;border-color:var(--red);box-shadow:0 0 0 3px rgba(183,28,28,.1);}
+    .form-disclaimer{font-size:11px;color:var(--gray);text-align:center;margin-top:10px;}
+    .modal-form .btn-red{padding:12px 30px!important;font-size:15px!important;width:100%!important;border:none!important;justify-content:center;}
+    .skip-link{position:absolute;top:-100px;left:16px;background:var(--navy);color:#fff;padding:10px 18px;border-radius:6px;font-weight:600;font-size:14px;z-index:9999;transition:top .2s;}
+    .skip-link:focus{top:16px;}
+
+    @media(max-width:900px){
+      .quick-grid,.forms-grid{grid-template-columns:1fr 1fr;}
+      .postop-grid,.checklist-cols{grid-template-columns:1fr;}
+      .contact-strip{grid-template-columns:1fr 1fr;}
+      .info-split{grid-template-columns:1fr;}
+      .page-hero h1{font-size:36px;}
+      .util-phones span:nth-child(n+3){display:none;}
+    }
+    @media(max-width:600px){
+      .util-bar{padding:0 16px;}
+      .navbar{padding:0 16px;}
+      .page-hero{padding:48px 20px 40px;}
+      .section{padding:48px 20px;}
+      .breadcrumb{padding:10px 20px;}
+      footer{padding:48px 20px 24px;}
+      .footer-grid{grid-template-columns:1fr 1fr;gap:28px;}
+      .quick-grid,.forms-grid{grid-template-columns:1fr;}
+      .contact-strip{grid-template-columns:1fr;text-align:left;}
+      .cta-band{padding:40px 20px;}
+      .sticky-cta{bottom:16px;right:16px;padding:12px 18px;font-size:13px;}
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MedicalOrganization",
+        "@id": "https://www.capitalent.com/#organization",
+        "name": "Capital ENT & Sinus Center",
+        "url": "https://www.capitalent.com",
+        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+        "telephone": "+15123394040",
+        "medicalSpecialty": "Otolaryngology"
+      },
+      {
+        "@type": "MedicalWebPage",
+        "@id": "https://www.capitalent.com/patient-resources.html#webpage",
+        "url": "https://www.capitalent.com/patient-resources.html",
+        "name": "Patient Resources | Capital ENT & Sinus Center — Austin, TX",
+        "description": "Patient resources for Capital ENT & Sinus Center. New patient forms, patient portal access, pre-visit checklists, post-procedure care instructions, insurance info, and more.",
+        "isPartOf": { "@id": "https://www.capitalent.com/#organization" },
+        "specialty": "Otolaryngology",
+        "medicalAudience": { "@type": "Patient" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- ── UTILITY BAR ── -->
+<div class="util-bar">
+  <div class="util-phones">
+    <span><b>Austin:</b> <a href="tel:5123394040">512-339-4040</a></span>
+    <span><b>Lakeway:</b> <a href="tel:5126824798">512-682-4798</a></span>
+    <span><b>Marble Falls:</b> <a href="tel:5123394040">512-339-4040</a></span>
+    <span><b>Dripping Springs:</b> <a href="tel:5123394040">512-339-4040</a></span>
+  </div>
+  <div class="util-actions">
+    <a href="https://www.capitalent.com/patient-portal/" target="_blank" rel="noopener">Patient Portal</a>
+    <a href="https://www.capitalent.com/make-a-payment/" target="_blank" rel="noopener">Pay Bill</a>
+  </div>
+</div>
+
+<!-- ── NAVBAR ── -->
+<div class="navbar">
+  <div class="nav-logo">
+    <a href="index.html"><img src="CENT-Horizontal-Color.png" alt="Capital ENT &amp; Sinus Center" /></a>
+  </div>
+  <nav class="main-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="ear-care.html">Ear Care</a>
+    <a href="nose-sinus.html">Nose &amp; Sinus</a>
+    <a href="throat-sleep.html">Throat &amp; Sleep</a>
+    <a href="allergy.html">Allergy</a>
+    <a href="our-doctors.html">Our Doctors</a>
+    <a href="locations.html">Locations</a>
+    <a href="videos.html">Videos</a>
+    <a href="#" class="nav-book" onclick="openBookingModal(event)">Request Appointment</a>
+  </nav>
+</div>
+
+<main id="main-content">
+
+<!-- ── PAGE HERO ── -->
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <div class="eyebrow">For Our Patients</div>
+    <h1>Patient <span>Resources</span></h1>
+    <p>Everything you need before, during, and after your visit — in one place. Access your patient portal, download forms, review care instructions, and more.</p>
+    <div class="hero-btns">
+      <a href="https://www.capitalent.com/patient-portal/" target="_blank" rel="noopener" class="btn-red">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+        Access Patient Portal
+      </a>
+      <a href="#" class="btn-ghost" onclick="openBookingModal(event)">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        Request an Appointment
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── BREADCRUMB ── -->
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="index.html">Home</a>
+    <span>›</span>
+    <span>Patient Resources</span>
+  </div>
+</div>
+
+<!-- ── QUICK LINKS ── -->
+<section class="section">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="eyebrow">Quick Access</div>
+      <h2>What Can We Help You With?</h2>
+      <p>Jump to the section that's most relevant to your needs right now.</p>
+      <div class="rule"></div>
+    </div>
+    <div class="quick-grid">
+
+      <div class="quick-card">
+        <div class="quick-card-icon">
+          <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+        </div>
+        <h3>Patient Portal</h3>
+        <p>Access your health records, lab results, visit summaries, and secure messages with your care team — anytime, anywhere.</p>
+        <a href="https://www.capitalent.com/patient-portal/" target="_blank" rel="noopener" class="quick-card-link">
+          Go to Portal <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+
+      <div class="quick-card">
+        <div class="quick-card-icon">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <h3>New Patient Forms</h3>
+        <p>Complete your intake paperwork before your first visit to save time at check-in. Forms are available through our secure patient portal.</p>
+        <a href="https://www.capitalent.com/patient-portal/" target="_blank" rel="noopener" class="quick-card-link">
+          Get Forms <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+
+      <div class="quick-card">
+        <div class="quick-card-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Insurance &amp; Billing</h3>
+        <p>Learn about accepted insurance plans, understand your coverage, get billing questions answered, and pay your bill online.</p>
+        <a href="insurance.html" class="quick-card-link">
+          Insurance Info <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+
+      <div class="quick-card">
+        <div class="quick-card-icon">
+          <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </div>
+        <h3>Request an Appointment</h3>
+        <p>Schedule online or call us directly. Same-day and next-day appointments are often available at all four Central Texas locations.</p>
+        <a href="#" class="quick-card-link" onclick="openBookingModal(event)">
+          Book Now <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+
+      <div class="quick-card">
+        <div class="quick-card-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        </div>
+        <h3>FAQ</h3>
+        <p>Find answers to common questions about appointments, procedures, insurance coverage, ENT conditions, and what to expect as a patient.</p>
+        <a href="faq.html" class="quick-card-link">
+          Read FAQs <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+
+      <div class="quick-card">
+        <div class="quick-card-icon">
+          <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <h3>Our Locations</h3>
+        <p>Find maps, directions, hours, and contact details for all four of our Central Texas offices — Austin, Lakeway, Marble Falls, and Dripping Springs.</p>
+        <a href="locations.html" class="quick-card-link">
+          Find a Location <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── PATIENT PORTAL ── -->
+<section class="section bg-off" id="portal">
+  <div class="section-inner">
+    <div class="info-split">
+      <div class="info-copy">
+        <div class="eyebrow">Online Account</div>
+        <h2>Your Patient Portal</h2>
+        <p>The Capital ENT patient portal gives you 24/7 secure access to your health information and makes managing your care easier than ever — no hold music, no waiting.</p>
+        <ul class="portal-features">
+          <li>
+            <div class="pf-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            View visit summaries, lab results, and after-visit notes
+          </li>
+          <li>
+            <div class="pf-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            Send secure messages to your care team
+          </li>
+          <li>
+            <div class="pf-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            Request prescription refills
+          </li>
+          <li>
+            <div class="pf-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            Complete new patient and pre-visit forms
+          </li>
+          <li>
+            <div class="pf-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            Review and update your health history and medications
+          </li>
+          <li>
+            <div class="pf-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            View and download referral letters and imaging reports
+          </li>
+        </ul>
+      </div>
+      <div class="portal-cta-box">
+        <div class="portal-logo-hint">Capital ENT &amp; Sinus Center</div>
+        <h3>Patient Portal Access</h3>
+        <p>Log in to your existing account or create a new account to get started. You'll receive an enrollment invitation by email after your first visit.</p>
+        <a href="https://www.capitalent.com/patient-portal/" target="_blank" rel="noopener" class="btn-gold">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+          Log In to Portal
+        </a>
+        <a href="tel:5123394040" class="btn-ghost-navy">
+          <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2A19.79 19.79 0 013.09 5.18 2 2 0 015.07 3h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.09 10.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 17.92z"/></svg>
+          Need help? Call 512-339-4040
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── BEFORE YOUR VISIT (tabbed) ── -->
+<section class="section" id="before-visit">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="eyebrow">Visit Preparation</div>
+      <h2>Before Your Appointment</h2>
+      <p>A little preparation goes a long way. Here's what to expect and how to get ready for your visit.</p>
+      <div class="rule"></div>
+    </div>
+
+    <div class="tabs-wrap">
+      <div class="tab-nav" role="tablist" aria-label="Visit types">
+        <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="tab-new" data-tab="new">New Patient Visit</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-follow" data-tab="follow">Follow-Up Visit</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-allergy" data-tab="allergy">Allergy Testing</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-hearing" data-tab="hearing">Hearing Test</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-procedure" data-tab="procedure">In-Office Procedure</button>
+      </div>
+
+      <!-- NEW PATIENT -->
+      <div class="tab-panel active" id="tab-new" role="tabpanel">
+        <div class="checklist-cols">
+          <div class="checklist-box">
+            <h3>
+              <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              What to Bring
+            </h3>
+            <ul class="cl-list">
+              <li>Photo ID (driver's license or government-issued ID)</li>
+              <li>Insurance card(s) — primary and secondary if applicable</li>
+              <li>Referral paperwork (if required by your plan)</li>
+              <li>List of current medications with dosages</li>
+              <li>Any prior imaging: CT scans, MRI, or X-ray on disc or digital copy</li>
+              <li>Completed new patient forms (available on the patient portal)</li>
+              <li>Co-pay payment — we accept cash, check, and major credit cards</li>
+            </ul>
+          </div>
+          <div class="checklist-box">
+            <h3>
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              What to Expect
+            </h3>
+            <ul class="cl-list">
+              <li>Arrive 15 minutes early to complete any remaining paperwork</li>
+              <li>Your provider will review your health history and chief complaint</li>
+              <li>A thorough examination of your ears, nose, or throat as relevant</li>
+              <li>Possible in-office tests (hearing test, nasal endoscopy, etc.)</li>
+              <li>Discussion of your diagnosis and treatment options</li>
+              <li>Next steps outlined: prescription, referral, imaging, or procedure scheduling</li>
+              <li>Plan for 45–60 minutes for a new patient visit</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOLLOW-UP -->
+      <div class="tab-panel" id="tab-follow" role="tabpanel">
+        <div class="checklist-cols">
+          <div class="checklist-box">
+            <h3>
+              <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              What to Bring
+            </h3>
+            <ul class="cl-list">
+              <li>Insurance card (if your plan or coverage has changed)</li>
+              <li>Any new medications added since your last visit</li>
+              <li>New imaging or test results ordered by another provider</li>
+              <li>A written list of questions or concerns for your provider</li>
+              <li>Your co-pay payment</li>
+            </ul>
+          </div>
+          <div class="checklist-box">
+            <h3>
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              What to Expect
+            </h3>
+            <ul class="cl-list">
+              <li>Your provider will review how you have responded to treatment</li>
+              <li>Follow-up examination of the relevant area</li>
+              <li>Adjustment of your treatment plan if needed</li>
+              <li>Plan for 20–30 minutes for a follow-up appointment</li>
+              <li>Prescription renewals or referrals as appropriate</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- ALLERGY TESTING -->
+      <div class="tab-panel" id="tab-allergy" role="tabpanel">
+        <div class="checklist-cols">
+          <div class="checklist-box">
+            <h3>
+              <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              Before Allergy Testing
+            </h3>
+            <ul class="cl-list">
+              <li><strong>Stop antihistamines 5–7 days before testing</strong> — including OTC products like Zyrtec, Claritin, Allegra, Benadryl, and Xyzal</li>
+              <li>Stop nasal antihistamine sprays (e.g., Astelin, Patanase) for 5 days before</li>
+              <li>Tricyclic antidepressants (Elavil, Pamelor) must be stopped 7–10 days before — check with your prescriber before stopping</li>
+              <li>Do NOT stop inhaled steroids, nasal steroid sprays, or asthma medications</li>
+              <li>Wear loose, short-sleeved clothing — testing is done on the arms or back</li>
+              <li>Eat normally before your appointment — do not fast</li>
+            </ul>
+          </div>
+          <div class="checklist-box">
+            <h3>
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              What to Expect
+            </h3>
+            <ul class="cl-list">
+              <li>Small amounts of allergen extracts are applied to the skin by gentle prick — not injections</li>
+              <li>You wait 15–20 minutes for results to develop</li>
+              <li>A small raised bump at any site indicates allergy to that substance</li>
+              <li>Results are reviewed with you immediately after testing</li>
+              <li>Your allergist will use results to build a customized immunotherapy plan</li>
+              <li>Mild itching and redness at test sites is normal and resolves quickly</li>
+              <li>Plan for 1.5–2 hours for a full allergy evaluation and testing session</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- HEARING TEST -->
+      <div class="tab-panel" id="tab-hearing" role="tabpanel">
+        <div class="checklist-cols">
+          <div class="checklist-box">
+            <h3>
+              <svg viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0118 0v6"/><path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3z"/><path d="M3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"/></svg>
+              Before Your Hearing Evaluation
+            </h3>
+            <ul class="cl-list">
+              <li>No special preparation is required for a standard hearing test</li>
+              <li>Avoid loud noise exposure (concerts, power tools) for 24 hours before testing if possible</li>
+              <li>Let us know if you have ear canal issues, a perforated eardrum, or active ear infection</li>
+              <li>Bring a list of any medications you take — some drugs (ototoxic medications) can affect hearing</li>
+              <li>For children: bring a comfort item and arrive well-rested for the most accurate results</li>
+            </ul>
+          </div>
+          <div class="checklist-box">
+            <h3>
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              What to Expect
+            </h3>
+            <ul class="cl-list">
+              <li>Pure-tone audiometry: you respond to tones played through headphones at different pitches and volumes</li>
+              <li>Speech audiometry: you repeat words to test comprehension</li>
+              <li>Tympanometry: a small device checks eardrum movement and middle ear pressure</li>
+              <li>Painless and non-invasive — no injections or discomfort</li>
+              <li>Results reviewed with you immediately by our audiologist</li>
+              <li>Hearing aid recommendations made if appropriate, with no-pressure guidance</li>
+              <li>Plan for 30–45 minutes for a complete evaluation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- IN-OFFICE PROCEDURE -->
+      <div class="tab-panel" id="tab-procedure" role="tabpanel">
+        <div class="checklist-cols">
+          <div class="checklist-box">
+            <h3>
+              <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              Preparing for Your Procedure
+            </h3>
+            <ul class="cl-list">
+              <li>Follow any medication instructions provided — some blood thinners may need to be stopped</li>
+              <li>Do not take aspirin or ibuprofen (Advil, Motrin) for 7–10 days unless your provider approves</li>
+              <li>Arrange a driver if sedation or IV anesthesia is used — do not drive after sedation</li>
+              <li>Wear comfortable, loose clothing — avoid jewelry around the neck or ears</li>
+              <li>Bring your insurance card and photo ID</li>
+              <li>If fasting is required, your care team will give specific instructions in advance</li>
+              <li>Ask any remaining questions before the day of the procedure</li>
+            </ul>
+          </div>
+          <div class="checklist-box">
+            <h3>
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              What to Expect
+            </h3>
+            <ul class="cl-list">
+              <li>Local anesthesia will be applied to numb the area before the procedure</li>
+              <li>Your provider will explain each step before they begin</li>
+              <li>Most in-office procedures take 30–60 minutes total</li>
+              <li>You will rest briefly after the procedure before being released</li>
+              <li>Written after-care instructions will be provided before you leave</li>
+              <li>A follow-up appointment is typically scheduled at 2–4 weeks</li>
+              <li>Contact us immediately if you experience severe pain, high fever, or significant bleeding</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── POST-PROCEDURE CARE ── -->
+<section class="section bg-off" id="aftercare">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="eyebrow">After Your Procedure</div>
+      <h2>Post-Procedure Care Instructions</h2>
+      <p>Proper aftercare helps you heal faster and get the best possible results. Follow the guidance below for your specific procedure.</p>
+      <div class="rule"></div>
+    </div>
+    <div class="postop-grid">
+
+      <div class="postop-card">
+        <div class="postop-card-head">
+          <svg viewBox="0 0 24 24"><path d="M12 22C6.49 22 2 17.52 2 12 2 6.5 6.49 2 12 2s10 4.5 10 10-4.49 10-10 10z"/><path d="M15 9H9l-2 6h10l-2-6z"/></svg>
+          <h3>Balloon Sinuplasty / Sinus Surgery</h3>
+        </div>
+        <div class="postop-card-body">
+          <p>Following your sinus procedure, careful aftercare will ensure the best healing and symptom relief.</p>
+          <ul>
+            <li>Rinse nasal passages with saline (e.g., NeilMed) 2–3 times daily starting the day after the procedure</li>
+            <li>Avoid blowing your nose forcefully for 1 week</li>
+            <li>Do not swim, use a hot tub, or submerge your face in water for 2 weeks</li>
+            <li>Avoid strenuous exercise or heavy lifting for 1–2 weeks</li>
+            <li>Sleep with your head elevated (30–45°) for the first few nights</li>
+            <li>Mild bloody or discolored nasal discharge is normal for 1–2 weeks</li>
+            <li>Take prescribed medications exactly as directed; do not stop early</li>
+            <li>Call us if you develop a fever over 101°F, severe pain, or heavy bleeding</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="postop-card">
+        <div class="postop-card-head">
+          <svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          <h3>Tonsillectomy &amp; Adenoidectomy (T&amp;A)</h3>
+        </div>
+        <div class="postop-card-body">
+          <p>Recovery from tonsil surgery takes 7–14 days. Pain management and hydration are the top priorities.</p>
+          <ul>
+            <li>Pain is typically worst on days 3–7 — take pain medication on schedule, not just when pain spikes</li>
+            <li>Drink plenty of cold fluids: water, clear broth, popsicles, smoothies</li>
+            <li>Eat soft, cool foods (ice cream, yogurt, mashed potatoes) — avoid hot, spicy, or crunchy foods for 2 weeks</li>
+            <li>White or yellow scabs forming in the throat are normal — do not try to remove them</li>
+            <li>Avoid strenuous activity and school/work for 7–10 days (adults may need longer)</li>
+            <li>Throat pain may temporarily worsen between days 5–10 as scabs begin to loosen — this is normal</li>
+            <li>Go to the emergency room immediately if you experience active bleeding from the throat</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="postop-card">
+        <div class="postop-card-head">
+          <svg viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0118 0v6"/><path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3z"/><path d="M3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"/></svg>
+          <h3>Ear Tube Placement (Tympanostomy)</h3>
+        </div>
+        <div class="postop-card-body">
+          <p>Ear tube surgery is quick and most children resume normal activity the same day or next day.</p>
+          <ul>
+            <li>Most children are back to normal within 24 hours after the procedure</li>
+            <li>A small amount of bloody discharge from the ear immediately after surgery is normal</li>
+            <li>Keep ears dry — use ear plugs or a cotton ball coated in Vaseline for baths and swimming (ask your provider about swimming)</li>
+            <li>Ear drops may be prescribed — use as directed</li>
+            <li>New or increased drainage from the ear after the first week may indicate infection — call us</li>
+            <li>Tubes typically fall out on their own within 6–18 months; follow-up visits monitor this</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="postop-card">
+        <div class="postop-card-head">
+          <svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+          <h3>Septoplasty / Nasal Surgery</h3>
+        </div>
+        <div class="postop-card-body">
+          <p>Septoplasty and turbinate reduction typically have a 1–2 week recovery period.</p>
+          <ul>
+            <li>Do not blow your nose for the first 2 weeks</li>
+            <li>Sneeze with your mouth open to reduce nasal pressure</li>
+            <li>Sleep with your head elevated on 2 pillows for the first week</li>
+            <li>Avoid aspirin and ibuprofen — use acetaminophen (Tylenol) for pain as directed</li>
+            <li>Saline rinses may be recommended starting 24–48 hours after surgery</li>
+            <li>Swelling and congestion may temporarily worsen before improving — this is expected</li>
+            <li>Avoid strenuous activity, heavy lifting, and contact sports for 3–4 weeks</li>
+            <li>Call us if you develop heavy bleeding, high fever, or severe worsening pain</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <p style="text-align:center;font-size:14px;color:var(--gray);margin-top:28px;">These are general guidelines. Always follow the specific written instructions provided by your surgeon. If you have questions about your recovery, call us at <a href="tel:5123394040" style="color:var(--red);font-weight:600;">512-339-4040</a>.</p>
+  </div>
+</section>
+
+<!-- ── DOWNLOADABLE FORMS ── -->
+<section class="section" id="forms">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="eyebrow">Paperwork &amp; Forms</div>
+      <h2>Patient Forms</h2>
+      <p>Complete forms ahead of your visit to streamline check-in. All forms are available through our secure patient portal.</p>
+      <div class="rule"></div>
+    </div>
+    <div class="forms-grid">
+
+      <div class="form-tile">
+        <div class="form-tile-icon">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/></svg>
+        </div>
+        <h4>New Patient Intake Form</h4>
+        <p>Health history, symptom questionnaire, and demographic information for first-time patients.</p>
+        <span class="form-tile-badge">All New Patients</span>
+        <a href="https://www.capitalent.com/patient-portal/" target="_blank" rel="noopener" class="btn-tile">
+          Complete Online <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+
+      <div class="form-tile">
+        <div class="form-tile-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h4>Insurance &amp; Authorization</h4>
+        <p>Insurance verification consent and assignment of benefits for billing purposes.</p>
+        <span class="form-tile-badge">All Patients</span>
+        <a href="https://www.capitalent.com/patient-portal/" target="_blank" rel="noopener" class="btn-tile">
+          Complete Online <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+
+      <div class="form-tile">
+        <div class="form-tile-icon">
+          <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h4>Pediatric Patient Intake</h4>
+        <p>Health history and consent form for patients under 18 years old. Must be completed by a parent or legal guardian.</p>
+        <span class="form-tile-badge">Pediatric Patients</span>
+        <a href="https://www.capitalent.com/patient-portal/" target="_blank" rel="noopener" class="btn-tile">
+          Complete Online <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+
+      <div class="form-tile">
+        <div class="form-tile-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        </div>
+        <h4>Allergy Patient Questionnaire</h4>
+        <p>Detailed allergy symptom history and trigger questionnaire for patients scheduling allergy evaluation or immunotherapy.</p>
+        <span class="form-tile-badge">Allergy Patients</span>
+        <a href="https://www.capitalent.com/patient-portal/" target="_blank" rel="noopener" class="btn-tile">
+          Complete Online <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+
+      <div class="form-tile">
+        <div class="form-tile-icon">
+          <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+        </div>
+        <h4>HIPAA Privacy Acknowledgment</h4>
+        <p>Acknowledgment of receipt of our Notice of Privacy Practices as required by federal HIPAA regulations.</p>
+        <span class="form-tile-badge">All Patients</span>
+        <a href="https://www.capitalent.com/patient-portal/" target="_blank" rel="noopener" class="btn-tile">
+          Complete Online <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+
+      <div class="form-tile">
+        <div class="form-tile-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        </div>
+        <h4>Medical Records Release</h4>
+        <p>Authorization to request or release your medical records to another provider or third party.</p>
+        <span class="form-tile-badge">As Needed</span>
+        <a href="tel:5123394040" class="btn-tile">
+          Call to Request <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+
+    </div>
+    <p style="text-align:center;font-size:14px;color:var(--gray);margin-top:24px;">Forms are available electronically through the patient portal. If you need a paper form or have trouble accessing the portal, call us at <a href="tel:5123394040" style="color:var(--red);font-weight:600;">512-339-4040</a>.</p>
+  </div>
+</section>
+
+<!-- ── LOCATIONS CONTACT STRIP ── -->
+<section class="section bg-off" style="padding:48px 40px;">
+  <div class="section-inner">
+    <div class="contact-strip">
+      <div class="contact-strip-item">
+        <div class="contact-label">Office</div>
+        <div class="contact-city">Austin</div>
+        <div class="contact-phone"><a href="tel:5123394040">512-339-4040</a></div>
+        <div class="contact-addr">12309 N Mopac Expy STE 100<br/>Austin, TX 78758</div>
+      </div>
+      <div class="contact-strip-item">
+        <div class="contact-label">Office</div>
+        <div class="contact-city">Lakeway</div>
+        <div class="contact-phone"><a href="tel:5126824798">512-682-4798</a></div>
+        <div class="contact-addr">4 Lakeway Centre Ct Unit B<br/>Lakeway, TX 78734</div>
+      </div>
+      <div class="contact-strip-item">
+        <div class="contact-label">Office</div>
+        <div class="contact-city">Marble Falls</div>
+        <div class="contact-phone"><a href="tel:5123394040">512-339-4040</a></div>
+        <div class="contact-addr">801 Steve Hawkins Pkwy<br/>Marble Falls, TX 78654</div>
+      </div>
+      <div class="contact-strip-item">
+        <div class="contact-label">Office</div>
+        <div class="contact-city">Dripping Springs</div>
+        <div class="contact-phone"><a href="tel:5123394040">512-339-4040</a></div>
+        <div class="contact-addr">800 US-290<br/>Dripping Springs, TX 78620</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── HELPFUL LINKS / EXTERNAL RESOURCES ── -->
+<section class="section" id="resources">
+  <div class="section-inner">
+    <div class="section-head">
+      <div class="eyebrow">More Resources</div>
+      <h2>Helpful Patient Resources</h2>
+      <p>Trusted external links and tools to help you learn more about your ENT health.</p>
+      <div class="rule"></div>
+    </div>
+    <div class="res-faq" style="max-width:800px;margin:0 auto;">
+
+      <div class="rfaq-item">
+        <button class="rfaq-q" aria-expanded="false">
+          Ask the ENT — Patient Education Library
+          <svg class="rfaq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="rfaq-a">
+          <div class="rfaq-a-inner">Our physicians contribute to an online library of patient education articles covering common ENT topics. Browse conditions, procedures, and expert advice written specifically for patients. <a href="https://www.capitalent.com/ask-the-ent/" target="_blank" rel="noopener">Visit Ask the ENT →</a></div>
+        </div>
+      </div>
+
+      <div class="rfaq-item">
+        <button class="rfaq-q" aria-expanded="false">
+          American Academy of Otolaryngology — Head &amp; Neck Surgery (AAO-HNS)
+          <svg class="rfaq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="rfaq-a">
+          <div class="rfaq-a-inner">The AAO-HNS is the leading professional organization for ENT specialists. Their patient health information library covers a wide range of ENT conditions in plain language. <a href="https://www.enthealth.org/" target="_blank" rel="noopener">Visit ENThealth.org →</a></div>
+        </div>
+      </div>
+
+      <div class="rfaq-item">
+        <button class="rfaq-q" aria-expanded="false">
+          National Institute on Deafness and Other Communication Disorders (NIDCD)
+          <svg class="rfaq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="rfaq-a">
+          <div class="rfaq-a-inner">Part of the National Institutes of Health, the NIDCD provides comprehensive, evidence-based information on hearing loss, balance disorders, tinnitus, voice, speech, and language conditions. <a href="https://www.nidcd.nih.gov/" target="_blank" rel="noopener">Visit NIDCD.nih.gov →</a></div>
+        </div>
+      </div>
+
+      <div class="rfaq-item">
+        <button class="rfaq-q" aria-expanded="false">
+          American Academy of Allergy, Asthma &amp; Immunology (AAAAI)
+          <svg class="rfaq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="rfaq-a">
+          <div class="rfaq-a-inner">The AAAAI offers reliable patient resources on allergic rhinitis, cedar fever, asthma, food allergies, and immunotherapy options. Great for Austin patients managing year-round allergens. <a href="https://www.aaaai.org/" target="_blank" rel="noopener">Visit AAAAI.org →</a></div>
+        </div>
+      </div>
+
+      <div class="rfaq-item">
+        <button class="rfaq-q" aria-expanded="false">
+          American Sleep Apnea Association
+          <svg class="rfaq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="rfaq-a">
+          <div class="rfaq-a-inner">A patient-focused nonprofit providing information on sleep apnea symptoms, diagnosis, CPAP therapy, and alternative treatments. Includes a community forum and support resources. <a href="https://www.sleepapnea.org/" target="_blank" rel="noopener">Visit SleepApnea.org →</a></div>
+        </div>
+      </div>
+
+      <div class="rfaq-item">
+        <button class="rfaq-q" aria-expanded="false">
+          Texas STAR Kids &amp; CHIP — Children's Insurance Resources
+          <svg class="rfaq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="rfaq-a">
+          <div class="rfaq-a-inner">Texas STAR Kids and CHIP programs provide low-cost or free health coverage for eligible Texas children, including ENT care. If your child is uninsured or underinsured, you may qualify. <a href="https://www.hhs.texas.gov/services/health/medicaid-chip" target="_blank" rel="noopener">Learn More at HHS Texas →</a></div>
+        </div>
+      </div>
+
+      <div class="rfaq-item">
+        <button class="rfaq-q" aria-expanded="false">
+          Hearing Loss Association of America (HLAA)
+          <svg class="rfaq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="rfaq-a">
+          <div class="rfaq-a-inner">The HLAA provides resources, advocacy, and a community for people with hearing loss and their families. Includes information on hearing aids, assistive technology, and local chapter events in Texas. <a href="https://www.hearingloss.org/" target="_blank" rel="noopener">Visit HearingLoss.org →</a></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA BAND ── -->
+<section class="cta-band">
+  <div class="cta-band-inner">
+    <h2>Ready to Schedule Your Visit?</h2>
+    <p>Our team is here to make your experience as easy and comfortable as possible. Request an appointment online or call us at any of our four Central Texas locations.</p>
+    <div class="cta-band-btns">
+      <a href="#" class="btn-white" onclick="openBookingModal(event)">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        Request an Appointment
+      </a>
+      <a href="tel:5123394040" class="btn-outline-white">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 01-2.18 2A19.79 19.79 0 013.09 5.18 2 2 0 015.07 3h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.09 10.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 17.92z"/></svg>
+        Call Austin: 512-339-4040
+      </a>
+    </div>
+  </div>
+</section>
+
+</main><!-- /#main-content -->
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <img src="CENT-Horizontal-Color.png" alt="Capital ENT &amp; Sinus Center" style="height:40px;width:auto;filter:brightness(0) invert(1);margin-bottom:14px;" />
+      <p>Austin's most trusted ENT practice — serving patients across Central Texas with board-certified otolaryngologists. Compassionate, personalized care since 1993.</p>
+      <div class="social-row">
+        <a href="#" class="social-btn" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+        <a href="#" class="social-btn" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58zM9.75 15.02V8.98l5.75 3.02-5.75 3.02z"/></svg></a>
+        <a href="#" class="social-btn" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="white" stroke-width="1.8"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="none" stroke="white" stroke-width="1.8"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="white" stroke-width="2" stroke-linecap="round"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="ear-care.html">Ear Care &amp; Hearing</a></li>
+        <li><a href="hearing-aids.html">Hearing Aids</a></li>
+        <li><a href="nose-sinus.html">Nose &amp; Sinus</a></li>
+        <li><a href="balloon-sinuplasty.html">Balloon Sinuplasty</a></li>
+        <li><a href="throat-sleep.html">Throat &amp; Voice</a></li>
+        <li><a href="throat-sleep.html">Sleep Apnea</a></li>
+        <li><a href="allergy.html">Allergy Treatment</a></li>
+        <li><a href="pediatric-ent.html">Pediatric ENT</a></li>
+        <li><a href="ent-urgent-care.html">ENT Urgent Care</a></li>
+        <li><a href="index.html">All Services</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Information</h4>
+      <ul>
+        <li><a href="our-doctors.html">Meet the Providers</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="insurance.html">Insurance &amp; Billing</a></li>
+        <li><a href="patient-resources.html">Patient Resources</a></li>
+        <li><a href="reviews.html">Patient Reviews</a></li>
+        <li><a href="https://www.capitalent.com/ask-the-ent/" target="_blank" rel="noopener">Ask the ENT</a></li>
+        <li><a href="videos.html">ENT Videos</a></li>
+        <li><a href="https://www.capitalent.com/patient-portal/" target="_blank" rel="noopener">Patient Portal</a></li>
+        <li><a href="https://www.capitalent.com/make-a-payment/" target="_blank" rel="noopener">Pay Bill</a></li>
+        <li><a href="locations.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <div class="footer-contact-block">
+        <div class="city">Austin</div>
+        <div class="phone"><a href="tel:5123394040">512-339-4040</a></div>
+        <div class="addr">12309 N Mopac Expy STE 100<br/>Austin, TX 78758</div>
+      </div>
+      <div class="footer-contact-block">
+        <div class="city">Lakeway</div>
+        <div class="phone"><a href="tel:5126824798">512-682-4798</a></div>
+        <div class="addr">4 Lakeway Centre Ct Unit B</div>
+      </div>
+      <div class="footer-contact-block">
+        <div class="city">Marble Falls &amp; Dripping Springs</div>
+        <div class="phone"><a href="tel:5123394040">512-339-4040</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy;2026 Capital ENT &amp; Sinus Center &nbsp;|&nbsp; All Rights Reserved</span>
+    <span><a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="#">Terms &amp; Conditions</a> &nbsp;&middot;&nbsp; <a href="#">Sitemap</a></span>
+  </div>
+</footer>
+
+<a href="#" class="sticky-cta" onclick="openBookingModal(event)" title="Book an Appointment">
+  <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+  Book Appointment
+</a>
+
+<div id="bookingModal" class="modal" style="display:none;" role="dialog" aria-labelledby="bookingModalTitle" aria-hidden="true">
+  <div class="modal-overlay" onclick="closeBookingModal()"></div>
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeBookingModal()" type="button">&times;</button>
+    <div class="modal-header">
+      <h2 id="bookingModalTitle">Request an Appointment</h2>
+      <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+    </div>
+    <form id="bookingForm" class="modal-form" onsubmit="handleBookingSubmit(event)">
+      <div class="form-group"><label for="fullName">Full Name *</label><input type="text" id="fullName" name="fullName" required placeholder="Jane Smith"></div>
+      <div class="form-group"><label for="email">Email *</label><input type="email" id="email" name="email" required placeholder="jane@example.com"></div>
+      <div class="form-group"><label for="phone">Phone Number *</label><input type="tel" id="phone" name="phone" required placeholder="(512) 000-0000"></div>
+      <div class="form-group"><label for="location">Preferred Location *</label>
+        <select id="location" name="location" required>
+          <option value="">Select a location...</option>
+          <option value="austin">Austin — 12309 N Mopac Expy</option>
+          <option value="lakeway">Lakeway — 4 Lakeway Centre Ct</option>
+          <option value="marble_falls">Marble Falls — 801 Steve Hawkins Pkwy</option>
+          <option value="dripping_springs">Dripping Springs — 800 US-290</option>
+        </select>
+      </div>
+      <div class="form-group"><label for="service">Service Type *</label>
+        <select id="service" name="service" required>
+          <option value="">Select a service...</option>
+          <option value="ear">Ear Care &amp; Hearing</option>
+          <option value="nose">Nose &amp; Sinus</option>
+          <option value="throat">Throat &amp; Sleep</option>
+          <option value="allergy">Allergy Treatment</option>
+          <option value="pediatric">Pediatric ENT</option>
+          <option value="other">Other / Not Sure</option>
+        </select>
+      </div>
+      <div class="form-group"><label for="message">Additional Notes</label><textarea id="message" name="message" placeholder="Tell us about your symptoms or question (optional)" rows="3"></textarea></div>
+      <button type="submit" class="btn-red">Request Appointment</button>
+      <p class="form-disclaimer">By submitting this form, you agree to be contacted by Capital ENT at the number provided.</p>
+    </form>
+  </div>
+</div>
+
+<script>
+  /* ── BOOKING MODAL ── */
+  function openBookingModal(e){if(e)e.preventDefault();const m=document.getElementById('bookingModal');m.style.display='flex';m.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';setTimeout(()=>document.getElementById('fullName').focus(),100);}
+  function closeBookingModal(){const m=document.getElementById('bookingModal');m.style.display='none';m.setAttribute('aria-hidden','true');document.body.style.overflow='';}
+  function handleBookingSubmit(e){e.preventDefault();const btn=e.target.querySelector('button[type="submit"]');btn.textContent='✓ Appointment Requested!';btn.style.background='#10b981';setTimeout(()=>{e.target.reset();btn.textContent='Request Appointment';btn.style.background='';closeBookingModal();},2000);}
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')closeBookingModal();});
+
+  /* ── TABS ── */
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const tab = btn.dataset.tab;
+      document.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected','false'); });
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected','true');
+      document.getElementById('tab-' + tab).classList.add('active');
+    });
+  });
+
+  /* ── RESOURCE ACCORDION ── */
+  document.querySelectorAll('.rfaq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      document.querySelectorAll('.rfaq-q[aria-expanded="true"]').forEach(other => {
+        if (other !== btn) {
+          other.setAttribute('aria-expanded', 'false');
+          other.nextElementSibling.style.maxHeight = null;
+        }
+      });
+      btn.setAttribute('aria-expanded', String(!expanded));
+      const panel = btn.nextElementSibling;
+      panel.style.maxHeight = expanded ? null : panel.scrollHeight + 'px';
+    });
+  });
+</script>
+</body>
+</html>

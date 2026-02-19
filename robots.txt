@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block old/dev files from being indexed
+Disallow: /mockup.html
+Disallow: /index codespaces update.html
+
+# Sitemap location
+Sitemap: https://www.capitalent.com/sitemap.xml

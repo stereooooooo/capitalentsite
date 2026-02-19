@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en-US" class="wpex-color-scheme-default">
+<head>
+<meta charset="UTF-8">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<meta name='robots' content='noindex, follow' />
+<meta name="generator" content="Total WordPress Theme v5.11.1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- This site is optimized with the Yoast SEO plugin v26.8 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Page not found - Capital ENT</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - Capital ENT" />
+	<meta property="og:site_name" content="Capital ENT" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.capitalent.com/#website","url":"https://www.capitalent.com/","name":"Capital ENT","description":"Austin ENT Focused on Sinus Care, Sleep Apnea and Hearing Loss","publisher":{"@id":"https://www.capitalent.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.capitalent.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.capitalent.com/#organization","name":"Capital ENT & Sinus Center","url":"https://www.capitalent.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.capitalent.com/#/schema/logo/image/","url":"https://www.capitalent.com/wp-content/uploads/2022/01/logo-capital-ent-800x200-1.png","contentUrl":"https://www.capitalent.com/wp-content/uploads/2022/01/logo-capital-ent-800x200-1.png","width":800,"height":200,"caption":"Capital ENT & Sinus Center"},"image":{"@id":"https://www.capitalent.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/capitalENT.otolaryngology","https://x.com/capoto","https://www.youtube.com/channel/UCEBYs_mrkEMOIP5_sjpoiyQ/videos"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Capital ENT &raquo; Feed" href="https://www.capitalent.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Capital ENT &raquo; Comments Feed" href="https://www.capitalent.com/comments/feed/" />
+<link rel="preload" href="https://www.capitalent.com/wp-content/themes/Total/assets/lib/ticons/fonts/ticons.woff2" type="font/woff2" as="font" crossorigin><link rel="preload" href="//fonts.googleapis.com/css2?family=Lora:wght@300;400;700&#038;display=swap&#038;subset=latin" as="style"><link rel="preload" href="https://www.capitalent.com/wp-content/uploads/2023/07/SourceSansPro-Regular.ttf_.woff2" type="font/woff2" as="font" crossorigin><link rel="preload" href="https://www.capitalent.com/wp-content/uploads/2023/07/SourceSansPro-Light.ttf_.woff2" type="font/woff2" as="font" crossorigin><link rel="preload" href="https://www.capitalent.com/wp-content/uploads/2023/07/SourceSansPro-Bold.ttf_.woff2" type="font/woff2" as="font" crossorigin><style type="text/css" media="all">
+.wpautoterms-footer{background-color:#ffffff;text-align:center;}
+.wpautoterms-footer a{color:#000000;font-family:Arial, sans-serif;font-size:14px;}
+.wpautoterms-footer .separator{color:#cccccc;font-family:Arial, sans-serif;font-size:14px;}</style>
+<style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='js_composer_front-css' href='https://www.capitalent.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css' media='all' />
+<link rel='stylesheet' id='wpautoterms_css-css' href='https://www.capitalent.com/wp-content/plugins/auto-terms-of-service-and-privacy-policy/css/wpautoterms.css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-css' href='https://www.capitalent.com/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-public.css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-gdpr-css' href='https://www.capitalent.com/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-gdpr.css' media='all' />
+<link rel='stylesheet' id='brb-public-main-css-css' href='https://www.capitalent.com/wp-content/plugins/business-reviews-bundle/assets/css/public-main.css' media='all' />
+<link rel='stylesheet' id='brb-public-main1-css-css' href='https://www.capitalent.com/wp-content/plugins/business-reviews-bundle/assets/css/public-main1.css' media='all' />
+<link rel='stylesheet' id='parent-style-css' href='https://www.capitalent.com/wp-content/themes/Total/style.css' media='all' />
+<link rel='stylesheet' id='wpex-google-font-lora-css' href='//fonts.googleapis.com/css2?family=Lora:wght@300;400;700&#038;display=swap&#038;subset=latin' media='all' />
+<link rel='stylesheet' id='wpex-style-css' href='https://www.capitalent.com/wp-content/themes/Kulture-1.1/style.css' media='all' />
+<link rel='stylesheet' id='wpex-mobile-menu-breakpoint-max-css' href='https://www.capitalent.com/wp-content/themes/Total/assets/css/wpex-mobile-menu-breakpoint-max.css' media='only screen and (max-width:1299px)' />
+<link rel='stylesheet' id='wpex-mobile-menu-breakpoint-min-css' href='https://www.capitalent.com/wp-content/themes/Total/assets/css/wpex-mobile-menu-breakpoint-min.css' media='only screen and (min-width:1300px)' />
+<link rel='stylesheet' id='wpex-wpbakery-css' href='https://www.capitalent.com/wp-content/themes/Total/assets/css/frontend/wpbakery.css' media='all' />
+<link rel='stylesheet' id='ticons-css' href='https://www.capitalent.com/wp-content/themes/Total/assets/lib/ticons/css/ticons.min.css' media='all' />
+<link rel='stylesheet' id='vcex-shortcodes-css' href='https://www.capitalent.com/wp-content/themes/Total/assets/css/vcex-shortcodes.css' media='all' />
+<style id='rocket-lazyload-inline-css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://www.capitalent.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}.wp-embed-responsive .wp-has-aspect-ratio .rll-youtube-player{position:absolute;padding-bottom:0;width:100%;height:100%;top:0;bottom:0;left:0;right:0}
+/*# sourceURL=rocket-lazyload-inline-css */
+</style>
+<script src="https://www.capitalent.com/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script src="https://www.capitalent.com/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script src="https://www.capitalent.com/wp-includes/js/dist/dom-ready.min.js" id="wp-dom-ready-js"></script>
+<script src="https://www.capitalent.com/wp-content/plugins/auto-terms-of-service-and-privacy-policy/js/base.js" id="wpautoterms_base-js"></script>
+<script id="cookie-law-info-js-extra">
+var Cli_Data = {"nn_cookie_ids":[],"cookielist":[],"non_necessary_cookies":[],"ccpaEnabled":"","ccpaRegionBased":"","ccpaBarEnabled":"","strictlyEnabled":["necessary","obligatoire"],"ccpaType":"gdpr","js_blocking":"","custom_integration":"","triggerDomRefresh":"","secure_cookies":""};
+var cli_cookiebar_settings = {"animate_speed_hide":"500","animate_speed_show":"500","background":"#fff","border":"#486b9e","border_on":"","button_1_button_colour":"#486b9e","button_1_button_hover":"#3a567e","button_1_link_colour":"#fff","button_1_as_button":"1","button_1_new_win":"","button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":"","button_2_hidebar":"","button_3_button_colour":"#000","button_3_button_hover":"#000000","button_3_link_colour":"#fff","button_3_as_button":"1","button_3_new_win":"","button_4_button_colour":"#000","button_4_button_hover":"#000000","button_4_link_colour":"#fff","button_4_as_button":"1","button_7_button_colour":"#61a229","button_7_button_hover":"#4e8221","button_7_link_colour":"#fff","button_7_as_button":"1","button_7_new_win":"","font_family":"inherit","header_fix":"","notify_animate_hide":"1","notify_animate_show":"","notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"left","notify_position_vertical":"bottom","scroll_close":"1","scroll_close_reload":"","accept_close_reload":"","reject_close_reload":"","showagain_tab":"1","showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#000","show_once_yn":"1","show_once":"10000","logging_on":"","as_popup":"","popup_overlay":"1","bar_heading_text":"","cookie_bar_as":"banner","popup_showagain_position":"bottom-right","widget_position":"left"};
+var log_object = {"ajax_url":"https://www.capitalent.com/wp-admin/admin-ajax.php"};
+//# sourceURL=cookie-law-info-js-extra
+</script>
+<script src="https://www.capitalent.com/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js" id="cookie-law-info-js"></script>
+<script id="brb-public-main-js-js-extra">
+var brb_vars = {"ajaxurl":"https://www.capitalent.com/wp-admin/admin-ajax.php","gavatar":"https://www.capitalent.com/wp-content/plugins/business-reviews-bundle/assets/img/google_avatar.png"};
+//# sourceURL=brb-public-main-js-js-extra
+</script>
+<script defer="defer" src="https://www.capitalent.com/wp-content/plugins/business-reviews-bundle/assets/js/public-main.js" id="brb-public-main-js-js"></script>
+<script id="brb-public-main1-js-js-extra">
+var brb_vars = {"ajaxurl":"https://www.capitalent.com/wp-admin/admin-ajax.php","gavatar":"https://www.capitalent.com/wp-content/plugins/business-reviews-bundle/assets/img/google_avatar.png"};
+//# sourceURL=brb-public-main1-js-js-extra
+</script>
+<script src="https://www.capitalent.com/wp-content/plugins/business-reviews-bundle/assets/js/public-main1.js" id="brb-public-main1-js-js"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script src="https://www.googletagmanager.com/gtag/js?id=G-Q31LJE2VG9" id="google_gtagjs-js" async></script>
+<script id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["www.capitalent.com"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "G-Q31LJE2VG9");
+//# sourceURL=google_gtagjs-js-after
+</script>
+<script></script><link rel="https://api.w.org/" href="https://www.capitalent.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.capitalent.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9" />
+<meta name="generator" content="Site Kit by Google 1.170.0" /><link rel="icon" href="https://www.capitalent.com/wp-content/uploads/2022/01/icon-capital-ent-32-1.png" sizes="32x32"><link rel="shortcut icon" href="https://www.capitalent.com/wp-content/uploads/2022/01/icon-capital-ent-32-1.png"><link rel="apple-touch-icon" href="https://www.capitalent.com/wp-content/uploads/2022/01/icon-capital-ent-57-1.png" sizes="57x57" ><link rel="apple-touch-icon" href="https://www.capitalent.com/wp-content/uploads/2022/01/icon-capital-ent-76-1.png" sizes="76x76" ><link rel="apple-touch-icon" href="https://www.capitalent.com/wp-content/uploads/2022/01/icon-capital-ent-120-1.png" sizes="120x120"><link rel="apple-touch-icon" href="https://www.capitalent.com/wp-content/uploads/2022/01/icon-capital-ent-152-1.png" sizes="114x114">                <style type="text/css">
+                    body[class^="guest-author"] a[href=''] {
+                        pointer-events: none;
+                        color: inherit;
+                        text-decoration: inherit;
+                    }
+                </style>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PBLDD5W');</script>
+<!-- End Google Tag Manager -->
+
+<script type="text/javascript" src="//cdn.rlets.com/capture_configs/cd0/52b/799/f8640eb89e4f4f978054419.js" async="async"></script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16960772680">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16960772680');
+</script><noscript><style>body:not(.content-full-screen) .wpex-vc-row-stretched[data-vc-full-width-init="false"]{visibility:visible;}</style></noscript>		<style id="wp-custom-css">
+			/* Main Body Tweaks */#top-bar-wrap{border-bottom-width:3px}.headline-teal{font-weight:700;color:#1c4175}.paybutton{display:block;text-align:center;margin:0 auto}.paybutton input[type="submit"]{font-size:18px;padding:15px 40px;font-weight:700}.AuthorizeNetSeal{width:auto !important}#important-message .vc_toggle:last-of-type{margin-bottom:5px !important}.important-notice a{color:#cccccc}sup{font-size:70%}#bottom-right-crop .vc_custom_1610393355071{background-position:bottom right !important}#bottom-center-crop .vc_custom_1610393881475{background-position:bottom center !important}/* Menu Tweaks */#site-header .navbar-style-one .dropdown-menu>li>a{padding:0}.menu-button{margin-top:-2px;margin-left:10px;margin-right:8px}.menu-button .link-inner{font-size:14px}.menu-button .link-inner:hover{background:#b11f29 !important}/* Blog Tweaks */.vcex-blog-entry-details{padding-top:5px;padding-bottom:5px}.archive .blog-entry-title.entry-title{text-align:center}.single-page-title{margin-bottom:0}.single-post .meta{font-style:italic;color:#1c4175;font-size:14px;margin-bottom:10px}.single-post .meta a{color:#1c4175}.meta li .fa,.entry .meta li .fa{margin-right:4px;color:#b11f29}#sidebar .theme-button{width:100%;text-align:center;font-size:18px;padding-top:15px;padding-bottom:15px}#sidebar .wpex-widget-recent-posts-title{font-size:18px;line-height:1.2;text-transform:none}.wp-caption{background:#fff;padding:10px}/* Footer Tweaks */#footer-builder,#footer-builder a{color:#888}#footer-builder a:hover{color:#fff;text-decoration:none}#footer-builder .theme-txt-link.active{color:#fff;text-decoration:none}#footer-builder .wpex-social-btn{margin-right:0}#footer-widgets{text-align:center;margin:0 auto}#footer-widgets .widget_wpex_simple_menu{font-size:14px}/* Testimonial Titles */.testimonial-entry-title:before{content:open-quote}.testimonial-entry-title:after{content:close-quote}.testimonial-entry-title{font-style:italic !important;text-transform:none !important}/* Gravity Forms */.gform_body label.gfield_label{font-size:20px;font-weight:700 !important;color:#b11f29;font-family:Lato}.gform_wrapper .gform_body .gform_fields .gfield input[type=text],.gform_wrapper .gform_body .gform_fields .gfield input[type=email],.gform_wrapper .gform_body .gform_fields .gfield input[type=url],.gform_wrapper .gform_body .gform_fields .gfield input[type=password],.gform_wrapper .gform_body .gform_fields .gfield input[type=tel],.gform_wrapper .gform_body .gform_fields .gfield select,.gform_wrapper .gform_body .gform_fields .gfield textarea{background-color:#fff;color:#000;border-radius:5px}.ui-datepicker-title{color:#000 !important}.gform_wrapper select{font-size:16px !important;height:38px;margin-top:0 !important}.gform_wrapper .gfield_radio li label{font-size:16px}.gform_wrapper .ginput_container_time i{font-size:.6em}select#input_1_14_3{font-size:.8em !important}.gform_wrapper textarea.medium{width:100%;height:100px}#gform_4 input[type="submit"]{background-color:#b11f29}#gform_4 input[type="submit"]:hover{background-color:#7a7a7a}/* YouTube Embed */.embed-container{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%}.embed-container iframe,.embed-container object,.embed-container embed{position:absolute;top:0;left:0;width:100%;height:100%}/* Center Social Share on Smaller Screens */@media only screen and (max-width:959px){ul.wpex-social-share.position-vertical.style-flat{text-align:center;margin:25px auto 20px}ul.wpex-social-share.position-vertical.style-flat li{display:inline-block;float:none}#single-blocks .vc_custom_1513272363846,#single-blocks .vc_custom_1513272415554{background:none !important;min-height:0 !important}}/* Mobile-Only Tweaks */@media only screen and (max-width:767px){#footer-callout-left{text-align:center}#single-blocks .vc_custom_1513272363846,#single-blocks .vc_custom_1513272415554{background:none !important;min-height:0 !important}}/* Display Mobile Menu Icons */@media only screen and (max-width:500px){body .mobile-menu-extra-icons{display:block !important}}		</style>
+		<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><style data-type="wpex-css" id="wpex-css">/*CUSTOM FONTS*/@font-face{font-family:'SourceSansPro';src:url(https://www.capitalent.com/wp-content/uploads/2023/07/SourceSansPro-Regular.ttf_.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:'SourceSansPro';src:url(https://www.capitalent.com/wp-content/uploads/2023/07/SourceSansPro-Light.ttf_.woff2) format('woff2');font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:'SourceSansPro';src:url(https://www.capitalent.com/wp-content/uploads/2023/07/SourceSansPro-Bold.ttf_.woff2) format('woff2');font-weight:700;font-style:normal;font-display:swap}/*TYPOGRAPHY*/body{font-family:"SourceSansPro",sans-serif;font-weight:400;font-size:1.6em;color:#222222}:root{--wpex-btn-font-family:"Lora",sans-serif;--wpex-btn-line-height:1.2}#top-bar-content{font-size:.8em;text-transform:uppercase}.main-navigation-ul .link-inner{font-family:"Lora",sans-serif;font-weight:400;font-size:18px}.wpex-mobile-menu,#sidr-main{font-size:1.2em;line-height:1.8}.page-header .page-subheading{font-weight:700;font-style:italic;color:#ffffff}.blog-entry-title.entry-title,.blog-entry-title.entry-title a,.blog-entry-title.entry-title a:hover{font-weight:700;line-height:1.2}body.single-post .single-post-title{line-height:1.2}.sidebar-box .widget-title{font-size:24px}:root{--wpex-heading-font-family:"Lora",sans-serif;--wpex-heading-font-weight:300;--wpex-heading-line-height:1.2;--wpex-heading-text-transform:uppercase}.footer-widget .widget-title{font-weight:700}#copyright{font-size:12px}#footer-bottom-menu{font-size:12px}@media(max-width:1024px){.main-navigation-ul .link-inner{font-size:16px}}@media(max-width:959px){.main-navigation-ul .link-inner{font-size:16px}}@media(max-width:767px){.main-navigation-ul .link-inner{font-size:16px}}@media(max-width:479px){.main-navigation-ul .link-inner{font-size:16px}}/*SITE BACKGROUND*/body{background-image:url(https://www.capitalent.com/wp-content/uploads/2017/08/noise_lines.png)!important;background-repeat:repeat}/*ADVANCED STYLING CSS*/#site-logo .logo-img{max-height:100px;width:auto}/*CUSTOMIZER STYLING*/:root{--wpex-accent:#b11f29;--wpex-accent-alt:#b11f29;--wpex-border-main:#1a3f75;--wpex-link-decoration-line:underline;--wpex-link-color:#b11f29;--wpex-hover-heading-link-color:#b11f29;--wpex-hover-link-color:#b11f29;--wpex-btn-color:#ffffff;--wpex-hover-btn-color:#ffffff;--wpex-btn-bg:#b11f29;--wpex-hover-btn-bg:#1a3f75;--wpex-site-header-shrink-start-height:100px;--wpex-site-header-shrink-end-height:50px;--wpex-dropmenu-colored-top-border-color:#a53948}::selection{background:#1a3f75;color:#ffffff}::-moz-selection{background:#1a3f75;color:#ffffff}body,.boxed-main-layout,.footer-has-reveal #main{background-color:#dfe1e0}.page-header.wpex-supports-mods{padding-top:40px;padding-bottom:40px;background-color:#1a3f75;border-top-color:#7a7a7a;border-bottom-color:#7a7a7a}.page-header.wpex-supports-mods .page-header-title{color:#ffffff}.site-breadcrumbs{color:#dfe1e0}.site-breadcrumbs .sep{color:#53b5b5}.site-breadcrumbs a{color:#dfe1e0}.site-breadcrumbs a:hover{color:#53b5b5}#site-scroll-top{margin-right:20px;margin-bottom:120px}:root,.boxed-main-layout.wpex-responsive #wrap{--wpex-container-width:1400px}#top-bar-wrap{background-color:#222222;border-color:#222222}.wpex-top-bar-sticky{background-color:#222222}#top-bar{color:#ffffff;--wpex-text-2:#ffffff;--wpex-text-3:#ffffff;--wpex-text-4:#ffffff;--wpex-link-color:#ffffff;padding-top:7px;padding-bottom:2px}#top-bar-social a.wpex-social-btn-no-style{color:#ffffff}#top-bar-social a.wpex-social-btn-no-style:hover{color:#ff4c15}.header-padding{padding-top:20px;padding-bottom:20px}#site-header{background-color:#ffffff}#site-header-sticky-wrapper{background-color:#ffffff}#site-header-sticky-wrapper.is-sticky #site-header{background-color:#ffffff}.boxed-main-layout #site-header-sticky-wrapper.is-sticky #site-header{background-color:#ffffff}.footer-has-reveal #site-header{background-color:#ffffff}#searchform-header-replace{background-color:#ffffff}.wpex-has-vertical-header #site-header{background-color:#ffffff}#site-navigation-wrap{--wpex-main-nav-border-color:#b11f29;--wpex-main-nav-link-color:#2a2827;--wpex-hover-main-nav-link-color:#2a2827;--wpex-active-main-nav-link-color:#2a2827;--wpex-hover-main-nav-link-color:#b11f29;--wpex-active-main-nav-link-color:#b11f29;--wpex-dropmenu-bg:#fefefe;--wpex-dropmenu-caret-bg:#fefefe;--wpex-hover-dropmenu-link-color:#b11f29;--wpex-active-dropmenu-link-color:#b11f29;--wpex-active-hover-dropmenu-link-color:#b11f29;--wpex-active-dropmenu-link-bg:#f6f6f6;--wpex-active-hover-dropmenu-link-bg:#f6f6f6}#mobile-menu{--wpex-hover-link-color:#ffffff}#sidr-main,.sidr-class-dropdown-menu ul{background-color:#cccccc}#sidr-main{--wpex-border-main:#dbdbdb;color:#222222;--wpex-link-color:#222222;--wpex-text-2:#222222;--wpex-hover-link-color:#b11f29}.mobile-toggle-nav{--wpex-hover-link-color:#a53948}#sidebar{background-color:#cccccc;padding:20px}#footer{--wpex-surface-1:#1a3f75;background-color:#1a3f75;color:#cccccc;--wpex-heading-color:#cccccc;--wpex-text-2:#cccccc;--wpex-text-3:#cccccc;--wpex-text-4:#cccccc;--wpex-heading-color:#ffffff;--wpex-link-color:#ffffff;--wpex-hover-link-color:#ffffff;--wpex-hover-link-color:#7a7a7a}.footer-widget .widget-title{text-align:center}.footer-box.col-1{width:30%}.footer-box.col-2{width:20%}.footer-box.col-3{width:20%}.footer-box.col-4{width:30%}#footer-bottom{padding:30px 20px 30px 20px;color:#dfe1e0;--wpex-text-2:#dfe1e0;--wpex-text-3:#dfe1e0;--wpex-text-4:#dfe1e0;--wpex-link-color:#dfe1e0;--wpex-hover-link-color:#dfe1e0;--wpex-hover-link-color:#ffffff}@media only screen and (min-width:960px){#site-logo .logo-img{max-width:600px}}@media only screen and (max-width:767px){#site-logo .logo-img{max-width:160px}}@media only screen and (min-width:768px) and (max-width:959px){#site-logo .logo-img{max-width:500px}}</style><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+
+<body class="error404 wp-custom-logo wp-embed-responsive wp-theme-Total wp-child-theme-Kulture-11 wpex-theme wpex-responsive full-width-main-layout no-composer wpex-live-site wpex-has-primary-bottom-spacing site-full-width content-full-width has-topbar sidebar-widget-icons hasnt-overlay-header wpex-mobile-toggle-menu-icon_buttons has-mobile-menu wpex-no-js guest-author-2.6 wpb-js-composer js-comp-ver-7.3 vc_responsive">
+
+	
+<a href="#content" class="skip-to-content wpex-absolute wpex-opacity-0 wpex-no-underline">Skip to content</a>
+
+	
+	<span data-ls_id="#site_top" tabindex="-1"></span><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBLDD5W"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<div id="outer-wrap" class="wpex-overflow-clip">
+
+		
+		<div id="wrap" class="wpex-clr">
+
+			
+
+	
+		<div id="top-bar-wrap" class="top-bar-full-width wpex-top-bar-sticky wpex-z-99 wpex-surface-1 wpex-border-b wpex-border-main wpex-border-solid wpex-text-sm hidden-phone wpex-print-hidden">
+
+			<div id="top-bar" class="container wpex-relative wpex-py-15 wpex-md-flex wpex-justify-between wpex-items-center wpex-text-center wpex-md-text-initial">
+	<div id="top-bar-social-alt" class="top-bar-left"><div style="text-transform: uppercase;font-size: 12px"><a href="tel:+15123394040" title="Call Capital Otolaryngology ENT in Austin, TX">Austin: 512-339-4040</a> | <a href="tel:+15126824798" title="Call Capital Otolaryngology ENT in Lakeway, TX">Lakeway: 512-682-4798</a> | <a href="tel:+15123394040" title="Call Capital Otolaryngology ENT in Marble Falls, TX">Marble Falls: 512-339-4040</a> | <a href="tel:+15123394040" title="Call Capital Otolaryngology ENT in Dripping Springs, TX">Dripping Springs: 512-339-4040</a> | FAX: 512-339-1663</div></div>
+
+
+	<div id="top-bar-content" class="top-bar-right wpex-mt-10 wpex-md-mt-0 wpex-clr"><ul id="menu-top-bar" class="top-bar-menu wpex-inline-block wpex-m-0 wpex-list-none wpex-last-mr-0"><li id="menu-item-617" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-617"><a href="https://www.capitalent.com/request-appointment/" title="Request an ENT Appointment in Austin, TX"><span class="link-inner"><span class="ticon ticon-calendar-plus-o" aria-hidden="true"></span>Request Appointment</span></a></li>
+<li id="menu-item-1196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1196"><a href="https://www.capitalent.com/make-a-payment/" title="Pay Your Bill From Capital ENT and Sinus Center"><span class="link-inner"><span class="ticon ticon-dollar" aria-hidden="true"></span>Pay Bill</span></a></li>
+<li id="menu-item-1425" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425"><a href="https://www.capitalent.com/patient-portal/" title="Visit Your Capital ENT and Sinus Center Patient Portal"><span class="link-inner"><span class="ticon ticon-external-link" aria-hidden="true"></span>Patient Portal</span></a></li>
+<li id="menu-item-67" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-67"><a target="_blank" href="https://search.google.com/local/writereview?placeid=ChIJWVBx5BvMRIYRmat3qQCHk1A" title="Review Capital ENT and Sinus Center ENT"><span class="link-inner"><span class="ticon ticon-star" aria-hidden="true"></span>Review Us</span></a></li>
+</ul></div>
+
+</div>
+
+		</div>
+
+	
+
+
+	<header id="site-header" class="header-one header-full-width wpex-dropdown-style-minimal-sq wpex-dropdowns-shadow-one fixed-scroll wpex-z-99 has-sticky-dropshadow shrink-sticky-header anim-shrink-header on-shrink-adjust-height custom-bg dyn-styles wpex-print-hidden wpex-relative wpex-clr">
+
+		
+		<div id="site-header-inner" class="header-one-inner header-padding container wpex-relative wpex-h-100 wpex-py-30 wpex-clr">
+<div id="site-logo" class="site-branding header-one-logo logo-padding wpex-table">
+	<div id="site-logo-inner" class="wpex-table-cell wpex-align-middle wpex-clr"><a id="site-logo-link" href="https://www.capitalent.com/" rel="home" class="main-logo"><img src="https://www.capitalent.com/wp-content/uploads/2025/06/logo-capital-ent-austin-tx-400.png" alt="Capital ENT" class="logo-img" width="400" height="100" data-no-retina data-skip-lazy fetchpriority="high" srcset="https://www.capitalent.com/wp-content/uploads/2025/06/logo-capital-ent-austin-tx-400.png 1x,https://www.capitalent.com/wp-content/uploads/2025/06/logo-capital-ent-austin-tx-800.png 2x"></a></div>
+
+</div>
+
+<div id="site-navigation-wrap" class="navbar-style-one navbar-fixed-height navbar-fixed-line-height wpex-dropdown-top-border wpex-stretch-megamenus hide-at-mm-breakpoint wpex-clr wpex-print-hidden">
+	<nav id="site-navigation" class="navigation main-navigation main-navigation-one wpex-clr" aria-label="Main menu"><ul id="menu-main-2024" class="main-navigation-ul dropdown-menu wpex-dropdown-menu wpex-dropdown-menu--onhover"><li id="menu-item-2367" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-2367"><a href="#"><span class="link-inner">ENT Services</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2381"><a href="https://www.capitalent.com/allergy-therapy/"><span class="link-inner">Allergy Therapy</span></a></li>
+	<li id="menu-item-2372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2372"><a href="https://www.capitalent.com/nose/balloon-sinuplasty/"><span class="link-inner">Balloon Sinuplasty</span></a></li>
+	<li id="menu-item-2382" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2382"><a href="https://www.capitalent.com/cedarfever/"><span class="link-inner">Cedar Fever</span></a></li>
+	<li id="menu-item-2368" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2368"><a href="https://www.capitalent.com/ear/dizziness-imbalance-care/"><span class="link-inner">Dizziness and Imbalance Care</span></a></li>
+	<li id="menu-item-2373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2373"><a href="https://www.capitalent.com/nose/endoscopic-sinus-surgery/"><span class="link-inner">Endoscopic Sinus Surgery</span></a></li>
+	<li id="menu-item-2369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2369"><a href="https://www.capitalent.com/ear/hearing-care/"><span class="link-inner">Hearing Care</span></a></li>
+	<li id="menu-item-2370" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2370"><a href="https://www.capitalent.com/ear/otology/"><span class="link-inner">Otology</span></a></li>
+	<li id="menu-item-2380" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2380"><a href="https://www.capitalent.com/pediatric-ent-care/"><span class="link-inner">Pediatric ENT Care</span></a></li>
+	<li id="menu-item-2374" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2374"><a href="https://www.capitalent.com/nose/septoplasty/"><span class="link-inner">Septoplasty</span></a></li>
+	<li id="menu-item-2375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2375"><a href="https://www.capitalent.com/throat/sleep-apnea-surgery/"><span class="link-inner">Sleep Apnea Surgery</span></a></li>
+	<li id="menu-item-2376" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2376"><a href="https://www.capitalent.com/throat/snoring/"><span class="link-inner">Snoring</span></a></li>
+	<li id="menu-item-2377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2377"><a href="https://www.capitalent.com/throat/throat-care/"><span class="link-inner">Throat Care</span></a></li>
+	<li id="menu-item-2371" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2371"><a href="https://www.capitalent.com/ear/tinnitus/"><span class="link-inner">Tinnitus</span></a></li>
+	<li id="menu-item-2378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2378"><a href="https://www.capitalent.com/throat/tonsillectomy/"><span class="link-inner">Tonsillectomy</span></a></li>
+	<li id="menu-item-2379" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2379"><a href="https://www.capitalent.com/throat/voice-care/"><span class="link-inner">Voice Care</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2740" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-2740"><a href="#"><span class="link-inner">Balloon Sinuplasty</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2747"><a href="https://www.capitalent.com/what-is-balloon-sinuplasty/"><span class="link-inner">What is Balloon Sinuplasty?</span></a></li>
+	<li id="menu-item-2746" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2746"><a href="https://www.capitalent.com/balloon-sinuplasty-vs-traditional-sinus-surgery/"><span class="link-inner">Balloon Sinuplasty vs Sinus Surgery</span></a></li>
+	<li id="menu-item-2745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2745"><a href="https://www.capitalent.com/balloon-sinuplasty-steps/"><span class="link-inner">Balloon Sinuplasty Steps</span></a></li>
+	<li id="menu-item-2743" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2743"><a href="https://www.capitalent.com/balloon-sinuplasty-recovery/"><span class="link-inner">Balloon Sinuplasty Recovery</span></a></li>
+	<li id="menu-item-2742" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2742"><a href="https://www.capitalent.com/is-balloon-sinuplasty-expensive/"><span class="link-inner">Is Balloon Sinuplasty Expensive?</span></a></li>
+	<li id="menu-item-2744" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2744"><a href="https://www.capitalent.com/balloon-sinuplasty-case-studies/"><span class="link-inner">Balloon Sinuplasty Case Studies</span></a></li>
+	<li id="menu-item-2741" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2741"><a href="https://www.capitalent.com/balloon-sinuplasty-testimonials/"><span class="link-inner">Balloon Sinuplasty Testimonials</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2383"><a href="https://www.capitalent.com/providers/"><span class="link-inner">Our Providers</span></a></li>
+<li id="menu-item-2384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-2384"><a href="#"><span class="link-inner">Info</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2385" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2385"><a href="https://www.capitalent.com/ask-the-ent/"><span class="link-inner">Ask the ENT</span></a></li>
+	<li id="menu-item-2387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2387"><a href="https://www.capitalent.com/ear/"><span class="link-inner">Ear Care</span></a></li>
+	<li id="menu-item-2388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2388"><a href="https://www.capitalent.com/videos/"><span class="link-inner">ENT Videos</span></a></li>
+	<li id="menu-item-2390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2390"><a href="https://www.capitalent.com/make-a-payment/"><span class="link-inner">Make a Payment</span></a></li>
+	<li id="menu-item-2392" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2392"><a href="https://www.capitalent.com/nose/"><span class="link-inner">Nose Care</span></a></li>
+	<li id="menu-item-2393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2393"><a href="https://www.capitalent.com/patient-portal/"><span class="link-inner">Patient Portal</span></a></li>
+	<li id="menu-item-2394" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2394"><a href="https://www.capitalent.com/patient-reviews/"><span class="link-inner">Patient Reviews</span></a></li>
+	<li id="menu-item-2395" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2395"><a href="https://www.capitalent.com/post-op-care/"><span class="link-inner">Post-Op Care</span></a></li>
+	<li id="menu-item-2397" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2397"><a href="https://www.capitalent.com/throat/"><span class="link-inner">Throat Care</span></a></li>
+	<li id="menu-item-2398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2398"><a href="https://www.capitalent.com/video-testimonials/"><span class="link-inner">Video Testimonials</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2386"><a href="https://www.capitalent.com/contact-us/"><span class="link-inner">Locations</span></a></li>
+<li id="menu-item-2396" class="menu-button menu-item menu-item-type-post_type menu-item-object-page menu-item-2396"><a href="https://www.capitalent.com/request-appointment/"><span class="link-inner">Make Appointment</span></a></li>
+<li class="search-toggle-li menu-item wpex-menu-extra no-icon-margin"><a href="#" class="site-search-toggle search-header-replace-toggle" role="button" aria-expanded="false" aria-controls="searchform-header-replace" aria-label="Search"><span class="link-inner"><span class="wpex-menu-search-text wpex-hidden">Search</span><span class="wpex-menu-search-icon ticon ticon-search" aria-hidden="true"></span></span></a></li></ul></nav>
+</div>
+
+
+<div id="mobile-menu" class="wpex-mobile-menu-toggle show-at-mm-breakpoint wpex-flex wpex-items-center wpex-absolute wpex-top-50 -wpex-translate-y-50 wpex-right-0">
+	<div class="wpex-inline-flex wpex-items-center">
+				<div class="wpex-mobile-menu-toggle-extra-icons"><a href="tel:+15123394040" class="mobile-menu-extra-icons mobile-menu-phone wpex-inline-block wpex-no-underline wpex-mr-20"><span class="ticon ticon-phone" aria-hidden="true"></span><span class="screen-reader-text">phone</span></a></div>		<a href="#" class="mobile-menu-toggle" role="button" aria-label="Toggle mobile menu" aria-expanded="false"><span class="mobile-menu-toggle__icon wpex-flex"><span class="wpex-hamburger-icon wpex-hamburger-icon--inactive wpex-hamburger-icon--animate" aria-hidden="true"><span></span></span></span></a>			</div>
+</div></div>
+
+		
+<div id="searchform-header-replace" class="header-searchform-wrap wpex-surface-1 wpex-text-3 wpex-absolute wpex-z-999 wpex-inset-0 wpex-transition-all wpex-duration-300 wpex-invisible wpex-opacity-0" data-placeholder="Type then hit enter to search&hellip;" data-disable-autocomplete="true">
+	<div class="searchform-header-replace__inner container wpex-flex wpex-justify-between wpex-items-center wpex-relative wpex-h-100">
+        
+<form role="search" method="get" class="searchform wpex-relative" action="https://www.capitalent.com/">
+	<label class="searchform-label wpex-text-current wpex-block wpex-m-0 wpex-p-0">
+		<span class="screen-reader-text">Search</span>
+		<input type="search" class="searchform-input field" name="s" placeholder="Search">
+	</label>
+			<button type="submit" class="searchform-submit"><span class="ticon ticon-search" aria-hidden="true"></span><span class="screen-reader-text">Submit</span></button>
+</form>
+        <button id="searchform-header-replace-close" class="wpex-unstyled-button wpex-transition-colors wpex-flex wpex-items-center wpex-justify-center wpex-user-select-none">
+            <span class="searchform-header-replace-close__icon" aria-hidden="true">&times;</span>
+            <span class="screen-reader-text">Close search</span>
+        </button>
+    </div>
+</div>
+	</header>
+
+
+
+			
+			<main id="main" class="site-main wpex-clr">
+
+				
+<header class="page-header has-aside centered-page-header wpex-relative wpex-mb-40 wpex-surface-2 wpex-py-30 wpex-border-t wpex-border-b wpex-border-solid wpex-border-surface-3 wpex-text-2 wpex-text-center wpex-supports-mods">
+
+	
+	<div class="page-header-inner container">
+<div class="page-header-content">
+
+<h1 class="page-header-title wpex-block wpex-m-0 wpex-text-5xl">
+
+	<span>Error 404</span>
+
+</h1>
+
+</div>
+<div class="page-header-aside wpex-mt-5"><nav class="site-breadcrumbs position-page_header_aside wpex-text-4 wpex-text-sm" aria-label="You are here:"><span class="breadcrumb-trail wpex-clr"><span class="trail-begin"><a href="https://www.capitalent.com/" rel="home"><span>Home</span></a></span><span class="sep sep-1"> &raquo; </span><span class="trail-end">404 Error Page</span></span></nav></div></div>
+
+	
+</header>
+
+
+	<div id="content-wrap" class="container wpex-clr">
+
+		
+		<div id="primary" class="content-area wpex-clr">
+
+			
+			<div id="content" class="site-content wpex-clr">
+
+				
+				
+					<article class="entry wpex-clr"><div class="error404-content wpex-text-center wpex-py-30 wpex-clr"><h1 class="error404-content-heading wpex-m-0 wpex-mb-10 wpex-text-6xl">Sorry, this page could not be found.</h1><div class="error404-content-text wpex-text-md wpex-last-mb-0">The page you are looking for doesn&#039;t exist, no longer exists or has been moved.</div></div></article>
+
+				
+				
+			</div>
+
+			
+		</div>
+
+		
+	</div>
+
+
+			
+		</main>
+
+		
+		
+
+
+	
+	    <footer id="footer" class="site-footer wpex-surface-dark wpex-print-hidden">
+
+	        
+	        <div id="footer-inner" class="site-footer-inner container wpex-pt-40 wpex-clr">
+<div id="footer-widgets" class="wpex-row wpex-clr gap-30">
+
+	
+	
+		<div class="footer-box span_1_of_4 col col-1"><div id="media_image-2" class="footer-widget widget wpex-pb-40 wpex-clr widget_media_image"><a href="https://www.capitalent.com/"><img width="300" height="242" src="https://www.capitalent.com/wp-content/uploads/2022/01/icon-capital-ent-stacked-300.png" class="image wp-image-1942  attachment-full size-full" alt="Capital ENT - Ear, Nose, and Throat Doctors in Austin, TX - Formally Capital Otolaryngology" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" /></a></div><div id="wpex_fontawesome_social_widget-2" class="footer-widget widget wpex-pb-40 wpex-clr widget_wpex_fontawesome_social_widget"><style>#wpex_fontawesome_social_widget-2 .wpex-social-btn{font-size:24px;height:36px;width:36px;}</style><div class="wpex-fa-social-widget textcenter"><ul class="wpex-list-none wpex-m-0 wpex-last-mr-0 wpex-text-md"><li class="wpex-inline-block wpex-mb-5 wpex-mr-5"><a href="https://www.facebook.com/capitalENT.otolaryngology" title="Facebook" class="wpex-facebook wpex-social-btn wpex-social-btn-flat wpex-social-bg" rel="noopener noreferrer" target="_blank"><span class="ticon ticon-facebook" aria-hidden="true"></span><span class="screen-reader-text">Facebook</span></a></li><li class="wpex-inline-block wpex-mb-5 wpex-mr-5"><a href="https://twitter.com/sinus_ent" title="X Twitter" class="wpex-x-twitter wpex-social-btn wpex-social-btn-flat wpex-social-bg" rel="noopener noreferrer" target="_blank"><span class="wpex-svg-icon" aria-hidden="true"><svg height="20" width="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></span><span class="screen-reader-text">X Twitter</span></a></li><li class="wpex-inline-block wpex-mb-5 wpex-mr-5"><a href="https://www.youtube.com/channel/UCEBYs_mrkEMOIP5_sjpoiyQ/videos" title="YouTube" class="wpex-youtube wpex-social-btn wpex-social-btn-flat wpex-social-bg" rel="noopener noreferrer" target="_blank"><span class="ticon ticon-youtube-play" aria-hidden="true"></span><span class="screen-reader-text">YouTube</span></a></li><li class="wpex-inline-block wpex-mb-5 wpex-mr-5"><a href="https://www.tiktok.com/@capitalentsinuscenter" title="Tiktok" class="wpex-tiktok wpex-social-btn wpex-social-btn-flat wpex-social-bg" rel="noopener noreferrer" target="_blank"><span class="ticon ticon-tiktok" aria-hidden="true"></span><span class="screen-reader-text">Tiktok</span></a></li><li class="wpex-inline-block wpex-mb-5 wpex-mr-5"><a href="https://www.instagram.com/capitalentandsinus/" title="Instagram" class="wpex-instagram wpex-social-btn wpex-social-btn-flat wpex-social-bg" rel="noopener noreferrer" target="_blank"><span class="ticon ticon-instagram" aria-hidden="true"></span><span class="screen-reader-text">Instagram</span></a></li><li class="wpex-inline-block wpex-mb-5 wpex-mr-5"><a href="https://www.yelp.com/biz/capital-ent-and-sinus-center-austin-6" title="Yelp" class="wpex-yelp wpex-social-btn wpex-social-btn-flat wpex-social-bg" rel="noopener noreferrer" target="_blank"><span class="ticon ticon-yelp" aria-hidden="true"></span><span class="screen-reader-text">Yelp</span></a></li></ul></div></div></div>
+
+	
+	
+		<div class="footer-box span_1_of_4 col col-2"><div id="custom_html-3" class="widget_text footer-widget widget wpex-pb-40 wpex-clr widget_custom_html"><h3 class='widget-title wpex-heading wpex-text-md wpex-mb-20'>Austin Location</h3><div class="textwidget custom-html-widget">12309 N Mopac Expy STE 100<br />
+Austin, TX 78758<br />
+TEL 512-339-4040<br />
+FAX 877-718-0743</div></div><div id="custom_html-2" class="widget_text footer-widget widget wpex-pb-40 wpex-clr widget_custom_html"><h3 class='widget-title wpex-heading wpex-text-md wpex-mb-20'>Lakeway Location</h3><div class="textwidget custom-html-widget">4 Lakeway Centre Ct unit b<br />
+Lakeway, TX 78734<br />
+512-682-4798</div></div><div id="custom_html-5" class="widget_text footer-widget widget wpex-pb-40 wpex-clr widget_custom_html"><h3 class='widget-title wpex-heading wpex-text-md wpex-mb-20'>Marble Falls Location</h3><div class="textwidget custom-html-widget">801 Steve Hawkins Pkwy<br />
+Marble Falls, TX 78654<br />
+512-339-4040</div></div><div id="custom_html-6" class="widget_text footer-widget widget wpex-pb-40 wpex-clr widget_custom_html"><h3 class='widget-title wpex-heading wpex-text-md wpex-mb-20'>Dripping Springs Location</h3><div class="textwidget custom-html-widget">800 US-290, Bldg. A<br />
+Dripping Springs, TX 78620<br />
+512-339-4040</div></div></div>
+
+	
+	
+		<div class="footer-box span_1_of_4 col col-3"><div id="wpex_simple_menu-2" class="footer-widget widget wpex-pb-40 wpex-clr widget_wpex_simple_menu"><h3 class='widget-title wpex-heading wpex-text-md wpex-mb-20'>Services</h3><div class="menu-services-container"><ul id="menu-services" class="menu"><li id="menu-item-2142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2142"><a href="https://www.capitalent.com/allergy-therapy/">Allergy Therapy</a></li>
+<li id="menu-item-1101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1101"><a href="https://www.capitalent.com/nose/balloon-sinuplasty/" title="Receive the Best Balloon Sinuplasty in Austin, TX">Balloon Sinuplasty</a></li>
+<li id="menu-item-1097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1097"><a href="https://www.capitalent.com/ear/dizziness-imbalance-care/" title="Learn More About Our Dizziness and Imbalance Care">Dizziness and Imbalance Care</a></li>
+<li id="menu-item-1102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1102"><a href="https://www.capitalent.com/nose/endoscopic-sinus-surgery/" title="Learn More About Endoscopic Sinus Surgery at Capital ENT and Sinus Center">Endoscopic Sinus Surgery</a></li>
+<li id="menu-item-1098" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1098"><a href="https://www.capitalent.com/ear/hearing-care/" title="Learn More About Our Hearing Care">Hearing Care</a></li>
+<li id="menu-item-1099" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1099"><a href="https://www.capitalent.com/ear/otology/" title="Learn More About Our Otology Services">Otology</a></li>
+<li id="menu-item-1104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1104"><a href="https://www.capitalent.com/pediatric-ent-care/" title="Learn More About Pediatric ENT Care in Austin, TX">Pediatric ENT Care</a></li>
+<li id="menu-item-1103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1103"><a href="https://www.capitalent.com/nose/septoplasty/" title="Learn More About Septoplasty at Capital ENT and Sinus Center">Septoplasty</a></li>
+<li id="menu-item-1105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1105"><a href="https://www.capitalent.com/throat/sleep-apnea-surgery/" title="Learn More About Sleep Apnea Surgery in Austin, TX">Sleep Apnea Surgery</a></li>
+<li id="menu-item-1106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1106"><a href="https://www.capitalent.com/throat/snoring/" title="Learn More Snoring Problem Options">Snoring</a></li>
+<li id="menu-item-1100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1100"><a href="https://www.capitalent.com/ear/tinnitus/" title="Learn More About Our Tinnitus Care">Tinnitus</a></li>
+<li id="menu-item-1107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1107"><a href="https://www.capitalent.com/throat/throat-care/" title="Learn More About Throat Care at Capital ENT and Sinus Center">Throat Care</a></li>
+<li id="menu-item-1108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1108"><a href="https://www.capitalent.com/throat/tonsillectomy/" title="Need a Tonsillectomy in Austin, TX?">Tonsillectomy</a></li>
+<li id="menu-item-1109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1109"><a href="https://www.capitalent.com/throat/voice-care/" title="Learn More About Voice Care in Austin, TX">Voice Care</a></li>
+</ul></div></div><div id="wpex_simple_menu-4" class="footer-widget widget wpex-pb-40 wpex-clr widget_wpex_simple_menu"><h3 class='widget-title wpex-heading wpex-text-md wpex-mb-20'>More Information</h3><div class="menu-more-information-container"><ul id="menu-more-information" class="menu"><li id="menu-item-1778" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1778"><a href="https://www.capitalent.com/ask-the-ent/">Ask the ENT</a></li>
+<li id="menu-item-1129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1129"><a href="https://www.capitalent.com/contact-us/" title="Contact Capital ENT and Sinus Center ENT in Austin, TX">Contact Us / Find Us</a></li>
+<li id="menu-item-1646" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1646"><a href="https://www.capitalent.com/videos/">ENT Videos</a></li>
+<li id="menu-item-1090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1090"><a href="https://www.capitalent.com/providers/" title="Meet the Top ENT Doctors in Lakeway and Austin, TX">Meet the Providers</a></li>
+<li id="menu-item-1993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1993"><a href="https://www.capitalent.com/patient-portal/">Patient Portal</a></li>
+<li id="menu-item-1199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1199"><a href="https://www.capitalent.com/make-a-payment/" title="Pay Your Capital ENT and Sinus Center Bill Online">Pay Bill</a></li>
+<li id="menu-item-1314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1314"><a href="https://www.capitalent.com/post-op-care/" title="Learn More About ENT Post-Op Care">Post-Op Care</a></li>
+<li id="menu-item-1094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1094"><a href="https://www.capitalent.com/request-appointment/" title="Request an ENT Appointment in Lakeway or Austin, TX">Request Appointment</a></li>
+<li id="menu-item-1378" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1378"><a target="_blank" href="https://search.google.com/local/writereview?placeid=ChIJWVBx5BvMRIYRmat3qQCHk1A" title="Review Capital ENT and Sinus Center ENT">Review Us</a></li>
+</ul></div></div></div>
+
+	
+	
+		<div class="footer-box span_1_of_4 col col-4"><div id="media_image-3" class="footer-widget widget wpex-pb-40 wpex-clr widget_media_image"><img width="325" height="550" src="https://www.capitalent.com/wp-content/uploads/2025/09/award-austin-monthly-top-doctors-capital-otolaryngology-2025.png" class="image wp-image-2836  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="https://www.capitalent.com/wp-content/uploads/2025/09/award-austin-monthly-top-doctors-capital-otolaryngology-2025.png 325w, https://www.capitalent.com/wp-content/uploads/2025/09/award-austin-monthly-top-doctors-capital-otolaryngology-2025-177x300.png 177w" sizes="auto, (max-width: 325px) 100vw, 325px" /></div></div>
+
+	
+	
+	
+	
+</div>
+</div>
+
+	        
+	    </footer>
+
+	
+
+
+
+
+	<div id="footer-bottom" class="wpex-py-20 wpex-text-sm wpex-surface-dark wpex-bg-gray-900 wpex-text-center wpex-print-hidden">
+
+		
+		<div id="footer-bottom-inner" class="container"><div class="footer-bottom-flex wpex-clr">
+<div id="copyright" class="wpex-last-mb-0">©2026 <a href="https://www.capitalent.com/" target="_blank">Capital ENT &amp; Sinus Center</a> | All Rights Reserved</div>
+
+<nav id="footer-bottom-menu" class="wpex-mt-10" aria-label="Footer menu"><div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-1270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1270"><a href="https://www.capitalent.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-1269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1269"><a href="https://www.capitalent.com/privacy-tools/">Privacy Tools</a></li>
+<li id="menu-item-1230" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1230"><a href="https://www.capitalent.com/terms-conditions/">Terms &#038; Conditions</a></li>
+<li id="menu-item-1229" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1229"><a href="https://www.capitalent.com/sitemap/">Sitemap</a></li>
+<li id="menu-item-1231" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1231"><a href="https://www.capitalent.com/sitemap_index.xml">XML Sitemap</a></li>
+</ul></div></nav>
+</div></div>
+
+		
+	</div>
+
+
+
+	</div>
+
+	
+</div>
+
+
+<div id="mobile-menu-alternative" class="wpex-hidden"><ul id="menu-mobile" class="dropdown-menu"><li id="menu-item-2479" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2479"><a href="https://www.capitalent.com/"><span class="link-inner"><span class="ticon ticon-home" aria-hidden="true"></span>Home</span></a></li>
+<li id="menu-item-1130" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1130"><a href="https://www.capitalent.com/contact-us/"><span class="link-inner"><span class="ticon ticon-map-marker" aria-hidden="true"></span>Contact Us / Directions</span></a></li>
+<li id="menu-item-880" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-880"><a href="https://www.capitalent.com/request-appointment/"><span class="link-inner"><span class="ticon ticon-calendar" aria-hidden="true"></span>Request Appointment</span></a></li>
+<li id="menu-item-871" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-871"><a href="https://www.capitalent.com/providers/"><span class="link-inner"><span class="ticon ticon-user-md" aria-hidden="true"></span>Meet the Providers</span></a></li>
+<li id="menu-item-1704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1704"><a href="https://www.capitalent.com/videos/"><span class="link-inner"><span class="ticon ticon-play-circle" aria-hidden="true"></span>ENT Videos</span></a></li>
+<li id="menu-item-866" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-866"><a href="https://www.capitalent.com/ear/"><span class="link-inner"><span class="ticon ticon-exclamation-triangle" aria-hidden="true"></span>Ear Issues?</span></a></li>
+<li id="menu-item-872" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-872"><a href="https://www.capitalent.com/nose/"><span class="link-inner"><span class="ticon ticon-exclamation-triangle" aria-hidden="true"></span>Nose Problems?</span></a></li>
+<li id="menu-item-881" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-881"><a href="https://www.capitalent.com/throat/"><span class="link-inner"><span class="ticon ticon-exclamation-triangle" aria-hidden="true"></span>Throat Trouble?</span></a></li>
+<li id="menu-item-1167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1167"><a href="https://www.capitalent.com/pediatric-ent-care/"><span class="link-inner"><span class="ticon ticon-child" aria-hidden="true"></span>Pediatric ENT Care</span></a></li>
+<li id="menu-item-1424" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1424"><a href="https://www.capitalent.com/patient-portal/"><span class="link-inner"><span class="ticon ticon-sign-in" aria-hidden="true"></span>Patient Portal</span></a></li>
+<li id="menu-item-1198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1198"><a href="https://www.capitalent.com/make-a-payment/"><span class="link-inner"><span class="ticon ticon-dollar" aria-hidden="true"></span>Pay Bill</span></a></li>
+<li id="menu-item-1313" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1313"><a href="https://www.capitalent.com/post-op-care/"><span class="link-inner"><span class="ticon ticon-file-pdf" aria-hidden="true"></span>Post-Op Care</span></a></li>
+<li id="menu-item-893" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-893"><a target="_blank" href="https://search.google.com/local/writereview?placeid=ChIJWVBx5BvMRIYRmat3qQCHk1A"><span class="link-inner"><span class="ticon ticon-edit" aria-hidden="true"></span>Review Us</span></a></li>
+<li id="menu-item-888" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-888"><a href="https://www.capitalent.com/video-testimonials/"><span class="link-inner"><span class="ticon ticon-comments" aria-hidden="true"></span>Video Testimonials</span></a></li>
+</ul></div>
+
+
+
+<a href="#outer-wrap" id="site-scroll-top" class="wpex-flex wpex-items-center wpex-justify-center wpex-fixed wpex-rounded-full wpex-text-center wpex-box-content wpex-transition-all wpex-duration-200 wpex-bottom-0 wpex-right-0 wpex-mr-25 wpex-mb-25 wpex-no-underline wpex-print-hidden wpex-surface-2 wpex-text-4 wpex-hover-bg-accent wpex-invisible wpex-opacity-0" data-scroll-speed="1000" data-scroll-offset="100"><span class="ticon ticon-chevron-up" aria-hidden="true"></span><span class="screen-reader-text">Back To Top</span></a>
+
+
+<div id="mobile-menu-search" class="wpex-hidden">
+		<form method="get" action="https://www.capitalent.com/" class="mobile-menu-searchform">
+		<label class="wpex-text-current">
+			<span class="screen-reader-text">Search</span>
+			<input type="search" name="s" autocomplete="off" placeholder="Search">
+								</label>
+		<button type="submit" class="searchform-submit theme-button"><span class="ticon ticon-search" aria-hidden="true"></span><span class="screen-reader-text">Submit</span></button>
+	</form>
+</div>
+
+<div class="wpex-sidr-overlay wpex-fixed wpex-inset-0 wpex-hidden wpex-z-9999 wpex-bg-black wpex-opacity-60"></div>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Kulture-1.1/*","/wp-content/themes/Total/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!--googleoff: all--><div id="cookie-law-info-bar" data-nosnippet="true"><span>This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish.<a role='button' data-cli_action="accept" id="cookie_action_close_header" class="medium cli-plugin-button cli-plugin-main-button cookie_action_close_header cli_action_button wt-cli-accept-btn">Accept</a> <a href="https://www.capitalent.com/privacy-policy/#gdpr-cookies" id="CONSTANT_OPEN_URL" target="_blank" class="cli-plugin-main-link">Read More</a></span></div><div id="cookie-law-info-again" data-nosnippet="true"><span id="cookie_hdr_showagain">Privacy &amp; Cookies Policy</span></div><div class="cli-modal" data-nosnippet="true" id="cliSettingsPopup" tabindex="-1" role="dialog" aria-labelledby="cliSettingsPopup" aria-hidden="true">
+  <div class="cli-modal-dialog" role="document">
+	<div class="cli-modal-content cli-bar-popup">
+		  <button type="button" class="cli-modal-close" id="cliModalClose">
+			<svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path><path d="M0 0h24v24h-24z" fill="none"></path></svg>
+			<span class="wt-cli-sr-only">Close</span>
+		  </button>
+		  <div class="cli-modal-body">
+			<div class="cli-container-fluid cli-tab-container">
+	<div class="cli-row">
+		<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+			<div class="cli-privacy-overview">
+				<h4>Privacy Overview</h4>				<div class="cli-privacy-content">
+					<div class="cli-privacy-content-text">This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.</div>
+				</div>
+				<a class="cli-privacy-readmore" aria-label="Show more" role="button" data-readmore-text="Show more" data-readless-text="Show less"></a>			</div>
+		</div>
+		<div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container">
+												<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="necessary" data-toggle="cli-toggle-tab">
+								Necessary							</a>
+															<div class="wt-cli-necessary-checkbox">
+									<input type="checkbox" class="cli-user-preference-checkbox"  id="wt-cli-checkbox-necessary" data-id="checkbox-necessary" checked="checked"  />
+									<label class="form-check-label" for="wt-cli-checkbox-necessary">Necessary</label>
+								</div>
+								<span class="cli-necessary-caption">Always Enabled</span>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="necessary">
+								<div class="wt-cli-cookie-description">
+									Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information.								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="non-necessary" data-toggle="cli-toggle-tab">
+								Non-necessary							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-non-necessary" class="cli-user-preference-checkbox"  data-id="checkbox-non-necessary" checked='checked' />
+									<label for="wt-cli-checkbox-non-necessary" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Non-necessary</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="non-necessary">
+								<div class="wt-cli-cookie-description">
+									Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent prior to running these cookies on your website.								</div>
+							</div>
+						</div>
+					</div>
+										</div>
+	</div>
+</div>
+		  </div>
+		  <div class="cli-modal-footer">
+			<div class="wt-cli-element cli-container-fluid cli-tab-container">
+				<div class="cli-row">
+					<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+						<div class="cli-tab-footer wt-cli-privacy-overview-actions">
+						
+															<a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept" class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">SAVE &amp; ACCEPT</a>
+													</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>
+</div>
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<!--googleon: all--><!-- HTML -->
+<div id="app">
+<iframe
+      class="close"
+      id="neurality-widget-iframe"
+      src="https://app.neuralityhealth.ai/location/68f27677-06fe-489f-a3b8-414deb190d3f"
+      frameborder="0"
+    ></iframe>
+    <div id="neurality-floating-icon" class="close">
+        <svg
+          id="neurality-widget-icon-open"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 35 32"
+          width="35"
+          height="32"
+        >
+          <path
+            d="M3.417 27.333c-.94 0-1.744-.335-2.413-1.004C.335 25.66 0 24.856 0 23.917V3.417c0-.94.335-1.744 1.004-2.413C1.673.335 2.477 0 3.417 0h27.333c.94 0 1.744.335 2.413 1.004.669.669 1.004 1.473 1.004 2.413v26.607c0 .769-.35 1.303-1.046 1.602-.698.299-1.317.178-1.858-.363L27.333 27.333H3.417z"
+            fill="#fff"
+          />
+        </svg>
+
+        <svg
+          id="neurality-widget-icon-close"
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          viewBox="0 0 50 50"
+          fill="none"
+        >
+          <path
+            d="M25.0002 28.3833L32.0085 35.3916C32.4516 35.8347 33.0154 36.0562 33.7002 36.0562C34.3849 36.0562 34.9488 35.8347 35.3918 35.3916C35.8349 34.9486 36.0564 34.3847 36.0564 33.7C36.0564 33.0153 35.8349 32.4514 35.3918 32.0083L28.3835 25L35.3918 17.9916C35.8349 17.5486 36.0564 16.9847 36.0564 16.3C36.0564 15.6153 35.8349 15.0514 35.3918 14.6083C34.9488 14.1653 34.3849 13.9437 33.7002 13.9437C33.0154 13.9437 32.4516 14.1653 32.0085 14.6083L25.0002 21.6166L17.9918 14.6083C17.5488 14.1653 16.9849 13.9437 16.3002 13.9437C15.6154 13.9437 15.0516 14.1653 14.6085 14.6083C14.1654 15.0514 13.9439 15.6153 13.9439 16.3C13.9439 16.9847 14.1654 17.5486 14.6085 17.9916L21.6168 25L14.6085 32.0083C14.1654 32.4514 13.9439 33.0153 13.9439 33.7C13.9439 34.3847 14.1654 34.9486 14.6085 35.3916C15.0516 35.8347 15.6154 36.0562 16.3002 36.0562C16.9849 36.0562 17.5488 35.8347 17.9918 35.3916L25.0002 28.3833Z"
+            fill="#fff"
+          />
+        </svg>
+    </div>
+</div>
+
+<!-- CSS -->
+<style>
+#neurality-widget-iframe {
+  position: fixed;
+  height: 100%;
+  width: 350px;
+  bottom: 70px;
+  right: 10px;
+  max-height: calc(90% - 70px);
+  max-width: calc(90% - 10px);
+  opacity: 1;
+  transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  border: none;
+  z-index: 9998;
+  border-radius: 1rem;
+  background: transparent;
+  margin: 12px;
+  box-shadow: 0px 147.125px 41.288px 0px rgba(0, 0, 0, 0.00), 0px 94.207px 37.799px 0px rgba(0, 0, 0, 0.01), 0px 52.918px 31.984px 0px rgba(0, 0, 0, 0.05), 0px 23.261px 23.261px 0px rgba(0, 0, 0, 0.09), 0px 5.815px 12.793px 0px rgba(0, 0, 0, 0.10);
+}
+
+#neurality-widget-iframe.close {
+  height: 0;
+  pointer-events: none;
+  opacity: 0;
+}
+
+#neurality-floating-icon {
+  position: fixed;
+  z-index: 9999;
+  bottom: 20px;
+  right: 20px;
+  overflow: visible;
+background-color: #1b3f75;
+  color: white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0px 147.125px 41.288px 0px rgba(0, 0, 0, 0.00), 0px 94.207px 37.799px 0px rgba(0, 0, 0, 0.01), 0px 52.918px 31.984px 0px rgba(0, 0, 0, 0.05), 0px 23.261px 23.261px 0px rgba(0, 0, 0, 0.09), 0px 5.815px 12.793px 0px rgba(0, 0, 0, 0.10);
+}
+
+#neurality-floating-icon svg {
+  display: none;
+  height: 22px;
+  width: 22px;
+  transition: transform 0.2s ease-in-out;
+}
+
+#neurality-floating-icon:not(.close) #neurality-widget-icon-close {
+  display: block;
+}
+
+#neurality-floating-icon.close #neurality-widget-icon-open {
+  display: block;
+}
+
+#neurality-floating-icon:hover {
+  transform: scale(1.1);
+}
+
+#neurality-floating-icon:hover svg {
+  transform: scale(1.2);
+}
+</style>
+
+<!-- JavaScript -->
+<script>
+(function () {
+  const CHAT_BOX = document.getElementById("neurality-widget-iframe");
+  const BUTTON = document.getElementById("neurality-floating-icon");
+  const EXPECTED_HOST = "app.neuralityhealth.ai";
+  
+  if (!CHAT_BOX || !BUTTON) return;
+
+  // Function to handle iframe height adjustments
+  function setupIframeResizing() {
+    // Listen for messages from iframe content
+    window.addEventListener('message', function(event) {
+      // Handle height updates
+      if (event.data?.type === 'resize') {
+        const newHeight = event.data.height;
+        const newWidth = event.data.width;
+        CHAT_BOX.style.height = `${newHeight}px`;
+        CHAT_BOX.style.width = `${newWidth}px`
+
+        if (BUTTON && event.data.open && CHAT_BOX.classList.contains('close')) {
+        BUTTON.click();
+        }
+      }
+    });
+  }
+
+  // Toggle chat box visibility
+  BUTTON.addEventListener("click", function () {
+    CHAT_BOX.classList.toggle("close");
+    BUTTON.classList.toggle("close");
+  });
+
+
+
+  // Initialize iframe resizing
+  setupIframeResizing();
+})();
+</script><script id="donot-sell-form-js-extra">
+var localized_donot_sell_form = {"admin_donot_sell_ajax_url":"https://www.capitalent.com/wp-admin/admin-ajax.php"};
+//# sourceURL=donot-sell-form-js-extra
+</script>
+<script src="https://www.capitalent.com/wp-content/plugins/gdpr-framework/assets/js/gdpr-donotsell.js" id="donot-sell-form-js"></script>
+<script id="wpex-core-js-extra">
+var wpex_theme_params = {"menuWidgetAccordion":"1","mobileMenuBreakpoint":"1299","i18n":{"openSubmenu":"Open submenu of %s","closeSubmenu":"Close submenu of %s"},"stickyHeaderStyle":"shrink_animated","hasStickyMobileHeader":"1","stickyHeaderBreakPoint":"1300","hasStickyHeaderShrink":"1","hasStickyMobileHeaderShrink":"1","shrinkHeaderHeight":"70","stickyTopBarBreakPoint":"960","hasStickyTopBarMobile":"1","selectArrowIcon":"\u003Cspan class=\"wpex-select-arrow__icon ticon ticon-angle-down\" aria-hidden=\"true\"\u003E\u003C/span\u003E","customSelects":".widget_categories form,.widget_archive select,.vcex-form-shortcode select","scrollToHash":"1","localScrollFindLinks":"1","localScrollHighlight":"1","localScrollUpdateHash":"","scrollToHashTimeout":"500","localScrollTargets":"li.local-scroll a, a.local-scroll, .local-scroll-link, .local-scroll-link \u003E a","localScrollSpeed":"1000","scrollToBehavior":"smooth","mobileMenuOpenSubmenuIcon":"\u003Cspan class=\"wpex-open-submenu__icon wpex-transition-all wpex-duration-300 ticon ticon-angle-down\" aria-hidden=\"true\"\u003E\u003C/span\u003E"};
+//# sourceURL=wpex-core-js-extra
+</script>
+<script src="https://www.capitalent.com/wp-content/themes/Total/assets/js/frontend/core.min.js" id="wpex-core-js"></script>
+<script id="wpex-mobile-menu-sidr-js-extra">
+var wpex_mobile_menu_sidr_params = {"source":"#mobile-menu-alternative, #mobile-menu-search","side":"right","dark_surface":"1","displace":"","aria_label":"Mobile menu","aria_label_close":"Close mobile menu","class":"has-background","speed":"300"};
+//# sourceURL=wpex-mobile-menu-sidr-js-extra
+</script>
+<script src="https://www.capitalent.com/wp-content/themes/Total/assets/js/frontend/mobile-menu/sidr.min.js" id="wpex-mobile-menu-sidr-js"></script>
+<script></script>
+<!-- This site is optimized with Phil Singleton's WP SEO Structured Data Plugin v2.8.1 - https://kcseopro.com/wordpress-seo-structured-data-schema-plugin/ -->
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "@id": "https://www.capitalent.com",
+    "image": "https://www.capitalent.com/wp-content/uploads/2022/01/logo-capital-ent-800x200-1.png",
+    "priceRange": "$$",
+    "telephone": "512-339-4040",
+    "additionalType": [
+        "http://www.productontology.org/doc/Otorhinolaryngology",
+        "http://www.productontology.org/doc/Endoscopic_endonasal_surgery",
+        "http://www.productontology.org/doc/Balloon_sinuplasty",
+        "http://www.productontology.org/doc/Otology",
+        "http://www.productontology.org/doc/Septoplasty",
+        "http://www.productontology.org/doc/Sleep_surgery",
+        "",
+        ""
+    ],
+    "name": "Capital ENT &amp; Sinus Center",
+    "logo": "https://www.capitalent.com/wp-content/uploads/2022/01/logo-capital-ent-800x200-1.png",
+    "description": "Capital ENT &amp; Sinus Center offers ENT Austin doctors with a broad range of ear, nose, and throat services including adult and pediatric ear, nose, and throat care, advanced sinus care, including balloon sinuplasty, snoring and sleep apnea treatments, and comprehensive hearing and balance therapies.",
+    "openingHours": [
+        "Mo-Th 08:00-17:00",
+        "Fr 08:00-16:00"
+    ],
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "30.415203",
+        "longitude": "-97.704589"
+    },
+    "url": "https://www.capitalent.com/",
+    "sameAs": [
+        "https://www.facebook.com/capitalENT.otolaryngology",
+        "https://twitter.com/capoto",
+        "https://www.youtube.com/channel/UCEBYs_mrkEMOIP5_sjpoiyQ/videos"
+    ],
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-512-339-4040",
+        "contactType": "customer service",
+        "email": "info@capitalent.com",
+        "contactOption": "",
+        "areaServed": [
+            "US"
+        ],
+        "availableLanguage": [
+            "English",
+            "Spanish"
+        ]
+    },
+    "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US",
+        "addressLocality": "Austin",
+        "addressRegion": "TX",
+        "postalCode": "78758",
+        "streetAddress": "12309 N Mopac Expy #100"
+    }
+}</script>
+<!-- / WP SEO Structured Data Plugin. -->
+
+<script>window.lazyLoadOptions={elements_selector:"iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.capitalent.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e,alt,l){var t='<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360">',a='<button class="play" aria-label="Play Youtube video"></button>';if(l){t=t.replace('data-lazy-','');t=t.replace('loading="lazy"','');t=t.replace(/<noscript>.*?<\/noscript>/g,'');}t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?"":"&"+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var exclusions=["capital-otolaryngology-wassmuth-ENT-examination-30.jpg"];var e,t,p,u,l,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)(e=document.createElement("div")),(u='https://i.ytimg.com/vi/ID/hqdefault.jpg'),(u=u.replace('ID',a[t].dataset.id)),(l=exclusions.some(exclusion=>u.includes(exclusion))),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query",a[t].dataset.query),e.setAttribute("data-src",a[t].dataset.src),(e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt,l)),a[t].appendChild(e),(p=e.querySelector(".play")),(p.onclick=lazyLoadYoutubeIframe)});</script>
+</body>
+</html>

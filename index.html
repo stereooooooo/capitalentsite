@@ -221,7 +221,7 @@
     <a href="our-doctors.html">Our Doctors</a>
     <a href="locations.html">Locations</a>
     <a href="videos.html">Videos</a>
-    <a href="#" class="nav-book" onclick="openBookingModal(event)">Request Appointment</a>
+    <a href="#" class="nav-book" data-action="book">Request Appointment</a>
   </nav>
   <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
     <span></span><span></span><span></span>
@@ -273,7 +273,7 @@
       <h1>Austin's <span>#1 ENT</span><br/>Specialists</h1>
       <p>Board-certified otolaryngologists serving Austin, Lakeway, Marble Falls, and Dripping Springs. Expert care for ear, nose, throat, sinus, and allergy conditions — all under one roof.</p>
       <div class="hero-btns">
-        <a href="#" class="btn-red" onclick="openBookingModal(event)">
+        <a href="#" class="btn-red" data-action="book">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
           Request an Appointment
         </a>
@@ -482,7 +482,7 @@
         </div>
       </div>
       <span class="handnote-gold">We'd love to meet you ↓</span>
-      <a href="#" class="btn-gold" onclick="openBookingModal(event)">
+      <a href="#" class="btn-gold" data-action="book">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
         Meet Our Providers
       </a>
@@ -565,7 +565,7 @@
           <div class="loc-addr">12309 N Mopac Expy STE 100<br/>Austin, TX 78758</div>
           <div class="loc-hours"><strong>Mon&ndash;Thu:</strong> 8am&ndash;5pm &nbsp;&middot;&nbsp; <strong>Fri:</strong> 8am&ndash;4pm</div>
           <div class="loc-btns">
-            <a href="#" class="btn-loc-primary" onclick="openBookingModal(event)">Book Appointment</a>
+            <a href="#" class="btn-loc-primary" data-action="book">Book Appointment</a>
             <a href="https://maps.google.com/?q=12309+N+Mopac+Expy+STE+100,+Austin,+TX+78758" target="_blank" rel="noopener noreferrer" class="btn-loc-outline">Get Directions</a>
           </div>
         </div>
@@ -581,7 +581,7 @@
           <div class="loc-addr">4 Lakeway Centre Ct Unit B<br/>Lakeway, TX 78734</div>
           <div class="loc-hours"><strong>Mon&ndash;Thu:</strong> 8am&ndash;5pm &nbsp;&middot;&nbsp; <strong>Fri:</strong> 8am&ndash;12pm</div>
           <div class="loc-btns">
-            <a href="#" class="btn-loc-primary" onclick="openBookingModal(event)">Book Appointment</a>
+            <a href="#" class="btn-loc-primary" data-action="book">Book Appointment</a>
             <a href="https://maps.google.com/?q=4+Lakeway+Centre+Ct+Unit+B,+Lakeway,+TX+78734" target="_blank" rel="noopener noreferrer" class="btn-loc-outline">Get Directions</a>
           </div>
         </div>
@@ -597,7 +597,7 @@
           <div class="loc-addr">801 Steve Hawkins Pkwy<br/>Marble Falls, TX 78654</div>
           <div class="loc-hours"><strong>Tue &amp; Thu:</strong> 8am&ndash;5pm</div>
           <div class="loc-btns">
-            <a href="#" class="btn-loc-primary" onclick="openBookingModal(event)">Book Appointment</a>
+            <a href="#" class="btn-loc-primary" data-action="book">Book Appointment</a>
             <a href="https://maps.google.com/?q=801+Steve+Hawkins+Pkwy,+Marble+Falls,+TX+78654" target="_blank" rel="noopener noreferrer" class="btn-loc-outline">Get Directions</a>
           </div>
         </div>
@@ -613,7 +613,7 @@
           <div class="loc-addr">800 US-290, Bldg. A<br/>Dripping Springs, TX 78620</div>
           <div class="loc-hours"><strong>Mon &amp; Fri:</strong> 8am&ndash;5pm</div>
           <div class="loc-btns">
-            <a href="#" class="btn-loc-primary" onclick="openBookingModal(event)">Book Appointment</a>
+            <a href="#" class="btn-loc-primary" data-action="book">Book Appointment</a>
             <a href="https://maps.google.com/?q=800+US-290,+Dripping+Springs,+TX+78620" target="_blank" rel="noopener noreferrer" class="btn-loc-outline">Get Directions</a>
           </div>
         </div>
@@ -813,21 +813,21 @@
 </footer>
 
 <!-- ── STICKY CTA ── -->
-<a href="#" class="sticky-cta" onclick="openBookingModal(event)" title="Book an Appointment">
+<a href="#" class="sticky-cta" data-action="book" title="Book an Appointment">
   <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
   Book Appointment
 </a>
 
 <!-- ── BOOKING MODAL ── -->
 <div id="bookingModal" class="modal" style="display:none;" role="dialog" aria-labelledby="bookingModalTitle" aria-hidden="true">
-  <div class="modal-overlay" onclick="closeBookingModal()" role="button" tabindex="0" aria-label="Close"></div>
+  <div class="modal-overlay" data-action="close-modal" role="button" tabindex="0" aria-label="Close"></div>
   <div class="modal-content">
-    <button class="modal-close" onclick="closeBookingModal()" type="button" aria-label="Close booking form">&times;</button>
+    <button class="modal-close" data-action="close-modal" type="button" aria-label="Close booking form">&times;</button>
     <div class="modal-header">
       <h2 id="bookingModalTitle">Request an Appointment</h2>
       <p>Fill out the form below and we'll get back to you within 24 hours.</p>
     </div>
-    <form id="bookingForm" class="modal-form" onsubmit="handleBookingSubmit(event)">
+    <form id="bookingForm" class="modal-form">
       <div class="form-group">
         <label for="fullName">Full Name *</label>
         <input type="text" id="fullName" name="fullName" required placeholder="Jane Smith" aria-required="true">

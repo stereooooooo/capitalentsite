@@ -33,129 +33,158 @@
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "MedicalOrganization",
-        "@id": "https://www.capitalent.com/#organization",
-        "name": "Capital ENT & Sinus Center",
-        "url": "https://www.capitalent.com",
-        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "image": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "description": "Austin's top-rated ENT specialists. Board-certified otolaryngologists treating ear, nose, sinus, throat, sleep apnea and allergies across 4 Central Texas locations.",
-        "telephone": "+15123394040",
-        "email": "info@capitalent.com",
-        "medicalSpecialty": "Otolaryngology",
-        "sameAs": [
-          "https://www.capitalent.com"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "12309 N Mopac Expy STE 100",
-          "addressLocality": "Austin",
-          "addressRegion": "TX",
-          "postalCode": "78758",
-          "addressCountry": "US"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 30.4076,
-          "longitude": -97.7397
-        },
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"],
-            "opens": "08:00",
-            "closes": "17:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Friday",
-            "opens": "08:00",
-            "closes": "16:00"
-          }
-        ],
-        "hasMap": "https://maps.google.com/?q=12309+N+Mopac+Expy+STE+100,+Austin,+TX+78758",
-        "priceRange": "$$",
-        "currenciesAccepted": "USD",
-        "paymentAccepted": "Cash, Credit Card, Insurance"
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalOrganization",
+      "@id": "https://www.capitalent.com/#organization",
+      "name": "Capital ENT & Sinus Center",
+      "url": "https://www.capitalent.com",
+      "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+      "image": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+      "description": "Austin's top-rated ENT specialists. Board-certified otolaryngologists treating ear, nose, sinus, throat, sleep apnea and allergies across 4 Central Texas locations.",
+      "telephone": "+15123394040",
+      "email": "info@capitalent.com",
+      "medicalSpecialty": "Otolaryngology",
+      "sameAs": [
+        "https://www.capitalent.com"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "12309 N Mopac Expy STE 100",
+        "addressLocality": "Austin",
+        "addressRegion": "TX",
+        "postalCode": "78758",
+        "addressCountry": "US"
       },
-      {
-        "@type": "WebSite",
-        "@id": "https://www.capitalent.com/#website",
-        "url": "https://www.capitalent.com",
-        "name": "Capital ENT & Sinus Center",
-        "publisher": { "@id": "https://www.capitalent.com/#organization" }
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 30.4076,
+        "longitude": -97.7397
       },
-      {
-        "@type": "WebPage",
-        "@id": "https://www.capitalent.com/#webpage",
-        "url": "https://www.capitalent.com/",
-        "name": "Capital ENT & Sinus Center | #1 ENT Specialists in Austin, TX",
-        "isPartOf": { "@id": "https://www.capitalent.com/#website" },
-        "about": { "@id": "https://www.capitalent.com/#organization" },
-        "description": "Austin's top-rated ENT specialists. Board-certified otolaryngologists treating ear, nose, sinus, throat, sleep apnea & allergies. 4 convenient Central Texas locations. Same-day appointments available."
-      },
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://www.capitalent.com/#localbusiness",
-        "name": "Capital ENT & Sinus Center",
-        "image": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "telephone": "+15123394040",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "12309 N Mopac Expy STE 100",
-          "addressLocality": "Austin",
-          "addressRegion": "TX",
-          "postalCode": "78758",
-          "addressCountry": "US"
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
         },
-        "url": "https://www.capitalent.com",
-        "department": [
-          {
-            "@type": "LocalBusiness",
-            "name": "Capital ENT & Sinus Center — Lakeway",
-            "telephone": "+15126824798",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "4 Lakeway Centre Ct Unit B",
-              "addressLocality": "Lakeway",
-              "addressRegion": "TX",
-              "postalCode": "78734",
-              "addressCountry": "US"
-            }
-          },
-          {
-            "@type": "LocalBusiness",
-            "name": "Capital ENT & Sinus Center — Marble Falls",
-            "telephone": "+15123394040",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "801 Steve Hawkins Pkwy",
-              "addressLocality": "Marble Falls",
-              "addressRegion": "TX",
-              "postalCode": "78654",
-              "addressCountry": "US"
-            }
-          },
-          {
-            "@type": "LocalBusiness",
-            "name": "Capital ENT & Sinus Center — Dripping Springs",
-            "telephone": "+15123394040",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "800 US-290 Bldg. A",
-              "addressLocality": "Dripping Springs",
-              "addressRegion": "TX",
-              "postalCode": "78620",
-              "addressCountry": "US"
-            }
-          }
-        ]
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "08:00",
+          "closes": "16:00"
+        }
+      ],
+      "hasMap": "https://maps.google.com/?q=12309+N+Mopac+Expy+STE+100,+Austin,+TX+78758",
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "paymentAccepted": "Cash, Credit Card, Insurance",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "500",
+        "bestRating": "5",
+        "worstRating": "1"
       }
-    ]
-  }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.capitalent.com/#website",
+      "url": "https://www.capitalent.com",
+      "name": "Capital ENT & Sinus Center",
+      "publisher": {
+        "@id": "https://www.capitalent.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.capitalent.com/#webpage",
+      "url": "https://www.capitalent.com/",
+      "name": "Capital ENT & Sinus Center | #1 ENT Specialists in Austin, TX",
+      "isPartOf": {
+        "@id": "https://www.capitalent.com/#website"
+      },
+      "about": {
+        "@id": "https://www.capitalent.com/#organization"
+      },
+      "description": "Austin's top-rated ENT specialists. Board-certified otolaryngologists treating ear, nose, sinus, throat, sleep apnea & allergies. 4 convenient Central Texas locations. Same-day appointments available."
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.capitalent.com/#localbusiness",
+      "name": "Capital ENT & Sinus Center",
+      "image": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+      "telephone": "+15123394040",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "12309 N Mopac Expy STE 100",
+        "addressLocality": "Austin",
+        "addressRegion": "TX",
+        "postalCode": "78758",
+        "addressCountry": "US"
+      },
+      "url": "https://www.capitalent.com",
+      "department": [
+        {
+          "@type": "LocalBusiness",
+          "name": "Capital ENT & Sinus Center \u2014 Lakeway",
+          "telephone": "+15126824798",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "4 Lakeway Centre Ct Unit B",
+            "addressLocality": "Lakeway",
+            "addressRegion": "TX",
+            "postalCode": "78734",
+            "addressCountry": "US"
+          }
+        },
+        {
+          "@type": "LocalBusiness",
+          "name": "Capital ENT & Sinus Center \u2014 Marble Falls",
+          "telephone": "+15123394040",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "801 Steve Hawkins Pkwy",
+            "addressLocality": "Marble Falls",
+            "addressRegion": "TX",
+            "postalCode": "78654",
+            "addressCountry": "US"
+          }
+        },
+        {
+          "@type": "LocalBusiness",
+          "name": "Capital ENT & Sinus Center \u2014 Dripping Springs",
+          "telephone": "+15123394040",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "800 US-290 Bldg. A",
+            "addressLocality": "Dripping Springs",
+            "addressRegion": "TX",
+            "postalCode": "78620",
+            "addressCountry": "US"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.capitalent.com/"
+        }
+      ]
+    }
+  ]
+}
   </script>
   <link rel="preload" as="image" href="Doctor photo.webp" type="image/webp" />
 </head>

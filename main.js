@@ -26,14 +26,14 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMobileN
 function openBookingModal(e) {
   if (e) e.preventDefault();
   const modal = document.getElementById('bookingModal');
-  modal.style.display = 'flex';
+  modal.classList.add('modal--open');
   modal.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
   setTimeout(() => document.getElementById('fullName').focus(), 100);
 }
 function closeBookingModal() {
   const modal = document.getElementById('bookingModal');
-  modal.style.display = 'none';
+  modal.classList.remove('modal--open');
   modal.setAttribute('aria-hidden', 'true');
   document.body.style.overflow = '';
 }

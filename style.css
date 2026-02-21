@@ -148,6 +148,29 @@
 .svc-item h4{font-size:16px;font-weight:700;font-family:var(--serif);color:var(--navy);margin-bottom:8px}
 .svc-item p{font-size:13.5px;color:var(--gray);line-height:1.6}
 
+/* ── ENT Urgent Care band (homepage) ── */
+.btn-orange{background:#F26522;color:var(--white);padding:14px 30px;border-radius:7px;font-size:15px;font-weight:700;display:inline-flex;align-items:center;gap:9px;box-shadow:0 4px 16px rgba(242,101,34,.4);transition:transform .2s,box-shadow .2s,background .2s;white-space:nowrap}
+.btn-orange:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(242,101,34,.55);background:#d95a1a}
+.uc-band{background:var(--off);padding:0 40px 88px}
+.uc-card{max-width:1100px;margin:0 auto;background:var(--white);border:1px solid var(--border);border-radius:14px;padding:44px 52px;display:grid;grid-template-columns:1fr auto;gap:56px;align-items:start;box-shadow:0 4px 24px rgba(26,46,90,.08);border-left:5px solid #F26522}
+.uc-eyebrow{display:flex;align-items:center;gap:7px;font-size:11.5px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#F26522;margin-bottom:12px}
+.uc-eyebrow svg{stroke:#F26522;flex-shrink:0}
+.uc-copy h3{font-size:22px;font-weight:600;font-family:var(--serif);color:var(--navy);line-height:1.25;margin-bottom:12px}
+.uc-copy p{font-size:14.5px;color:var(--gray);line-height:1.7;margin-bottom:18px}
+.uc-reasons{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
+.uc-reasons li{font-size:14px;color:#374151;line-height:1.55;padding-left:22px;position:relative}
+.uc-reasons li::before{content:'→';position:absolute;left:0;color:#F26522;font-weight:700;font-size:13px}
+.uc-reasons strong{color:var(--navy)}
+.uc-learn-link{display:inline-flex;align-items:center;gap:5px;font-size:13.5px;font-weight:700;color:var(--navy);transition:color .2s,gap .2s}
+.uc-learn-link:hover{color:#F26522;gap:8px}
+.uc-action{display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px;min-width:220px;padding-top:4px}
+.uc-logo{width:200px;height:auto;display:block}
+.uc-tagline{font-size:12.5px;color:var(--gray);line-height:1.6;max-width:200px}
+.uc-secondary-link{font-size:12.5px;font-weight:600;color:var(--gray);text-decoration:underline;transition:color .2s}
+.uc-secondary-link:hover{color:var(--navy)}
+@media(max-width:960px){.uc-card{grid-template-columns:1fr;gap:32px;padding:32px 28px}.uc-action{align-items:flex-start;text-align:left}.uc-logo{width:160px}}
+@media(max-width:600px){.uc-band{padding:0 20px 56px !important}.uc-card{padding:24px 20px}}
+
 /* ── Triage grid (ent-vs-urgent-care-vs-pcp) ── */
 .triage-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:32px}
 .triage-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:32px 28px;display:flex;flex-direction:column;gap:18px;box-shadow:0 2px 12px rgba(26,46,90,.06);border-top:4px solid var(--border)}

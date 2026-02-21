@@ -24,16 +24,15 @@
    ════════════════════════════════════════════════ */
 
 /* ── Page Hero ── */
-.page-hero{background:linear-gradient(135deg,var(--navy-dk) 0%,var(--navy) 60%,#1e3a70 100%);padding:72px 40px 60px;position:relative;overflow:hidden}
-.page-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 70% 50%,rgba(232,184,75,.07) 0%,transparent 60%);pointer-events:none}
+.page-hero{background:var(--off);padding:72px 40px 60px;position:relative;overflow:hidden;border-bottom:1px solid var(--border)}
 .page-hero-inner{max-width:1100px;margin:0 auto;position:relative;z-index:1}
-.page-hero .eyebrow{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#e8b84b;margin-bottom:14px;background:rgba(232,184,75,.1);border:1px solid rgba(232,184,75,.25);padding:5px 14px;border-radius:20px}
-.page-hero h1{font-size:50px;font-weight:600;font-family:var(--serif);color:var(--white);line-height:1.1;margin-bottom:18px;animation:fadeInUp .8s ease-out .1s both}
-.page-hero h1 span{color:#e8b84b;font-style:italic}
-.page-hero p{font-size:17px;color:rgba(255,255,255,.8);max-width:580px;line-height:1.65;margin-bottom:32px;animation:fadeInUp .8s ease-out .3s both}
+.page-hero .eyebrow{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--red);margin-bottom:14px;background:rgba(183,28,28,.07);border:1px solid rgba(183,28,28,.15);padding:5px 14px;border-radius:20px}
+.page-hero h1{font-size:50px;font-weight:600;font-family:var(--serif);color:var(--navy);line-height:1.1;margin-bottom:18px;animation:fadeInUp .8s ease-out .1s both}
+.page-hero h1 span{color:var(--red);font-style:italic}
+.page-hero p{font-size:17px;color:var(--gray);max-width:580px;line-height:1.65;margin-bottom:32px;animation:fadeInUp .8s ease-out .3s both}
 .page-hero .hero-btns{animation:fadeInUp .8s ease-out .5s both}
-.page-hero .btn-ghost{background:transparent;color:var(--white);border-color:rgba(255,255,255,.45)}
-.page-hero .btn-ghost:hover{border-color:var(--white);background:rgba(255,255,255,.15);color:var(--white);box-shadow:none}
+.page-hero .btn-ghost{background:var(--white);color:var(--navy);border-color:var(--navy)}
+.page-hero .btn-ghost:hover{background:var(--navy);color:var(--white);border-color:var(--navy);box-shadow:0 4px 16px rgba(26,46,90,.25)}
 
 /* ── Breadcrumb ── */
 .breadcrumb{background:var(--off);border-bottom:1px solid var(--border);padding:10px 40px;font-size:13px;color:var(--gray)}

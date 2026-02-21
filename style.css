@@ -249,3 +249,36 @@
   .faq-a{padding:16px 20px}
   .er-callout{padding:14px 16px;font-size:13px}
 }
+
+/* ── Allergy page ── */
+.info-visual.green{background:linear-gradient(135deg,#0e3a20 0%,#1a6b3a 100%)}
+.allergy-stat{display:inline-flex;align-items:center;gap:14px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:10px;padding:14px 20px;margin:8px 0}
+.allergy-stat .num{font-size:36px;font-weight:900;color:#e8b84b;line-height:1}
+.allergy-stat .lbl{font-size:13px;color:rgba(255,255,255,.8);line-height:1.4}
+.treatment-path{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.tp-step{padding:36px 28px;background:var(--white);border-right:1px solid var(--border);position:relative}
+.tp-step:last-child{border-right:none}
+.tp-number{font-size:56px;font-weight:900;color:rgba(183,28,28,.07);line-height:1;margin-bottom:8px}
+.tp-step h3{font-size:18px;font-weight:600;font-family:var(--serif);color:var(--navy);margin-bottom:10px}
+.tp-step p{font-size:14px;color:var(--gray);line-height:1.7}
+.tp-arrow{position:absolute;right:-18px;top:50%;transform:translateY(-50%);width:36px;height:36px;background:var(--red);border-radius:50%;display:flex;align-items:center;justify-content:center;z-index:1}
+.tp-arrow svg{width:16px;height:16px;stroke:white;fill:none;stroke-width:2.5}
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.compare-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:32px;box-shadow:var(--shadow);transition:transform .3s,box-shadow .3s,border-color .3s}
+.compare-card:hover{transform:translateY(-4px);box-shadow:0 14px 36px rgba(0,0,0,.12);border-color:rgba(183,28,28,.25)}
+.compare-card .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:4px 12px;border-radius:4px;margin-bottom:16px}
+.compare-card .tag.shots{background:rgba(26,46,90,.1);color:var(--navy)}
+.compare-card .tag.drops{background:rgba(183,28,28,.08);color:var(--red)}
+.compare-card h3{font-size:22px;font-weight:600;font-family:var(--serif);color:var(--navy);margin-bottom:10px}
+.compare-card p{font-size:14.5px;color:var(--gray);line-height:1.7;margin-bottom:16px}
+.compare-card ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+.compare-card ul li{display:flex;align-items:flex-start;gap:10px;font-size:14px;color:#374151}
+.compare-card ul li::before{content:'✓';color:var(--red);font-weight:800;flex-shrink:0;margin-top:1px}
+.tips-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.tip-item{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:20px 22px;box-shadow:var(--shadow);display:flex;gap:14px;align-items:flex-start}
+.tip-icon{width:40px;height:40px;background:rgba(26,107,58,.1);border:1px solid rgba(26,107,58,.2);border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.tip-icon svg{width:20px;height:20px;stroke:#1a6b3a;fill:none;stroke-width:2}
+.tip-item h4{font-size:15px;font-weight:700;color:var(--navy);margin-bottom:4px}
+.tip-item p{font-size:13.5px;color:var(--gray);line-height:1.6}
+@media(max-width:960px){.treatment-path{grid-template-columns:1fr}.tp-arrow{display:none}.compare-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.tips-grid{grid-template-columns:1fr}}

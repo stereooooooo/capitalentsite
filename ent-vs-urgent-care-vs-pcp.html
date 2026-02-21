@@ -261,21 +261,34 @@
       <div class="triage-card triage-urgent">
         <div class="triage-card-header">
           <div class="triage-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
           </div>
           <div>
-            <div class="triage-label">Urgent Care</div>
-            <div class="triage-sublabel">For acute issues when your doctor isn't available</div>
+            <div class="triage-label">ENT Urgent Care</div>
+            <div class="triage-sublabel">Specialist urgent care — business hours only</div>
           </div>
         </div>
         <ul class="triage-list">
-          <li>Severe ear pain with fever, evenings or weekends</li>
-          <li>Active nosebleed not stopping after 20 minutes</li>
-          <li>Suspected foreign object in ear or nose</li>
-          <li>Sudden significant hearing change</li>
-          <li>Painful, swollen lymph nodes with fever</li>
+          <li>Ear pain — sudden onset or suspected ear infection</li>
+          <li>Foreign object in the ear or nose</li>
+          <li>Nosebleed that won't stop after 20 minutes</li>
+          <li>Sudden hearing loss in one or both ears</li>
+          <li>Severe throat pain or difficulty swallowing</li>
+          <li>Ear drainage, discharge, or post-surgical concern</li>
+          <li>Any acute ENT issue needing same-day specialist care</li>
         </ul>
-        <div class="triage-note">Use urgent care as a bridge — then follow up with an ENT for the underlying problem. <a href="ent-urgent-care.html" style="color:inherit;font-weight:700;text-decoration:underline;">Capital ENT partners with ENT Urgent Care →</a></div>
+        <div class="triage-avail">
+          <div class="triage-avail-heading">Availability at Capital ENT locations:</div>
+          <div class="triage-avail-row">
+            <span class="triage-avail-loc">Austin</span>
+            <span class="triage-avail-days triage-avail-daily">Daily, business hours</span>
+          </div>
+          <div class="triage-avail-row">
+            <span class="triage-avail-loc">Lakeway · Marble Falls · Dripping Springs</span>
+            <span class="triage-avail-days">2 days/week — <a href="https://www.enturgent.com" target="_blank" rel="noopener">check schedule</a></span>
+          </div>
+        </div>
+        <div class="triage-note">After hours or when ENT Urgent Care isn't available at your location, a general urgent care clinic can manage acute ENT symptoms until you're able to see a specialist. <a href="ent-urgent-care.html" style="color:inherit;font-weight:700;text-decoration:underline;">About our ENT Urgent Care partnership →</a></div>
       </div>
 
     </div>
@@ -283,7 +296,7 @@
     <!-- ER callout -->
     <div class="er-callout">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-      <span><strong>Go to the ER or call 911</strong> for: difficulty breathing or swallowing, severe throat swelling, sudden complete hearing loss in both ears, a neck mass that appeared rapidly with high fever, or any symptom you feel is a medical emergency.</span>
+      <span><strong>Go to the ER or call 911</strong> for: difficulty breathing or swallowing, severe throat swelling, sudden complete hearing loss in both ears, a neck mass that appeared rapidly with high fever, or any symptom you feel is a medical emergency. ENT Urgent Care is for urgent but non-life-threatening ENT conditions during business hours.</span>
     </div>
   </div>
 </section>
@@ -305,22 +318,22 @@
             <th>Symptom</th>
             <th class="col-pcp">Primary Care</th>
             <th class="col-ent">ENT Specialist</th>
-            <th class="col-urgent">Urgent Care</th>
+            <th class="col-urgent">ENT Urgent Care†</th>
           </tr>
         </thead>
         <tbody>
           <tr class="symptom-group-row"><td colspan="4">Ear</td></tr>
           <tr>
-            <td>Ear pain — first occurrence, no fever</td>
-            <td class="col-pcp"><span class="sym-yes">✓</span></td>
+            <td>Ear pain — first occurrence, mild, no fever</td>
+            <td class="col-pcp"><span class="sym-yes">✓ PCP</span></td>
             <td class="col-ent"></td>
-            <td class="col-urgent"></td>
+            <td class="col-urgent"><span class="sym-uc">✓ ENT UC</span></td>
           </tr>
           <tr>
-            <td>Ear pain with fever, evenings/weekends</td>
+            <td>Ear pain with fever / suspected ear infection</td>
             <td class="col-pcp"></td>
             <td class="col-ent"></td>
-            <td class="col-urgent"><span class="sym-yes">✓</span></td>
+            <td class="col-urgent"><span class="sym-uc">✓ ENT UC</span></td>
           </tr>
           <tr>
             <td>Recurring ear infections (3+ per year)</td>
@@ -335,10 +348,10 @@
             <td class="col-urgent"></td>
           </tr>
           <tr>
-            <td>Hearing loss — sudden</td>
+            <td>Hearing loss — sudden onset</td>
             <td class="col-pcp"></td>
-            <td class="col-ent"><span class="sym-ent">✓ ENT (same day)</span></td>
-            <td class="col-urgent"><span class="sym-yes">✓ if ENT unavailable</span></td>
+            <td class="col-ent"><span class="sym-ent">✓ ENT same day</span></td>
+            <td class="col-urgent"><span class="sym-uc">✓ ENT UC</span></td>
           </tr>
           <tr>
             <td>Ringing in the ears (tinnitus)</td>
@@ -353,16 +366,22 @@
             <td class="col-urgent"></td>
           </tr>
           <tr>
-            <td>Ear wax buildup</td>
+            <td>Ear wax buildup / impacted wax</td>
             <td class="col-pcp"><span class="sym-yes">✓</span></td>
-            <td class="col-ent"><span class="sym-ent">✓ ENT if impacted</span></td>
-            <td class="col-urgent"></td>
+            <td class="col-ent"></td>
+            <td class="col-urgent"><span class="sym-uc">✓ ENT UC</span></td>
           </tr>
           <tr>
             <td>Foreign object in ear</td>
             <td class="col-pcp"></td>
             <td class="col-ent"></td>
-            <td class="col-urgent"><span class="sym-yes">✓</span></td>
+            <td class="col-urgent"><span class="sym-uc">✓ ENT UC</span></td>
+          </tr>
+          <tr>
+            <td>Ear drainage or discharge</td>
+            <td class="col-pcp"></td>
+            <td class="col-ent"></td>
+            <td class="col-urgent"><span class="sym-uc">✓ ENT UC</span></td>
           </tr>
 
           <tr class="symptom-group-row"><td colspan="4">Nose &amp; Sinuses</td></tr>
@@ -370,7 +389,7 @@
             <td>Sinus infection — first episode, under 10 days</td>
             <td class="col-pcp"><span class="sym-yes">✓</span></td>
             <td class="col-ent"></td>
-            <td class="col-urgent"></td>
+            <td class="col-urgent"><span class="sym-uc">✓ ENT UC</span></td>
           </tr>
           <tr>
             <td>Sinus infection — not responding to antibiotics</td>
@@ -412,7 +431,7 @@
             <td>Nosebleed — won't stop after 20 min</td>
             <td class="col-pcp"></td>
             <td class="col-ent"></td>
-            <td class="col-urgent"><span class="sym-yes">✓</span></td>
+            <td class="col-urgent"><span class="sym-uc">✓ ENT UC</span></td>
           </tr>
           <tr>
             <td>Seasonal allergies / allergic rhinitis</td>
@@ -424,7 +443,7 @@
             <td>Foreign object in nose</td>
             <td class="col-pcp"></td>
             <td class="col-ent"></td>
-            <td class="col-urgent"><span class="sym-yes">✓</span></td>
+            <td class="col-urgent"><span class="sym-uc">✓ ENT UC</span></td>
           </tr>
 
           <tr class="symptom-group-row"><td colspan="4">Throat, Voice &amp; Neck</td></tr>
@@ -435,10 +454,10 @@
             <td class="col-urgent"></td>
           </tr>
           <tr>
-            <td>Strep throat suspected</td>
+            <td>Severe throat pain / suspected strep</td>
             <td class="col-pcp"><span class="sym-yes">✓</span></td>
             <td class="col-ent"></td>
-            <td class="col-urgent"><span class="sym-yes">✓ if PCP unavailable</span></td>
+            <td class="col-urgent"><span class="sym-uc">✓ ENT UC</span></td>
           </tr>
           <tr>
             <td>Chronic sore throat (&gt; 4 weeks)</td>
@@ -453,9 +472,15 @@
             <td class="col-urgent"></td>
           </tr>
           <tr>
-            <td>Difficulty swallowing</td>
-            <td class="col-pcp"><span class="sym-yes">✓ initial</span></td>
-            <td class="col-ent"><span class="sym-ent">✓ ENT if persisting</span></td>
+            <td>Difficulty swallowing — new or sudden</td>
+            <td class="col-pcp"></td>
+            <td class="col-ent"></td>
+            <td class="col-urgent"><span class="sym-uc">✓ ENT UC</span></td>
+          </tr>
+          <tr>
+            <td>Difficulty swallowing — persistent (&gt; 2 weeks)</td>
+            <td class="col-pcp"></td>
+            <td class="col-ent"><span class="sym-ent">✓ ENT</span></td>
             <td class="col-urgent"></td>
           </tr>
           <tr>
@@ -480,10 +505,11 @@
             <td>Throat swelling / difficulty breathing</td>
             <td class="col-pcp"></td>
             <td class="col-ent"></td>
-            <td class="col-urgent"><span class="sym-yes">✓ ER / 911</span></td>
+            <td class="col-urgent"><span class="sym-er">ER / 911</span></td>
           </tr>
         </tbody>
       </table>
+      <p class="symptom-table-footnote">† ENT Urgent Care available at Capital ENT locations during regular business hours. <strong>Austin:</strong> daily. <strong>Lakeway, Marble Falls &amp; Dripping Springs:</strong> 2 days per week — <a href="https://www.enturgent.com" target="_blank" rel="noopener">check current schedule at enturgent.com</a>. After hours or when unavailable at your location, a general urgent care clinic is appropriate for non-emergency ENT issues.</p>
     </div>
   </div>
 </section>

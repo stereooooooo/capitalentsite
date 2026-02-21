@@ -110,4 +110,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.capitalent.com/ent-vs-urgent-care-vs-pcp.html</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

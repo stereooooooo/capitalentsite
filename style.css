@@ -147,3 +147,69 @@
 .svc-item:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(0,0,0,.11);border-color:rgba(183,28,28,.3)}
 .svc-item h4{font-size:16px;font-weight:700;font-family:var(--serif);color:var(--navy);margin-bottom:8px}
 .svc-item p{font-size:13.5px;color:var(--gray);line-height:1.6}
+
+/* ── Triage grid (ent-vs-urgent-care-vs-pcp) ── */
+.triage-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:32px}
+.triage-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:32px 28px;display:flex;flex-direction:column;gap:18px;box-shadow:0 2px 12px rgba(26,46,90,.06);border-top:4px solid var(--border)}
+.triage-pcp{border-top-color:#475569}
+.triage-ent{border-top-color:var(--red)}
+.triage-urgent{border-top-color:#b45309}
+.triage-card-header{display:flex;align-items:center;gap:14px}
+.triage-icon{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.triage-pcp .triage-icon{background:rgba(71,85,105,.1)}
+.triage-pcp .triage-icon svg{stroke:#475569;width:22px;height:22px}
+.triage-ent .triage-icon{background:rgba(183,28,28,.1)}
+.triage-ent .triage-icon svg{stroke:var(--red);width:22px;height:22px}
+.triage-urgent .triage-icon{background:rgba(180,83,9,.1)}
+.triage-urgent .triage-icon svg{stroke:#b45309;width:22px;height:22px}
+.triage-label{font-size:17px;font-weight:700;font-family:var(--serif);color:var(--navy);line-height:1.2}
+.triage-sublabel{font-size:12.5px;color:var(--gray);margin-top:3px}
+.triage-list{list-style:none;display:flex;flex-direction:column;gap:8px;padding:0;flex:1}
+.triage-list li{display:flex;align-items:flex-start;gap:10px;font-size:14px;color:#374151;line-height:1.5}
+.triage-list li::before{content:'';width:18px;height:18px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center;flex-shrink:0;margin-top:2px}
+.triage-ent .triage-list li::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23b71c1c' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E")}
+.triage-note{font-size:13px;color:var(--gray);background:rgba(26,46,90,.04);border:1px solid var(--border);border-radius:8px;padding:12px 16px;line-height:1.6;margin-top:auto}
+.triage-note--highlight{background:rgba(183,28,28,.06);border-color:rgba(183,28,28,.2);color:var(--red);font-weight:600}
+
+/* ── ER callout ── */
+.er-callout{display:flex;align-items:flex-start;gap:14px;background:#fff5f5;border:1.5px solid #fca5a5;border-radius:10px;padding:18px 22px;font-size:14px;color:#7f1d1d;line-height:1.65;margin-top:4px}
+.er-callout svg{flex-shrink:0;margin-top:2px;stroke:#dc2626;width:22px;height:22px}
+.er-callout strong{color:#991b1b}
+
+/* ── Symptom comparison table ── */
+.symptom-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:10px;border:1px solid var(--border);box-shadow:0 2px 12px rgba(26,46,90,.06)}
+.symptom-table{width:100%;border-collapse:collapse;font-size:14px;min-width:560px}
+.symptom-table thead th{padding:14px 16px;font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;text-align:center;white-space:nowrap}
+.symptom-table thead th:first-child{text-align:left;width:42%}
+.symptom-table thead{background:var(--navy);color:var(--white)}
+.col-pcp{background:rgba(71,85,105,.06)}
+.col-ent{background:rgba(183,28,28,.06)}
+.col-urgent{background:rgba(180,83,9,.05)}
+.symptom-table thead .col-pcp{background:rgba(255,255,255,.06)}
+.symptom-table thead .col-ent{background:rgba(255,255,255,.1)}
+.symptom-table thead .col-urgent{background:rgba(255,255,255,.06)}
+.symptom-table tbody tr{border-bottom:1px solid var(--border)}
+.symptom-table tbody tr:last-child{border-bottom:none}
+.symptom-table tbody td{padding:11px 16px;vertical-align:middle;text-align:center;color:var(--gray)}
+.symptom-table tbody td:first-child{text-align:left;color:#374151;font-weight:500}
+.symptom-group-row td{background:var(--off);font-size:11.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--navy);padding:10px 16px;text-align:left !important}
+.sym-yes{display:inline-block;font-size:12.5px;font-weight:600;color:#059669;background:rgba(5,150,105,.08);border:1px solid rgba(5,150,105,.2);border-radius:20px;padding:3px 10px;white-space:nowrap}
+.sym-ent{display:inline-block;font-size:12.5px;font-weight:600;color:var(--red);background:rgba(183,28,28,.07);border:1px solid rgba(183,28,28,.2);border-radius:20px;padding:3px 10px;white-space:nowrap}
+
+/* ── FAQ list ── */
+.faq-list{display:flex;flex-direction:column;gap:16px;max-width:800px;margin:0 auto}
+.faq-item{background:var(--white);border:1px solid var(--border);border-radius:10px;overflow:hidden;box-shadow:0 1px 6px rgba(26,46,90,.05)}
+.faq-q{font-size:16px;font-weight:700;font-family:var(--serif);color:var(--navy);padding:22px 24px;line-height:1.4;border-bottom:1px solid var(--border)}
+.faq-a{font-size:14.5px;color:var(--gray);line-height:1.75;padding:20px 24px;background:rgba(248,246,242,.5)}
+
+/* ── Triage + table responsive ── */
+@media(max-width:960px){
+  .triage-grid{grid-template-columns:1fr}
+  .symptom-table-wrap{border-radius:8px}
+}
+@media(max-width:600px){
+  .triage-card{padding:24px 20px}
+  .faq-q{font-size:15px;padding:18px 20px}
+  .faq-a{padding:16px 20px}
+  .er-callout{padding:14px 16px;font-size:13px}
+}

@@ -279,6 +279,7 @@
       .hero-meta{gap:10px}
     }
   .footer-formerly{font-size:11.5px;color:rgba(255,255,255,.42);margin:6px 0 16px;font-style:italic;letter-spacing:.01em}
+.nav-dd{position:relative;display:flex;align-items:center}.nav-dd-trigger{background:none;border:none;cursor:pointer;padding:8px 13px;font-size:13.5px;font-weight:600;color:var(--navy);border-radius:5px;transition:background .2s,color .2s;display:inline-flex;align-items:center;gap:4px;font-family:var(--font);white-space:nowrap;position:relative;line-height:1}.nav-dd-trigger::after{content:'';position:absolute;bottom:-2px;left:0;height:2px;background:var(--red);width:0;transition:width .3s}.nav-dd:hover .nav-dd-trigger,.nav-dd:focus-within .nav-dd-trigger{background:rgba(183,28,28,.05);color:var(--red)}.nav-dd:hover .nav-dd-trigger::after,.nav-dd:focus-within .nav-dd-trigger::after,.nav-dd-trigger.active::after{width:100%}.nav-dd-trigger.active{color:var(--red)}.nav-chevron{width:12px;height:12px;stroke:currentColor;fill:none;stroke-width:2.5;flex-shrink:0;transition:transform .2s}.nav-dd:hover .nav-chevron,.nav-dd:focus-within .nav-chevron,.nav-dd.open .nav-chevron{transform:rotate(180deg)}.nav-dd-menu{display:none;position:absolute;top:calc(100% + 4px);left:0;background:var(--white);border:1px solid var(--border);border-radius:10px;box-shadow:0 8px 32px rgba(26,46,90,.15);z-index:200;overflow:hidden}.nav-dd:hover .nav-dd-menu,.nav-dd:focus-within .nav-dd-menu,.nav-dd.open .nav-dd-menu{display:block;animation:fadeIn .15s ease}.nav-dd-grid{display:grid;grid-template-columns:1fr 1fr;padding:10px;min-width:380px}.nav-dd-grid a,.nav-dd-list a{display:block;padding:9px 14px;font-size:13.5px;font-weight:500;color:var(--navy);border-radius:6px;transition:background .15s,color .15s;white-space:nowrap;text-decoration:none}.nav-dd-grid a:hover,.nav-dd-list a:hover,.nav-dd-grid a:focus,.nav-dd-list a:focus{background:rgba(183,28,28,.07);color:var(--red);outline:none}.nav-dd-list{display:flex;flex-direction:column;padding:10px;min-width:210px}.nav-dd-foot{border-top:1px solid var(--border);padding:10px 16px;background:var(--off)}.nav-dd-foot a{font-size:12.5px;font-weight:700;color:var(--red);display:inline-flex;align-items:center;gap:4px;text-decoration:none}.nav-dd-foot a:hover{text-decoration:underline}.mobile-nav-section{display:block;padding:10px 24px 3px;font-size:10px;font-weight:700;letter-spacing:1.8px;text-transform:uppercase;color:var(--gray);border-top:1px solid var(--border);margin-top:4px}
 </style>
   <script type="application/ld+json">
   {
@@ -366,16 +367,41 @@
       <picture><source srcset="CENT-Horizontal-Color.webp" type="image/webp" /><img src="CENT-Horizontal-Color.png" alt="Capital ENT &amp; Sinus Center" /></picture>
     </a>
   </div>
-  <nav class="main-nav">
+    <nav class="main-nav">
     <a href="index.html">Home</a>
-    <a href="ear-care.html">Ear Care</a>
-    <a href="nose-sinus.html">Nose &amp; Sinus</a>
-    <a href="sleep.html">Sleep</a>
-    <a href="throat.html">Throat</a>
-    <a href="allergy.html">Allergy</a>
-    <a href="our-doctors.html">Our Doctors</a>
+    <div class="nav-dd">
+      <button class="nav-dd-trigger" aria-expanded="false" aria-haspopup="true">Services <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+      <div class="nav-dd-menu" role="menu">
+        <div class="nav-dd-grid">
+          <a href="ear-care.html">Ear Care &amp; Hearing</a>
+          <a href="throat.html">Throat &amp; Voice</a>
+          <a href="hearing-aids.html">Hearing Aids</a>
+          <a href="sleep.html">Sleep Apnea</a>
+          <a href="nose-sinus.html">Nose &amp; Sinus</a>
+          <a href="allergy.html">Allergy</a>
+          <a href="balloon-sinuplasty.html">Balloon Sinuplasty</a>
+          <a href="pediatric-ent.html">Pediatric ENT</a>
+          <a href="ent-urgent-care.html">ENT Urgent Care</a>
+          <a href="voice-care.html">Voice Care</a>
+        </div>
+        <div class="nav-dd-foot"><a href="index.html#services">View All Services &rarr;</a></div>
+      </div>
+    </div>
+    <a href="our-doctors.html">Our Providers</a>
     <a href="locations.html">Locations</a>
-    <a href="videos.html">Videos</a>
+    <div class="nav-dd">
+      <button class="nav-dd-trigger active" aria-expanded="false" aria-haspopup="true">Patients <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+      <div class="nav-dd-menu" role="menu">
+        <div class="nav-dd-list">
+          <a href="faq.html">FAQ</a>
+          <a href="patient-resources.html">Patient Resources</a>
+          <a href="post-op-care.html">Post-Op Care</a>
+          <a href="insurance.html">Insurance &amp; Billing</a>
+          <a href="reviews.html">Patient Reviews</a>
+          <a href="videos.html">ENT Videos</a>
+        </div>
+      </div>
+    </div>
     <a href="#" class="nav-book" data-action="book">Request Appointment</a>
   </nav>
   <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
@@ -391,23 +417,29 @@
       <picture><source srcset="CENT-Horizontal-Color.webp" type="image/webp" /><img src="CENT-Horizontal-Color.png" alt="Capital ENT &amp; Sinus Center" /></picture>
       <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close menu">&times;</button>
     </div>
-    <nav class="mobile-nav-links">
+        <nav class="mobile-nav-links">
       <a href="index.html">Home</a>
-      <a href="nose-sinus.html">Nose &amp; Sinus</a>
-      <a href="balloon-sinuplasty.html">Balloon Sinuplasty</a>
-      <a href="sleep.html">Sleep &amp; Sleep Apnea</a>
-      <a href="allergy.html">Allergy</a>
+      <span class="mobile-nav-section">Services</span>
       <a href="ear-care.html">Ear Care &amp; Hearing</a>
       <a href="hearing-aids.html">Hearing Aids</a>
-      <a href="throat.html">Throat</a>
-      <a href="our-doctors.html">Our Doctors</a>
-      <a href="locations.html">Locations</a>
+      <a href="nose-sinus.html">Nose &amp; Sinus</a>
+      <a href="balloon-sinuplasty.html">Balloon Sinuplasty</a>
+      <a href="throat.html">Throat &amp; Voice</a>
+      <a href="sleep.html">Sleep Apnea</a>
+      <a href="allergy.html">Allergy</a>
+      <a href="pediatric-ent.html">Pediatric ENT</a>
       <a href="ent-urgent-care.html">ENT Urgent Care</a>
-      <a href="reviews.html">Patient Reviews</a>
-      <a href="videos.html">Videos</a>
-      <a href="ask-the-ent.html" class="active">Patient Guides</a>
+      <a href="voice-care.html">Voice Care</a>
+      <span class="mobile-nav-section">Practice</span>
+      <a href="our-doctors.html">Our Providers</a>
+      <a href="locations.html">Locations</a>
+      <span class="mobile-nav-section">Patients</span>
       <a href="faq.html">FAQ</a>
+      <a href="patient-resources.html">Patient Resources</a>
+      <a href="post-op-care.html">Post-Op Care</a>
       <a href="insurance.html">Insurance &amp; Billing</a>
+      <a href="reviews.html">Patient Reviews</a>
+      <a href="videos.html">ENT Videos</a>
     </nav>
     <div class="mobile-nav-footer">
       <a href="tel:5123394040">&#128222; Call 512-339-4040</a>
@@ -974,6 +1006,46 @@
       }
     });
   });
+</script>
+
+<script>
+(function(){
+  document.querySelectorAll('.nav-dd').forEach(function(dd){
+    var trigger = dd.querySelector('.nav-dd-trigger');
+    if(!trigger) return;
+    var menu = dd.querySelector('.nav-dd-menu');
+    // Click toggle (touch-friendly)
+    trigger.addEventListener('click', function(e){
+      e.stopPropagation();
+      var open = dd.classList.contains('open');
+      document.querySelectorAll('.nav-dd.open').forEach(function(d){
+        d.classList.remove('open');
+        d.querySelector('.nav-dd-trigger').setAttribute('aria-expanded','false');
+      });
+      if(!open){ dd.classList.add('open'); trigger.setAttribute('aria-expanded','true'); }
+    });
+    // Keep open while hovering menu
+    dd.addEventListener('mouseleave', function(){
+      dd.classList.remove('open');
+      trigger.setAttribute('aria-expanded','false');
+    });
+  });
+  document.addEventListener('click', function(e){
+    if(!e.target.closest('.nav-dd')){
+      document.querySelectorAll('.nav-dd.open').forEach(function(d){
+        d.classList.remove('open');
+        d.querySelector('.nav-dd-trigger').setAttribute('aria-expanded','false');
+      });
+    }
+  });
+  // Escape key closes
+  document.addEventListener('keydown', function(e){
+    if(e.key==='Escape') document.querySelectorAll('.nav-dd.open').forEach(function(d){
+      d.classList.remove('open');
+      d.querySelector('.nav-dd-trigger').setAttribute('aria-expanded','false');
+    });
+  });
+})();
 </script>
 </body>
 </html>

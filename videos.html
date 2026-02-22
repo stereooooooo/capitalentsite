@@ -99,16 +99,41 @@
       <picture><source srcset="CENT-Horizontal-Color.webp" type="image/webp" /><img src="CENT-Horizontal-Color.png" alt="Capital ENT &amp; Sinus Center" /></picture>
     </a>
   </div>
-  <nav class="main-nav">
+    <nav class="main-nav">
     <a href="index.html">Home</a>
-    <a href="nose-sinus.html">Nose &amp; Sinus</a>
-    <a href="sleep.html">Sleep</a>
-    <a href="allergy.html">Allergy</a>
-    <a href="ear-care.html">Ear Care</a>
-    <a href="throat.html">Throat</a>
+    <div class="nav-dd">
+      <button class="nav-dd-trigger" aria-expanded="false" aria-haspopup="true">Services <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+      <div class="nav-dd-menu" role="menu">
+        <div class="nav-dd-grid">
+          <a href="ear-care.html">Ear Care &amp; Hearing</a>
+          <a href="throat.html">Throat &amp; Voice</a>
+          <a href="hearing-aids.html">Hearing Aids</a>
+          <a href="sleep.html">Sleep Apnea</a>
+          <a href="nose-sinus.html">Nose &amp; Sinus</a>
+          <a href="allergy.html">Allergy</a>
+          <a href="balloon-sinuplasty.html">Balloon Sinuplasty</a>
+          <a href="pediatric-ent.html">Pediatric ENT</a>
+          <a href="ent-urgent-care.html">ENT Urgent Care</a>
+          <a href="voice-care.html">Voice Care</a>
+        </div>
+        <div class="nav-dd-foot"><a href="index.html#services">View All Services &rarr;</a></div>
+      </div>
+    </div>
     <a href="our-doctors.html">Our Providers</a>
     <a href="locations.html">Locations</a>
-    <a href="videos.html" class="active">Videos</a>
+    <div class="nav-dd">
+      <button class="nav-dd-trigger active" aria-expanded="false" aria-haspopup="true">Patients <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+      <div class="nav-dd-menu" role="menu">
+        <div class="nav-dd-list">
+          <a href="faq.html">FAQ</a>
+          <a href="patient-resources.html">Patient Resources</a>
+          <a href="post-op-care.html">Post-Op Care</a>
+          <a href="insurance.html">Insurance &amp; Billing</a>
+          <a href="reviews.html">Patient Reviews</a>
+          <a href="videos.html">ENT Videos</a>
+        </div>
+      </div>
+    </div>
     <a href="#" class="nav-book" data-action="book">Request Appointment</a>
   </nav>
   <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
@@ -123,22 +148,29 @@
       <picture><source srcset="CENT-Horizontal-Color.webp" type="image/webp" /><img src="CENT-Horizontal-Color.png" alt="Capital ENT &amp; Sinus Center" /></picture>
       <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close menu">&times;</button>
     </div>
-    <nav class="mobile-nav-links">
+        <nav class="mobile-nav-links">
       <a href="index.html">Home</a>
-      <a href="nose-sinus.html">Nose &amp; Sinus</a>
-      <a href="balloon-sinuplasty.html">Balloon Sinuplasty</a>
-      <a href="sleep.html">Sleep &amp; Sleep Apnea</a>
-      <a href="allergy.html">Allergy</a>
+      <span class="mobile-nav-section">Services</span>
       <a href="ear-care.html">Ear Care &amp; Hearing</a>
       <a href="hearing-aids.html">Hearing Aids</a>
-      <a href="throat.html">Throat</a>
+      <a href="nose-sinus.html">Nose &amp; Sinus</a>
+      <a href="balloon-sinuplasty.html">Balloon Sinuplasty</a>
+      <a href="throat.html">Throat &amp; Voice</a>
+      <a href="sleep.html">Sleep Apnea</a>
+      <a href="allergy.html">Allergy</a>
+      <a href="pediatric-ent.html">Pediatric ENT</a>
+      <a href="ent-urgent-care.html">ENT Urgent Care</a>
+      <a href="voice-care.html">Voice Care</a>
+      <span class="mobile-nav-section">Practice</span>
       <a href="our-doctors.html">Our Providers</a>
       <a href="locations.html">Locations</a>
-      <a href="ent-urgent-care.html">ENT Urgent Care</a>
-      <a href="reviews.html">Patient Reviews</a>
-      <a href="videos.html" class="active">Videos</a>
+      <span class="mobile-nav-section">Patients</span>
       <a href="faq.html">FAQ</a>
+      <a href="patient-resources.html">Patient Resources</a>
+      <a href="post-op-care.html">Post-Op Care</a>
       <a href="insurance.html">Insurance &amp; Billing</a>
+      <a href="reviews.html">Patient Reviews</a>
+      <a href="videos.html" class="active">ENT Videos</a>
     </nav>
     <div class="mobile-nav-footer">
       <a href="tel:5123394040">&#128222; Call 512-339-4040</a>
@@ -653,5 +685,45 @@
 </div>
 
 <script src="main.js" defer></script>
+
+<script>
+(function(){
+  document.querySelectorAll('.nav-dd').forEach(function(dd){
+    var trigger = dd.querySelector('.nav-dd-trigger');
+    if(!trigger) return;
+    var menu = dd.querySelector('.nav-dd-menu');
+    // Click toggle (touch-friendly)
+    trigger.addEventListener('click', function(e){
+      e.stopPropagation();
+      var open = dd.classList.contains('open');
+      document.querySelectorAll('.nav-dd.open').forEach(function(d){
+        d.classList.remove('open');
+        d.querySelector('.nav-dd-trigger').setAttribute('aria-expanded','false');
+      });
+      if(!open){ dd.classList.add('open'); trigger.setAttribute('aria-expanded','true'); }
+    });
+    // Keep open while hovering menu
+    dd.addEventListener('mouseleave', function(){
+      dd.classList.remove('open');
+      trigger.setAttribute('aria-expanded','false');
+    });
+  });
+  document.addEventListener('click', function(e){
+    if(!e.target.closest('.nav-dd')){
+      document.querySelectorAll('.nav-dd.open').forEach(function(d){
+        d.classList.remove('open');
+        d.querySelector('.nav-dd-trigger').setAttribute('aria-expanded','false');
+      });
+    }
+  });
+  // Escape key closes
+  document.addEventListener('keydown', function(e){
+    if(e.key==='Escape') document.querySelectorAll('.nav-dd.open').forEach(function(d){
+      d.classList.remove('open');
+      d.querySelector('.nav-dd-trigger').setAttribute('aria-expanded','false');
+    });
+  });
+})();
+</script>
 </body>
 </html>

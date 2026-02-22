@@ -253,7 +253,7 @@
 /* ── Our Providers page ── */
 .provider-card{background:var(--white);border:1px solid var(--border);border-radius:12px;overflow:hidden;box-shadow:var(--shadow);transition:transform .3s,box-shadow .3s;margin-bottom:32px}
 .provider-card:hover{transform:translateY(-4px);box-shadow:0 16px 48px rgba(0,0,0,.14)}
-.provider-card-inner{display:grid;grid-template-columns:280px 1fr;min-height:280px}
+.provider-card-inner{display:grid;grid-template-columns:340px 1fr;min-height:280px}
 .provider-photo{background:linear-gradient(135deg,var(--navy-dk) 0%,var(--navy) 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px 24px;text-align:center}
 .provider-avatar{width:110px;height:110px;background:rgba(255,255,255,.12);border:2px solid rgba(232,184,75,.4);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 16px}
 .provider-avatar svg{width:52px;height:52px;stroke:rgba(255,255,255,.6);fill:none;stroke-width:1.5}

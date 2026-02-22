@@ -33,6 +33,8 @@
 .page-hero .hero-btns{animation:fadeInUp .8s ease-out .5s both}
 .page-hero .btn-ghost{background:var(--white);color:var(--navy);border-color:var(--navy)}
 .page-hero .btn-ghost:hover{background:var(--navy);color:var(--white);border-color:var(--navy);box-shadow:0 4px 16px rgba(26,46,90,.25)}
+.page-hero--sm{padding:52px 40px 36px}
+.page-hero--sm p{margin-bottom:0}
 
 /* ── Breadcrumb ── */
 .breadcrumb{background:var(--off);border-bottom:1px solid var(--border);padding:10px 40px;font-size:14px;color:var(--gray)}

@@ -175,3 +175,21 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     }
   });
 });
+
+/* ── Cedar Season Banner (homepage, Nov–Feb) ────────────────────────────── */
+(function () {
+  const m = new Date().getMonth(); // 0=Jan … 11=Dec
+  const isCedarSeason = m === 10 || m === 11 || m === 0 || m === 1; // Nov, Dec, Jan, Feb
+  if (!isCedarSeason) return;
+  if (sessionStorage.getItem('cedarDismissed')) return;
+  const banner = document.getElementById('cedarBanner');
+  if (!banner) return;
+  banner.style.display = '';
+  const closeBtn = document.getElementById('cedarBannerClose');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', function () {
+      banner.style.display = 'none';
+      sessionStorage.setItem('cedarDismissed', '1');
+    });
+  }
+}());

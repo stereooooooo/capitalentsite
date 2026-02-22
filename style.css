@@ -588,4 +588,52 @@
 .anesthesia-mark{font-weight:700;flex-shrink:0;margin-top:1px}
 .anesthesia-col--green .anesthesia-mark{color:#059669}
 .anesthesia-col--red .anesthesia-mark{color:var(--red)}
+
+/* ── Cedar Fever Page ────────────────────────────────────────────────────── */
+
+/* Cedar Season Calendar */
+.cedar-cal{display:grid;grid-template-columns:repeat(12,1fr);gap:8px;margin:32px 0 12px}
+.cedar-month{display:flex;flex-direction:column;align-items:center;gap:6px}
+.cedar-month-name{font-size:12px;font-weight:700;color:#374151;text-transform:uppercase;letter-spacing:.5px}
+.cedar-month-bar{width:100%;border-radius:4px;transition:height .3s}
+.cedar-month-level{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.4px}
+/* None */
+.cedar-none .cedar-month-bar{height:8px;background:#e5e7eb}
+.cedar-none .cedar-month-level{color:#9ca3af}
+/* Low */
+.cedar-low .cedar-month-bar{height:36px;background:rgba(251,191,36,.5)}
+.cedar-low .cedar-month-level{color:#d97706}
+/* Medium / Moderate */
+.cedar-medium .cedar-month-bar{height:60px;background:rgba(249,115,22,.6)}
+.cedar-medium .cedar-month-level{color:#ea580c}
+/* Peak */
+.cedar-peak .cedar-month-bar{height:96px;background:var(--red)}
+.cedar-peak .cedar-month-level{color:var(--red)}
+.cedar-cal-note{font-size:13px;color:#6b7280;text-align:center;margin-top:4px}
+@media(max-width:700px){
+  .cedar-cal{grid-template-columns:repeat(6,1fr);gap:6px}
+  .cedar-month-name{font-size:10px}
+  .cedar-month-level{font-size:9px}
+}
+
+/* Cedar tip box */
+.cedar-tip-box{display:flex;gap:14px;align-items:flex-start;background:#eff6ff;border:1px solid #bfdbfe;border-left:4px solid #3b82f6;border-radius:8px;padding:18px 22px;margin-top:32px;font-size:14px;color:#1e3a8a;line-height:1.6}
+.cedar-tip-icon{flex-shrink:0;margin-top:1px;color:#3b82f6}
+
+/* ── Cedar Season Banner (homepage) ────────────────────────────────────── */
+.cedar-banner{background:linear-gradient(135deg,#b71c1c 0%,#c62828 100%);color:#fff;width:100%;position:relative;z-index:90}
+.cedar-banner-inner{max-width:1200px;margin:0 auto;padding:12px 24px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.cedar-banner-icon{flex-shrink:0;width:32px;height:32px;background:rgba(255,255,255,.18);border-radius:6px;display:flex;align-items:center;justify-content:center}
+.cedar-banner-text{flex:1;min-width:200px;font-size:14px;line-height:1.4}
+.cedar-banner-text strong{display:block;font-weight:700;font-size:15px;margin-bottom:2px}
+.cedar-banner-text span{opacity:.9}
+.cedar-banner-cta{flex-shrink:0;background:#fff;color:var(--red);font-weight:700;font-size:13px;padding:7px 18px;border-radius:5px;text-decoration:none;white-space:nowrap;transition:opacity .15s}
+.cedar-banner-cta:hover{opacity:.88}
+.cedar-banner-close{flex-shrink:0;background:none;border:none;color:#fff;cursor:pointer;padding:4px;opacity:.75;line-height:0;margin-left:4px}
+.cedar-banner-close:hover{opacity:1}
+@media(max-width:600px){
+  .cedar-banner-inner{padding:10px 16px;gap:10px}
+  .cedar-banner-text span{display:none}
+  .cedar-banner-icon{display:none}
+}
 @media(max-width:600px){.anesthesia-callout{padding:24px 20px}.anesthesia-cols{flex-direction:column}}

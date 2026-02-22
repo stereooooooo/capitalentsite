@@ -722,3 +722,28 @@
 .postop-phone-btn svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2}
 @media(max-width:760px){.guide-list{grid-template-columns:1fr}.postop-alert-body ul{grid-template-columns:1fr}}
 @media(max-width:600px){.postop-alert{flex-direction:column;gap:12px}}
+
+/* ── Legal pages (Privacy Policy, Terms & Conditions) ─────────────────── */
+.legal-layout{display:grid;grid-template-columns:200px 1fr;gap:56px;align-items:start}
+.legal-toc{position:sticky;top:92px;background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow)}
+.legal-toc h3{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.8px;color:var(--gray);margin-bottom:14px}
+.legal-toc ol{list-style:none;counter-reset:toc;display:flex;flex-direction:column;gap:2px}
+.legal-toc ol li{counter-increment:toc}
+.legal-toc ol li a{display:flex;gap:8px;align-items:baseline;padding:7px 10px;font-size:12.5px;font-weight:500;color:var(--navy);border-radius:5px;transition:background .15s,color .15s;line-height:1.35;text-decoration:none}
+.legal-toc ol li a::before{content:counter(toc);font-size:10.5px;font-weight:700;color:var(--gray);flex-shrink:0;min-width:14px}
+.legal-toc ol li a:hover{background:rgba(26,46,90,.06);color:var(--red)}
+.legal-prose{display:flex;flex-direction:column;gap:40px}
+.legal-updated{font-size:13px;color:var(--gray);background:var(--off);border:1px solid var(--border);border-radius:6px;padding:10px 16px}
+.legal-section{scroll-margin-top:100px}
+.legal-section h2{font-size:19px;font-weight:800;color:var(--navy);margin-bottom:14px;padding-bottom:10px;border-bottom:2px solid var(--border)}
+.legal-section h3{font-size:15px;font-weight:700;color:var(--navy);margin:20px 0 7px}
+.legal-section p{font-size:14.5px;color:#374151;line-height:1.8;margin-bottom:12px}
+.legal-section p:last-child{margin-bottom:0}
+.legal-section ul,.legal-section ol{padding-left:20px;display:flex;flex-direction:column;gap:6px;margin-bottom:12px}
+.legal-section li{font-size:14.5px;color:#374151;line-height:1.7}
+.legal-section a{color:var(--red);font-weight:600;text-decoration:underline}
+.legal-section a:hover{color:var(--red-lt)}
+.legal-section strong{color:#1e293b;font-weight:700}
+.legal-callout{background:var(--off);border-left:4px solid var(--navy);border-radius:0 var(--radius) var(--radius) 0;padding:16px 20px;margin:16px 0}
+.legal-callout p{margin-bottom:0;font-size:14px}
+@media(max-width:900px){.legal-layout{grid-template-columns:1fr}.legal-toc{position:static}}

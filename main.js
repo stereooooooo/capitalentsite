@@ -102,6 +102,35 @@ document.querySelectorAll('.award-pill').forEach((pill, i) => {
   prepareScrollAnim(pill, 'slideInFromBottom', i * 0.07);
 });
 
+/* ── Video Filter (videos.html) ─────────────────────────────────────────── */
+if (document.querySelector('.filter-btn')) {
+  function filterVideos(category, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const sections = {
+      sinus:   document.getElementById('section-sinus'),
+      sleep:   document.getElementById('section-sleep'),
+      allergy: document.getElementById('section-allergy'),
+      ear:     document.getElementById('section-ear')
+    };
+    const featured = document.getElementById('section-featured');
+    if (category === 'all') {
+      if (featured) featured.style.display = '';
+      Object.values(sections).forEach(s => { if (s) s.style.display = ''; });
+    } else {
+      if (featured) featured.style.display = 'none';
+      Object.entries(sections).forEach(([key, sec]) => {
+        if (sec) sec.style.display = key === category ? '' : 'none';
+      });
+    }
+    const target = category === 'all' ? featured : sections[category];
+    if (target) setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
+  }
+  document.querySelectorAll('.filter-btn[data-filter]').forEach(btn => {
+    btn.addEventListener('click', () => filterVideos(btn.dataset.filter, btn));
+  });
+}
+
 /* ── Contact Form ───────────────────────────────────────────────────────── */
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {

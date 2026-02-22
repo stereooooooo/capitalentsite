@@ -193,3 +193,12 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     });
   }
 }());
+
+/* ── Cedar Season Section (allergy page, Oct–Feb) ───────────────────────── */
+(function () {
+  const m = new Date().getMonth(); // 0=Jan … 11=Dec
+  const isCedar = m === 9 || m === 10 || m === 11 || m === 0 || m === 1; // Oct–Feb
+  if (!isCedar) return;
+  const section = document.getElementById('allergycedarSeasonSection');
+  if (section) section.style.display = '';
+}());

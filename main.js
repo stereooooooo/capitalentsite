@@ -102,6 +102,22 @@ document.querySelectorAll('.award-pill').forEach((pill, i) => {
   prepareScrollAnim(pill, 'slideInFromBottom', i * 0.07);
 });
 
+/* ── Contact Form ───────────────────────────────────────────────────────── */
+const contactForm = document.getElementById('contactForm');
+if (contactForm) {
+  contactForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const btn = this.querySelector('button[type="submit"]');
+    btn.textContent = '✓ Request Submitted!';
+    btn.style.background = '#10b981';
+    setTimeout(() => {
+      this.reset();
+      btn.textContent = 'Submit Request';
+      btn.style.background = '';
+    }, 3000);
+  });
+}
+
 /* ── Smooth scroll for anchor links ────────────────────────────────────── */
 document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener('click', (e) => {

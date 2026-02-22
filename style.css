@@ -698,7 +698,7 @@
 @media(max-width:600px){.glp1-band{padding:48px 20px}}
 
 /* ── Post-Op Care page ──────────────────────────────────────────────────── */
-.services-category-head{font-size:clamp(.95rem,2vw,1.05rem);font-weight:700;color:var(--navy);border-bottom:2px solid var(--navy);padding-bottom:9px;margin:44px 0 0;letter-spacing:.02em;text-transform:uppercase}
+.services-category-head{font-size:clamp(1.15rem,2.5vw,1.35rem);font-weight:800;color:var(--navy);border-bottom:2px solid var(--navy);padding-bottom:9px;margin:44px 0 0}
 .services-category-head:first-of-type{margin-top:0}
 .guide-list{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:0 48px;margin-bottom:8px}
 .guide-row{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:13px 0;border-bottom:1px solid var(--border)}

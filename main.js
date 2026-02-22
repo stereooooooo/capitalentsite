@@ -147,6 +147,24 @@ if (contactForm) {
   });
 }
 
+/* ── BSP FAQ Accordion (balloon-sinuplasty.html) ────────────────────────── */
+document.querySelectorAll('.bfaq-q').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    // Collapse all others
+    document.querySelectorAll('.bfaq-q[aria-expanded="true"]').forEach(other => {
+      if (other !== btn) {
+        other.setAttribute('aria-expanded', 'false');
+        other.nextElementSibling.style.maxHeight = null;
+      }
+    });
+    // Toggle current
+    btn.setAttribute('aria-expanded', String(!expanded));
+    const panel = btn.nextElementSibling;
+    panel.style.maxHeight = expanded ? null : panel.scrollHeight + 'px';
+  });
+});
+
 /* ── Smooth scroll for anchor links ────────────────────────────────────── */
 document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener('click', (e) => {

@@ -486,3 +486,85 @@
 .pay-help-actions{display:flex;gap:12px;flex-shrink:0;align-items:center}
 @media(max-width:960px){.pay-grid{grid-template-columns:1fr}.pay-help-band{flex-direction:column;text-align:center;align-items:center}.pay-help-actions{flex-wrap:wrap;justify-content:center}}
 @media(max-width:600px){.pay-notice-box{flex-direction:column;gap:14px;margin-bottom:36px}.pay-help-band{padding:24px 20px}.pay-help-actions{flex-direction:column;align-items:stretch}.pay-help-actions a{justify-content:center}}
+
+/* ── Balloon Sinuplasty page ─────────────────────────────────────────────── */
+.rule{width:52px;height:3px;background:var(--red);border-radius:2px;margin:14px auto 0}
+
+/* Steps row */
+.steps-row{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.step-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:28px 22px;box-shadow:var(--shadow);transition:transform .3s,box-shadow .3s;text-align:center}
+.step-card:hover{transform:translateY(-4px);box-shadow:0 14px 36px rgba(0,0,0,.12)}
+.step-num{width:44px;height:44px;background:linear-gradient(135deg,var(--navy),#1e3a70);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:800;color:var(--white);margin:0 auto 16px}
+.step-card h3{font-size:15.5px;font-weight:700;font-family:var(--serif);color:var(--navy);margin-bottom:10px}
+.step-card p{font-size:13.5px;color:var(--gray);line-height:1.65}
+
+/* Comparison table */
+.compare-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.compare-table{width:100%;border-collapse:collapse;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.compare-table th{padding:18px 22px;font-size:14px;font-weight:700;text-align:left}
+.compare-table th:first-child{background:var(--off);color:var(--navy)}
+.compare-table th.col-bsp{background:var(--navy);color:var(--white)}
+.compare-table th.col-trad{background:#6b1111;color:var(--white)}
+.compare-table td{padding:14px 22px;font-size:13.5px;border-bottom:1px solid var(--border);vertical-align:middle}
+.compare-table td:first-child{font-weight:600;color:var(--navy);background:var(--off)}
+.compare-table tr:last-child td{border-bottom:none}
+.compare-table tr:hover td{background:rgba(26,46,90,.03)}
+.compare-table tr:hover td:first-child{background:rgba(26,46,90,.06)}
+.badge-yes{display:inline-flex;align-items:center;gap:5px;background:rgba(16,185,129,.1);color:#059669;border:1px solid rgba(16,185,129,.25);border-radius:20px;padding:3px 10px;font-size:12.5px;font-weight:600}
+.badge-no{display:inline-flex;align-items:center;gap:5px;background:rgba(239,68,68,.08);color:#dc2626;border:1px solid rgba(239,68,68,.2);border-radius:20px;padding:3px 10px;font-size:12.5px;font-weight:600}
+.badge-varies{display:inline-flex;align-items:center;gap:5px;background:rgba(245,158,11,.1);color:#d97706;border:1px solid rgba(245,158,11,.25);border-radius:20px;padding:3px 10px;font-size:12.5px;font-weight:600}
+
+/* Candidate grid */
+.candidate-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start}
+.candidate-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:32px;box-shadow:var(--shadow)}
+.candidate-card h3{font-size:18px;font-weight:700;font-family:var(--serif);color:var(--navy);margin-bottom:6px}
+.candidate-card .sub{font-size:13.5px;color:var(--gray);margin-bottom:20px}
+.cand-list{list-style:none;display:flex;flex-direction:column;gap:10px}
+.cand-list li{display:flex;align-items:flex-start;gap:12px;font-size:14px;color:#374151;line-height:1.55}
+.cand-list li .icon-wrap{width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+.cand-list li .icon-wrap.green{background:rgba(16,185,129,.12);border:1px solid rgba(16,185,129,.25)}
+.cand-list li .icon-wrap.red{background:rgba(183,28,28,.1);border:1px solid rgba(183,28,28,.2)}
+.cand-list li .icon-wrap svg{width:12px;height:12px}
+
+/* Recovery timeline */
+.timeline{display:flex;flex-direction:column}
+.timeline-item{display:flex;gap:24px;padding-bottom:32px}
+.timeline-item:last-child{padding-bottom:0}
+.timeline-left{display:flex;flex-direction:column;align-items:center;width:48px;flex-shrink:0}
+.timeline-dot{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--navy),#1e3a70);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;color:var(--white);flex-shrink:0;z-index:1}
+.timeline-line{width:2px;background:var(--border);flex:1;min-height:20px;margin-top:6px}
+.timeline-item:last-child .timeline-line{display:none}
+.timeline-body{padding-top:10px;flex:1}
+.timeline-body .time-label{display:inline-block;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--red);margin-bottom:6px}
+.timeline-body h3{font-size:17px;font-weight:700;font-family:var(--serif);color:var(--navy);margin-bottom:8px}
+.timeline-body p{font-size:14px;color:var(--gray);line-height:1.7}
+
+/* BSP FAQ accordion */
+.bsp-faq{display:flex;flex-direction:column;gap:12px}
+.bfaq-item{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.bfaq-q{width:100%;background:var(--white);border:none;padding:18px 22px;text-align:left;font-size:15px;font-weight:600;color:var(--navy);cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;font-family:inherit;transition:background .2s}
+.bfaq-q:hover{background:rgba(26,46,90,.03)}
+.bfaq-q[aria-expanded="true"]{background:rgba(26,46,90,.04)}
+.bfaq-q[aria-expanded="true"] .bfaq-chevron{transform:rotate(180deg)}
+.bfaq-chevron{width:18px;height:18px;stroke:var(--gray);fill:none;stroke-width:2;flex-shrink:0;transition:transform .3s}
+.bfaq-a{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.bfaq-a-inner{padding:0 22px 20px;font-size:14.5px;color:var(--gray);line-height:1.75;border-top:1px solid var(--border)}
+
+/* BSP stats strip */
+.bsp-stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.bsp-stat-card{text-align:center;padding:32px 20px;background:var(--white);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow)}
+.bsp-stat-card .bsp-num{font-size:40px;font-weight:800;color:var(--navy);line-height:1;margin-bottom:6px;font-family:var(--serif)}
+.bsp-stat-card .bsp-num span{color:var(--red)}
+.bsp-stat-card .bsp-lbl{font-size:13px;color:var(--gray);line-height:1.5}
+
+/* BSP responsive */
+@media(max-width:960px){
+  .steps-row{grid-template-columns:repeat(2,1fr)}
+  .candidate-grid{grid-template-columns:1fr}
+  .bsp-stats-row{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:600px){
+  .steps-row{grid-template-columns:1fr}
+  .bsp-stats-row{grid-template-columns:1fr 1fr}
+  .compare-table th,.compare-table td{padding:10px 14px;font-size:12px}
+}

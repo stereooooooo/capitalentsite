@@ -521,6 +521,7 @@
 .candidate-card .sub{font-size:13.5px;color:var(--gray);margin-bottom:20px}
 .cand-list{list-style:none;display:flex;flex-direction:column;gap:10px}
 .cand-list li{display:flex;align-items:flex-start;gap:12px;font-size:14px;color:#374151;line-height:1.55}
+.cand-list li > svg{flex-shrink:0;margin-top:2px;color:var(--red)}
 .cand-list li .icon-wrap{width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
 .cand-list li .icon-wrap.green{background:rgba(16,185,129,.12);border:1px solid rgba(16,185,129,.25)}
 .cand-list li .icon-wrap.red{background:rgba(183,28,28,.1);border:1px solid rgba(183,28,28,.2)}

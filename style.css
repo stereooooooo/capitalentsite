@@ -378,6 +378,11 @@
 .hero-meta svg{width:14px;height:14px;stroke:#e8b84b;fill:none;stroke-width:2;flex-shrink:0}
 .hero-meta .sep{color:rgba(255,255,255,.25);font-size:18px;line-height:1}
 .hero-meta strong{color:var(--white)}
+/* hero-meta on light (cream) background */
+.page-hero .hero-meta{background:rgba(26,46,90,.05);border-color:rgba(26,46,90,.12);color:var(--gray)}
+.page-hero .hero-meta strong{color:var(--navy)}
+.page-hero .hero-meta svg{stroke:var(--navy);fill:none}
+.page-hero .hero-meta .sep{color:rgba(26,46,90,.2)}
 .filter-bar{background:var(--white);border-bottom:1px solid var(--border);padding:0 40px;position:sticky;top:72px;z-index:90;box-shadow:0 2px 8px rgba(0,0,0,.04)}
 .filter-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:4px;overflow-x:auto;scrollbar-width:none;padding:12px 0}
 .filter-inner::-webkit-scrollbar{display:none}

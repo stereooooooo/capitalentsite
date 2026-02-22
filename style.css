@@ -443,9 +443,7 @@
 @media(max-width:600px){.video-hero{padding:40px 20px 36px}.video-hero h1{font-size:30px}.hero-meta{flex-wrap:wrap;gap:10px;border-radius:12px;padding:12px 16px}.hero-meta .sep{display:none}.filter-bar{padding:0 16px}.video-grid{grid-template-columns:1fr !important}.featured-section,.video-section,.yt-banner{padding:40px 20px}.yt-stats{gap:20px}.yt-stat .num{font-size:20px}}
 
 /* ── Make a Payment page ────────────────────────────────────────────────── */
-.pay-notice-wrap{padding:48px 40px 0}
-.pay-notice-inner{max-width:900px;margin:0 auto}
-.pay-notice-box{display:flex;align-items:flex-start;gap:20px;background:#fffbeb;border:1.5px solid #e8b84b;border-left:5px solid #e8b84b;border-radius:10px;padding:24px 28px}
+.pay-notice-box{display:flex;align-items:flex-start;gap:20px;background:#fffbeb;border:1.5px solid #e8b84b;border-left:5px solid #e8b84b;border-radius:10px;padding:24px 28px;max-width:900px;margin:0 auto 48px}
 .pay-notice-icon{flex-shrink:0;width:44px;height:44px;background:#e8b84b;border-radius:50%;display:flex;align-items:center;justify-content:center}
 .pay-notice-icon svg{width:22px;height:22px;stroke:#7a5a00;fill:none;flex-shrink:0}
 .pay-notice-content h2{font-size:14px;font-weight:700;color:#7a5a00;font-family:var(--font);margin-bottom:8px;text-transform:uppercase;letter-spacing:.8px}
@@ -484,5 +482,5 @@
 .pay-help-text h3{font-size:20px;font-weight:700;color:var(--navy);font-family:var(--serif);margin-bottom:6px}
 .pay-help-text p{font-size:14.5px;color:var(--gray);line-height:1.6}
 .pay-help-actions{display:flex;gap:12px;flex-shrink:0;align-items:center}
-@media(max-width:960px){.pay-notice-wrap{padding:40px 24px 0}.pay-grid{grid-template-columns:1fr}.pay-help-band{flex-direction:column;text-align:center;align-items:center}.pay-help-actions{flex-wrap:wrap;justify-content:center}}
-@media(max-width:600px){.pay-notice-wrap{padding:28px 20px 0}.pay-notice-box{flex-direction:column;gap:14px}.pay-help-band{padding:24px 20px}.pay-help-actions{flex-direction:column;align-items:stretch}.pay-help-actions a{justify-content:center}}
+@media(max-width:960px){.pay-grid{grid-template-columns:1fr}.pay-help-band{flex-direction:column;text-align:center;align-items:center}.pay-help-actions{flex-wrap:wrap;justify-content:center}}
+@media(max-width:600px){.pay-notice-box{flex-direction:column;gap:14px;margin-bottom:36px}.pay-help-band{padding:24px 20px}.pay-help-actions{flex-direction:column;align-items:stretch}.pay-help-actions a{justify-content:center}}

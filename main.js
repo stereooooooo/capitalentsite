@@ -184,7 +184,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
   if (sessionStorage.getItem('cedarDismissed')) return;
   const banner = document.getElementById('cedarBanner');
   if (!banner) return;
-  banner.style.display = '';
+  banner.style.display = 'block';
   const closeBtn = document.getElementById('cedarBannerClose');
   if (closeBtn) {
     closeBtn.addEventListener('click', function () {

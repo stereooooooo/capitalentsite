@@ -280,6 +280,7 @@
     }
   .footer-formerly{font-size:11.5px;color:rgba(255,255,255,.42);margin:6px 0 16px;font-style:italic;letter-spacing:.01em}
 .nav-dd{position:relative;display:flex;align-items:center}.nav-dd-trigger{background:none;border:none;cursor:pointer;padding:8px 13px;font-size:13.5px;font-weight:600;color:var(--navy);border-radius:5px;transition:background .2s,color .2s;display:inline-flex;align-items:center;gap:4px;font-family:var(--font);white-space:nowrap;position:relative;line-height:1}.nav-dd-trigger::after{content:'';position:absolute;bottom:-2px;left:0;height:2px;background:var(--red);width:0;transition:width .3s}.nav-dd:hover .nav-dd-trigger,.nav-dd:focus-within .nav-dd-trigger{background:rgba(183,28,28,.05);color:var(--red)}.nav-dd:hover .nav-dd-trigger::after,.nav-dd:focus-within .nav-dd-trigger::after,.nav-dd-trigger.active::after{width:100%}.nav-dd-trigger.active{color:var(--red)}.nav-chevron{width:12px;height:12px;stroke:currentColor;fill:none;stroke-width:2.5;flex-shrink:0;transition:transform .2s}.nav-dd:hover .nav-chevron,.nav-dd:focus-within .nav-chevron,.nav-dd.open .nav-chevron{transform:rotate(180deg)}.nav-dd-menu{display:none;position:absolute;top:calc(100% + 4px);left:0;background:var(--white);border:1px solid var(--border);border-radius:10px;box-shadow:0 8px 32px rgba(26,46,90,.15);z-index:200;overflow:hidden}.nav-dd:hover .nav-dd-menu,.nav-dd:focus-within .nav-dd-menu,.nav-dd.open .nav-dd-menu{display:block;animation:fadeIn .15s ease}.nav-dd-grid{display:grid;grid-template-columns:1fr 1fr;padding:10px;min-width:380px}.nav-dd-grid a,.nav-dd-list a{display:block;padding:9px 14px;font-size:13.5px;font-weight:500;color:var(--navy);border-radius:6px;transition:background .15s,color .15s;white-space:nowrap;text-decoration:none}.nav-dd-grid a:hover,.nav-dd-list a:hover,.nav-dd-grid a:focus,.nav-dd-list a:focus{background:rgba(183,28,28,.07);color:var(--red);outline:none}.nav-dd-list{display:flex;flex-direction:column;padding:10px;min-width:210px}.nav-dd-foot{border-top:1px solid var(--border);padding:10px 16px;background:var(--off)}.nav-dd-foot a{font-size:12.5px;font-weight:700;color:var(--red);display:inline-flex;align-items:center;gap:4px;text-decoration:none}.nav-dd-foot a:hover{text-decoration:underline}.mobile-nav-section{display:block;padding:10px 24px 3px;font-size:10px;font-weight:700;letter-spacing:1.8px;text-transform:uppercase;color:var(--gray);border-top:1px solid var(--border);margin-top:4px}
+nav.main-nav a:not(.nav-book){line-height:1}
 </style>
   <script type="application/ld+json">
   {
@@ -385,13 +386,35 @@
     <div class="nav-dd">
       <button class="nav-dd-trigger" aria-expanded="false" aria-haspopup="true">Solutions <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
       <div class="nav-dd-menu" role="menu">
-        <div class="nav-dd-list">
-          <a href="balloon-sinuplasty.html">Balloon Sinuplasty</a>
-          <a href="hearing-aids.html">Hearing Aids</a>
-          <a href="tonsillectomy.html">Tonsillectomy</a>
-          <a href="ent-urgent-care.html">ENT Urgent Care</a>
+        <div class="nav-dd-mega">
+          <div class="nav-dd-col">
+            <span class="nav-dd-cat">Nasal &amp; Sinus</span>
+            <a href="balloon-sinuplasty.html">Balloon Sinuplasty</a>
+            <a href="septoplasty.html">Septoplasty</a>
+            <a href="turbinate-reduction.html">Turbinate Reduction</a>
+            <a href="nasal-valve-repair.html">Nasal Valve Repair</a>
+            <a href="nasal-cryotherapy.html">Nasal Cryotherapy</a>
+            <a href="polypectomy.html">Polypectomy</a>
+          </div>
+          <div class="nav-dd-col">
+            <span class="nav-dd-cat">Ear &amp; Hearing</span>
+            <a href="ear-tubes.html">Ear Tubes</a>
+            <a href="eustachian-tube-dilation.html">Eustachian Tube Dilation</a>
+            <a href="hearing-aids.html">Hearing Aids</a>
+            <span class="nav-dd-cat">Throat &amp; Sleep</span>
+            <a href="tonsillectomy.html">Tonsillectomy</a>
+            <a href="snoreplasty.html">Snoreplasty</a>
+            <a href="uvulectomy.html">Uvulectomy</a>
+            <a href="cpap.html">CPAP Therapy</a>
+            <a href="at-home-sleep-study.html">At-Home Sleep Study</a>
+            <span class="nav-dd-cat">Allergy &amp; Other</span>
+            <a href="allergy-shots-drops.html">Allergy Shots &amp; Drops</a>
+            <a href="ct-scanner.html">In-Office CT Scanner</a>
+            <a href="ent-urgent-care.html">ENT Urgent Care</a>
+          </div>
         </div>
       </div>
+    </div>
     </div>
     <a href="our-doctors.html">Our Providers</a>
     <a href="locations.html">Locations</a>
@@ -434,8 +457,21 @@
       <a href="throat.html">Throat &amp; Voice</a>
       <span class="mobile-nav-section">Solutions</span>
       <a href="balloon-sinuplasty.html">Balloon Sinuplasty</a>
+      <a href="septoplasty.html">Septoplasty</a>
+      <a href="turbinate-reduction.html">Turbinate Reduction</a>
+      <a href="nasal-valve-repair.html">Nasal Valve Repair</a>
+      <a href="nasal-cryotherapy.html">Nasal Cryotherapy</a>
+      <a href="polypectomy.html">Polypectomy</a>
+      <a href="ear-tubes.html">Ear Tubes</a>
+      <a href="eustachian-tube-dilation.html">Eustachian Tube Dilation</a>
       <a href="hearing-aids.html">Hearing Aids</a>
       <a href="tonsillectomy.html">Tonsillectomy</a>
+      <a href="snoreplasty.html">Snoreplasty</a>
+      <a href="uvulectomy.html">Uvulectomy</a>
+      <a href="cpap.html">CPAP Therapy</a>
+      <a href="at-home-sleep-study.html">At-Home Sleep Study</a>
+      <a href="allergy-shots-drops.html">Allergy Shots &amp; Drops</a>
+      <a href="ct-scanner.html">In-Office CT Scanner</a>
       <a href="ent-urgent-care.html">ENT Urgent Care</a>
       <span class="mobile-nav-section">Practice</span>
       <a href="our-doctors.html">Our Providers</a>

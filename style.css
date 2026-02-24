@@ -423,7 +423,7 @@
 .hero-meta .sep{color:rgba(255,255,255,.25);font-size:18px;line-height:1}
 .hero-meta strong{color:var(--white)}
 /* hero-meta on light (cream) background */
-.page-hero .hero-meta{background:rgba(26,46,90,.05);border-color:rgba(26,46,90,.12);color:var(--gray)}
+.page-hero .hero-meta{background:rgba(26,46,90,.05);border-color:rgba(26,46,90,.12);color:var(--gray);margin-top:28px}
 .page-hero .hero-meta strong{color:var(--navy)}
 .page-hero .hero-meta svg{stroke:var(--navy);fill:none}
 .page-hero .hero-meta .sep{color:rgba(26,46,90,.2)}

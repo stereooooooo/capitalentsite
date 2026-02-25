@@ -202,3 +202,97 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
   const section = document.getElementById('allergycedarSeasonSection');
   if (section) section.style.display = '';
 }());
+
+/* ── FAQ Page (faq.html) ─────────────────────────────────────────────────── */
+(function () {
+  /* Accordion */
+  const faqQs = document.querySelectorAll('.faq-q');
+  if (!faqQs.length) return; // not on FAQ page
+
+  faqQs.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      // Collapse all others
+      document.querySelectorAll('.faq-q[aria-expanded="true"]').forEach(other => {
+        if (other !== btn) {
+          other.setAttribute('aria-expanded', 'false');
+          other.nextElementSibling.style.maxHeight = null;
+        }
+      });
+      btn.setAttribute('aria-expanded', String(!expanded));
+      const panel = btn.nextElementSibling;
+      panel.style.maxHeight = expanded ? null : panel.scrollHeight + 'px';
+    });
+  });
+
+  /* Category filter */
+  document.querySelectorAll('.cat-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const cat = btn.dataset.cat;
+      document.querySelectorAll('.faq-group').forEach(group => {
+        group.dataset.hidden = (cat !== 'all' && group.dataset.cat !== cat) ? 'true' : 'false';
+      });
+      const searchEl = document.getElementById('faqSearch');
+      if (searchEl) searchEl.value = '';
+      const countEl = document.getElementById('searchCount');
+      if (countEl) countEl.textContent = '';
+      // Reset item visibility
+      document.querySelectorAll('.faq-item').forEach(item => { item.dataset.hidden = 'false'; });
+      checkNoResults();
+    });
+  });
+
+  /* Search */
+  const searchInput = document.getElementById('faqSearch');
+  if (searchInput) {
+    searchInput.addEventListener('input', function () {
+      const q = this.value.trim().toLowerCase();
+      if (q) {
+        document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+        const allBtn = document.querySelector('.cat-btn[data-cat="all"]');
+        if (allBtn) allBtn.classList.add('active');
+        document.querySelectorAll('.faq-group').forEach(g => { g.dataset.hidden = 'false'; });
+      }
+      let totalVisible = 0;
+      document.querySelectorAll('.faq-item').forEach(item => {
+        if (!q) { item.dataset.hidden = 'false'; totalVisible++; return; }
+        const text = item.textContent.toLowerCase();
+        const match = text.includes(q);
+        item.dataset.hidden = match ? 'false' : 'true';
+        if (match) totalVisible++;
+      });
+      document.querySelectorAll('.faq-group').forEach(group => {
+        if (!q) { group.dataset.hidden = 'false'; return; }
+        const hasVisible = [...group.querySelectorAll('.faq-item')].some(i => i.dataset.hidden !== 'true');
+        group.dataset.hidden = hasVisible ? 'false' : 'true';
+      });
+      const countEl = document.getElementById('searchCount');
+      if (countEl) countEl.textContent = q ? totalVisible + ' question' + (totalVisible !== 1 ? 's' : '') + ' found' : '';
+      checkNoResults();
+    });
+  }
+
+  function checkNoResults() {
+    const anyVisible = [...document.querySelectorAll('.faq-group')].some(g => g.dataset.hidden !== 'true');
+    const noRes = document.getElementById('noResults');
+    if (noRes) noRes.style.display = anyVisible ? 'none' : 'block';
+  }
+
+  /* Sidebar scroll-spy */
+  const groups = document.querySelectorAll('.faq-group[id]');
+  const sideLinks = document.querySelectorAll('.faq-sidebar-nav a');
+  if (groups.length && sideLinks.length) {
+    const faqObs = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          sideLinks.forEach(l => l.classList.remove('active'));
+          const match = document.querySelector('.faq-sidebar-nav a[href="#' + entry.target.id + '"]');
+          if (match) match.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' });
+    groups.forEach(g => faqObs.observe(g));
+  }
+}());

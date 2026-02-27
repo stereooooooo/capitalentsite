@@ -328,3 +328,20 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     });
   }
 }());
+
+/* ── Review Filter (reviews.html) ─────────────────────────────────────── */
+(function () {
+  const filterBar = document.querySelector('.rev-filter-bar');
+  if (!filterBar) return; // not on reviews page
+
+  filterBar.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      document.querySelectorAll('.review-card').forEach(card => {
+        card.style.display = (filter === 'all' || card.dataset.topic === filter) ? '' : 'none';
+      });
+    });
+  });
+}());

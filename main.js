@@ -296,3 +296,35 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     groups.forEach(g => faqObs.observe(g));
   }
 }());
+
+/* ── Post-Op Guide Accordion (post-op-care.html) ────────────────────────── */
+(function () {
+  const viewBtns = document.querySelectorAll('.guide-view-btn');
+  if (!viewBtns.length) return; // not on post-op care page
+
+  // Guide-row view buttons — allow multiple panels open simultaneously
+  viewBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!expanded));
+      const row = btn.closest('.guide-row');
+      const panel = row.querySelector('.guide-content');
+      if (!panel) return;
+      panel.setAttribute('aria-hidden', String(!expanded ? 'false' : 'true'));
+      panel.style.maxHeight = expanded ? null : panel.scrollHeight + 'px';
+    });
+  });
+
+  // General guidelines toggle
+  const genToggle = document.querySelector('.guide-general-toggle');
+  if (genToggle) {
+    genToggle.addEventListener('click', () => {
+      const expanded = genToggle.getAttribute('aria-expanded') === 'true';
+      genToggle.setAttribute('aria-expanded', String(!expanded));
+      const panel = genToggle.nextElementSibling;
+      if (!panel) return;
+      panel.setAttribute('aria-hidden', String(!expanded ? 'false' : 'true'));
+      panel.style.maxHeight = expanded ? null : panel.scrollHeight + 'px';
+    });
+  }
+}());

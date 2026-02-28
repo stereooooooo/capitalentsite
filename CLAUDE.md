@@ -50,6 +50,19 @@ Marketing website for Capital ENT & Sinus Center, Austin TX's top-rated ENT prac
 - Use WebP format when possible (with PNG/JPG fallbacks)
 - Logo: `CENT-Horizontal-Color.webp`
 
+## Providers
+These are the real provider names — always use these exactly:
+- **Zachary D. Wassmuth, MD** — Otolaryngologist, founder (Austin)
+- **Latif M. Dharamsi, MD** — Otolaryngologist (Austin, Lakeway)
+- **Raymond J. Brown, MD** — Otolaryngologist (Austin, Lakeway)
+- **Jeffrey Allen Myhill, MD, FACS, FARS** — Otolaryngologist (Austin, Marble Falls, Dripping Springs)
+- **Andrew Clark, PA-C** — Physician Assistant (Austin, Lakeway)
+- **Cassie R. Dean, PA-C** — Physician Assistant (Austin, Lakeway)
+- **Margaux Colburn, AuD** — Audiologist (Austin)
+- **Jill Sullivan, AuD, CCC-A** — Audiologist (Lakeway)
+
+In prose, use "Dr. Wassmuth", "Dr. Dharamsi", "Dr. Brown", "Dr. Myhill" (no first names needed).
+
 ## Content Rules — CRITICAL
 This is a well-respected ENT medical practice in Austin, TX. All information on this website must be valid and accurate. **NEVER fabricate or make up any data**, including but not limited to:
 - **Patient reviews or testimonials** — only use real reviews sourced from Google Business Profile

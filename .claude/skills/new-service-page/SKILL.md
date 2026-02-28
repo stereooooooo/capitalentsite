@@ -9,7 +9,7 @@ Create a new service/procedure page for: $ARGUMENTS
 
 1. Read an existing service page as a template (e.g., `ear-care.html` or `balloon-sinuplasty.html`)
 2. Read `style.css` to understand available CSS classes
-3. Read `our-doctors.html` to reference correct doctor names and credentials
+3. Read `our-providers.html` to reference correct doctor names and credentials
 
 ## Required page structure
 

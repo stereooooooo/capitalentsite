@@ -15,7 +15,7 @@ Generate a content audit report for the Capital ENT website.
 ### 2. Service coverage
 - Compare services listed in the navbar against dedicated service pages
 - Identify conditions/procedures mentioned on the homepage but lacking their own page
-- Check that all procedures listed on `our-doctors.html` have corresponding service pages
+- Check that all procedures listed on `our-providers.html` have corresponding service pages
 
 ### 3. Reviews distribution
 Read `reviews.html` and count reviews per `data-topic`:
@@ -23,7 +23,7 @@ Read `reviews.html` and count reviews per `data-topic`:
 - Flag any category with fewer than 3 reviews as underrepresented
 
 ### 4. Doctor coverage
-- Verify all doctors in `our-doctors.html` are mentioned on relevant service pages
+- Verify all doctors in `our-providers.html` are mentioned on relevant service pages
 - Check that doctor names/credentials are consistent across all pages they appear on
 
 ### 5. Content freshness

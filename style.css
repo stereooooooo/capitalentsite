@@ -43,6 +43,10 @@
 .breadcrumb a:hover{color:var(--red)}
 .breadcrumb span{color:var(--gray)}
 
+/* ── Physician Attribution ── */
+.physician-attr{padding:24px 40px;font-size:13px;color:#94a3b8;border-top:1px solid var(--border)}.physician-attr-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:8px}.physician-attr svg{width:15px;height:15px;flex-shrink:0;stroke:#94a3b8}.physician-attr a{color:#64748b;font-weight:600;transition:color .2s}.physician-attr a:hover{color:var(--red)}
+@media(max-width:600px){.physician-attr{padding:18px 20px;font-size:12px}}
+
 /* ── Inner page section ── */
 .section{padding:72px 40px}
 .section.bg-off{background:var(--off)}

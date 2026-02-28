@@ -8,7 +8,7 @@ Update the profile for: $ARGUMENTS
 ## Where doctor info appears
 
 Doctor/provider information may appear in multiple files:
-- `our-doctors.html` — main profile cards with bio, credentials, specialties
+- `our-providers.html` — main profile cards with bio, credentials, specialties
 - Service pages — doctor recommendation cards on relevant procedure pages
 - `index.html` — homepage provider highlights
 - JSON-LD structured data — schema.org Person/Physician entries
@@ -28,7 +28,7 @@ Search all HTML files for the doctor's name to find every reference.
 ## Steps
 
 1. Search all HTML files for the doctor's name to find every occurrence
-2. Read `our-doctors.html` for their current profile
+2. Read `our-providers.html` for their current profile
 3. Make the requested updates consistently across ALL files where they appear
 4. Verify name and credentials match exactly everywhere
 

@@ -78,6 +78,7 @@
 .spotlight .check-list li{color:rgba(255,255,255,.88)}
 .spotlight .check-list li::before{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.3);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='3'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center}
 .spotlight-copy .btn-gold{margin-top:28px}
+.btn-mt{margin-top:28px}
 
 /* ── Procedure cards ── */
 .proc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
@@ -312,6 +313,17 @@
 .allergy-stat .num{font-size:36px;font-weight:900;color:#e8b84b;line-height:1;margin-bottom:6px}
 .allergy-stat .lbl{font-size:12.5px;color:rgba(255,255,255,.75);line-height:1.4;text-align:center}
 .allergy-visual-note{font-size:13px;color:rgba(255,255,255,.45);text-align:center;line-height:1.5;font-style:italic}
+
+/* ── Hearing loss infographic ── */
+.hearing-visual-head{display:flex;align-items:center;gap:12px;margin-bottom:24px;justify-content:center}
+.hearing-visual-icon{width:44px;height:44px;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.22);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.hearing-visual-icon svg{width:22px;height:22px;stroke:rgba(255,255,255,.9);fill:none;stroke-width:1.8}
+.hearing-visual-label{font-size:11.5px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.6)}
+.hearing-stats-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;width:100%;margin-bottom:20px}
+.hearing-stat{display:flex;flex-direction:column;align-items:center;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:10px;padding:18px 14px}
+.hearing-stat .num{font-size:36px;font-weight:900;color:#e8b84b;line-height:1;margin-bottom:6px}
+.hearing-stat .lbl{font-size:12.5px;color:rgba(255,255,255,.75);line-height:1.4;text-align:center}
+.hearing-visual-note{font-size:13px;color:rgba(255,255,255,.45);text-align:center;line-height:1.5;font-style:italic}
 
 /* Cedar highlight paragraph (allergy intro) */
 .cedar-highlight{background:rgba(183,28,28,.05);border-left:3px solid var(--red);padding:14px 16px;border-radius:0 6px 6px 0;margin-top:20px;font-size:14.5px;line-height:1.7;color:#374151}.cedar-highlight a{color:var(--red);font-weight:700}.cedar-highlight a:hover{text-decoration:underline}

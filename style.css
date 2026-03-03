@@ -65,6 +65,8 @@
 .info-copy h2{font-size:32px;font-weight:600;font-family:var(--serif);color:var(--navy);line-height:1.2;margin-bottom:16px}
 .info-copy p{font-size:15px;color:var(--gray);line-height:1.75;margin-bottom:16px}
 .info-visual{border-radius:12px;overflow:hidden;box-shadow:0 16px 48px rgba(0,0,0,.15);background:linear-gradient(135deg,var(--navy) 0%,#1e3a70 100%);min-height:320px;display:flex;align-items:center;justify-content:center}
+.info-visual.has-photo{background:none;box-shadow:none;min-height:0;overflow:visible}
+.info-visual.has-photo img{width:100%;display:block;border-radius:16px;box-shadow:0 16px 48px rgba(0,0,0,.15)}
 .info-visual-inner{padding:40px;text-align:center;color:rgba(255,255,255,.7)}
 .info-visual-inner svg{width:80px;height:80px;opacity:.4;margin:0 auto 16px;stroke:white;fill:none;stroke-width:1.5}
 

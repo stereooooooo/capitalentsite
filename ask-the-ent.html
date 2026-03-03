@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://www.youtube.com https://www.google.com; connect-src 'self';" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://www.youtube.com https://www.google.com; connect-src 'self';" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ask the ENT — Patient Guides | Capital ENT &amp; Sinus Center</title>
   <meta name="description" content="Doctor-written answers to your most common ENT questions. Capital ENT's board-certified physicians explain ear, nose, sinus, throat, allergy, and sleep conditions in plain language." />
@@ -27,94 +27,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <style>
-    /* PAGE-SPECIFIC: Filter bar tabs */
-    .filter-bar-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
-    .filter-bar-inner::-webkit-scrollbar{display:none}
-    /* Override pill-style filter buttons with tab/underline style */
-    .filter-btn{padding:16px 20px;border:none;background:none;border-bottom:3px solid transparent;margin-bottom:-1px;border-radius:0;font-size:13.5px;font-weight:600;color:var(--gray);cursor:pointer;white-space:nowrap;transition:color .2s,border-color .2s;font-family:var(--font)}
-    .filter-btn:hover{background:none;color:var(--navy);border-color:transparent}
-    .filter-btn.active{color:var(--red);border-bottom-color:var(--red);background:none}
-    /* Featured article */
-    .featured-article{background:var(--white);border:1px solid var(--border);border-radius:12px;overflow:hidden;box-shadow:var(--shadow);display:grid;grid-template-columns:1fr 1fr;margin-bottom:48px;transition:box-shadow .3s,transform .3s;text-decoration:none;color:inherit}
-    .featured-article:hover{box-shadow:0 12px 40px rgba(0,0,0,.13);transform:translateY(-3px)}
-    .featured-img{min-height:300px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
-    .featured-img.sleep{background:linear-gradient(135deg,#1a2e5a 0%,#2a4a8a 100%)}
-    .feat-icon{width:80px;height:80px;opacity:.2;stroke:white;fill:none;stroke-width:1.5}
-    .featured-tag{position:absolute;top:16px;left:16px;background:var(--red);color:var(--white);font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:4px 12px;border-radius:4px}
-    .featured-badge{position:absolute;top:16px;right:16px;background:rgba(232,184,75,.9);color:#1a2e5a;font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase;padding:4px 10px;border-radius:4px}
-    .featured-body{padding:40px 40px 36px;display:flex;flex-direction:column;justify-content:center}
-    .featured-body .art-cat{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--red);margin-bottom:12px}
-    .featured-body h2{font-size:24px;font-weight:700;font-family:var(--serif);color:var(--navy);line-height:1.25;margin-bottom:14px}
-    .featured-body > p{font-size:15px;color:var(--gray);line-height:1.7;margin-bottom:24px}
-    .read-more{display:inline-flex;align-items:center;gap:8px;background:var(--red);color:var(--white);font-size:14px;font-weight:700;padding:11px 22px;border-radius:6px;transition:background .2s,transform .2s;box-shadow:0 4px 12px rgba(183,28,28,.3)}
-    .read-more:hover{background:var(--red-lt);transform:translateY(-2px)}
-    .author-line{display:flex;align-items:center;gap:10px;margin-top:20px;padding-top:20px;border-top:1px solid var(--border)}
-    .author-avatar{width:36px;height:36px;background:var(--navy);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-    .author-avatar svg{width:18px;height:18px;stroke:rgba(255,255,255,.7);fill:none;stroke-width:1.8}
-    .author-info{font-size:12.5px;color:var(--gray)}
-    .author-info strong{color:var(--navy);font-weight:700;display:block}
-    /* Articles grid — 3 cols on this page */
-    .articles-grid{grid-template-columns:repeat(3,1fr);gap:22px}
-    .art-body h3{font-size:15px;font-weight:700;color:var(--navy);line-height:1.4;margin-bottom:8px}
-    .art-footer{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:12px}
-    .art-read{font-size:13px;font-weight:700;color:var(--red);display:inline-flex;align-items:center;gap:5px;transition:gap .2s,color .2s}
-    .art-read:hover{gap:8px;color:var(--red-lt)}
-    .art-read svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2.5}
-    .art-min{font-size:12px;color:var(--gray)}
-    /* Category section headings */
-    .cat-section{margin-bottom:52px}
-    .cat-section:last-child{margin-bottom:0}
-    .cat-heading{display:flex;align-items:center;gap:16px;margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid var(--border)}
-    .cat-heading-icon{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-    .cat-heading-icon svg{width:20px;height:20px;stroke:var(--white);fill:none;stroke-width:2}
-    .cat-heading-icon.sleep{background:linear-gradient(135deg,#1a2e5a,#2a4a8a)}
-    .cat-heading-icon.throat{background:linear-gradient(135deg,#7b1c1c,#b71c1c)}
-    .cat-heading-icon.allergy{background:linear-gradient(135deg,#1a4a2e,#2d8a50)}
-    .cat-heading-icon.sinus{background:linear-gradient(135deg,#1a3a5a,#1e6a9a)}
-    .cat-heading-icon.ear{background:linear-gradient(135deg,#2a1a5a,#4a2a8a)}
-    .cat-heading h2{font-size:20px;font-weight:700;font-family:var(--serif);color:var(--navy)}
-    .cat-heading p{font-size:13.5px;color:var(--gray);margin-top:2px}
-    /* 2-col content + sidebar */
-    .content-layout{display:grid;grid-template-columns:1fr 300px;gap:48px;align-items:start}
-    .sidebar{display:flex;flex-direction:column;gap:24px;position:sticky;top:130px}
-    .sidebar-card{background:var(--white);border:1px solid var(--border);border-radius:10px;padding:24px;box-shadow:var(--shadow)}
-    .sidebar-card h4{font-size:11px;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:16px}
-    .sidebar-cta{background:linear-gradient(135deg,var(--navy-dk),var(--navy));border-radius:10px;padding:24px;text-align:center}
-    .sidebar-cta h4{color:var(--white);font-size:16px;font-weight:800;margin-bottom:8px;text-transform:none;letter-spacing:0}
-    .sidebar-cta p{color:rgba(255,255,255,.75);font-size:13px;line-height:1.6;margin-bottom:18px}
-    .sidebar-cta a{display:block;background:var(--red);color:var(--white);font-size:14px;font-weight:700;padding:12px;border-radius:6px;text-align:center;transition:background .2s,transform .2s;box-shadow:0 4px 12px rgba(183,28,28,.3)}
-    .sidebar-cta a:hover{background:var(--red-lt);transform:translateY(-2px)}
-    .sidebar-cta .phone-link{display:block;color:rgba(255,255,255,.7);font-size:13px;margin-top:10px;transition:color .2s}
-    .sidebar-cta .phone-link:hover{color:var(--white)}
-    .topic-list{display:flex;flex-direction:column;gap:2px}
-    .topic-link{display:flex;align-items:center;justify-content:space-between;padding:9px 0;border-bottom:1px solid var(--border);font-size:13.5px;font-weight:600;color:var(--navy);transition:color .2s}
-    .topic-link:last-child{border-bottom:none}
-    .topic-link:hover{color:var(--red)}
-    .topic-link svg{width:13px;height:13px;stroke:var(--gray);fill:none;stroke-width:2.5;flex-shrink:0;transition:stroke .2s}
-    .topic-link:hover svg{stroke:var(--red)}
-    .quick-facts{display:flex;flex-direction:column;gap:12px}
-    .quick-fact{display:flex;align-items:flex-start;gap:10px;font-size:13px;color:#374151;line-height:1.55;padding-left:26px;position:relative}
-    .quick-fact::before{content:'';position:absolute;left:0;top:2px;width:18px;height:18px;background:rgba(183,28,28,.1);border-radius:50%;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='%23b71c1c' stroke-width='3'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center}
-    /* Section padding override */
-    .section{padding:60px 40px}
-    /* Responsive */
-    @media(max-width:960px){
-      .featured-article{grid-template-columns:1fr}
-      .featured-img{min-height:200px}
-      .content-layout{grid-template-columns:1fr}
-      .sidebar{position:static}
-      .articles-grid{grid-template-columns:repeat(2,1fr) !important}
-    }
-    @media(max-width:600px){
-      .filter-bar{padding:0 16px}
-      .section{padding:40px 20px}
-      .articles-grid{grid-template-columns:1fr !important}
-      .featured-article{grid-template-columns:1fr}
-      .content-layout{grid-template-columns:1fr}
-      .sidebar{position:static}
-    }
-  </style>
   <script type="application/ld+json">
   {
   "@context": "https://schema.org",
@@ -183,7 +95,7 @@
 }
   </script>
 </head>
-<body>
+<body class="ask-the-ent">
 <a class="skip-link" href="#main-content">Skip to main content</a>
 
 <!-- UTIL BAR -->
@@ -792,7 +704,7 @@
         <div class="sidebar-cta">
           <h4>Have a Question?</h4>
           <p>Our board-certified physicians are ready to help. Same-day and next-day appointments often available.</p>
-          <a href="#" onclick="openBookingModal(event)">Request an Appointment</a>
+          <a href="#" data-action="book">Request an Appointment</a>
           <a href="tel:5123394040" class="phone-link">&#128222; Call 512-339-4040</a>
         </div>
 
@@ -838,7 +750,7 @@
     <h2>Ready to See an ENT Specialist?</h2>
     <p>Our board-certified otolaryngologists see patients at four convenient Central Texas locations. Same-day and next-day appointments are often available.</p>
     <div class="cta-band-btns">
-      <a href="#" class="btn-white" onclick="openBookingModal(event)">
+      <a href="#" class="btn-white" data-action="book">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
         Request an Appointment
       </a>
@@ -938,21 +850,21 @@
 </footer>
 
 <!-- STICKY CTA -->
-<a href="#" class="sticky-cta" onclick="openBookingModal(event)">
+<a href="#" class="sticky-cta" data-action="book">
   <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
   Request Appointment
 </a>
 
 <!-- BOOKING MODAL -->
-<div id="bookingModal" class="modal" style="display:none;" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
-  <div class="modal-overlay" onclick="closeBookingModal()"></div>
+<div id="bookingModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+  <div class="modal-overlay" data-action="close-modal"></div>
   <div class="modal-content">
-    <button class="modal-close" onclick="closeBookingModal()" aria-label="Close">&times;</button>
+    <button class="modal-close" data-action="close-modal" aria-label="Close">&times;</button>
     <div class="modal-header">
       <h2 id="modalTitle">Request an Appointment</h2>
       <p>Fill out the form below and our team will contact you within one business day.</p>
     </div>
-    <form class="modal-form" onsubmit="handleBookingSubmit(event)">
+    <form id="bookingForm" class="modal-form">
       <div class="form-group">
         <label for="fullName">Full Name</label>
         <input type="text" id="fullName" name="fullName" placeholder="Jane Smith" required />

@@ -1147,3 +1147,114 @@
 /* ── Pediatric responsive overrides ── */
 @media(max-width:960px){.conditions-grid.grid-3{grid-template-columns:repeat(2,1fr)}.age-banner{grid-template-columns:repeat(2,1fr);padding:32px 28px}}
 @media(max-width:600px){.conditions-grid.grid-3{grid-template-columns:1fr}.age-banner{grid-template-columns:1fr;padding:24px 20px}.signs-grid{grid-template-columns:1fr}}
+
+/* ════════════════════════════════════════════════
+   PATIENT RESOURCES PAGE
+   ════════════════════════════════════════════════ */
+
+/* ── Quick-link cards ── */
+.quick-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.quick-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:32px 28px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:0;transition:transform .3s,box-shadow .3s,border-color .3s;position:relative;overflow:hidden}
+.quick-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.quick-card:hover{transform:translateY(-4px);box-shadow:0 14px 36px rgba(0,0,0,.12);border-color:rgba(183,28,28,.2)}
+.quick-card:hover::before{transform:scaleX(1)}
+.quick-card-icon{width:52px;height:52px;background:linear-gradient(135deg,var(--navy),#1e3a70);border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:18px;flex-shrink:0}
+.quick-card-icon svg{width:26px;height:26px;stroke:white;fill:none;stroke-width:1.8}
+.quick-card h3{font-size:17px;color:var(--navy);margin-bottom:8px}
+.quick-card p{font-size:13.5px;color:var(--gray);line-height:1.65;flex:1;margin-bottom:20px}
+.quick-card-link{display:inline-flex;align-items:center;gap:7px;font-size:13.5px;font-weight:700;color:var(--red);transition:gap .2s}
+.quick-card-link:hover{gap:11px}
+.quick-card-link svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2.5}
+
+/* ── Tabbed panels ── */
+.tabs-wrap{background:var(--white)}
+.tab-nav{display:flex;gap:0;border-bottom:2px solid var(--border);overflow-x:auto}
+.tab-btn{padding:14px 22px;font-size:14px;font-weight:600;color:var(--gray);border:none;border-bottom:3px solid transparent;background:none;cursor:pointer;white-space:nowrap;font-family:inherit;margin-bottom:-2px;transition:color .2s,border-color .2s}
+.tab-btn:hover{color:var(--navy)}
+.tab-btn.active{color:var(--red);border-bottom-color:var(--red)}
+.tab-panel{display:none;padding:36px 0}
+.tab-panel.active{display:block}
+
+/* ── Checklist columns ── */
+.checklist-cols{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.checklist-box{background:var(--off);border:1px solid var(--border);border-radius:var(--radius);padding:26px 28px}
+.checklist-box h3{font-size:16px;color:var(--navy);margin-bottom:16px;display:flex;align-items:center;gap:10px}
+.checklist-box h3 svg{width:20px;height:20px;stroke:var(--red);fill:none;stroke-width:2;flex-shrink:0}
+.cl-list{list-style:none;display:flex;flex-direction:column;gap:10px}
+.cl-list li{display:flex;align-items:flex-start;gap:10px;font-size:14px;color:#374151;line-height:1.55}
+.cl-list li::before{content:'';width:18px;height:18px;background:rgba(183,28,28,.1);border:1px solid rgba(183,28,28,.2);border-radius:50%;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='%23b71c1c' stroke-width='3'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center}
+
+/* ── Post-op cards ── */
+.postop-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.postop-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.postop-card-head{background:linear-gradient(135deg,var(--navy),#1e3a70);padding:20px 24px;display:flex;align-items:center;gap:14px}
+.postop-card-head svg{width:22px;height:22px;stroke:white;fill:none;stroke-width:1.8;flex-shrink:0}
+.postop-card-head h3{font-size:16px;color:var(--white)}
+.postop-card-body{padding:22px 24px}
+.postop-card-body p{font-size:13.5px;color:var(--gray);line-height:1.7;margin-bottom:12px}
+.postop-card-body ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+.postop-card-body ul li{display:flex;align-items:flex-start;gap:9px;font-size:13.5px;color:#374151;line-height:1.5}
+.postop-card-body ul li::before{content:'›';color:var(--red);font-weight:700;font-size:16px;line-height:1.3;flex-shrink:0}
+
+/* ── Form tiles ── */
+.forms-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.form-tile{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:14px;align-items:flex-start;transition:transform .25s,box-shadow .25s}
+.form-tile:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.1)}
+.form-tile-icon{width:42px;height:42px;background:rgba(26,46,90,.07);border:1px solid rgba(26,46,90,.12);border-radius:9px;display:flex;align-items:center;justify-content:center}
+.form-tile-icon svg{width:20px;height:20px;stroke:var(--navy);fill:none;stroke-width:1.8}
+.form-tile h4{font-size:15px;color:var(--navy);line-height:1.3}
+.form-tile p{font-size:13px;color:var(--gray);line-height:1.6;flex:1}
+.form-tile-badge{font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;background:rgba(16,185,129,.1);color:#059669;border:1px solid rgba(16,185,129,.25);border-radius:12px;padding:3px 10px}
+.btn-tile{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:700;color:var(--red);border:1.5px solid var(--red);border-radius:6px;padding:8px 14px;transition:background .2s,color .2s}
+.btn-tile:hover{background:var(--red);color:var(--white)}
+.btn-tile svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2.5}
+
+/* ── Contact strip ── */
+.contact-strip{background:linear-gradient(135deg,var(--navy),#1e3a70);border-radius:12px;padding:36px 44px;display:grid;grid-template-columns:repeat(4,1fr);gap:24px;text-align:center}
+.contact-strip-item .contact-label{font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:6px}
+.contact-strip-item .contact-city{font-size:15px;font-weight:700;color:#e8b84b;margin-bottom:2px}
+.contact-strip-item .contact-phone a{font-size:18px;font-weight:700;color:var(--white);text-decoration:underline}
+.contact-strip-item .contact-phone a:hover{color:#e8b84b}
+.contact-strip-item .contact-addr{font-size:12.5px;color:rgba(255,255,255,.55);margin-top:4px;line-height:1.5}
+
+/* ── Portal features ── */
+.portal-features{list-style:none;display:flex;flex-direction:column;gap:12px;margin-top:8px}
+.portal-features li{display:flex;align-items:flex-start;gap:12px;font-size:14.5px;color:#374151;line-height:1.5}
+.portal-features li .pf-icon{width:22px;height:22px;background:rgba(183,28,28,.1);border:1px solid rgba(183,28,28,.2);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+.portal-features li .pf-icon svg{width:11px;height:11px;stroke:var(--red);fill:none;stroke-width:3}
+.portal-cta-box{background:var(--navy);border-radius:12px;padding:40px;display:flex;flex-direction:column;align-items:flex-start;gap:16px;box-shadow:0 16px 48px rgba(0,0,0,.2)}
+.portal-cta-box .portal-logo-hint{font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.45)}
+.portal-cta-box h3{font-size:26px;color:var(--white);line-height:1.2}
+.portal-cta-box p{font-size:14px;color:rgba(255,255,255,.65);line-height:1.7}
+.btn-ghost-navy{display:inline-flex;align-items:center;gap:9px;background:transparent;color:rgba(255,255,255,.8);font-size:14px;font-weight:600;padding:10px 0;border:none;cursor:pointer;font-family:inherit;transition:color .2s}
+.btn-ghost-navy:hover{color:var(--white)}
+.btn-ghost-navy svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2}
+
+/* ── Resource FAQ accordion ── */
+.res-faq{display:flex;flex-direction:column;gap:10px}
+.res-faq-wrap{max-width:800px;margin:0 auto}
+.rfaq-item{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.rfaq-q{width:100%;background:var(--white);border:none;padding:18px 22px;text-align:left;font-size:15px;font-weight:600;color:var(--navy);cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;font-family:inherit;transition:background .2s}
+.rfaq-q:hover{background:rgba(26,46,90,.03)}
+.rfaq-q[aria-expanded="true"]{background:rgba(26,46,90,.04)}
+.rfaq-q[aria-expanded="true"] .rfaq-chevron{transform:rotate(180deg)}
+.rfaq-chevron{width:18px;height:18px;stroke:var(--gray);fill:none;stroke-width:2;flex-shrink:0;transition:transform .3s}
+.rfaq-a{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.rfaq-a-inner{padding:0 22px 20px;font-size:14.5px;color:var(--gray);line-height:1.75;border-top:1px solid var(--border)}
+.rfaq-a-inner a{color:var(--red);font-weight:600;text-decoration:underline}
+
+/* ── Section footnote ── */
+.section-footnote{text-align:center;font-size:14px;color:var(--gray);margin-top:28px}
+.section-footnote a{color:var(--red);font-weight:600}
+
+/* ── Patient resources responsive ── */
+@media(max-width:960px){
+  .quick-grid,.forms-grid{grid-template-columns:repeat(2,1fr)}
+  .postop-grid,.checklist-cols{grid-template-columns:1fr}
+  .contact-strip{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:600px){
+  .quick-grid,.forms-grid{grid-template-columns:1fr}
+  .contact-strip{grid-template-columns:1fr;text-align:left}
+  .contact-strip{padding:28px 24px}
+}

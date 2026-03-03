@@ -297,6 +297,47 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
   }
 }());
 
+/* ── Tabbed Panels (patient-resources.html) ──────────────────────────────── */
+(function () {
+  const tabNav = document.querySelector('.tab-nav');
+  if (!tabNav) return; // not on a page with tabs
+
+  tabNav.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Deactivate all tabs
+      tabNav.querySelectorAll('.tab-btn').forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-selected', 'false');
+      });
+      // Deactivate all panels
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      // Activate clicked tab + its panel
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected', 'true');
+      const panel = document.getElementById(btn.getAttribute('aria-controls'));
+      if (panel) panel.classList.add('active');
+    });
+  });
+}());
+
+/* ── Resource FAQ Accordion (patient-resources.html) ─────────────────────── */
+document.querySelectorAll('.rfaq-q').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    // Collapse all others
+    document.querySelectorAll('.rfaq-q[aria-expanded="true"]').forEach(other => {
+      if (other !== btn) {
+        other.setAttribute('aria-expanded', 'false');
+        other.nextElementSibling.style.maxHeight = null;
+      }
+    });
+    // Toggle current
+    btn.setAttribute('aria-expanded', String(!expanded));
+    const panel = btn.nextElementSibling;
+    panel.style.maxHeight = expanded ? null : panel.scrollHeight + 'px';
+  });
+});
+
 /* ── Post-Op Guide Accordion (post-op-care.html) ────────────────────────── */
 (function () {
   const viewBtns = document.querySelectorAll('.guide-view-btn');

@@ -25,9 +25,11 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMobileN
 /* ── Booking Modal (Neurality AI Scheduler) ─────────────────────────────── */
 const NEURALITY_ORIGIN = 'https://app.neuralityhealth.ai';
 
+const NEURALITY_SCHEDULER_URL = 'https://app.neuralityhealth.ai/scheduler/68f27677-06fe-489f-a3b8-414deb190d3f';
+
 function openBookingModal(e) {
   if (e) e.preventDefault();
-  window.location.href = 'book.html';
+  window.location.href = NEURALITY_SCHEDULER_URL;
 }
 function closeBookingModal() {
   const modal = document.getElementById('bookingModal');

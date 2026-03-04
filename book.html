@@ -21,22 +21,26 @@
     .book-wrap {
       display: flex;
       flex-direction: column;
-      height: 100dvh;
-      height: 100vh; /* fallback */
+      height: 100vh;
+      height: 100dvh; /* dynamic viewport (handles mobile browser chrome) */
     }
+    /* iframe container fills all remaining space below the nav bars */
     .book-scheduler {
       flex: 1;
+      position: relative; /* anchor for absolute iframe */
       min-height: 0;
-      display: flex;
-      flex-direction: column;
     }
+    /* Absolute fill — most reliable cross-browser way to make an iframe
+       fill a flex/grid parent whose height isn't a fixed pixel value */
     .book-scheduler iframe {
-      flex: 1;
+      position: absolute;
+      inset: 0;
       width: 100%;
+      height: 100%;
       border: none;
       display: block;
     }
-    /* On mobile hide the util bar so the scheduler gets maximum room */
+    /* Hide util bar on mobile to give the scheduler maximum vertical room */
     @media (max-width: 768px) {
       .util-bar { display: none !important; }
     }

@@ -289,21 +289,11 @@
           <li>We verify your insurance benefits before scheduling</li>
         </ul>
       </div>
-      <div class="info-visual">
-        <div class="info-visual-inner">
-          <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
-          <p style="font-size:15px;font-weight:600;color:rgba(255,255,255,.8);">Cost &amp; Insurance</p>
-          <div style="display:flex;gap:20px;justify-content:center;margin-top:24px;flex-wrap:wrap;">
-            <div style="text-align:center;">
-              <div style="font-size:32px;font-weight:800;color:#e8b84b;">Most</div>
-              <div style="font-size:12px;color:rgba(255,255,255,.65);margin-top:4px;">Insurance plans<br/>accepted</div>
-            </div>
-            <div style="text-align:center;">
-              <div style="font-size:32px;font-weight:800;color:#e8b84b;">$</div>
-              <div style="font-size:12px;color:rgba(255,255,255,.65);margin-top:4px;">Far less than<br/>traditional surgery</div>
-            </div>
-          </div>
-        </div>
+      <div class="info-visual has-photo">
+        <picture>
+          <source srcset="Doctor%20photo.webp" type="image/webp" />
+          <img src="Doctor%20photo.png" alt="Capital ENT sinus specialist" />
+        </picture>
       </div>
     </div>
   </div>
@@ -355,19 +345,34 @@
       <h2>Balloon Sinuplasty FAQs</h2>
       <div class="rule"></div>
     </div>
-    <div class="faq-list">
-      <details class="faq-item">
-        <summary>Can balloon sinuplasty be used for children?</summary>
-        <div class="faq-body"><p>Yes! Balloon sinuplasty can be a safe and effective treatment option for pediatric patients with chronic sinusitis. Our specialists evaluate each child individually to determine if BSP is the right approach.</p></div>
-      </details>
-      <details class="faq-item">
-        <summary>Is balloon sinuplasty a permanent solution?</summary>
-        <div class="faq-body"><p>Yes! The results of balloon sinuplasty are long-lasting. The procedure restructures the sinus openings, and the vast majority of patients experience lasting relief from chronic sinus symptoms.</p></div>
-      </details>
-      <details class="faq-item">
-        <summary>Does balloon sinuplasty limit future treatment options?</summary>
-        <div class="faq-body"><p>No! Balloon sinuplasty does not remove any bone or tissue, so it preserves your anatomy and does not limit any future treatment options should they be needed.</p></div>
-      </details>
+    <div class="bsp-faq" style="max-width:760px;margin:0 auto;">
+      <div class="bfaq-item">
+        <button class="bfaq-q" aria-expanded="false">
+          Can balloon sinuplasty be used for children?
+          <svg class="bfaq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="bfaq-a">
+          <div class="bfaq-a-inner">Yes! Balloon sinuplasty can be a safe and effective treatment option for pediatric patients with chronic sinusitis. Our specialists evaluate each child individually to determine if BSP is the right approach.</div>
+        </div>
+      </div>
+      <div class="bfaq-item">
+        <button class="bfaq-q" aria-expanded="false">
+          Is balloon sinuplasty a permanent solution?
+          <svg class="bfaq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="bfaq-a">
+          <div class="bfaq-a-inner">Yes! The results of balloon sinuplasty are long-lasting. The procedure restructures the sinus openings, and the vast majority of patients experience lasting relief from chronic sinus symptoms.</div>
+        </div>
+      </div>
+      <div class="bfaq-item">
+        <button class="bfaq-q" aria-expanded="false">
+          Does balloon sinuplasty limit future treatment options?
+          <svg class="bfaq-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="bfaq-a">
+          <div class="bfaq-a-inner">No! Balloon sinuplasty does not remove any bone or tissue, so it preserves your anatomy and does not limit any future treatment options should they be needed.</div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -381,18 +386,21 @@
       <div class="rule"></div>
     </div>
     <div class="services-list">
-      <div class="svc-item">
-        <h4><a href="balloon-sinuplasty-steps.html">Balloon Sinuplasty Steps</a></h4>
+      <a href="balloon-sinuplasty-steps.html" class="svc-item">
+        <h4>Balloon Sinuplasty Steps</h4>
         <p>Learn exactly what happens during the balloon sinuplasty procedure — from start to finish — and what to expect at each step.</p>
-      </div>
-      <div class="svc-item">
-        <h4><a href="balloon-sinuplasty-recovery.html">Balloon Sinuplasty Recovery</a></h4>
+        <span class="svc-learn">Learn more →</span>
+      </a>
+      <a href="balloon-sinuplasty-recovery.html" class="svc-item">
+        <h4>Balloon Sinuplasty Recovery</h4>
         <p>Find out what recovery looks like after balloon sinuplasty, including timelines, activity restrictions, and tips for healing.</p>
-      </div>
-      <div class="svc-item">
-        <h4><a href="balloon-sinuplasty-vs-surgery.html">BSP vs. Traditional Surgery</a></h4>
+        <span class="svc-learn">Learn more →</span>
+      </a>
+      <a href="balloon-sinuplasty-vs-surgery.html" class="svc-item">
+        <h4>BSP vs. Traditional Surgery</h4>
         <p>Compare balloon sinuplasty with traditional endoscopic sinus surgery to understand which approach may be right for your condition.</p>
-      </div>
+        <span class="svc-learn">Learn more →</span>
+      </a>
     </div>
   </div>
 </section>

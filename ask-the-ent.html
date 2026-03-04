@@ -861,54 +861,18 @@
 </a>
 
 <!-- BOOKING MODAL -->
-<div id="bookingModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
-  <div class="modal-overlay" data-action="close-modal"></div>
-  <div class="modal-content">
-    <button class="modal-close" data-action="close-modal" aria-label="Close">&times;</button>
-    <div class="modal-header">
-      <h2 id="modalTitle">Request an Appointment</h2>
-      <p>Fill out the form below and our team will contact you within one business day.</p>
-    </div>
-    <form id="bookingForm" class="modal-form">
-      <div class="form-group">
-        <label for="fullName">Full Name</label>
-        <input type="text" id="fullName" name="fullName" placeholder="Jane Smith" required />
-      </div>
-      <div class="form-group">
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone" placeholder="(512) 555-0100" required />
-      </div>
-      <div class="form-group">
-        <label for="location">Preferred Location</label>
-        <select id="location" name="location">
-          <option value="">Select a location…</option>
-          <option>Austin — 512-339-4040</option>
-          <option>Lakeway — 512-394-9090</option>
-          <option>Marble Falls — 830-993-8342</option>
-          <option>Dripping Springs — 512-722-0555</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="concern">Primary Concern</label>
-        <select id="concern" name="concern">
-          <option value="">Select a concern…</option>
-          <option>Ear / Hearing</option>
-          <option>Nose / Sinus</option>
-          <option>Throat / Voice</option>
-          <option>Sleep / Snoring</option>
-          <option>Allergy</option>
-          <option>Pediatric ENT</option>
-          <option>Hearing Aids</option>
-          <option>Other</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="message">Additional Notes (optional)</label>
-        <textarea id="message" name="message" placeholder="Tell us about your condition (optional)" rows="3"></textarea>
-      </div>
-      <button type="submit" class="btn-red">Request Appointment</button>
-      <p class="form-disclaimer">By submitting this form, you agree to be contacted by Capital ENT at the number provided.</p>
-    </form>
+<!-- ── BOOKING MODAL ── -->
+<div id="bookingModal" class="modal" role="dialog" aria-labelledby="bookingModalTitle" aria-hidden="true">
+  <div class="modal-overlay" data-action="close-modal" role="button" tabindex="0" aria-label="Close"></div>
+  <div class="modal-content modal-content--scheduler">
+    <button class="modal-close" data-action="close-modal" type="button" aria-label="Close scheduler">&times;</button>
+    <iframe
+      id="neurality-scheduler-iframe"
+      src="https://app.neuralityhealth.ai/scheduler/68f27677-06fe-489f-a3b8-414deb190d3f"
+      frameborder="0"
+      title="Appointment Scheduler"
+      allowfullscreen
+    ></iframe>
   </div>
 </div>
 

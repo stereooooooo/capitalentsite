@@ -819,44 +819,18 @@
   Book Appointment
 </a>
 
-<div id="bookingModal" class="modal" role="dialog" aria-hidden="true" aria-labelledby="modalTitle">
-  <div class="modal-overlay" data-action="close-modal"></div>
-  <div class="modal-content">
-    <button class="modal-close" data-action="close-modal" type="button" aria-label="Close">&times;</button>
-    <div class="modal-header">
-      <h2 id="modalTitle">Request an Appointment</h2>
-      <p>Fill out the form below and we'll get back to you within 24 hours.</p>
-    </div>
-    <form id="bookingForm" class="modal-form">
-      <div class="form-group"><label for="fullName">Full Name *</label><input type="text" id="fullName" required placeholder="Jane Smith"></div>
-      <div class="form-group"><label for="bookEmail">Email *</label><input type="email" id="bookEmail" required placeholder="jane@example.com"></div>
-      <div class="form-group"><label for="bookPhone">Phone Number *</label><input type="tel" id="bookPhone" required placeholder="(512) 000-0000"></div>
-      <div class="form-group"><label for="bookProvider">Preferred Provider</label>
-        <select id="bookProvider">
-          <option value="">No preference</option>
-          <option>Dr. Zachary Wassmuth</option>
-          <option>Dr. Latif Dharamsi</option>
-          <option>Dr. Raymond Brown</option>
-          <option>Dr. Jeffrey Myhill</option>
-          <option>Margaux Colburn, AuD</option>
-          <option>Jill Sullivan, AuD</option>
-          <option>Andrew Clark, PA-C</option>
-          <option>Cassie Dean, PA-C</option>
-        </select>
-      </div>
-      <div class="form-group"><label for="bookLocation">Preferred Location *</label>
-        <select id="bookLocation" required>
-          <option value="">Select a location...</option>
-          <option>Austin — 12309 N Mopac Expy</option>
-          <option>Lakeway — 4 Lakeway Centre Ct</option>
-          <option>Marble Falls — 801 Steve Hawkins Pkwy</option>
-          <option>Dripping Springs — 800 US-290</option>
-        </select>
-      </div>
-      <div class="form-group"><label for="bookReason">Reason for Visit</label><textarea id="bookReason" placeholder="Tell us about your condition (optional)" rows="3"></textarea></div>
-      <button type="submit" class="btn-red">Request Appointment</button>
-      <p class="form-disclaimer">By submitting this form, you agree to be contacted by Capital ENT at the number provided.</p>
-    </form>
+<!-- ── BOOKING MODAL ── -->
+<div id="bookingModal" class="modal" role="dialog" aria-labelledby="bookingModalTitle" aria-hidden="true">
+  <div class="modal-overlay" data-action="close-modal" role="button" tabindex="0" aria-label="Close"></div>
+  <div class="modal-content modal-content--scheduler">
+    <button class="modal-close" data-action="close-modal" type="button" aria-label="Close scheduler">&times;</button>
+    <iframe
+      id="neurality-scheduler-iframe"
+      src="https://app.neuralityhealth.ai/scheduler/68f27677-06fe-489f-a3b8-414deb190d3f"
+      frameborder="0"
+      title="Appointment Scheduler"
+      allowfullscreen
+    ></iframe>
   </div>
 </div>
 

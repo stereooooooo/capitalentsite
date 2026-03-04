@@ -22,14 +22,21 @@ mobileNavClose.addEventListener('click', closeMobileNav);
 mobileNavOverlay.addEventListener('click', closeMobileNav);
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMobileNav(); });
 
-/* ── Booking Modal ──────────────────────────────────────────────────────── */
+/* ── Booking Modal (Neurality AI Scheduler) ─────────────────────────────── */
+const NEURALITY_ORIGIN = 'https://app.neuralityhealth.ai';
+
 function openBookingModal(e) {
   if (e) e.preventDefault();
   const modal = document.getElementById('bookingModal');
   modal.classList.add('modal--open');
   modal.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
-  setTimeout(() => document.getElementById('fullName').focus(), 100);
+  // Reset the Neurality scheduler back to step 1
+  const iframe = document.getElementById('neurality-scheduler-iframe');
+  if (iframe) {
+    iframe.src = iframe.src;
+    try { iframe.contentWindow.postMessage({ type: 'resetToStep1' }, NEURALITY_ORIGIN); } catch(err) {}
+  }
 }
 function closeBookingModal() {
   const modal = document.getElementById('bookingModal');
@@ -51,20 +58,19 @@ document.querySelectorAll('[data-action="close-modal"]').forEach(el => {
 // Escape key closes modal
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeBookingModal(); });
 
-/* HIPAA NOTE: When connecting to a real backend, post form data only to a
-   HIPAA-compliant endpoint (EMR API or secure healthcare form processor).
-   Never transmit PHI via standard email protocols. */
-document.getElementById('bookingForm').addEventListener('submit', function(e) {
-  e.preventDefault();
-  const btn = this.querySelector('button[type="submit"]');
-  btn.textContent = '✓ Appointment Requested!';
-  btn.style.background = '#10b981';
-  setTimeout(() => {
-    this.reset();
-    btn.textContent = 'Request Appointment';
-    btn.style.background = '';
-    closeBookingModal();
-  }, 2000);
+// Handle iframe resize messages from Neurality scheduler
+window.addEventListener('message', function(evt) {
+  if (evt.origin !== NEURALITY_ORIGIN) return;
+  const { type, width, height } = evt.data || {};
+  if (type !== 'resize') return;
+  const iframe = document.getElementById('neurality-scheduler-iframe');
+  if (!iframe) return;
+  if (window.innerWidth <= 600) {
+    iframe.style.width = '100%';
+  } else if (width) {
+    iframe.style.width = Math.min(width, window.innerWidth * 0.9) + 'px';
+  }
+  if (height) iframe.style.height = height + 'px';
 });
 
 /* ── Scroll Animations ──────────────────────────────────────────────────── */

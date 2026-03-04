@@ -50,11 +50,14 @@ document.querySelectorAll('[data-action="close-modal"]').forEach(el => {
 // Escape key closes modal
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeBookingModal(); });
 
-// Handle iframe resize messages from Neurality scheduler
+// Handle iframe resize messages from Neurality scheduler.
+// Skip on book.html — the iframe fills the full page there via CSS
+// and postMessage height values would override and collapse it.
 window.addEventListener('message', function(evt) {
   if (evt.origin !== NEURALITY_ORIGIN) return;
   const { type, width, height } = evt.data || {};
   if (type !== 'resize') return;
+  if (window.location.pathname.endsWith('book.html')) return;
   const iframe = document.getElementById('neurality-scheduler-iframe');
   if (!iframe) return;
   if (window.innerWidth <= 600) {

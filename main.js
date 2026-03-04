@@ -27,19 +27,11 @@ const NEURALITY_ORIGIN = 'https://app.neuralityhealth.ai';
 
 function openBookingModal(e) {
   if (e) e.preventDefault();
-  const modal = document.getElementById('bookingModal');
-  modal.classList.add('modal--open');
-  modal.setAttribute('aria-hidden', 'false');
-  document.body.style.overflow = 'hidden';
-  // Reset the Neurality scheduler back to step 1
-  const iframe = document.getElementById('neurality-scheduler-iframe');
-  if (iframe) {
-    iframe.src = iframe.src;
-    try { iframe.contentWindow.postMessage({ type: 'resetToStep1' }, NEURALITY_ORIGIN); } catch(err) {}
-  }
+  window.location.href = 'book.html';
 }
 function closeBookingModal() {
   const modal = document.getElementById('bookingModal');
+  if (!modal) return;
   modal.classList.remove('modal--open');
   modal.setAttribute('aria-hidden', 'true');
   document.body.style.overflow = '';

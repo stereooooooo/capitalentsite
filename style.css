@@ -256,8 +256,8 @@
 .faq-item{background:var(--white);border:1px solid var(--border);border-radius:10px;overflow:hidden;box-shadow:0 1px 6px rgba(26,46,90,.05)}
 .faq-q{font-size:16px;font-weight:700;font-family:var(--serif);color:var(--navy);padding:24px 28px;line-height:1.4;border-bottom:1px solid var(--border);cursor:pointer}
 .faq-a{font-size:14.5px;color:var(--gray);line-height:1.75;padding:22px 28px;background:rgba(248,246,242,.5)}
-/* Service-page FAQ uses <div class="faq-q"> (not button) — restore padding overridden by faq.html accordion styles */
-div.faq-q+.faq-a{padding:22px 28px;background:rgba(248,246,242,.5)}
+/* Service-page FAQ uses <div class="faq-q"> (not button) — restore padding only when open */
+div.faq-q[aria-expanded="true"]+.faq-a{padding:22px 28px;background:rgba(248,246,242,.5)}
 
 /* ── Triage + table responsive ── */
 @media(max-width:960px){

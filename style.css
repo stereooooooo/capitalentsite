@@ -112,6 +112,7 @@
 .spotlight-copy p{font-size:15px;color:rgba(255,255,255,.78);line-height:1.7;margin-bottom:20px}
 .spotlight-video{border-radius:12px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.5);aspect-ratio:16/9;background:#000}
 .spotlight-video iframe{width:100%;height:100%;border:none;display:block}
+.spotlight-video:has(.procedure-cards){background:transparent;aspect-ratio:unset;box-shadow:none;overflow:visible;align-self:center}
 
 /* ── Case study video grid ── */
 .case-video-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;width:100%}

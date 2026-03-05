@@ -338,6 +338,24 @@ div.faq-q+.faq-a .faq-a-inner{padding:20px 28px;border-top:1px solid var(--borde
 .hearing-stat .lbl{font-size:12.5px;color:rgba(255,255,255,.75);line-height:1.4;text-align:center}
 .hearing-visual-note{font-size:13px;color:rgba(255,255,255,.45);text-align:center;line-height:1.5;font-style:italic}
 
+/* ── ESS Recovery Timeline infographic ── */
+.recovery-visual{border-radius:12px;overflow:hidden;box-shadow:0 16px 48px rgba(0,0,0,.15);background:linear-gradient(145deg,#1a2e5a 0%,#1e3a6e 100%);min-height:320px}
+.recovery-header{padding:28px 32px 20px;border-bottom:1px solid rgba(255,255,255,.12)}
+.recovery-eyebrow{font-size:10.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#e8b84b;margin:0 0 8px}
+.recovery-title{font-size:17px;font-weight:700;color:#fff;line-height:1.35;margin:0}
+.recovery-steps{padding:28px 32px 32px}
+.recovery-step{display:grid;grid-template-columns:34px 1fr;gap:0 16px;margin-bottom:4px}
+.recovery-step-icon{display:flex;flex-direction:column;align-items:center}
+.recovery-circle{width:34px;height:34px;border-radius:50%;background:#e8b84b;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.recovery-circle--check{background:#22c55e}
+.recovery-circle span{font-size:13px;font-weight:800;color:#1a2e5a}
+.recovery-connector{width:2px;flex:1;min-height:20px;background:rgba(255,255,255,.2);margin:6px auto}
+.recovery-content{padding-top:5px;padding-bottom:20px}
+.recovery-content--last{padding-bottom:0}
+.recovery-label{font-size:10.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:#e8b84b;margin:0 0 4px}
+.recovery-label--check{color:#22c55e}
+.recovery-text{font-size:13.5px;color:rgba(255,255,255,.8);line-height:1.6;margin:0}
+
 /* Cedar highlight paragraph (allergy intro) */
 .cedar-highlight{background:rgba(183,28,28,.05);border-left:3px solid var(--red);padding:14px 16px;border-radius:0 6px 6px 0;margin-top:20px;font-size:14.5px;line-height:1.7;color:#374151}.cedar-highlight a{color:var(--red);font-weight:700}.cedar-highlight a:hover{text-decoration:underline}
 

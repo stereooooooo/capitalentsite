@@ -59,7 +59,7 @@ These are the real provider names — always use these exactly:
 - **Andrew Clark, PA-C** — Physician Assistant (Austin, Lakeway)
 - **Cassie R. Dean, PA-C** — Physician Assistant (Austin, Lakeway)
 - **Margaux Colburn, AuD** — Audiologist (Austin)
-- **Jill Sullivan, AuD, CCC-A** — Audiologist (Lakeway)
+- **Jill Rodriguez, AuD, CCC-A** — Audiologist (Lakeway)
 
 In prose, use "Dr. Wassmuth", "Dr. Dharamsi", "Dr. Brown", "Dr. Myhill" (no first names needed).
 

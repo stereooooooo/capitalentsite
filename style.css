@@ -464,6 +464,13 @@ div.faq-q+.faq-a .faq-a-inner{padding:20px 28px;border-top:1px solid var(--borde
 .loc-full-btns .btn-loc-primary{flex:1;justify-content:center;padding:11px 18px;font-size:13.5px}
 .loc-full-btns .btn-loc-outline{flex:1;justify-content:center;padding:10px 18px;font-size:13.5px}
 
+/* ── Section footnotes & utility classes ── */
+.section-footnote{text-align:center;font-size:14px;color:var(--gray);margin-top:28px}
+.section-footnote a{color:var(--navy);font-weight:600}
+.section-cta-wrap{text-align:center;margin-top:28px}
+.section-cta-wrap--lg{margin-top:48px}
+.loc-parking-note{margin-top:14px;font-size:14px;color:var(--gray)}
+
 /* ── Contact section (locations page) ── */
 .contact-split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
 .contact-form-wrap h2{font-size:28px;font-weight:600;font-family:var(--serif);color:var(--navy);margin-bottom:8px}

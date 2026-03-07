@@ -25,50 +25,79 @@
   <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "MedicalOrganization",
-        "@id": "https://www.capitalent.com/#organization",
-        "name": "Capital ENT & Sinus Center",
-        "url": "https://www.capitalent.com",
-        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "telephone": "+15123394040",
-        "medicalSpecialty": "Otolaryngology",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "1340",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      },
-      {
-        "@type": "BlogPosting",
-        "@id": "https://www.capitalent.com/post-balloon-sinuplasty-procedure-case-study-david-hamilton.html#article",
-        "headline": "Balloon Sinuplasty Procedure Case Study – David Hamilton",
-        "datePublished": "2018-02-10",
-        "dateModified": "2018-02-10",
-        "author": {
-          "@type": "MedicalOrganization",
-          "name": "Capital ENT & Sinus Center",
-          "memberOf": { "@id": "https://www.capitalent.com/#organization" }
+        {
+            "@type": "MedicalOrganization",
+            "@id": "https://www.capitalent.com/#organization",
+            "name": "Capital ENT & Sinus Center",
+            "url": "https://www.capitalent.com",
+            "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "telephone": "+15123394040",
+            "medicalSpecialty": "Otolaryngology",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "1340",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         },
-        "publisher": { "@id": "https://www.capitalent.com/#organization" },
-        "mainEntityOfPage": "https://www.capitalent.com/post-balloon-sinuplasty-procedure-case-study-david-hamilton.html",
-        "about": {
-          "@type": "MedicalProcedure",
-          "name": "Balloon Sinuplasty"
+        {
+            "@type": [
+                "BlogPosting",
+                "MedicalWebPage"
+            ],
+            "@id": "https://www.capitalent.com/post-balloon-sinuplasty-procedure-case-study-david-hamilton.html#article",
+            "headline": "Balloon Sinuplasty Procedure Case Study – David Hamilton",
+            "datePublished": "2018-02-10",
+            "dateModified": "2026-03-07",
+            "author": {
+                "@type": "MedicalOrganization",
+                "name": "Capital ENT & Sinus Center",
+                "memberOf": {
+                    "@id": "https://www.capitalent.com/#organization"
+                },
+                "url": "https://www.capitalent.com"
+            },
+            "publisher": {
+                "@id": "https://www.capitalent.com/#organization"
+            },
+            "mainEntityOfPage": "https://www.capitalent.com/post-balloon-sinuplasty-procedure-case-study-david-hamilton.html",
+            "about": {
+                "@type": "MedicalProcedure",
+                "name": "Balloon Sinuplasty"
+            },
+            "reviewedBy": {
+                "@type": "Physician",
+                "name": "Raymond J. Brown, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-brown"
+            },
+            "image": "https://www.capitalent.com/CENT-Horizontal-Color.png"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.capitalent.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ask the ENT",
+                    "item": "https://www.capitalent.com/ask-the-ent.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Balloon Sinuplasty Procedure Case Study – David Hamilton",
+                    "item": "https://www.capitalent.com/post-balloon-sinuplasty-procedure-case-study-david-hamilton.html"
+                }
+            ]
         }
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.capitalent.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Ask the ENT", "item": "https://www.capitalent.com/ask-the-ent.html" },
-          { "@type": "ListItem", "position": 3, "name": "Balloon Sinuplasty Procedure Case Study – David Hamilton", "item": "https://www.capitalent.com/post-balloon-sinuplasty-procedure-case-study-david-hamilton.html" }
-        ]
-      }
     ]
-  }</script>
+}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -135,7 +164,10 @@
     <!-- BODY -->
     <div class="blog-body">
       <p>Do you want to learn more about the <a href="balloon-sinuplasty.html">balloon sinuplasty procedure</a> at Capital ENT and Sinus Center? This video shows the actual experience of David Hamilton as he had the procedure done by Dr. Zachary Wassmuth.</p>
-    </div>
+</div>
+
+
+    <p class="blog-disclaimer">This article is for educational purposes only and does not replace an in-person evaluation. Every patient is unique — contact our office to discuss your specific symptoms and treatment options.</p>
 
     <!-- AUTHOR BIO -->
     <div class="blog-author-box">

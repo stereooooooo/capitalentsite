@@ -25,46 +25,79 @@
   <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "MedicalOrganization",
-        "@id": "https://www.capitalent.com/#organization",
-        "name": "Capital ENT & Sinus Center",
-        "url": "https://www.capitalent.com",
-        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "telephone": "+15123394040",
-        "medicalSpecialty": "Otolaryngology",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "1340",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      },
-      {
-        "@type": "BlogPosting",
-        "@id": "https://www.capitalent.com/post-sleep-apnea.html#article",
-        "headline": "Sleep Apnea",
-        "datePublished": "2019-04-24",
-        "dateModified": "2019-04-24",
-        "author": {
-          "@type": "MedicalOrganization",
-          "name": "Capital ENT and Sinus Center",
-          "url": "https://www.capitalent.com"
+        {
+            "@type": "MedicalOrganization",
+            "@id": "https://www.capitalent.com/#organization",
+            "name": "Capital ENT & Sinus Center",
+            "url": "https://www.capitalent.com",
+            "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "telephone": "+15123394040",
+            "medicalSpecialty": "Otolaryngology",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "1340",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         },
-        "publisher": { "@id": "https://www.capitalent.com/#organization" },
-        "mainEntityOfPage": "https://www.capitalent.com/post-sleep-apnea.html"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.capitalent.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Ask the ENT", "item": "https://www.capitalent.com/ask-the-ent.html" },
-          { "@type": "ListItem", "position": 3, "name": "Sleep Apnea", "item": "https://www.capitalent.com/post-sleep-apnea.html" }
-        ]
-      }
+        {
+            "@type": [
+                "BlogPosting",
+                "MedicalWebPage"
+            ],
+            "@id": "https://www.capitalent.com/post-sleep-apnea.html#article",
+            "headline": "Sleep Apnea",
+            "datePublished": "2019-04-24",
+            "dateModified": "2026-03-07",
+            "author": {
+                "@type": "Physician",
+                "name": "Latif M. Dharamsi, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-dharamsi",
+                "memberOf": {
+                    "@id": "https://www.capitalent.com/#organization"
+                }
+            },
+            "publisher": {
+                "@id": "https://www.capitalent.com/#organization"
+            },
+            "mainEntityOfPage": "https://www.capitalent.com/post-sleep-apnea.html",
+            "reviewedBy": {
+                "@type": "Physician",
+                "name": "Zachary D. Wassmuth, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-wassmuth"
+            },
+            "image": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "about": {
+                "@type": "MedicalCondition",
+                "name": "Sleep Apnea"
+            }
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.capitalent.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ask the ENT",
+                    "item": "https://www.capitalent.com/ask-the-ent.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Sleep Apnea",
+                    "item": "https://www.capitalent.com/post-sleep-apnea.html"
+                }
+            ]
+        }
     ]
-  }</script>
+}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -109,7 +142,7 @@
   <div class="blog-meta">
     <time datetime="2019-04-24">April 24, 2019</time>
     <span class="sep">|</span>
-    <span class="blog-author">Capital ENT and Sinus Center</span>
+    <span class="blog-author">Latif M. Dharamsi, MD</span>
     <span class="sep">|</span>
     <span class="blog-cat">SLEEP</span>
   </div>
@@ -130,17 +163,46 @@
 
     <!-- BODY -->
     <div class="blog-body">
-      <p><a href="sleep.html">Sleep apnea</a> is a common and, too often, under-diagnosed sleep disorder. It occurs when your breathing ceases numerous times while you are asleep (that's what apnea means–the halt of breathing.) In fact, it can cause you to stop breathing 30 times an hour or more.</p>
+<p><a href="sleep.html">Sleep apnea</a> is a common and, too often, under-diagnosed sleep disorder. It occurs when your breathing ceases numerous times while you are asleep (that's what apnea means — the halt of breathing). In fact, it can cause you to stop breathing 30 times an hour or more.</p>
 
-      <p>If you think you or a loved one may have this disorder, Capital ENT and Sinus Center's sleep experts strongly encourage you to make an appointment with us. Although sleep apnea is a common disorder, it can seriously affect your health.</p>
+      <h2>Signs You Might Have Sleep Apnea</h2>
+      <p>Sleep apnea often goes undetected because its most obvious symptoms happen while you're asleep. Watch for these warning signs:</p>
+      <ul>
+        <li>Loud, chronic snoring — especially if your partner notices pauses in your breathing</li>
+        <li>Waking up gasping or choking</li>
+        <li>Excessive daytime sleepiness or fatigue, even after a full night's rest</li>
+        <li>Morning headaches</li>
+        <li>Difficulty concentrating or memory problems</li>
+        <li>Irritability or mood changes</li>
+        <li>Dry mouth or sore throat upon waking</li>
+      </ul>
+
+      <h2>Who Is at Risk?</h2>
+      <p>While sleep apnea can affect anyone, certain factors increase your risk:</p>
+      <ul>
+        <li>Excess weight, particularly around the neck</li>
+        <li>A naturally narrow airway or large tonsils</li>
+        <li>Being male (though women are also affected, especially after menopause)</li>
+        <li>Age — risk increases as you get older</li>
+        <li>Family history of sleep apnea</li>
+        <li>Use of alcohol or sedatives, which relax throat muscles</li>
+      </ul>
+
+      <h2>Why Diagnosis Matters</h2>
+      <p>Left untreated, sleep apnea can lead to serious health complications, including high blood pressure, heart disease, stroke, and type 2 diabetes. The repeated drops in blood oxygen levels put significant strain on your cardiovascular system over time.</p>
+
+      <p>If you think you or a loved one may have this disorder, Capital ENT and Sinus Center's sleep experts strongly encourage you to <a href="at-home-sleep-study.html">schedule a sleep evaluation</a>. A simple at-home sleep study can help determine whether you have sleep apnea and guide us toward the right treatment plan for you.</p>
     </div>
+
+
+    <p class="blog-disclaimer">This article is for educational purposes only and does not replace an in-person evaluation. Every patient is unique — contact our office to discuss your specific symptoms and treatment options.</p>
 
     <!-- AUTHOR BIO -->
     <div class="blog-author-box">
       <div class="blog-author-avatar"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
       <div class="blog-author-info">
-        <h4>Capital ENT and Sinus Center</h4>
-        <p>Capital ENT and Sinus Center is Austin's most trusted ENT practice, providing comprehensive ear, nose, and throat care with board-certified otolaryngologists and audiologists serving patients across Central Texas since 1999.</p>
+        <h4>Latif M. Dharamsi, MD</h4>
+        <p>Dr. Dharamsi is a board-certified ENT specialist who treats a wide range of conditions, including nasal obstruction, chronic sinus infections, sleep apnea, and chronic ear conditions. He emphasizes minimally invasive treatments and has been consistently recognized as one of Austin's Best ENT providers.</p>
       </div>
     </div>
 

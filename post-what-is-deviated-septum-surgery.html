@@ -25,50 +25,79 @@
   <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "MedicalOrganization",
-        "@id": "https://www.capitalent.com/#organization",
-        "name": "Capital ENT & Sinus Center",
-        "url": "https://www.capitalent.com",
-        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "telephone": "+15123394040",
-        "medicalSpecialty": "Otolaryngology",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "1340",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      },
-      {
-        "@type": "BlogPosting",
-        "@id": "https://www.capitalent.com/post-what-is-deviated-septum-surgery.html#article",
-        "headline": "What is Deviated Septum Surgery?",
-        "datePublished": "2021-04-27",
-        "dateModified": "2021-04-27",
-        "author": {
-          "@type": "MedicalOrganization",
-          "name": "Capital ENT and Sinus Center",
-          "memberOf": { "@id": "https://www.capitalent.com/#organization" }
+        {
+            "@type": "MedicalOrganization",
+            "@id": "https://www.capitalent.com/#organization",
+            "name": "Capital ENT & Sinus Center",
+            "url": "https://www.capitalent.com",
+            "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "telephone": "+15123394040",
+            "medicalSpecialty": "Otolaryngology",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "1340",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         },
-        "publisher": { "@id": "https://www.capitalent.com/#organization" },
-        "mainEntityOfPage": "https://www.capitalent.com/post-what-is-deviated-septum-surgery.html",
-        "about": {
-          "@type": "MedicalProcedure",
-          "name": "Septoplasty"
+        {
+            "@type": [
+                "BlogPosting",
+                "MedicalWebPage"
+            ],
+            "@id": "https://www.capitalent.com/post-what-is-deviated-septum-surgery.html#article",
+            "headline": "What is Deviated Septum Surgery?",
+            "datePublished": "2021-04-27",
+            "dateModified": "2026-03-07",
+            "author": {
+                "@type": "Physician",
+                "name": "Zachary D. Wassmuth, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-wassmuth",
+                "memberOf": {
+                    "@id": "https://www.capitalent.com/#organization"
+                }
+            },
+            "publisher": {
+                "@id": "https://www.capitalent.com/#organization"
+            },
+            "mainEntityOfPage": "https://www.capitalent.com/post-what-is-deviated-septum-surgery.html",
+            "about": {
+                "@type": "MedicalProcedure",
+                "name": "Septoplasty"
+            },
+            "reviewedBy": {
+                "@type": "Physician",
+                "name": "Latif M. Dharamsi, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-dharamsi"
+            },
+            "image": "https://www.capitalent.com/CENT-Horizontal-Color.png"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.capitalent.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ask the ENT",
+                    "item": "https://www.capitalent.com/ask-the-ent.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Deviated Septum Surgery",
+                    "item": "https://www.capitalent.com/post-what-is-deviated-septum-surgery.html"
+                }
+            ]
         }
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.capitalent.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Ask the ENT", "item": "https://www.capitalent.com/ask-the-ent.html" },
-          { "@type": "ListItem", "position": 3, "name": "Deviated Septum Surgery", "item": "https://www.capitalent.com/post-what-is-deviated-septum-surgery.html" }
-        ]
-      }
     ]
-  }</script>
+}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -113,7 +142,7 @@
   <div class="blog-meta">
     <time datetime="2021-04-27">April 27, 2021</time>
     <span class="sep">|</span>
-    <span class="blog-author">Capital ENT and Sinus Center</span>
+    <span class="blog-author">Zachary D. Wassmuth, MD</span>
     <span class="sep">|</span>
     <span class="blog-cat">Sinus</span>
   </div>
@@ -191,14 +220,17 @@
       <h2>Should I undergo a septoplasty?</h2>
 
       <p>If you have a long history of nasal congestion, nasal obstruction, mouth breathing at night, and a diagnosis of septal deviation, you should seriously consider septoplasty. This condition is not improved with medications. In experienced hands, the procedure is simple and effective. Most patients note that the septoplasty was easier than expected and more beneficial than anticipated.</p>
-    </div>
+</div>
+
+
+    <p class="blog-disclaimer">This article is for educational purposes only and does not replace an in-person evaluation. Every patient is unique — contact our office to discuss your specific symptoms and treatment options.</p>
 
     <!-- AUTHOR BIO -->
     <div class="blog-author-box">
       <div class="blog-author-avatar"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
       <div class="blog-author-info">
-        <h4>Capital ENT &amp; Sinus Center</h4>
-        <p>Capital ENT &amp; Sinus Center is Austin's most trusted ENT practice, providing comprehensive ear, nose, and throat care across Central Texas since 1999.</p>
+        <h4>Zachary D. Wassmuth, MD</h4>
+        <p>Dr. Wassmuth is a leading ENT specialist in chronic sinusitis, nasal obstruction, and sleep apnea. As the first in Austin to perform a balloon sinuplasty procedure and with over 10,000 nasal and sinus surgeries completed, he's consistently recognized as one of the top ENT surgeons in Central Texas.</p>
       </div>
     </div>
 

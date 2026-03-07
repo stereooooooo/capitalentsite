@@ -25,50 +25,79 @@
   <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "MedicalOrganization",
-        "@id": "https://www.capitalent.com/#organization",
-        "name": "Capital ENT & Sinus Center",
-        "url": "https://www.capitalent.com",
-        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "telephone": "+15123394040",
-        "medicalSpecialty": "Otolaryngology",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "1340",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      },
-      {
-        "@type": "BlogPosting",
-        "@id": "https://www.capitalent.com/post-nasal-congestion.html#article",
-        "headline": "Everything You Need to Know About Nasal Congestion",
-        "datePublished": "2025-11-22",
-        "dateModified": "2025-11-22",
-        "author": {
-          "@type": "Physician",
-          "name": "Zachary D. Wassmuth, MD",
-          "memberOf": { "@id": "https://www.capitalent.com/#organization" }
+        {
+            "@type": "MedicalOrganization",
+            "@id": "https://www.capitalent.com/#organization",
+            "name": "Capital ENT & Sinus Center",
+            "url": "https://www.capitalent.com",
+            "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "telephone": "+15123394040",
+            "medicalSpecialty": "Otolaryngology",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "1340",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         },
-        "publisher": { "@id": "https://www.capitalent.com/#organization" },
-        "mainEntityOfPage": "https://www.capitalent.com/post-nasal-congestion.html",
-        "about": {
-          "@type": "MedicalCondition",
-          "name": "Nasal Congestion"
+        {
+            "@type": [
+                "BlogPosting",
+                "MedicalWebPage"
+            ],
+            "@id": "https://www.capitalent.com/post-nasal-congestion.html#article",
+            "headline": "Everything You Need to Know About Nasal Congestion",
+            "datePublished": "2025-11-22",
+            "dateModified": "2026-03-07",
+            "author": {
+                "@type": "Physician",
+                "name": "Zachary D. Wassmuth, MD",
+                "memberOf": {
+                    "@id": "https://www.capitalent.com/#organization"
+                },
+                "url": "https://www.capitalent.com/our-providers.html#dr-wassmuth"
+            },
+            "publisher": {
+                "@id": "https://www.capitalent.com/#organization"
+            },
+            "mainEntityOfPage": "https://www.capitalent.com/post-nasal-congestion.html",
+            "about": {
+                "@type": "MedicalCondition",
+                "name": "Nasal Congestion"
+            },
+            "reviewedBy": {
+                "@type": "Physician",
+                "name": "Zachary D. Wassmuth, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-wassmuth"
+            },
+            "image": "https://www.capitalent.com/CENT-Horizontal-Color.png"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.capitalent.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ask the ENT",
+                    "item": "https://www.capitalent.com/ask-the-ent.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Everything You Need to Know About Nasal Congestion",
+                    "item": "https://www.capitalent.com/post-nasal-congestion.html"
+                }
+            ]
         }
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.capitalent.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Ask the ENT", "item": "https://www.capitalent.com/ask-the-ent.html" },
-          { "@type": "ListItem", "position": 3, "name": "Everything You Need to Know About Nasal Congestion", "item": "https://www.capitalent.com/post-nasal-congestion.html" }
-        ]
-      }
     ]
-  }</script>
+}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -157,7 +186,10 @@
       <p>If symptoms of nasal congestion persist then sufferers should seek a doctor's diagnosis. Only a doctor can determine if the symptoms are caused by a more serious condition. The ear, nose and throat specialists at Capital ENT &amp; Sinus Center have extensive experience in the medical evaluation and treatment of all forms of nasal and sinus disorders, including cutting-edge, minimally invasive surgical procedures when surgery is necessary. Dr. Wassmuth, Dr. Dharamsi, and Dr. Brown enjoy an exceptional reputation for providing comprehensive and innovative solutions, and they receive referrals from all over the United States.</p>
 
       <p>To request an appointment at Capital ENT &amp; Sinus Center, call <a href="tel:5123394040">(512) 339-4040</a> Austin or <a href="tel:5126824798">(512) 682-4798</a> in Lakeway, or you can <a href="#" data-action="book">request one online</a>.</p>
-    </div>
+</div>
+
+
+    <p class="blog-disclaimer">This article is for educational purposes only and does not replace an in-person evaluation. Every patient is unique — contact our office to discuss your specific symptoms and treatment options.</p>
 
     <!-- AUTHOR BIO -->
     <div class="blog-author-box">

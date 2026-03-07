@@ -25,46 +25,79 @@
   <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "MedicalOrganization",
-        "@id": "https://www.capitalent.com/#organization",
-        "name": "Capital ENT & Sinus Center",
-        "url": "https://www.capitalent.com",
-        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "telephone": "+15123394040",
-        "medicalSpecialty": "Otolaryngology",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "1340",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      },
-      {
-        "@type": "BlogPosting",
-        "@id": "https://www.capitalent.com/post-tonsillectomy-with-dr-raymond-brown.html#article",
-        "headline": "Tonsillectomy with Dr. Raymond Brown",
-        "datePublished": "2020-01-21",
-        "dateModified": "2020-01-21",
-        "author": {
-          "@type": "MedicalOrganization",
-          "name": "Capital ENT and Sinus Center",
-          "url": "https://www.capitalent.com"
+        {
+            "@type": "MedicalOrganization",
+            "@id": "https://www.capitalent.com/#organization",
+            "name": "Capital ENT & Sinus Center",
+            "url": "https://www.capitalent.com",
+            "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "telephone": "+15123394040",
+            "medicalSpecialty": "Otolaryngology",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "1340",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         },
-        "publisher": { "@id": "https://www.capitalent.com/#organization" },
-        "mainEntityOfPage": "https://www.capitalent.com/post-tonsillectomy-with-dr-raymond-brown.html"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.capitalent.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Ask the ENT", "item": "https://www.capitalent.com/ask-the-ent.html" },
-          { "@type": "ListItem", "position": 3, "name": "Tonsillectomy with Dr. Brown", "item": "https://www.capitalent.com/post-tonsillectomy-with-dr-raymond-brown.html" }
-        ]
-      }
+        {
+            "@type": [
+                "BlogPosting",
+                "MedicalWebPage"
+            ],
+            "@id": "https://www.capitalent.com/post-tonsillectomy-with-dr-raymond-brown.html#article",
+            "headline": "Tonsillectomy with Dr. Raymond Brown",
+            "datePublished": "2020-01-21",
+            "dateModified": "2026-03-07",
+            "author": {
+                "@type": "Physician",
+                "name": "Raymond J. Brown, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-brown",
+                "memberOf": {
+                    "@id": "https://www.capitalent.com/#organization"
+                }
+            },
+            "publisher": {
+                "@id": "https://www.capitalent.com/#organization"
+            },
+            "mainEntityOfPage": "https://www.capitalent.com/post-tonsillectomy-with-dr-raymond-brown.html",
+            "reviewedBy": {
+                "@type": "Physician",
+                "name": "Latif M. Dharamsi, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-dharamsi"
+            },
+            "image": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "about": {
+                "@type": "MedicalProcedure",
+                "name": "Tonsillectomy"
+            }
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.capitalent.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ask the ENT",
+                    "item": "https://www.capitalent.com/ask-the-ent.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Tonsillectomy with Dr. Brown",
+                    "item": "https://www.capitalent.com/post-tonsillectomy-with-dr-raymond-brown.html"
+                }
+            ]
+        }
     ]
-  }</script>
+}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -109,7 +142,7 @@
   <div class="blog-meta">
     <time datetime="2020-01-21">January 21, 2020</time>
     <span class="sep">|</span>
-    <span class="blog-author">Capital ENT and Sinus Center</span>
+    <span class="blog-author">Raymond J. Brown, MD</span>
     <span class="sep">|</span>
     <span class="blog-cat">THROAT</span>
   </div>
@@ -133,14 +166,17 @@
       <p>Here at Capital ENT and Sinus Center, a <a href="tonsillectomy.html">tonsillectomy</a> is a common and fairly simple surgical procedure. During the procedure, each tonsil is removed from a recess on the side of the pharynx called the tonsillar fossa. The procedure is performed in response to repeated occurrence of acute tonsillitis, sleep surgery for obstructive <a href="sleep.html">sleep apnea</a>, nasal airway obstruction, diphtheria carrier state, snoring, or peritonsillar abscess.</p>
 
       <p>For children, the adenoids (also known as a pharyngeal tonsil or nasopharyngeal tonsil) are usually removed, a procedure called adenoidectomy (or tonsilloadenoidectomy or adenotonsillectomy when combined). Although tonsillectomy is performed less frequently than in the 1950s, it remains one of the most common surgical procedures in children.</p>
-    </div>
+</div>
+
+
+    <p class="blog-disclaimer">This article is for educational purposes only and does not replace an in-person evaluation. Every patient is unique — contact our office to discuss your specific symptoms and treatment options.</p>
 
     <!-- AUTHOR BIO -->
     <div class="blog-author-box">
       <div class="blog-author-avatar"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
       <div class="blog-author-info">
-        <h4>Capital ENT and Sinus Center</h4>
-        <p>Capital ENT and Sinus Center is Austin's most trusted ENT practice, providing comprehensive ear, nose, and throat care with board-certified otolaryngologists and audiologists serving patients across Central Texas since 1999.</p>
+        <h4>Raymond J. Brown, MD</h4>
+        <p>Dr. Brown is a board-certified ENT specialist who provides comprehensive care for patients of all ages. He has a special interest in treating nasal and sinus disorders, as well as obstructive sleep apnea. He was honored by his peers as a 2025 Austin Top Doctor for his commitment to excellence in ENT care.</p>
       </div>
     </div>
 

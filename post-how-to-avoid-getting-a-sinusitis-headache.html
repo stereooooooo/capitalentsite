@@ -25,46 +25,79 @@
   <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "MedicalOrganization",
-        "@id": "https://www.capitalent.com/#organization",
-        "name": "Capital ENT & Sinus Center",
-        "url": "https://www.capitalent.com",
-        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "telephone": "+15123394040",
-        "medicalSpecialty": "Otolaryngology",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "1340",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      },
-      {
-        "@type": "BlogPosting",
-        "@id": "https://www.capitalent.com/post-how-to-avoid-getting-a-sinusitis-headache.html#article",
-        "headline": "How to Avoid Getting a Sinusitis Headache?",
-        "datePublished": "2023-12-22",
-        "dateModified": "2023-12-22",
-        "author": {
-          "@type": "MedicalOrganization",
-          "name": "Capital ENT & Sinus Center",
-          "url": "https://www.capitalent.com"
+        {
+            "@type": "MedicalOrganization",
+            "@id": "https://www.capitalent.com/#organization",
+            "name": "Capital ENT & Sinus Center",
+            "url": "https://www.capitalent.com",
+            "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "telephone": "+15123394040",
+            "medicalSpecialty": "Otolaryngology",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "1340",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         },
-        "publisher": { "@id": "https://www.capitalent.com/#organization" },
-        "mainEntityOfPage": "https://www.capitalent.com/post-how-to-avoid-getting-a-sinusitis-headache.html"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.capitalent.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Ask the ENT", "item": "https://www.capitalent.com/ask-the-ent.html" },
-          { "@type": "ListItem", "position": 3, "name": "How to Avoid Sinusitis Headaches", "item": "https://www.capitalent.com/post-how-to-avoid-getting-a-sinusitis-headache.html" }
-        ]
-      }
+        {
+            "@type": [
+                "BlogPosting",
+                "MedicalWebPage"
+            ],
+            "@id": "https://www.capitalent.com/post-how-to-avoid-getting-a-sinusitis-headache.html#article",
+            "headline": "How to Avoid Getting a Sinusitis Headache?",
+            "datePublished": "2023-12-22",
+            "dateModified": "2026-03-07",
+            "author": {
+                "@type": "Physician",
+                "name": "Zachary D. Wassmuth, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-wassmuth",
+                "memberOf": {
+                    "@id": "https://www.capitalent.com/#organization"
+                }
+            },
+            "publisher": {
+                "@id": "https://www.capitalent.com/#organization"
+            },
+            "mainEntityOfPage": "https://www.capitalent.com/post-how-to-avoid-getting-a-sinusitis-headache.html",
+            "reviewedBy": {
+                "@type": "Physician",
+                "name": "Zachary D. Wassmuth, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-wassmuth"
+            },
+            "image": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "about": {
+                "@type": "MedicalCondition",
+                "name": "Sinusitis"
+            }
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.capitalent.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ask the ENT",
+                    "item": "https://www.capitalent.com/ask-the-ent.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "How to Avoid Sinusitis Headaches",
+                    "item": "https://www.capitalent.com/post-how-to-avoid-getting-a-sinusitis-headache.html"
+                }
+            ]
+        }
     ]
-  }</script>
+}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -109,7 +142,7 @@
   <div class="blog-meta">
     <time datetime="2023-12-22">December 22, 2023</time>
     <span class="sep">|</span>
-    <span class="blog-author">Capital ENT and Sinus Center</span>
+    <span class="blog-author">Zachary D. Wassmuth, MD</span>
     <span class="sep">|</span>
     <span class="blog-cat">Sinus</span>
   </div>
@@ -157,14 +190,17 @@
       <p>Sometimes, the changes you need to make to prevent a sinusitis headache might be in your lifestyle. For instance, there might be specific foods or smells that irritate your sinuses, causing mucus buildup and swelling. Light exercise can also help reduce and relieve tension and prevent headaches, so it helps to have regular physical activity. Finally, staying healthy by keeping away from sick individuals, washing your hands frequently, and keeping bundled up and indoors during cold weather can reduce the risk of sicknesses and infections.</p>
 
       <p>Sinusitis headaches have many treatment options. Why wait for a headache to develop before trying to address it? Your ENT doctor can help you avoid getting sinusitis headaches through a variety of treatments and tips. If you have <a href="post-chronic-sinus-pressure.html">chronic sinusitis</a>, they can help treat the root cause. If you find home remedies do not provide adequate relief, don't hesitate to contact your ENT specialist.</p>
-    </div>
+</div>
+
+
+    <p class="blog-disclaimer">This article is for educational purposes only and does not replace an in-person evaluation. Every patient is unique — contact our office to discuss your specific symptoms and treatment options.</p>
 
     <!-- AUTHOR BIO -->
     <div class="blog-author-box">
       <div class="blog-author-avatar"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
       <div class="blog-author-info">
-        <h4>Capital ENT &amp; Sinus Center</h4>
-        <p>Capital ENT &amp; Sinus Center is Austin's most trusted ENT practice, providing comprehensive ear, nose, and throat care across Central Texas since 1999.</p>
+        <h4>Zachary D. Wassmuth, MD</h4>
+        <p>Dr. Wassmuth is a leading ENT specialist in chronic sinusitis, nasal obstruction, and sleep apnea. As the first in Austin to perform a balloon sinuplasty procedure and with over 10,000 nasal and sinus surgeries completed, he's consistently recognized as one of the top ENT surgeons in Central Texas.</p>
       </div>
     </div>
 

@@ -25,50 +25,79 @@
   <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "MedicalOrganization",
-        "@id": "https://www.capitalent.com/#organization",
-        "name": "Capital ENT & Sinus Center",
-        "url": "https://www.capitalent.com",
-        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "telephone": "+15123394040",
-        "medicalSpecialty": "Otolaryngology",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "1340",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      },
-      {
-        "@type": "BlogPosting",
-        "@id": "https://www.capitalent.com/post-turbinate-reduction.html#article",
-        "headline": "Turbinate Reduction",
-        "datePublished": "2018-04-11",
-        "dateModified": "2018-04-11",
-        "author": {
-          "@type": "MedicalOrganization",
-          "name": "Capital ENT & Sinus Center",
-          "url": "https://www.capitalent.com"
+        {
+            "@type": "MedicalOrganization",
+            "@id": "https://www.capitalent.com/#organization",
+            "name": "Capital ENT & Sinus Center",
+            "url": "https://www.capitalent.com",
+            "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "telephone": "+15123394040",
+            "medicalSpecialty": "Otolaryngology",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "1340",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         },
-        "publisher": { "@id": "https://www.capitalent.com/#organization" },
-        "mainEntityOfPage": "https://www.capitalent.com/post-turbinate-reduction.html",
-        "about": {
-          "@type": "MedicalProcedure",
-          "name": "Turbinate Reduction"
+        {
+            "@type": [
+                "BlogPosting",
+                "MedicalWebPage"
+            ],
+            "@id": "https://www.capitalent.com/post-turbinate-reduction.html#article",
+            "headline": "Turbinate Reduction",
+            "datePublished": "2018-04-11",
+            "dateModified": "2026-03-07",
+            "author": {
+                "@type": "Physician",
+                "name": "Zachary D. Wassmuth, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-wassmuth",
+                "memberOf": {
+                    "@id": "https://www.capitalent.com/#organization"
+                }
+            },
+            "publisher": {
+                "@id": "https://www.capitalent.com/#organization"
+            },
+            "mainEntityOfPage": "https://www.capitalent.com/post-turbinate-reduction.html",
+            "about": {
+                "@type": "MedicalProcedure",
+                "name": "Turbinate Reduction"
+            },
+            "reviewedBy": {
+                "@type": "Physician",
+                "name": "Raymond J. Brown, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-brown"
+            },
+            "image": "https://www.capitalent.com/CENT-Horizontal-Color.png"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.capitalent.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ask the ENT",
+                    "item": "https://www.capitalent.com/ask-the-ent.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Turbinate Reduction",
+                    "item": "https://www.capitalent.com/post-turbinate-reduction.html"
+                }
+            ]
         }
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.capitalent.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Ask the ENT", "item": "https://www.capitalent.com/ask-the-ent.html" },
-          { "@type": "ListItem", "position": 3, "name": "Turbinate Reduction", "item": "https://www.capitalent.com/post-turbinate-reduction.html" }
-        ]
-      }
     ]
-  }</script>
+}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -113,7 +142,7 @@
   <div class="blog-meta">
     <time datetime="2018-04-11">April 11, 2018</time>
     <span class="sep">|</span>
-    <span class="blog-author">Capital ENT &amp; Sinus Center</span>
+    <span class="blog-author">Zachary D. Wassmuth, MD</span>
     <span class="sep">|</span>
     <span class="blog-cat">Sinus</span>
   </div>
@@ -134,19 +163,38 @@
 
     <!-- BODY -->
     <div class="blog-body">
-      <p>We treat many nasal cases from obstructions to sinus issues. Often used with other procedures to eliminate chronic sinus pain and pressure, headaches, nasal congestion, and sleep disorders, a <a href="turbinate-reduction.html">turbinate reduction</a> is a minimally invasive treatment to reduce nasal obstruction.</p>
+<h2>What Are Turbinates?</h2>
+      <p>Turbinates are shelf-like bony structures inside your nasal cavity, lined with soft tissue. The inferior turbinates — the largest pair — play an important role in warming, humidifying, and filtering the air you breathe. When these structures become chronically swollen (a condition called turbinate hypertrophy), they can significantly block airflow and make it difficult to breathe through your nose.</p>
 
-      <p>The procedure is performed in our office using a gentle, pain-free endoscopic technique. One of our ENT surgeons will reduce the size of your turbinates, which clean and humidify air as it moves through your nose. This treatment helps improve breathing while still allowing your turbinates to function properly.</p>
+      <h2>Why Do Turbinates Swell?</h2>
+      <p>Turbinate hypertrophy can be triggered by:</p>
+      <ul>
+        <li>Chronic <a href="allergy.html">allergies</a>, especially in high-allergen areas like Austin</li>
+        <li>Chronic rhinitis (ongoing nasal inflammation)</li>
+        <li>A <a href="septoplasty.html">deviated septum</a>, which can cause the opposite turbinate to compensate and enlarge</li>
+        <li>Environmental irritants like smoke or pollution</li>
+        <li>Hormonal changes</li>
+      </ul>
+      <p>When nasal steroid sprays, antihistamines, and saline rinses fail to provide lasting relief, <a href="turbinate-reduction.html">turbinate reduction</a> may be recommended.</p>
 
-      <p>After a turbinate reduction procedure, there is no downtime and patients experience rapid results. It often eliminates chronic nasal congestion permanently, especially when combined with other procedures you may need, such as a <a href="septoplasty.html">septoplasty</a>.</p>
+      <h2>How the Procedure Works</h2>
+      <p>Turbinate reduction is a minimally invasive procedure performed in our Austin office. The most common technique uses radiofrequency energy to carefully reduce the size of the turbinate tissue while preserving its ability to humidify and filter air. The procedure is performed under local anesthesia with minimal discomfort.</p>
+
+      <h2>Recovery and Results</h2>
+      <p>There is little to no downtime — most patients return to normal activities within one to two days. Nasal saline rinses are recommended to support healing, and full results are typically achieved within four to six weeks as the tissue gradually remodels. Turbinate reduction can also be combined with <a href="septoplasty.html">septoplasty</a> or other nasal procedures for comprehensive improvement in a single session.</p>
+
+      <p>If chronic nasal congestion is affecting your breathing, sleep, or quality of life, our ENT specialists can evaluate whether turbinate reduction is right for you.</p>
     </div>
+
+
+    <p class="blog-disclaimer">This article is for educational purposes only and does not replace an in-person evaluation. Every patient is unique — contact our office to discuss your specific symptoms and treatment options.</p>
 
     <!-- AUTHOR BIO -->
     <div class="blog-author-box">
       <div class="blog-author-avatar"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
       <div class="blog-author-info">
-        <h4>Capital ENT &amp; Sinus Center</h4>
-        <p>Capital ENT &amp; Sinus Center is Austin's most trusted ENT practice, offering comprehensive ear, nose, and throat care with board-certified specialists across four Central Texas locations.</p>
+        <h4>Zachary D. Wassmuth, MD</h4>
+        <p>Dr. Wassmuth is a leading ENT specialist in chronic sinusitis, nasal obstruction, and sleep apnea. As the first in Austin to perform a balloon sinuplasty procedure and with over 10,000 nasal and sinus surgeries completed, he's consistently recognized as one of the top ENT surgeons in Central Texas.</p>
       </div>
     </div>
 

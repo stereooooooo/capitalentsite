@@ -25,50 +25,79 @@
   <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "MedicalOrganization",
-        "@id": "https://www.capitalent.com/#organization",
-        "name": "Capital ENT & Sinus Center",
-        "url": "https://www.capitalent.com",
-        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "telephone": "+15123394040",
-        "medicalSpecialty": "Otolaryngology",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "1340",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      },
-      {
-        "@type": "BlogPosting",
-        "@id": "https://www.capitalent.com/post-how-to-find-an-otolaryngologist.html#article",
-        "headline": "How To Find an Otolaryngologist in Your Area",
-        "datePublished": "2025-03-18",
-        "dateModified": "2025-03-18",
-        "author": {
-          "@type": "Physician",
-          "name": "Zachary D. Wassmuth, MD",
-          "memberOf": { "@id": "https://www.capitalent.com/#organization" }
+        {
+            "@type": "MedicalOrganization",
+            "@id": "https://www.capitalent.com/#organization",
+            "name": "Capital ENT & Sinus Center",
+            "url": "https://www.capitalent.com",
+            "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "telephone": "+15123394040",
+            "medicalSpecialty": "Otolaryngology",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "1340",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         },
-        "publisher": { "@id": "https://www.capitalent.com/#organization" },
-        "mainEntityOfPage": "https://www.capitalent.com/post-how-to-find-an-otolaryngologist.html",
-        "about": {
-          "@type": "MedicalSpecialty",
-          "name": "Otolaryngology"
+        {
+            "@type": [
+                "BlogPosting",
+                "MedicalWebPage"
+            ],
+            "@id": "https://www.capitalent.com/post-how-to-find-an-otolaryngologist.html#article",
+            "headline": "How To Find an Otolaryngologist in Your Area",
+            "datePublished": "2025-03-18",
+            "dateModified": "2026-03-07",
+            "author": {
+                "@type": "Physician",
+                "name": "Zachary D. Wassmuth, MD",
+                "memberOf": {
+                    "@id": "https://www.capitalent.com/#organization"
+                },
+                "url": "https://www.capitalent.com/our-providers.html#dr-wassmuth"
+            },
+            "publisher": {
+                "@id": "https://www.capitalent.com/#organization"
+            },
+            "mainEntityOfPage": "https://www.capitalent.com/post-how-to-find-an-otolaryngologist.html",
+            "about": {
+                "@type": "MedicalSpecialty",
+                "name": "Otolaryngology"
+            },
+            "reviewedBy": {
+                "@type": "Physician",
+                "name": "Zachary D. Wassmuth, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-wassmuth"
+            },
+            "image": "https://www.capitalent.com/CENT-Horizontal-Color.png"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.capitalent.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ask the ENT",
+                    "item": "https://www.capitalent.com/ask-the-ent.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "How To Find an Otolaryngologist in Your Area",
+                    "item": "https://www.capitalent.com/post-how-to-find-an-otolaryngologist.html"
+                }
+            ]
         }
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.capitalent.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Ask the ENT", "item": "https://www.capitalent.com/ask-the-ent.html" },
-          { "@type": "ListItem", "position": 3, "name": "How To Find an Otolaryngologist in Your Area", "item": "https://www.capitalent.com/post-how-to-find-an-otolaryngologist.html" }
-        ]
-      }
     ]
-  }</script>
+}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -177,7 +206,10 @@
       <p>If you suffer from an ear, nose, throat issue and are seeking a lasting solution, talk to an expert otolaryngologist at Capital ENT and Sinus Center. Our otolaryngologists have a wealth of experience in diagnosing and treating all sorts of conditions and injuries related to the ear, nose, and throat. Our state-of-the-art diagnostic equipment will get us to the bottom of your symptoms and help us administer the most effective treatment to bring you relief.</p>
 
       <p>Have any questions or would like to schedule a consultation, call our Austin office today at <a href="tel:5123394040">(512) 339-4040</a> or our Lakeway office at <a href="tel:5126824798">(512) 682-4798</a>. You can also <a href="#" data-action="book">request an appointment online</a>. We look forward to bringing you relief!</p>
-    </div>
+</div>
+
+
+    <p class="blog-disclaimer">This article is for educational purposes only and does not replace an in-person evaluation. Every patient is unique — contact our office to discuss your specific symptoms and treatment options.</p>
 
     <!-- AUTHOR BIO -->
     <div class="blog-author-box">

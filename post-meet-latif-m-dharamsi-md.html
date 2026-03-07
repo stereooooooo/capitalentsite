@@ -25,50 +25,77 @@
   <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "MedicalOrganization",
-        "@id": "https://www.capitalent.com/#organization",
-        "name": "Capital ENT & Sinus Center",
-        "url": "https://www.capitalent.com",
-        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "telephone": "+15123394040",
-        "medicalSpecialty": "Otolaryngology",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "1340",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      },
-      {
-        "@type": "BlogPosting",
-        "@id": "https://www.capitalent.com/post-meet-latif-m-dharamsi-md.html#article",
-        "headline": "Meet Latif M. Dharamsi, M.D.",
-        "datePublished": "2018-01-21",
-        "dateModified": "2018-01-21",
-        "author": {
-          "@type": "MedicalOrganization",
-          "name": "Capital ENT and Sinus Center",
-          "url": "https://www.capitalent.com"
+        {
+            "@type": "MedicalOrganization",
+            "@id": "https://www.capitalent.com/#organization",
+            "name": "Capital ENT & Sinus Center",
+            "url": "https://www.capitalent.com",
+            "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "telephone": "+15123394040",
+            "medicalSpecialty": "Otolaryngology",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "1340",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         },
-        "publisher": { "@id": "https://www.capitalent.com/#organization" },
-        "mainEntityOfPage": "https://www.capitalent.com/post-meet-latif-m-dharamsi-md.html",
-        "about": {
-          "@type": "Physician",
-          "name": "Latif M. Dharamsi, MD"
+        {
+            "@type": [
+                "BlogPosting",
+                "MedicalWebPage"
+            ],
+            "@id": "https://www.capitalent.com/post-meet-latif-m-dharamsi-md.html#article",
+            "headline": "Meet Latif M. Dharamsi, M.D.",
+            "datePublished": "2018-01-21",
+            "dateModified": "2026-03-07",
+            "author": {
+                "@type": "MedicalOrganization",
+                "name": "Capital ENT and Sinus Center",
+                "url": "https://www.capitalent.com",
+                "@id": "https://www.capitalent.com/#organization"
+            },
+            "publisher": {
+                "@id": "https://www.capitalent.com/#organization"
+            },
+            "mainEntityOfPage": "https://www.capitalent.com/post-meet-latif-m-dharamsi-md.html",
+            "about": {
+                "@type": "Physician",
+                "name": "Latif M. Dharamsi, MD"
+            },
+            "reviewedBy": {
+                "@type": "Physician",
+                "name": "Raymond J. Brown, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-brown"
+            },
+            "image": "https://www.capitalent.com/CENT-Horizontal-Color.png"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.capitalent.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ask the ENT",
+                    "item": "https://www.capitalent.com/ask-the-ent.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Meet Latif M. Dharamsi, M.D.",
+                    "item": "https://www.capitalent.com/post-meet-latif-m-dharamsi-md.html"
+                }
+            ]
         }
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.capitalent.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Ask the ENT", "item": "https://www.capitalent.com/ask-the-ent.html" },
-          { "@type": "ListItem", "position": 3, "name": "Meet Latif M. Dharamsi, M.D.", "item": "https://www.capitalent.com/post-meet-latif-m-dharamsi-md.html" }
-        ]
-      }
     ]
-  }</script>
+}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -144,7 +171,10 @@
       <p>Capital ENT and Sinus Center offers a broad range of ear, nose, and throat (ENT) services including adult and pediatric ear, nose, and throat care; advanced sinus care including <a href="balloon-sinuplasty.html">balloon sinuplasty</a>; snoring and <a href="sleep.html">sleep apnea treatments</a>; and comprehensive hearing and balance therapies.</p>
 
       <p>We are here to serve you and want you to know that our standard of patient care is the same standard we would apply to our own families. Our specialists are committed to providing you with timely and complete personalized care integrated with maximum comfort, convenience, and privacy.</p>
-    </div>
+</div>
+
+
+    <p class="blog-disclaimer">This article is for educational purposes only and does not replace an in-person evaluation. Every patient is unique — contact our office to discuss your specific symptoms and treatment options.</p>
 
     <!-- AUTHOR BIO -->
     <div class="blog-author-box">

@@ -25,46 +25,75 @@
   <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "MedicalOrganization",
-        "@id": "https://www.capitalent.com/#organization",
-        "name": "Capital ENT & Sinus Center",
-        "url": "https://www.capitalent.com",
-        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "telephone": "+15123394040",
-        "medicalSpecialty": "Otolaryngology",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "1340",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      },
-      {
-        "@type": "BlogPosting",
-        "@id": "https://www.capitalent.com/post-meet-zachary-wassmuth-md.html#article",
-        "headline": "Meet Zachary Wassmuth, M.D.",
-        "datePublished": "2018-01-20",
-        "dateModified": "2018-01-20",
-        "author": {
-          "@type": "MedicalOrganization",
-          "name": "Capital ENT & Sinus Center",
-          "memberOf": { "@id": "https://www.capitalent.com/#organization" }
+        {
+            "@type": "MedicalOrganization",
+            "@id": "https://www.capitalent.com/#organization",
+            "name": "Capital ENT & Sinus Center",
+            "url": "https://www.capitalent.com",
+            "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "telephone": "+15123394040",
+            "medicalSpecialty": "Otolaryngology",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "1340",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         },
-        "publisher": { "@id": "https://www.capitalent.com/#organization" },
-        "mainEntityOfPage": "https://www.capitalent.com/post-meet-zachary-wassmuth-md.html"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.capitalent.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Ask the ENT", "item": "https://www.capitalent.com/ask-the-ent.html" },
-          { "@type": "ListItem", "position": 3, "name": "Meet Zachary Wassmuth, M.D.", "item": "https://www.capitalent.com/post-meet-zachary-wassmuth-md.html" }
-        ]
-      }
+        {
+            "@type": [
+                "BlogPosting",
+                "MedicalWebPage"
+            ],
+            "@id": "https://www.capitalent.com/post-meet-zachary-wassmuth-md.html#article",
+            "headline": "Meet Zachary Wassmuth, M.D.",
+            "datePublished": "2018-01-20",
+            "dateModified": "2026-03-07",
+            "author": {
+                "@type": "MedicalOrganization",
+                "name": "Capital ENT & Sinus Center",
+                "memberOf": {
+                    "@id": "https://www.capitalent.com/#organization"
+                },
+                "url": "https://www.capitalent.com"
+            },
+            "publisher": {
+                "@id": "https://www.capitalent.com/#organization"
+            },
+            "mainEntityOfPage": "https://www.capitalent.com/post-meet-zachary-wassmuth-md.html",
+            "reviewedBy": {
+                "@type": "Physician",
+                "name": "Raymond J. Brown, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-brown"
+            },
+            "image": "https://www.capitalent.com/CENT-Horizontal-Color.png"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.capitalent.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ask the ENT",
+                    "item": "https://www.capitalent.com/ask-the-ent.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Meet Zachary Wassmuth, M.D.",
+                    "item": "https://www.capitalent.com/post-meet-zachary-wassmuth-md.html"
+                }
+            ]
+        }
     ]
-  }</script>
+}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -135,7 +164,10 @@
       <p>Capital ENT and Sinus Center offers a broad range of <a href="ear-care.html">ear</a>, <a href="nose-sinus.html">nose</a>, and <a href="throat.html">throat</a> (ENT) services including adult and pediatric ear, nose, and throat care; advanced sinus care including <a href="balloon-sinuplasty.html">balloon sinuplasty</a>; snoring and <a href="sleep.html">sleep apnea</a> treatments; and comprehensive <a href="hearing-aids.html">hearing</a> and balance therapies.</p>
 
       <p>We are here to serve you and want you to know that our standard of patient care is the same standard we would apply to our own families. Our specialists are committed to providing you with timely and complete personalized care integrated with maximum comfort, convenience, and privacy.</p>
-    </div>
+</div>
+
+
+    <p class="blog-disclaimer">This article is for educational purposes only and does not replace an in-person evaluation. Every patient is unique — contact our office to discuss your specific symptoms and treatment options.</p>
 
     <!-- AUTHOR BIO -->
     <div class="blog-author-box">

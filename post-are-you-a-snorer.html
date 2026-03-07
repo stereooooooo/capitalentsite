@@ -25,46 +25,79 @@
   <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "MedicalOrganization",
-        "@id": "https://www.capitalent.com/#organization",
-        "name": "Capital ENT & Sinus Center",
-        "url": "https://www.capitalent.com",
-        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "telephone": "+15123394040",
-        "medicalSpecialty": "Otolaryngology",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "1340",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      },
-      {
-        "@type": "BlogPosting",
-        "@id": "https://www.capitalent.com/post-are-you-a-snorer.html#article",
-        "headline": "Are You a Snorer? Here are 3 Reasons to Seek Medical Intervention",
-        "datePublished": "2024-07-24",
-        "dateModified": "2024-07-24",
-        "author": {
-          "@type": "MedicalOrganization",
-          "name": "Capital ENT & Sinus Center",
-          "url": "https://www.capitalent.com"
+        {
+            "@type": "MedicalOrganization",
+            "@id": "https://www.capitalent.com/#organization",
+            "name": "Capital ENT & Sinus Center",
+            "url": "https://www.capitalent.com",
+            "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "telephone": "+15123394040",
+            "medicalSpecialty": "Otolaryngology",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "1340",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         },
-        "publisher": { "@id": "https://www.capitalent.com/#organization" },
-        "mainEntityOfPage": "https://www.capitalent.com/post-are-you-a-snorer.html"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.capitalent.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Ask the ENT", "item": "https://www.capitalent.com/ask-the-ent.html" },
-          { "@type": "ListItem", "position": 3, "name": "Are You a Snorer?", "item": "https://www.capitalent.com/post-are-you-a-snorer.html" }
-        ]
-      }
+        {
+            "@type": [
+                "BlogPosting",
+                "MedicalWebPage"
+            ],
+            "@id": "https://www.capitalent.com/post-are-you-a-snorer.html#article",
+            "headline": "Are You a Snorer? Here are 3 Reasons to Seek Medical Intervention",
+            "datePublished": "2024-07-24",
+            "dateModified": "2026-03-07",
+            "author": {
+                "@type": "Physician",
+                "name": "Latif M. Dharamsi, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-dharamsi",
+                "memberOf": {
+                    "@id": "https://www.capitalent.com/#organization"
+                }
+            },
+            "publisher": {
+                "@id": "https://www.capitalent.com/#organization"
+            },
+            "mainEntityOfPage": "https://www.capitalent.com/post-are-you-a-snorer.html",
+            "reviewedBy": {
+                "@type": "Physician",
+                "name": "Latif M. Dharamsi, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-dharamsi"
+            },
+            "image": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "about": {
+                "@type": "MedicalCondition",
+                "name": "Snoring"
+            }
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.capitalent.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ask the ENT",
+                    "item": "https://www.capitalent.com/ask-the-ent.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Are You a Snorer?",
+                    "item": "https://www.capitalent.com/post-are-you-a-snorer.html"
+                }
+            ]
+        }
     ]
-  }</script>
+}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -109,7 +142,7 @@
   <div class="blog-meta">
     <time datetime="2024-07-24">July 24, 2024</time>
     <span class="sep">|</span>
-    <span class="blog-author">Capital ENT and Sinus Center</span>
+    <span class="blog-author">Latif M. Dharamsi, MD</span>
     <span class="sep">|</span>
     <span class="blog-cat">SLEEP</span>
   </div>
@@ -155,14 +188,17 @@
       <h2>Reason #3: It May Also Indicate That You Have Nasal/Sinus Problems</h2>
       <p>Chronic nasal congestion can result in habitual or heavy snoring. This is because when you breathe through a clogged nose, you will create greater suction forces that can cause your throat to relax and your soft palate and uvula to flap.</p>
       <p>One of the most common culprits in persistent nasal congestion is <a href="chronic-sinusitis.html">chronic sinusitis</a> which, when left untreated, can lead to permanent damage of your olfactory nerve (which helps you smell) and loss of vision due to optic nerve injury.</p>
-    </div>
+</div>
+
+
+    <p class="blog-disclaimer">This article is for educational purposes only and does not replace an in-person evaluation. Every patient is unique — contact our office to discuss your specific symptoms and treatment options.</p>
 
     <!-- AUTHOR BIO -->
     <div class="blog-author-box">
       <div class="blog-author-avatar"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
       <div class="blog-author-info">
-        <h4>Capital ENT &amp; Sinus Center</h4>
-        <p>Capital ENT &amp; Sinus Center is Austin's most trusted ENT practice, providing comprehensive ear, nose, and throat care across Central Texas since 1999.</p>
+        <h4>Latif M. Dharamsi, MD</h4>
+        <p>Dr. Dharamsi is a board-certified ENT specialist who treats a wide range of conditions, including nasal obstruction, chronic sinus infections, sleep apnea, and chronic ear conditions. He emphasizes minimally invasive treatments and has been consistently recognized as one of Austin's Best ENT providers.</p>
       </div>
     </div>
 

@@ -25,46 +25,79 @@
   <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "MedicalOrganization",
-        "@id": "https://www.capitalent.com/#organization",
-        "name": "Capital ENT & Sinus Center",
-        "url": "https://www.capitalent.com",
-        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "telephone": "+15123394040",
-        "medicalSpecialty": "Otolaryngology",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "1340",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      },
-      {
-        "@type": "BlogPosting",
-        "@id": "https://www.capitalent.com/post-best-way-to-get-rid-of-a-sinus-infection.html#article",
-        "headline": "What is the Best Way to Get Rid of a Sinus Infection?",
-        "datePublished": "2020-11-13",
-        "dateModified": "2020-11-13",
-        "author": {
-          "@type": "MedicalOrganization",
-          "name": "Capital ENT and Sinus Center",
-          "memberOf": { "@id": "https://www.capitalent.com/#organization" }
+        {
+            "@type": "MedicalOrganization",
+            "@id": "https://www.capitalent.com/#organization",
+            "name": "Capital ENT & Sinus Center",
+            "url": "https://www.capitalent.com",
+            "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "telephone": "+15123394040",
+            "medicalSpecialty": "Otolaryngology",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "1340",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         },
-        "publisher": { "@id": "https://www.capitalent.com/#organization" },
-        "mainEntityOfPage": "https://www.capitalent.com/post-best-way-to-get-rid-of-a-sinus-infection.html"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.capitalent.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Ask the ENT", "item": "https://www.capitalent.com/ask-the-ent.html" },
-          { "@type": "ListItem", "position": 3, "name": "Best Way to Get Rid of a Sinus Infection", "item": "https://www.capitalent.com/post-best-way-to-get-rid-of-a-sinus-infection.html" }
-        ]
-      }
+        {
+            "@type": [
+                "BlogPosting",
+                "MedicalWebPage"
+            ],
+            "@id": "https://www.capitalent.com/post-best-way-to-get-rid-of-a-sinus-infection.html#article",
+            "headline": "What is the Best Way to Get Rid of a Sinus Infection?",
+            "datePublished": "2020-11-13",
+            "dateModified": "2026-03-07",
+            "author": {
+                "@type": "Physician",
+                "name": "Zachary D. Wassmuth, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-wassmuth",
+                "memberOf": {
+                    "@id": "https://www.capitalent.com/#organization"
+                }
+            },
+            "publisher": {
+                "@id": "https://www.capitalent.com/#organization"
+            },
+            "mainEntityOfPage": "https://www.capitalent.com/post-best-way-to-get-rid-of-a-sinus-infection.html",
+            "reviewedBy": {
+                "@type": "Physician",
+                "name": "Zachary D. Wassmuth, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-wassmuth"
+            },
+            "image": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "about": {
+                "@type": "MedicalCondition",
+                "name": "Sinusitis"
+            }
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.capitalent.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ask the ENT",
+                    "item": "https://www.capitalent.com/ask-the-ent.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Best Way to Get Rid of a Sinus Infection",
+                    "item": "https://www.capitalent.com/post-best-way-to-get-rid-of-a-sinus-infection.html"
+                }
+            ]
+        }
     ]
-  }</script>
+}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -109,7 +142,7 @@
   <div class="blog-meta">
     <time datetime="2020-11-13">November 13, 2020</time>
     <span class="sep">|</span>
-    <span class="blog-author">Capital ENT and Sinus Center</span>
+    <span class="blog-author">Zachary D. Wassmuth, MD</span>
     <span class="sep">|</span>
     <span class="blog-cat">Sinus</span>
   </div>
@@ -145,14 +178,17 @@
       <p>Oftentimes, no matter how hard you try to clear the infection on your own, your symptoms may not resolve. As a general rule of thumb, check with your doctor if your sinus infection symptoms last for 10 days or longer. During the visit with your doctor, they will determine whether you're dealing with a bacterial or viral infection. Most of the time, antibiotics such as amoxicillin, Augmentin, cefdinir, or doxycycline are used to help your body get rid of the infection. Typical courses of antibiotics last anywhere from 5 to 21 days.</p>
 
       <p>If after all of the above treatments your symptoms still persist, it is advisable to see a specialist. The physicians at Capital ENT and Sinus Center have several tools at their disposal to get you on the road to recovery. We use an in-office <a href="ct-scanner.html">CT scan</a> and endoscopy to further evaluate and target the problem in your nose and sinuses. Our physicians always focus on fixing our patients with minimally invasive techniques so that you can get back to living a normal and healthy life as quickly as possible.</p>
-    </div>
+</div>
+
+
+    <p class="blog-disclaimer">This article is for educational purposes only and does not replace an in-person evaluation. Every patient is unique — contact our office to discuss your specific symptoms and treatment options.</p>
 
     <!-- AUTHOR BIO -->
     <div class="blog-author-box">
       <div class="blog-author-avatar"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
       <div class="blog-author-info">
-        <h4>Capital ENT &amp; Sinus Center</h4>
-        <p>Capital ENT &amp; Sinus Center is Austin's most trusted ENT practice, providing comprehensive ear, nose, and throat care across Central Texas since 1999.</p>
+        <h4>Zachary D. Wassmuth, MD</h4>
+        <p>Dr. Wassmuth is a leading ENT specialist in chronic sinusitis, nasal obstruction, and sleep apnea. As the first in Austin to perform a balloon sinuplasty procedure and with over 10,000 nasal and sinus surgeries completed, he's consistently recognized as one of the top ENT surgeons in Central Texas.</p>
       </div>
     </div>
 

@@ -25,50 +25,79 @@
   <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "MedicalOrganization",
-        "@id": "https://www.capitalent.com/#organization",
-        "name": "Capital ENT & Sinus Center",
-        "url": "https://www.capitalent.com",
-        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "telephone": "+15123394040",
-        "medicalSpecialty": "Otolaryngology",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "1340",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      },
-      {
-        "@type": "BlogPosting",
-        "@id": "https://www.capitalent.com/post-injection-snoreplasty.html#article",
-        "headline": "Injection Snoreplasty",
-        "datePublished": "2018-04-14",
-        "dateModified": "2018-04-14",
-        "author": {
-          "@type": "MedicalOrganization",
-          "name": "Capital ENT & Sinus Center",
-          "url": "https://www.capitalent.com"
+        {
+            "@type": "MedicalOrganization",
+            "@id": "https://www.capitalent.com/#organization",
+            "name": "Capital ENT & Sinus Center",
+            "url": "https://www.capitalent.com",
+            "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "telephone": "+15123394040",
+            "medicalSpecialty": "Otolaryngology",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "1340",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         },
-        "publisher": { "@id": "https://www.capitalent.com/#organization" },
-        "mainEntityOfPage": "https://www.capitalent.com/post-injection-snoreplasty.html",
-        "about": {
-          "@type": "MedicalProcedure",
-          "name": "Injection Snoreplasty"
+        {
+            "@type": [
+                "BlogPosting",
+                "MedicalWebPage"
+            ],
+            "@id": "https://www.capitalent.com/post-injection-snoreplasty.html#article",
+            "headline": "Injection Snoreplasty",
+            "datePublished": "2018-04-14",
+            "dateModified": "2026-03-07",
+            "author": {
+                "@type": "Physician",
+                "name": "Latif M. Dharamsi, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-dharamsi",
+                "memberOf": {
+                    "@id": "https://www.capitalent.com/#organization"
+                }
+            },
+            "publisher": {
+                "@id": "https://www.capitalent.com/#organization"
+            },
+            "mainEntityOfPage": "https://www.capitalent.com/post-injection-snoreplasty.html",
+            "about": {
+                "@type": "MedicalProcedure",
+                "name": "Injection Snoreplasty"
+            },
+            "reviewedBy": {
+                "@type": "Physician",
+                "name": "Zachary D. Wassmuth, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-wassmuth"
+            },
+            "image": "https://www.capitalent.com/CENT-Horizontal-Color.png"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.capitalent.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ask the ENT",
+                    "item": "https://www.capitalent.com/ask-the-ent.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Injection Snoreplasty",
+                    "item": "https://www.capitalent.com/post-injection-snoreplasty.html"
+                }
+            ]
         }
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.capitalent.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Ask the ENT", "item": "https://www.capitalent.com/ask-the-ent.html" },
-          { "@type": "ListItem", "position": 3, "name": "Injection Snoreplasty", "item": "https://www.capitalent.com/post-injection-snoreplasty.html" }
-        ]
-      }
     ]
-  }</script>
+}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -113,7 +142,7 @@
   <div class="blog-meta">
     <time datetime="2018-04-14">April 14, 2018</time>
     <span class="sep">|</span>
-    <span class="blog-author">Capital ENT &amp; Sinus Center</span>
+    <span class="blog-author">Latif M. Dharamsi, MD</span>
     <span class="sep">|</span>
     <span class="blog-cat">Sleep</span>
   </div>
@@ -134,19 +163,36 @@
 
     <!-- BODY -->
     <div class="blog-body">
-      <p>Injection <a href="snoreplasty.html">snoreplasty</a> is a nonsurgical, minimally invasive treatment for <a href="sleep.html">snoring</a>. There is little to no pain involved, and you can return to work and other activities immediately.</p>
+<h2>What Causes Snoring?</h2>
+      <p>Snoring occurs when relaxed soft tissue in the throat — particularly the soft palate — vibrates as air passes through during sleep. While snoring is extremely common, it can disrupt sleep for both you and your partner and may be a sign of a more serious condition like <a href="sleep.html">obstructive sleep apnea</a>.</p>
 
-      <p>Performed right here in our office, this simple procedure treats snoring that results from soft palate vibration. Prior to the procedure, a topical anesthesia is used to numb the inside of your mouth. Medication is then injected into the midline of the upper palate, causing an ulceration. Scar tissue will then form over the ulceration, tightening the palate and reducing the vibrations that cause snoring during sleep.</p>
+      <h2>How Injection Snoreplasty Works</h2>
+      <p>Injection <a href="snoreplasty.html">snoreplasty</a> is a nonsurgical, minimally invasive treatment performed right here in our office in approximately 15 minutes. A topical and local anesthesia is used to numb the area. A small amount of medication is then injected into the soft palate, which creates a controlled tissue response. Over the following four to six weeks, the treated area stiffens, reducing the vibration that causes snoring.</p>
 
-      <p>Injection snoreplasty produces lasting, often permanent results, even for chronic snorers. However, you may need more than one treatment to eliminate snoring altogether. Our sleep medicine specialists will personalize your <a href="sleep.html">snoring treatment plan</a> and determine how many treatments you may need for best results.</p>
+      <h2>Who Is a Good Candidate?</h2>
+      <p>Injection snoreplasty is ideal for patients whose snoring originates from soft palate vibration — the most common source. However, a <a href="at-home-sleep-study.html">sleep study</a> is required before treatment to rule out obstructive sleep apnea, which requires a different approach.</p>
+      <p>You may be a good candidate if:</p>
+      <ul>
+        <li>Your snoring is primarily caused by soft palate vibration</li>
+        <li>You do not have obstructive sleep apnea</li>
+        <li>You're looking for a quick, nonsurgical option with no downtime</li>
+      </ul>
+
+      <h2>What to Expect</h2>
+      <p>There is little to no pain involved, and you can return to work and other activities immediately. Some patients experience mild throat soreness for two to five days, easily managed with over-the-counter pain relievers and a soft diet. Most patients achieve meaningful improvement after a single treatment, though a second treatment may be recommended at a follow-up visit.</p>
+
+      <p>Our sleep medicine specialists will personalize your <a href="snoreplasty.html">snoring treatment plan</a> and determine the best approach for your specific needs.</p>
     </div>
+
+
+    <p class="blog-disclaimer">This article is for educational purposes only and does not replace an in-person evaluation. Every patient is unique — contact our office to discuss your specific symptoms and treatment options.</p>
 
     <!-- AUTHOR BIO -->
     <div class="blog-author-box">
       <div class="blog-author-avatar"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
       <div class="blog-author-info">
-        <h4>Capital ENT &amp; Sinus Center</h4>
-        <p>Capital ENT &amp; Sinus Center is Austin's most trusted ENT practice, offering comprehensive ear, nose, and throat care with board-certified specialists across four Central Texas locations.</p>
+        <h4>Latif M. Dharamsi, MD</h4>
+        <p>Dr. Dharamsi is a board-certified ENT specialist who treats a wide range of conditions, including nasal obstruction, chronic sinus infections, sleep apnea, and chronic ear conditions. He emphasizes minimally invasive treatments and has been consistently recognized as one of Austin's Best ENT providers.</p>
       </div>
     </div>
 

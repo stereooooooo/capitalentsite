@@ -25,46 +25,79 @@
   <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "MedicalOrganization",
-        "@id": "https://www.capitalent.com/#organization",
-        "name": "Capital ENT & Sinus Center",
-        "url": "https://www.capitalent.com",
-        "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
-        "telephone": "+15123394040",
-        "medicalSpecialty": "Otolaryngology",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "1340",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      },
-      {
-        "@type": "BlogPosting",
-        "@id": "https://www.capitalent.com/post-what-level-of-hearing-loss-requires-a-hearing-aid.html#article",
-        "headline": "What Level of Hearing Loss Requires a Hearing Aid?",
-        "datePublished": "2023-09-27",
-        "dateModified": "2023-09-27",
-        "author": {
-          "@type": "MedicalOrganization",
-          "name": "Capital ENT and Sinus Center",
-          "memberOf": { "@id": "https://www.capitalent.com/#organization" }
+        {
+            "@type": "MedicalOrganization",
+            "@id": "https://www.capitalent.com/#organization",
+            "name": "Capital ENT & Sinus Center",
+            "url": "https://www.capitalent.com",
+            "logo": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "telephone": "+15123394040",
+            "medicalSpecialty": "Otolaryngology",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "1340",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         },
-        "publisher": { "@id": "https://www.capitalent.com/#organization" },
-        "mainEntityOfPage": "https://www.capitalent.com/post-what-level-of-hearing-loss-requires-a-hearing-aid.html"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.capitalent.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Ask the ENT", "item": "https://www.capitalent.com/ask-the-ent.html" },
-          { "@type": "ListItem", "position": 3, "name": "Hearing Loss and Hearing Aids", "item": "https://www.capitalent.com/post-what-level-of-hearing-loss-requires-a-hearing-aid.html" }
-        ]
-      }
+        {
+            "@type": [
+                "BlogPosting",
+                "MedicalWebPage"
+            ],
+            "@id": "https://www.capitalent.com/post-what-level-of-hearing-loss-requires-a-hearing-aid.html#article",
+            "headline": "What Level of Hearing Loss Requires a Hearing Aid?",
+            "datePublished": "2023-09-27",
+            "dateModified": "2026-03-07",
+            "author": {
+                "@type": "Physician",
+                "name": "Raymond J. Brown, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-brown",
+                "memberOf": {
+                    "@id": "https://www.capitalent.com/#organization"
+                }
+            },
+            "publisher": {
+                "@id": "https://www.capitalent.com/#organization"
+            },
+            "mainEntityOfPage": "https://www.capitalent.com/post-what-level-of-hearing-loss-requires-a-hearing-aid.html",
+            "reviewedBy": {
+                "@type": "Physician",
+                "name": "Raymond J. Brown, MD",
+                "url": "https://www.capitalent.com/our-providers.html#dr-brown"
+            },
+            "image": "https://www.capitalent.com/CENT-Horizontal-Color.png",
+            "about": {
+                "@type": "MedicalCondition",
+                "name": "Hearing Loss"
+            }
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.capitalent.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Ask the ENT",
+                    "item": "https://www.capitalent.com/ask-the-ent.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Hearing Loss and Hearing Aids",
+                    "item": "https://www.capitalent.com/post-what-level-of-hearing-loss-requires-a-hearing-aid.html"
+                }
+            ]
+        }
     ]
-  }</script>
+}</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -109,7 +142,7 @@
   <div class="blog-meta">
     <time datetime="2023-09-27">September 27, 2023</time>
     <span class="sep">|</span>
-    <span class="blog-author">Capital ENT and Sinus Center</span>
+    <span class="blog-author">Raymond J. Brown, MD</span>
     <span class="sep">|</span>
     <span class="blog-cat">Ear</span>
   </div>
@@ -192,14 +225,17 @@
       <h2>Wrapping Up</h2>
 
       <p>Your hearing is crucial. If you're facing challenges with your hearing, it's essential to get expert advice. Every person's hearing loss journey is unique. Let's find the best solution for you together! Remember, it's okay to seek help. Many people use hearing aids and find them life changing. You're not alone, and we're here to support you.</p>
-    </div>
+</div>
+
+
+    <p class="blog-disclaimer">This article is for educational purposes only and does not replace an in-person evaluation. Every patient is unique — contact our office to discuss your specific symptoms and treatment options.</p>
 
     <!-- AUTHOR BIO -->
     <div class="blog-author-box">
       <div class="blog-author-avatar"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
       <div class="blog-author-info">
-        <h4>Capital ENT and Sinus Center</h4>
-        <p>Capital ENT and Sinus Center is Austin's most trusted ENT practice, providing comprehensive ear, nose, and throat care across Central Texas since 1999. Our team of board-certified otolaryngologists and audiologists delivers compassionate, expert care for patients of all ages.</p>
+        <h4>Raymond J. Brown, MD</h4>
+        <p>Dr. Brown is a board-certified ENT specialist who provides comprehensive care for patients of all ages. He has a special interest in treating nasal and sinus disorders, as well as obstructive sleep apnea. He was honored by his peers as a 2025 Austin Top Doctor for his commitment to excellence in ENT care.</p>
       </div>
     </div>
 

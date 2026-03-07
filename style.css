@@ -1299,6 +1299,7 @@ div.faq-q+.faq-a .faq-a-inner{padding:20px 28px;border-top:1px solid var(--borde
 .portal-features li .pf-icon{width:22px;height:22px;background:rgba(183,28,28,.1);border:1px solid rgba(183,28,28,.2);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
 .portal-features li .pf-icon svg{width:11px;height:11px;stroke:var(--red);fill:none;stroke-width:3}
 .portal-cta-box{background:var(--navy);border-radius:12px;padding:40px;display:flex;flex-direction:column;align-items:flex-start;gap:16px;box-shadow:0 16px 48px rgba(0,0,0,.2)}
+.portal-cta-box--center{align-items:center;text-align:center;padding:48px 40px;gap:20px}
 .portal-cta-box .portal-logo-hint{font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.45)}
 .portal-cta-box h3{font-size:26px;color:var(--white);line-height:1.2}
 .portal-cta-box p{font-size:14px;color:rgba(255,255,255,.65);line-height:1.7}

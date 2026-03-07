@@ -1049,7 +1049,7 @@ div.faq-q+.faq-a .faq-a-inner{padding:20px 28px;border-top:1px solid var(--borde
 @media(max-width:700px){.ahi-graph{padding:32px 20px 28px}.ahi-zones{display:none}.ahi-graph-area{padding-right:8px;height:320px}.ahi-bars{gap:24px;bottom:50px}.ahi-bar{width:80px}.ahi-bar.before{height:201px}.ahi-bar.after{height:32px}.ahi-bar-val{font-size:24px}.ahi-bar-severity{font-size:10px}.ahi-reduction{margin-bottom:40px}.ahi-reduction-badge{font-size:11px;padding:6px 12px}}
 
 /* ── Insurance & Billing page ─────────────────────────────────────────────── */
-.ins-categories{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.ins-categories{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;max-width:820px;margin:0 auto}
 .ins-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:28px 28px 24px;box-shadow:var(--shadow);transition:transform .25s,box-shadow .25s,border-color .25s}
 .ins-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.11);border-color:rgba(26,46,90,.2)}
 .ins-card-header{display:flex;align-items:center;gap:12px;margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid var(--border)}
